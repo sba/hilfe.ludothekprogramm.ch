@@ -1,0 +1,48 @@
+/*
+===============================================================================================================================
+Put your custom CSS in this file.
+===============================================================================================================================
+*/
+
+span.btn {
+    background-color: lightgray;
+    padding: 2px 5px;
+    border-radius: 3px;
+    font-size: 90%;
+}
+
+/* Orange */
+blockquote > blockquote > blockquote >  p:first-child:after{
+    content: "Hinweis";
+}
+
+/* Rot */
+blockquote > blockquote > blockquote > blockquote > p:first-child:after {
+    content: 'Achtung'; }
+
+/* Blau */
+blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
+    content: 'Info'; }
+
+/* Grün */
+blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
+    content: 'Tipp'; }
+
+.searchbox span{
+    right: -10px;
+    top: -5px;
+}
+
+#sidebar h5 a{
+    color: #1694CD;
+}
+
+#header > div > form > div.tntsearch-results > div > h5 > a:hover,
+#sidebar > div.scroll-wrapper.scrollbar-inner > div.scrollbar-inner.scroll-content > div > ul > li > a:hover > span{
+    color: #FE6E09;
+}
+
+
+#body-inner > h5 > a{
+    color: #0e6185;
+}

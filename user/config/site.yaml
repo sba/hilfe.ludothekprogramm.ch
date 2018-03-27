@@ -1,0 +1,18 @@
+title: 'LUPO Hilfe'
+default_lang: de
+author:
+  name: 'John Appleseed'
+  email: john@email.com
+taxonomies:
+  - category
+  - tag
+  - author
+metadata:
+  description: 'Learn2 with Git Sync'
+summary:
+  enabled: true
+  format: short
+  size: 300
+  delimiter: '==='
+blog:
+  route: /blog
