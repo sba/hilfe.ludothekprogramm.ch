@@ -80,23 +80,23 @@ class __TwigTemplate_c1b286f60f091b4769a8b8e50dd8eca1ecba25b55ad31e09140bcce030f
         // line 58
         echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->translate("THEME_LEARN2_CLEAR_HISTORY");
         echo "</a><br/>
-
         <section id=\"footer\">
             ";
-        // line 61
+        // line 60
         if (($this->getAttribute($this->getAttribute($this->getAttribute(($context["config"] ?? null), "plugins", array()), "feed", array()), "enabled", array()) && $this->getAttribute(($context["pages"] ?? null), "find", array(0 => "/feed"), "method"))) {
-            // line 62
+            // line 61
             echo "              <a class=\"button\" href=\"";
             echo ($context["base_url"] ?? null);
             echo "/feed.atom\"><i class=\"fa fa-rss-square\"></i> Atom 1.0</a>
               <a class=\"button\" href=\"";
-            // line 63
+            // line 62
             echo ($context["base_url"] ?? null);
             echo "/feed.rss\"><i class=\"fa fa-rss-square\"></i> RSS</a><br><br>
             ";
         }
-        // line 65
-        echo "            <p><a target=\"_blank\" href=\"https://ludothekprogramm.ch\"><i class=\"fa fa-link fa-fw\"></i> Ludothekprogramm LUPO</a></p>
+        // line 64
+        echo "            <p><a target=\"_blank\" href=\"https://github.com/sba/lupodoc_pages\"><i class=\"fa fa-github fa-fw\"></i> Auf Github bearbeiten</a></p>
+            <p><a target=\"_blank\" href=\"https://ludothekprogramm.ch\"><i class=\"fa fa-link fa-fw\"></i> Ludothekprogramm LUPO</a></p>
         </section>
     </div>
 </div>
@@ -290,7 +290,7 @@ class __TwigTemplate_c1b286f60f091b4769a8b8e50dd8eca1ecba25b55ad31e09140bcce030f
 
     public function getDebugInfo()
     {
-        return array (  261 => 33,  257 => 31,  253 => 29,  251 => 28,  245 => 27,  242 => 26,  239 => 25,  227 => 24,  199 => 20,  193 => 17,  190 => 16,  188 => 15,  178 => 13,  167 => 11,  159 => 10,  156 => 9,  153 => 8,  135 => 7,  132 => 6,  129 => 5,  126 => 4,  123 => 3,  120 => 2,  107 => 1,  99 => 65,  94 => 63,  89 => 62,  87 => 61,  81 => 58,  76 => 55,  72 => 53,  66 => 51,  60 => 49,  58 => 48,  55 => 47,  52 => 46,  43 => 43,  39 => 42,  34 => 41,  29 => 40,  27 => 39,  22 => 36,  19 => 23,);
+        return array (  261 => 33,  257 => 31,  253 => 29,  251 => 28,  245 => 27,  242 => 26,  239 => 25,  227 => 24,  199 => 20,  193 => 17,  190 => 16,  188 => 15,  178 => 13,  167 => 11,  159 => 10,  156 => 9,  153 => 8,  135 => 7,  132 => 6,  129 => 5,  126 => 4,  123 => 3,  120 => 2,  107 => 1,  98 => 64,  93 => 62,  88 => 61,  86 => 60,  81 => 58,  76 => 55,  72 => 53,  66 => 51,  60 => 49,  58 => 48,  55 => 47,  52 => 46,  43 => 43,  39 => 42,  34 => 41,  29 => 40,  27 => 39,  22 => 36,  19 => 23,);
     }
 
     /** @deprecated since 1.27 (to be removed in 2.0). Use getSourceContext() instead */
@@ -303,6 +303,6 @@ class __TwigTemplate_c1b286f60f091b4769a8b8e50dd8eca1ecba25b55ad31e09140bcce030f
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "partials/sidebar.html.twig", "C:\\htdocs\\lupohelp\\user\\themes\\learn2-git-sync\\templates\\partials\\sidebar.html.twig");
+        return new Twig_Source("", "partials/sidebar.html.twig", "C:\\htdocs\\lupohelp - Github\\user\\themes\\learn2-git-sync\\templates\\partials\\sidebar.html.twig");
     }
 }

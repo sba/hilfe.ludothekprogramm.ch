@@ -1,2 +1,1 @@
-# lupodoc
-Dokumentation für Ludothekprogramm LUPO
+# lupotest

@@ -1,7 +1,481 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="71e8f72d-f481-44f1-a681-c1b6a6fcc0ec" name="Default" comment="" />
+    <list default="true" id="71e8f72d-f481-44f1-a681-c1b6a6fcc0ec" name="Default" comment="">
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/01.inhaltsverzeichnis/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/01.setup/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/02.daten-update/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/03.update-anzeigen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/04.stammdaten-erfassen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/05.stammdaten-beispiele/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/02.installation/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/01.lupo-starten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/02.notizblock/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/03.uebersicht/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/04.Übungsversion/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/05.lupo-mit-ubungsdaten-startenverlassen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/06.menuband-symbolleiste/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/07.allgemeine-bedienung/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/08.datenblatt-filtern-und-sortieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/09.adresse-suchen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/10.spielsuchen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/03.start/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/01.spiele-ausleihen_zurucknehmen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/02.kunden-erfassen-suchen-anzeigen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/03.kundendaten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/04.spiele-ausleihen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/05.spiele-zurucknehmen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/06.ausleihdauer-verlangern/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/07.spiele-reservieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/08.kunden-und-ausleihkonto/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/04.spiel-ausleihe/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/05.spiele-adressen-und-mitarbeiter/01.spiele-adressen-und-mitarbeiter/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/05.spiele-adressen-und-mitarbeiter/02.adressen-erfassen-und-bearbeiten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/05.spiele-adressen-und-mitarbeiter/03.mitarbeiter-ein-und-austritte/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/05.spiele-adressen-und-mitarbeiter/04.mitarbeiter-arbeitszeiten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/05.spiele-adressen-und-mitarbeiter/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/06.etiketten-briefe/01.etiketten-und-briefe-drucken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/06.etiketten-briefe/02.spielbarcodes-drucken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/06.etiketten-briefe/03.mahnungen-drucken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/06.etiketten-briefe/04.reservationen-drucken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/06.etiketten-briefe/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/01.buchhaltung/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/02.tagesjournal-speichern-und-ausdrucken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/03.konto-auswerten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/04.kontobestande/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/05.manuell-buchen-mit-vorgaben/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/06.manuell-buchen-individuell/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/07.buchungstexte-bearbeiten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/07.buchhaltung/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/01.spiel-ausleih-kundenstatistiken/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/02.adressen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/03.spiele/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/04.ausleihen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/05.buchungen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/06.mitarbeiterleistungen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/07.mitarbeiterinnen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/08.auswertungen-in-excel/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/09.html-export/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/10.eigene-sqlabfrage/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/08.statistik-listen/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/01.spielkategorien/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/02.spielaltersgruppen-und-ausleihgebuhren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/03.spielinhalt/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/04.spielbarcode/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/05.kunden-barcodes-und-abokarten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/06.beitrage-abos/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/07.prolitteris/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/08.ausleihen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/09.spezialausleihen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/10.mahnfristen-und-gebuhren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/11.wertkarte-vorauszahlungen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/12.bondrucker/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/13.mitarbeiterinnen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/14.ferien/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/15.email/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/16.diverses/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/01.allgemeine-programmeinstellungen/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/02.briefeinstellung/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/03.netzwerkeinstellungen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/04.passworter/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/05.lupo-registrieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/09.einstellungen/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/01.aufbau-der-webseite/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/02.inhalt-bearbeiten/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/03.administrator-login/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/04.beitrage/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/05.module/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/06.widgetkit/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/07.spiele-in-joomla-importieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/10.ludothek-webseite/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/01.spielliste-aus-lupo-exportieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/02.datenbackup-erstellen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/03.sicherung-wiederherstellen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/04.lupo-admin/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/05.fehlermeldungen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/06.lupo-reparieren/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/07.fernwartung-mit-teamviewer/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/08.dymo-labelwriter/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/09.epson-bondrucker/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/10.technische-informationen/docs.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/11.anhang/chapter.de.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/pages/feed/docs.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/assets/readme_1.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/blueprints.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/blueprints/feed.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/feed.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/feed.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/hebe.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/templates/feed.atom.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/templates/feed.json.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/feed/templates/feed.rss.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/.eslintrc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/app/main.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/app/wizard/index.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/blueprints.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/classes/AdminController.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/classes/GitSync.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/classes/Helper.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/cli/StatusCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/cli/SyncCommand.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/composer.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/css-compiled/git-sync.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/git-sync.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/git-sync.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/gosass.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/images/gitsync-logo.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/images/repos/bitbucket.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/images/repos/github.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/images/repos/gitlab.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/images/repos/gitlogo.svg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/js/app.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/package.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/configuration/_colors.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/git-sync.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/plugin/_wizard.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/_bourbon-deprecated-upcoming.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/_bourbon.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_border-color.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_border-radius.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_border-style.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_border-width.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_buttons.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_clearfix.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_ellipsis.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_font-stacks.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_hide-text.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_margin.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_padding.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_position.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_retina-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_text-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_timing-functions.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_triangle.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/addons/_word-wrap.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_animation.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_appearance.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_backface-visibility.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_background-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_background.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_border-image.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_calc.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_columns.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_filter.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_flex-box.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_font-face.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_font-feature-settings.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_hidpi-media-query.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_hyphens.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_image-rendering.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_keyframes.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_linear-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_perspective.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_placeholder.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_radial-gradient.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_selection.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_text-decoration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_transform.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_transition.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/css3/_user-select.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_assign-inputs.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_contains-falsy.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_contains.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_is-length.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_is-light.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_is-number.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_is-size.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_modular-scale.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_px-to-rem.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_shade.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_strip-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_tint.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_transition-property-name.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/functions/_unpack.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_convert-units.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_directional-values.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_font-source-declaration.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_gradient-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_linear-angle-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_linear-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_linear-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_linear-side-corner-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_radial-arg-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_radial-gradient-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_radial-positions-parser.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_render-gradients.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_shape-size-stripper.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/helpers/_str-to-num.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/settings/_asset-pipeline.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/settings/_prefixer.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/scss/vendor/bourbon/settings/_px-to-em.scss" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/templates/forms/fields/enc-password/enc-password.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/templates/forms/fields/git-wizard/git-wizard.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/templates/partials/modal-reset.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/templates/partials/modal-wizard.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/autoload.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/ClassLoader.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_classmap.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_files.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_namespaces.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_psr4.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_real.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/autoload_static.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/composer/installed.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/.php_cs" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/dist/Makefile" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/dist/box.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/dist/signingkey.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/CryptoDetails.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/FAQ.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/InstallingAndVerifying.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/InternalDeveloperDocs.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/Tutorial.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/UpgradingFromV1.2.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/classes/Crypto.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/classes/File.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/classes/Key.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/docs/classes/KeyProtectedByPassword.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Core.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Crypto.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/DerivedKeys.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Encoding.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Exception/BadFormatException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Exception/CryptoException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Exception/EnvironmentIsBrokenException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Exception/IOException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Exception/WrongKeyOrModifiedCiphertextException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/File.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/Key.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/KeyOrPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/KeyProtectedByPassword.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/defuse/php-encryption/src/RuntimeTests.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/build-phar.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/dist/random_compat.phar.pubkey.asc" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/byte_safe_strings.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/cast_to_int.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/error_polyfill.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_bytes_com_dotnet.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_bytes_dev_urandom.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_bytes_libsodium.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_bytes_libsodium_legacy.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_bytes_mcrypt.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/lib/random_int.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/paragonie/random_compat/other/build_phar.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/build.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/composer.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/src/Exception/Exception.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/src/Exception/RuntimeException.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/vendor/sebastian/git/src/Git.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/watch.sh" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/webpack.conf.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/wizard.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/git-sync/yarn.lock" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/assets/notices.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/assets/screenshot.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/blueprints.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/markdown-notices.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/markdown-notices/markdown-notices.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/.gitignore" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/CHANGELOG.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/LICENSE" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/README.md" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/admin/editor-button/js/button.js" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/blueprints.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/classes/Twig/YoutubeTwigExtension.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/css/youtube.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/hebe.json" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/templates/partials/youtube.html.twig" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/youtube.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/plugins/youtube/youtube.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/blueprints.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/css/custom.css" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/mytheme.php" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/mytheme.yaml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/templates/.gitkeep" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/user/themes/mytheme/templates/partials/.gitkeep" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/data/tntsearch/grav.index" afterPath="$PROJECT_DIR$/user/data/tntsearch/grav.index" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/README.md" afterPath="$PROJECT_DIR$/user/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/config/plugins/git-sync.yaml" afterPath="$PROJECT_DIR$/user/config/plugins/git-sync.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/01.inhaltsverzeichnis/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/01.inhaltsverzeichnis/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/01.setup/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/01.setup/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/02.daten-update/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/02.daten-update/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/03.update-anzeigen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/03.update-anzeigen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/04.stammdaten-erfassen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/04.stammdaten-erfassen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/05.stammdaten-beispiele/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/05.stammdaten-beispiele/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/02.installation/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/02.installation/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/01.lupo-starten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/01.lupo-starten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/02.notizblock/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/02.notizblock/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/03.uebersicht/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/03.uebersicht/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/04.Übungsversion/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/04.Übungsversion/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/05.lupo-mit-ubungsdaten-startenverlassen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/05.lupo-mit-ubungsdaten-startenverlassen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/06.menuband-symbolleiste/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/06.menuband-symbolleiste/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/07.allgemeine-bedienung/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/07.allgemeine-bedienung/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/08.datenblatt-filtern-und-sortieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/08.datenblatt-filtern-und-sortieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/09.adresse-suchen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/09.adresse-suchen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/10.spielsuchen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/10.spielsuchen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/03.start/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/03.start/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/01.spiele-ausleihen_zurucknehmen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/01.spiele-ausleihen_zurucknehmen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/02.kunden-erfassen-suchen-anzeigen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/02.kunden-erfassen-suchen-anzeigen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/03.kundendaten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/03.kundendaten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/04.spiele-ausleihen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/04.spiele-ausleihen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/05.spiele-zurucknehmen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/05.spiele-zurucknehmen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/06.ausleihdauer-verlangern/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/06.ausleihdauer-verlangern/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/07.spiele-reservieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/07.spiele-reservieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/08.kunden-und-ausleihkonto/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/08.kunden-und-ausleihkonto/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/04.spiel-ausleihe/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/01.spiele-adressen-und-mitarbeiter/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/01.spiele-adressen-und-mitarbeiter/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/02.adressen-erfassen-und-bearbeiten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/02.adressen-erfassen-und-bearbeiten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/03.mitarbeiter-ein-und-austritte/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/03.mitarbeiter-ein-und-austritte/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/04.mitarbeiter-arbeitszeiten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/04.mitarbeiter-arbeitszeiten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/05.spiele-adressen-und-mitarbeiter/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/01.etiketten-und-briefe-drucken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/01.etiketten-und-briefe-drucken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/02.spielbarcodes-drucken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/02.spielbarcodes-drucken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/03.mahnungen-drucken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/03.mahnungen-drucken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/04.reservationen-drucken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/04.reservationen-drucken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/06.etiketten-briefe/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/01.buchhaltung/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/01.buchhaltung/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/02.tagesjournal-speichern-und-ausdrucken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/02.tagesjournal-speichern-und-ausdrucken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/03.konto-auswerten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/03.konto-auswerten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/04.kontobestande/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/04.kontobestande/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/05.manuell-buchen-mit-vorgaben/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/05.manuell-buchen-mit-vorgaben/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/06.manuell-buchen-individuell/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/06.manuell-buchen-individuell/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/07.buchungstexte-bearbeiten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/07.buchungstexte-bearbeiten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/07.buchhaltung/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/07.buchhaltung/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/01.spiel-ausleih-kundenstatistiken/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/01.spiel-ausleih-kundenstatistiken/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/02.adressen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/02.adressen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/03.spiele/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/03.spiele/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/04.ausleihen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/04.ausleihen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/05.buchungen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/05.buchungen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/06.mitarbeiterleistungen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/06.mitarbeiterleistungen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/07.mitarbeiterinnen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/07.mitarbeiterinnen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/08.auswertungen-in-excel/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/08.auswertungen-in-excel/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/09.html-export/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/09.html-export/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/10.eigene-sqlabfrage/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/10.eigene-sqlabfrage/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/08.statistik-listen/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/08.statistik-listen/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/01.spielkategorien/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/01.spielkategorien/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/02.spielaltersgruppen-und-ausleihgebuhren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/02.spielaltersgruppen-und-ausleihgebuhren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/03.spielinhalt/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/03.spielinhalt/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/04.spielbarcode/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/04.spielbarcode/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/05.kunden-barcodes-und-abokarten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/05.kunden-barcodes-und-abokarten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/06.beitrage-abos/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/06.beitrage-abos/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/07.prolitteris/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/07.prolitteris/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/08.ausleihen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/08.ausleihen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/09.spezialausleihen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/09.spezialausleihen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/10.mahnfristen-und-gebuhren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/10.mahnfristen-und-gebuhren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/11.wertkarte-vorauszahlungen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/11.wertkarte-vorauszahlungen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/12.bondrucker/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/12.bondrucker/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/13.mitarbeiterinnen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/13.mitarbeiterinnen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/14.ferien/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/14.ferien/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/15.email/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/15.email/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/16.diverses/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/16.diverses/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/01.allgemeine-programmeinstellungen/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/02.briefeinstellung/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/02.briefeinstellung/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/03.netzwerkeinstellungen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/03.netzwerkeinstellungen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/04.passworter/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/04.passworter/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/05.lupo-registrieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/05.lupo-registrieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/09.einstellungen/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/09.einstellungen/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/01.aufbau-der-webseite/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/01.aufbau-der-webseite/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/02.inhalt-bearbeiten/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/02.inhalt-bearbeiten/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/03.administrator-login/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/03.administrator-login/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/04.beitrage/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/04.beitrage/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/05.module/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/05.module/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/06.widgetkit/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/06.widgetkit/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/07.spiele-in-joomla-importieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/07.spiele-in-joomla-importieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/10.ludothek-webseite/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/01.spielliste-aus-lupo-exportieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/01.spielliste-aus-lupo-exportieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/02.datenbackup-erstellen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/02.datenbackup-erstellen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/03.sicherung-wiederherstellen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/03.sicherung-wiederherstellen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/04.lupo-admin/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/04.lupo-admin/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/05.fehlermeldungen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/05.fehlermeldungen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/06.lupo-reparieren/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/06.lupo-reparieren/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/07.fernwartung-mit-teamviewer/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/07.fernwartung-mit-teamviewer/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/08.dymo-labelwriter/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/08.dymo-labelwriter/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/09.epson-bondrucker/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/09.epson-bondrucker/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/10.technische-informationen/docs.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/10.technische-informationen/docs.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/pages/11.anhang/chapter.de.md" afterPath="$PROJECT_DIR$/user/pages/11.anhang/chapter.de.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_new.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_new.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_raw.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/modular_raw.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/move.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/move.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/new.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/new.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/new_folder.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/new_folder.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/raw.yaml" afterPath="$PROJECT_DIR$/user/plugins/admin/blueprints/admin/pages/raw.yaml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/ajax.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/ajax.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/backup.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/backup.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/cache.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/cache.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/config.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/config.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/dashboard.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/dashboard.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/denied.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/denied.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/feed.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/feed.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/forgot.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/forgot.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/info.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/info.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/installer.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/installer.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/login.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/login.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/media.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/media.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/notifications.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/notifications.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/pages-filter.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/pages-filter.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/pages.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/pages.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/plugins.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/plugins.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/preview.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/preview.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/register.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/register.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/reset.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/reset.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/site.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/site.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/statistics.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/statistics.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/system.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/system.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/themes.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/themes.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/tools.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/tools.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/twofa.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/twofa.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/update.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/update.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/pages/admin/user.md" afterPath="$PROJECT_DIR$/user/plugins/admin/pages/admin/user.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/filter.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/filter.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/index.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/add.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/add.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/delete.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/delete.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/disable-buttons.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/disable-buttons.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/index.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/index.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/media.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/media.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/move.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/move.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/multilang.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/multilang.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/unset.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/page/unset.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/tree.js" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/app/pages/tree.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/pages/pages.html.twig" afterPath="$PROJECT_DIR$/user/plugins/admin/themes/grav/templates/forms/fields/pages/pages.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/forgot.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/forgot.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/login.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/login.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/profile.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/profile.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/register.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/register.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/reset.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/reset.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/login/pages/unauthorized.md" afterPath="$PROJECT_DIR$/user/plugins/login/pages/unauthorized.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/tntsearch/pages/search.md" afterPath="$PROJECT_DIR$/user/plugins/tntsearch/pages/search.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/plugins/tntsearch/pages/tntquery.md" afterPath="$PROJECT_DIR$/user/plugins/tntsearch/pages/tntquery.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/learn2-git-sync/css/custom.css" afterPath="$PROJECT_DIR$/user/themes/learn2-git-sync/css/custom.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/base.html.twig" afterPath="$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/base.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/sidebar.html.twig" afterPath="$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/sidebar.html.twig" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -14,8 +488,8 @@
       <file leaf-file-name="base.html.twig" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/base.html.twig">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="481">
-              <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+            <state relative-caret-position="1533">
+              <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -25,8 +499,8 @@
         <entry file="file://$PROJECT_DIR$/user/pages/04.spiel-ausleihe/04.spiele-ausleihen/docs.de.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="378">
-                <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+              <first_editor relative-caret-position="336">
+                <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -38,8 +512,8 @@
         <entry file="file://$PROJECT_DIR$/user/pages/03.start/07.allgemeine-bedienung/docs.de.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="441">
-                <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+              <first_editor relative-caret-position="420">
+                <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -60,7 +534,7 @@
       <file leaf-file-name="theme.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/css-compiled/theme.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="299">
+            <state relative-caret-position="546">
               <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="18" />
               <folding />
             </state>
@@ -71,7 +545,7 @@
         <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/css/custom.css">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="672">
-              <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+              <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
               <folding />
             </state>
           </provider>
@@ -174,7 +648,7 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="891" />
     <option name="y" value="-11" />
     <option name="width" value="648" />
@@ -196,96 +670,36 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lupohelp - Github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lupohelp - Github" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lupohelp - Github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lupohelp - Github" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lupohelp - Github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lupohelp - Github" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="04.spiel-ausleihe" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
             <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="pages" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="04.spiel-ausleihe" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="04.spiele-ausleihen" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tntsearch" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tntsearch" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="plugins" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="tntsearch" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="templates" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="partials" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
+              <item name="lupohelp - Github" type="b2602c69:ProjectViewProjectNode" />
+              <item name="lupohelp - Github" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
               <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="learn2-git-sync" type="2a2b976b:PhpTreeStructureProvider$1" />
-            </path>
-            <path>
-              <item name="lupohelp" type="b2602c69:ProjectViewProjectNode" />
-              <item name="lupohelp" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="user" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="themes" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="learn2-git-sync" type="2a2b976b:PhpTreeStructureProvider$1" />
-              <item name="css" type="2a2b976b:PhpTreeStructureProvider$1" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
       <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -327,32 +741,32 @@
       <workItem from="1522042616496" duration="17223000" />
       <workItem from="1522129239274" duration="4000" />
       <workItem from="1522129269100" duration="22175000" />
+      <workItem from="1522322998072" duration="245000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83888000" />
+    <option name="totallyTimeSpent" value="84133000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-9" y="-9" width="2578" height="1408" extended-state="7" />
-    <editor active="true" />
+    <frame x="-9" y="-9" width="2578" height="1408" extended-state="6" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17066348" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24020784" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3294893" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -478,7 +892,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="0">
             <caret line="6" column="18" lean-forward="false" selection-start-line="6" selection-start-column="18" selection-end-line="6" selection-end-column="18" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -489,7 +902,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="378">
             <caret line="18" column="12" lean-forward="false" selection-start-line="18" selection-start-column="12" selection-end-line="18" selection-end-column="12" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -500,7 +912,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="399">
             <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -510,7 +921,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="462">
           <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -518,7 +928,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -526,7 +935,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -534,23 +942,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="18" column="11" lean-forward="true" selection-start-line="18" selection-start-column="11" selection-end-line="18" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="462">
-          <caret line="22" column="0" lean-forward="true" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/user/plugins/simplesearch/templates/partials/simplesearch_searchbox.html.twig" />
     <entry file="file://$PROJECT_DIR$/user/config/plugins/simplesearch.yaml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="315">
           <caret line="15" column="0" lean-forward="false" selection-start-line="15" selection-start-column="0" selection-end-line="15" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -558,7 +957,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -567,7 +965,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="336">
             <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -577,7 +974,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -586,7 +982,6 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="273">
             <caret line="13" column="0" lean-forward="false" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
-            <folding />
           </first_editor>
           <second_editor />
         </state>
@@ -596,7 +991,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="397">
           <caret line="72" column="78" lean-forward="true" selection-start-line="72" selection-start-column="78" selection-end-line="72" selection-end-column="78" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -604,7 +998,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="676">
           <caret line="53" column="19" lean-forward="false" selection-start-line="53" selection-start-column="19" selection-end-line="53" selection-end-column="19" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -612,15 +1005,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="393">
           <caret line="0" column="171560" lean-forward="false" selection-start-line="0" selection-start-column="171560" selection-end-line="0" selection-end-column="171560" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/04.spiel-ausleihe/04.spiele-ausleihen/docs.de.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="378">
-            <caret line="16" column="35" lean-forward="true" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
+          <first_editor relative-caret-position="336">
+            <caret line="16" column="35" lean-forward="false" selection-start-line="16" selection-start-column="35" selection-end-line="16" selection-end-column="35" />
             <folding />
           </first_editor>
           <second_editor />
@@ -631,7 +1023,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="17" lean-forward="false" selection-start-line="0" selection-start-column="17" selection-end-line="0" selection-end-column="17" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -639,7 +1030,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="525">
           <caret line="24" column="0" lean-forward="false" selection-start-line="24" selection-start-column="0" selection-end-line="24" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -647,7 +1037,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -655,15 +1044,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="105">
           <caret line="5" column="111" lean-forward="false" selection-start-line="5" selection-start-column="111" selection-end-line="5" selection-end-column="111" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/user/pages/03.start/07.allgemeine-bedienung/docs.de.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="441">
-            <caret line="20" column="24" lean-forward="true" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <first_editor relative-caret-position="420">
+            <caret line="20" column="24" lean-forward="false" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
             <folding />
           </first_editor>
           <second_editor />
@@ -672,8 +1060,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/templates/partials/base.html.twig">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="481">
-          <caret line="73" column="0" lean-forward="true" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="1533">
+          <caret line="73" column="0" lean-forward="false" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
           <folding />
         </state>
       </provider>
@@ -688,7 +1076,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/css-compiled/theme.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="299">
+        <state relative-caret-position="546">
           <caret line="26" column="18" lean-forward="false" selection-start-line="26" selection-start-column="12" selection-end-line="26" selection-end-column="18" />
           <folding />
         </state>
@@ -697,7 +1085,7 @@
     <entry file="file://$PROJECT_DIR$/user/themes/learn2-git-sync/css/custom.css">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="672">
-          <caret line="32" column="14" lean-forward="true" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
+          <caret line="32" column="14" lean-forward="false" selection-start-line="32" selection-start-column="14" selection-end-line="32" selection-end-column="14" />
           <folding />
         </state>
       </provider>

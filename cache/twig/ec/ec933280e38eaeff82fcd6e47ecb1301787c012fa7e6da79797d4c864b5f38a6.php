@@ -424,6 +424,6 @@ class __TwigTemplate_7b21d817ece84b6e67b37f85bc0422f4c49d00c62df637a587c121dc746
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "partials/base-root.html.twig", "C:\\htdocs\\lupohelp\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
+        return new Twig_Source("", "partials/base-root.html.twig", "C:\\htdocs\\lupohelp - Github\\user\\plugins\\admin\\themes\\grav\\templates\\partials\\base-root.html.twig");
     }
 }

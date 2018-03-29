@@ -90,7 +90,7 @@ class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5
         echo "/feed.rss\" title=\"RSS Feed\" />
     <link rel=\"icon\" type=\"image/png\" href=\"";
         // line 12
-        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/favicon.png");
+        echo $this->env->getExtension('Grav\Common\Twig\TwigExtension')->urlFunc("theme://images/favicon.ico");
         echo "\">
 
     ";
@@ -195,7 +195,7 @@ class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5
                     <label for=\"search-by\"><i class=\"fa fa-search\"></i></label>
                     ";
         // line 50
-        $this->loadTemplate("partials/base.html.twig", "partials/base.html.twig", 50, "1646415198")->display(array_merge($context, array("limit" => 3, "snippet" => 150, "min" => 3, "search_type" => "auto", "dropdown" => true)));
+        $this->loadTemplate("partials/base.html.twig", "partials/base.html.twig", 50, "81463070")->display(array_merge($context, array("limit" => 3, "snippet" => 150, "min" => 3, "search_type" => "auto", "dropdown" => true)));
         // line 51
         echo "                </div>
                 <br>
@@ -346,13 +346,13 @@ class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "partials/base.html.twig", "C:\\htdocs\\lupohelp\\user\\themes\\learn2-git-sync\\templates\\partials\\base.html.twig");
+        return new Twig_Source("", "partials/base.html.twig", "C:\\htdocs\\lupohelp - Github\\user\\themes\\learn2-git-sync\\templates\\partials\\base.html.twig");
     }
 }
 
 
 /* partials/base.html.twig */
-class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5c0baa_1646415198 extends Twig_Template
+class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5c0baa_81463070 extends Twig_Template
 {
     public function __construct(Twig_Environment $env)
     {
@@ -399,6 +399,6 @@ class __TwigTemplate_eff4090577453435f9827080261219cad9e469f7ab384bfb8e382b363e5
 
     public function getSourceContext()
     {
-        return new Twig_Source("", "partials/base.html.twig", "C:\\htdocs\\lupohelp\\user\\themes\\learn2-git-sync\\templates\\partials\\base.html.twig");
+        return new Twig_Source("", "partials/base.html.twig", "C:\\htdocs\\lupohelp - Github\\user\\themes\\learn2-git-sync\\templates\\partials\\base.html.twig");
     }
 }
