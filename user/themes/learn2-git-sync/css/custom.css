@@ -54,6 +54,23 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:
     color: #FE6E09;
 }
 
+.tntsearch-field {
+    background-color: rgba(255, 255, 255, 0.5) !important;
+    color: grey !important;
+}
+
+.searchbox input::-moz-placeholder {
+    color: #3e3e3e;
+}
+
+.searchbox label > i {
+    color: black; !important;
+}
+
+#header a {
+    color: white;
+}
+
 #body-inner > h5 > a{
     color: #0e6185;
 }
