@@ -1,3 +1,38 @@
+# v1.7.4
+## 04/02/2018
+
+1. [](#bugfix)
+    * Fixed a bug for page copy caused by last release [#1409](https://github.com/getgrav/grav-plugin-admin/pull/1409)
+    * Fixed collapsible `list` option [#1410](https://github.com/getgrav/grav-plugin-admin/pull/1410)
+    * Fixed a minor typo in a label [#1397](https://github.com/getgrav/grav-plugin-admin/pull/1397)
+
+# v1.7.3
+## 04/01/2018
+
+1. [](#new)
+    * Implemented Resize Media and Resolution ('resizeWidth', 'resizeHeight', 'resizeQuality', 'resolution')
+    * Updated Dropzone to latest
+1. [](#bugfix)
+    * Implemented workaround for required text fields [#1390](https://github.com/getgrav/grav-plugin-admin/issues/1390)
+    * Fixed highlight color in Firefox [getgrav/grav#1949](https://github.com/getgrav/grav/issues/1949)
+    * Fix for bad redirect on saving simplesearch (possibly others)
+    
+# v1.7.2
+## 03/21/2018
+
+1. [](#improved)
+    * Table CSS improvements for use in 3rd party plugins
+    * Translatable `add_modals` button labels [#1388](https://github.com/getgrav/grav-plugin-admin/issues/1388)
+    * Check for `SHIFT` key on editor save shortcut [#1383](https://github.com/getgrav/grav-plugin-admin/issues/1383)
+    * Fixed User permissions responsive UI [#1379](https://github.com/getgrav/grav-plugin-admin/issues/1379)
+    * Optimization to stop admin for looking for pages in disabled plugins
+    * Added configuration option to choose if you want to use new 'inline' preview or `new tab'
+1. [](#bugfix)
+    * Fix redirect bug when changing admin route to `admin-*` 
+    * Changed Twig `|count` to `|length` filter [#1391](https://github.com/getgrav/grav-plugin-admin/issues/1391)   
+    * Fix for page preview when `HTTP_REFERRER` is not set [grav#1930](https://github.com/getgrav/grav/issues/1930)
+
+
 # v1.7.1
 ## 03/11/2018
 

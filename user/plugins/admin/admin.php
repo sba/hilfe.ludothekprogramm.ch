@@ -421,6 +421,10 @@ class AdminPlugin extends Plugin
             $locator = $this->grav['locator'];
 
             foreach ($plugins as $plugin) {
+                if ($this->config->get("plugins.{$plugin->name}.enabled") !== true) {
+                    continue;
+                }
+
                 $path = $locator->findResource("user://plugins/{$plugin->name}/admin/pages/{$self->template}.md");
 
                 if ($path) {
@@ -743,6 +747,16 @@ class AdminPlugin extends Plugin
         }
 
         $translations .= '};';
+
+        $translations .= 'this.GravAdmin.translations.PLUGIN_FORM = {';
+        $strings = ['RESOLUTION_MIN', 'RESOLUTION_MAX'];
+        foreach ($strings as $string) {
+            $separator = (end($strings) === $string) ? '' : ',';
+            $translations .= '"' . $string . '": "' . $this->admin->translate('PLUGIN_FORM.' . $string) . '"' . $separator;
+        }
+
+        $translations .= '};';
+
         // set the actual translations state back
         $this->config->set('system.languages.translations', $translations_actual_state);
 
@@ -778,9 +792,13 @@ class AdminPlugin extends Plugin
     {
         // Special case to redirect after changing the admin route to avoid 'breaking'
         $obj = $event['object'];
-        if (isset($obj->route) && $this->admin_route !== $obj->route) {
-            $redirect = str_replace($this->admin_route, $obj->route, $this->uri->path() );
-            $this->grav->redirect($redirect);
+        if (!is_null($event['object'])) {
+            $blueprint = $obj->blueprints()->getFilename();
+
+            if ($blueprint == 'admin/blueprints' && isset($obj->route) && $this->admin_route !== $obj->route) {
+                $redirect = preg_replace('/^' . str_replace('/','\/',$this->admin_route) . '/',$obj->route,$this->uri->path());
+                $this->grav->redirect($redirect);
+            }
         }
     }
 
