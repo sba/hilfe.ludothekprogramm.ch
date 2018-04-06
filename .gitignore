@@ -1,3 +1,7 @@
+.idea/
 assets/
 cache/
 logs/
+.idea/lupohelp.iml
+.idea/workspace.xml
+logs/grav.log
