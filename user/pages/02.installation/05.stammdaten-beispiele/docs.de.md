@@ -34,7 +34,7 @@ Es kann von Vorteil sein, eine Gebühr doppelt zu erfassen (im Beispiel Fr. 2.00
 | 1000 |  Fahrzeuge / Spiele für draussen |  
 | 2000 |  Bauspiele |  
 | 3000 |  CD-ROM |  
-| 3000 |  Elektronik Spiele |  
+| 3000 |  Elektronische Spiele |  
 | 4000 |  Für die Kleinen |  
 | 5000 |  Gesellschaftsspiele |  
 | 6000 |  Kassetten |  
@@ -43,7 +43,7 @@ Es kann von Vorteil sein, eine Gebühr doppelt zu erfassen (im Beispiel Fr. 2.00
 | 8000 |  Puzzle / Geduld |  
 | 8500 |  Spielen - Lernen |  
 | 9000 |  Werken / Basteln |  
-| 1000> |  Spielkiste / Geburtstagskiste | 
+| 10000 |  Spielkiste / Geburtstagskiste | 
 
 Der einer Spielart zugeordnete Nummernkreis dient lediglich zum Berechnen der Nummer eines neuen Spiels. Es ist jedoch auch möglich, ein Spiel mit der Nummer 1234 (1000er = Aussenspiele) der Gruppe 5000 (Gesellschaftsspiele) zuzuordnen.
 
@@ -51,6 +51,6 @@ Wenn Sie eine neue Spieleigenschaft erfassen wollen, welche zwischen zwei besteh
 
 ### Spielnummer-Vergabe
 
-Vergeben Sie die Spielnummern der 1000er Gruppen fortlaufend.
+**Vergeben Sie die Spielnummern der 1000er Gruppen fortlaufend.**
 
 Es ist nach meinem Erachten nicht sinnvoll die Spielnummer sprechend zu machen. Nach VSL-Vorgabe zeigt die erste Ziffer (1000er Stelle) die Spielart an, die zweite (100er) die Altersgruppe. Nach dieser Variante können Nummernbereiche schnell aufgefüllt sein und das Erfassen ist aufwendiger. Der sicher einfachste Weg ist die fortlaufende Nummerierung, speziell dann, wenn Sie mit Barcode arbeiten und die Nummern sowieso keine grosse Rolle mehr spielen.
