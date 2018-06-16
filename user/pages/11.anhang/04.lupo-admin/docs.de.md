@@ -32,6 +32,9 @@ Findet alle unbenutzten Nummern zwischen 1 und der grössten, bereits vergebenen
 
 Diese löscht die liquidierten Spiele inkl. aller Ausleihen und statistischen Daten deren. **Dies ist nicht zu empfehlen. Verwenden Sie stattdessen die Funktion Nummern liquidierter Spiele freigeben im Spiele-Fenster**.
 
+#### Rückgabedatum-Ferien-Rechner
+Mit dieser Funktion kann das Berechnen des Rückgabedatums simuliert werden. Im Feld **Heute** kann ein beliebiges Datum ausgewählt werden. Das **Rückgabedatum** wird dann dem eingegebenen Datum unter Berücksichtigung des Ferienplans entsprechend berechnet. 
+
 #### Windows-Explorer öffnen
 
 Öffnet den Windows-Explorer und zeigt den LUPO-Datenordner **(C:Lupo_Daten)** an. Der Windows-Explorer wird zum Kopieren und Verwalten von Dateien verwendet.

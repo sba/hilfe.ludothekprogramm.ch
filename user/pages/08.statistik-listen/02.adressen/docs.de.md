@@ -25,7 +25,7 @@ Bestimmen sie durch ankreuzen der entsprechenden Optionen welche Adressen angeze
 
 ### Email Massenversand
 
-Wenn Sie auf <span class="btn">Emailadressen</span> kopieren klicken, werden Sie aufgefordert die Paketgrösse der Emailadressen anzugeben. Die meisten Emailanbieter akzeptieren nur eine bestimmte Anzahl Email-Adressen in einem Email (zum Schutz vor Spamversand). Geben Sie deshalb eine Zahl kleiner als 100 ein. Es werden alle Emailadressen der Adressliste in Blöcke an X Emailadressen aufgelistet. Erstellen Sie für jeden Block eine einzelne Email. Die Emailadressen sollten Sie in das BCC-Feld (Blindkopie) kopieren.
+Wenn Sie auf <span class="btn">Emailadressen kopieren</span> klicken, werden Sie aufgefordert die Paketgrösse der Emailadressen anzugeben. Die meisten Emailanbieter akzeptieren nur eine bestimmte Anzahl Email-Adressen in einem Email (zum Schutz vor Spamversand). Geben Sie deshalb eine Zahl kleiner als 100 ein. Es werden alle Emailadressen der Adressliste in Blöcke an X Emailadressen aufgelistet. Erstellen Sie für jeden Block eine einzelne Email. Die Emailadressen sollten Sie in das BCC-Feld (Blindkopie) kopieren.
 
 Falls Sie im Adress-Datenblatt einen Filter gesetzt haben wird dieser berücksichtigt.
 
@@ -33,7 +33,7 @@ Falls Sie im Adress-Datenblatt einen Filter gesetzt haben wird dieser berücksic
 
 ### Serienbrief in Word
 
-Bei der Installation des LUPO wird die Serienbrief-Vorlage **C:Lupo_DatenSerienbrief.dotx** kopiert. Der Knopf Word Serienbrief öffnen exportiert alle angezeigten Adressen (gesetzte Filter werden beachtet) in die Datei **C:Lupo_DatenSerienbrief_Datenquelle.docx** und öffnet ein neues Dokument basierend auf der Vorlage in Microsoft Word (sofern installiert).
+Bei der Installation des LUPO wird die Serienbrief-Vorlage **C:\Lupo_Daten\Serienbrief.dotx** kopiert. Der Knopf Word Serienbrief öffnen exportiert alle angezeigten Adressen (gesetzte Filter werden beachtet) in die Datei **C:\Lupo_Daten\Serienbrief_Datenquelle.docx** und öffnet ein neues Dokument basierend auf der Vorlage in Microsoft Word (sofern installiert).
 
 Bevor der Serienbrief angezeigt wird muss folgende Frage mit Ja bestätigt werden:
 

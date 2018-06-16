@@ -54,6 +54,10 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:
     color: #FE6E09;
 }
 
+.tntsearch-results .row > p {
+    color: black;
+}
+
 .tntsearch-field {
     background-color: rgba(255, 255, 255, 0.5) !important;
     color: grey !important;
