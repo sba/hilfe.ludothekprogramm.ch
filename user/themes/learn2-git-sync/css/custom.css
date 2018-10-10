@@ -5,22 +5,10 @@ Put your custom CSS in this file.
 */
 
 span.btn {
-    height: 18px;
-    padding: 2px 8px;
-    margin: 0 4px;
-    border: 1px solid #F3F3F3;
-    -moz-box-shadow: 0 0 0 1px #707070;
-    -webkit-box-shadow: 0 0 0 1px #707070;
-    box-shadow: 0 0 0 1px #707070;
-    -moz-border-radius: 3px;
-    -webkit-border-radius: 3px;
+    background-color: lightgray;
+    padding: 2px 5px;
     border-radius: 3px;
-    background: -moz-linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
-    background: -webkit-gradient(linear, left top, left bottom, color-stop(0,#F2F2F2), color-stop(0.5,#EBEBEB),color-stop(0.51,#DDDDDD),color-stop(1,#CFCFCF));
-    background: linear-gradient(top, #F2F2F2 0%, #EBEBEB 50%, #DDDDDD 51%, #CFCFCF 100%);
-    font-size: 14px;
-    color: black;
-    text-decoration: none;
+    font-size: 90%;
 }
 
 /* Orange */
@@ -40,13 +28,17 @@ blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:a
 blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:first-child:after {
     content: 'Tipp'; }
 
-.searchbox span{
-    right: -10px;
-    top: -5px;
+
+#sidebar a {
+    color: white;
 }
 
-#sidebar h5 a{
-    color: #1694CD;
+#sidebar h5 a {
+    color: #FE6E09;
+}
+
+#sidebar h5 {
+    line-height: 1.5;
 }
 
 #header > div > form > div.tntsearch-results > div > h5 > a:hover,
@@ -54,27 +46,62 @@ blockquote > blockquote > blockquote > blockquote > blockquote > blockquote > p:
     color: #FE6E09;
 }
 
-.tntsearch-results .row > p {
-    color: black;
+a:hover {
+    color: #dc6709;
 }
 
-.tntsearch-field {
-    background-color: rgba(255, 255, 255, 0.5) !important;
-    color: grey !important;
+.searchbox i.fa-search {
+    color: rgba(0, 0, 0, 0.36);
+}
+
+.searchbox span {
+    right: -10px;
+    top: -5px;
+}
+.searchbox input {
+    color: #443e3e;
+    background-color: white;
 }
 
 .searchbox input::-moz-placeholder {
-    color: #3e3e3e;
+    color: rgba(0,0,0,.6);
 }
 
-.searchbox label > i {
-    color: black; !important;
+.tntsearch-dropdown~.tntsearch-results .row {
+    max-width: 266px;
 }
 
-#header a {
-    color: white;
+/*.tntsearch-results h5.title:first-child {
+    margin-top: 0;
+}*/
+
+.tntsearch-results {
+    text-align: left;
 }
 
-#body-inner > h5 > a{
+.tntsearch-results h5.title > a {
+    padding: 0 !important;
+}
+
+.tntsearch-results p.info {
+    display: none;
+}
+
+.tntsearch-results .row {
+    padding: 0 10px 0 20px !important;
+}
+
+.tntsearch-results .row > p {
+    margin-top: 0;
+    color: black;
+    line-height: 1.5;
+}
+
+.tntsearch-results .row > h5 {
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+#body-inner > h5 > a {
     color: #0e6185;
 }
