@@ -1,8 +1,11 @@
 <?php
 namespace Grav\Plugin;
 
+use Composer\Autoload\ClassLoader;
+use Grav\Common\Grav;
 use Grav\Common\Page\Page;
 use Grav\Common\Plugin;
+use Grav\Common\Scheduler\Scheduler;
 use Grav\Plugin\TNTSearch\GravTNTSearch;
 use RocketTheme\Toolbox\Event\Event;
 use TeamTNT\TNTSearch\Exceptions\IndexNotFoundException;
@@ -22,9 +25,6 @@ class TNTSearchPlugin extends Plugin
     protected $current_route;
     protected $admin_route;
 
-    /** @var  GravTNTSearch **/
-    protected $gtnt;
-
     /**
      * @return array
      *
@@ -38,12 +38,28 @@ class TNTSearchPlugin extends Plugin
     public static function getSubscribedEvents()
     {
         return [
-            'onPluginsInitialized' => ['onPluginsInitialized', 0],
-            'onTwigLoader' => ['onTwigLoader', 0],
-            'onTNTSearchReIndex' => ['onTNTSearchReIndex', 0],
-            'onTNTSearchIndex' => ['onTNTSearchIndex', 0],
-            'onTNTSearchQuery' => ['onTNTSearchQuery', 0],
+            'onPluginsInitialized'      => [
+                ['autoload', 100000],
+                ['onPluginsInitialized', 0]
+            ],
+            'onSchedulerInitialized'    => ['onSchedulerInitialized', 0],
+            'onTwigLoader'              => ['onTwigLoader', 0],
+            'onTNTSearchReIndex'        => ['onTNTSearchReIndex', 0],
+            'onTNTSearchIndex'          => ['onTNTSearchIndex', 0],
+            'onTNTSearchQuery'          => ['onTNTSearchQuery', 0],
+            'onFlexObjectSave'          => ['onObjectSave', 0],
+            'onFlexObjectDelete'        => ['onObjectDelete', 0],
         ];
+    }
+
+    /**
+     * [onPluginsInitialized:100000] Composer autoload.
+     *is
+     * @return ClassLoader
+     */
+    public function autoload()
+    {
+        return require __DIR__ . '/vendor/autoload.php';
     }
 
     /**
@@ -51,11 +67,9 @@ class TNTSearchPlugin extends Plugin
      */
     public function onPluginsInitialized()
     {
-        include __DIR__.'/vendor/autoload.php';
-
         if ($this->isAdmin()) {
 
-            $this->gtnt = new GravTNTSearch();
+            $this->GravTNTSearch();
             $route = $this->config->get('plugins.admin.route');
             $base = '/' . trim($route, '/');
             $this->admin_route = $this->grav['base_url'] . $base;
@@ -63,11 +77,17 @@ class TNTSearchPlugin extends Plugin
             $this->enable([
                 'onAdminMenu' => ['onAdminMenu', 0],
                 'onAdminTaskExecute' => ['onAdminTaskExecute', 0],
-                'onAdminAfterSave' => ['onAdminAfterSave', 0],
-                'onAdminAfterDelete' => ['onAdminAfterDelete', 0],
                 'onTwigSiteVariables' => ['onTwigAdminVariables', 0],
                 'onTwigLoader' => ['addAdminTwigTemplates', 0],
             ]);
+
+            if ($this->config->get('plugins.tntsearch.enable_admin_page_events', true)) {
+                $this->enable([
+                    'onAdminAfterSave' => ['onObjectSave', 0],
+                    'onAdminAfterDelete' => ['onObjectDelete', 0],
+                ]);
+            }
+
             return;
         }
 
@@ -78,11 +98,29 @@ class TNTSearchPlugin extends Plugin
     }
 
     /**
+     * Add index job to Grav Scheduler
+     * Requires Grav 1.6.0 - Scheduler
+     */
+    public function onSchedulerInitialized(Event $e)
+    {
+        if ($this->config->get('plugins.tntsearch.scheduled_index.enabled')) {
+            /** @var Scheduler $scheduler */
+            $scheduler = $e['scheduler'];
+            $at = $this->config->get('plugins.tntsearch.scheduled_index.at');
+            $logs = $this->config->get('plugins.tntsearch.scheduled_index.logs');
+            $job = $scheduler->addFunction('Grav\Plugin\TNTSearchPlugin::indexJob', [], 'tntsearch-index');
+            $job->at($at);
+            $job->output($logs);
+            $job->backlink('/plugins/tntsearch');
+        }
+    }
+
+    /**
      * Function to force a reindex from your own plugins
      */
     public function onTNTSearchReIndex()
     {
-        $this->gtnt->createIndex();
+        $this->GravTNTSearch()->createIndex();
     }
 
     /**
@@ -95,8 +133,11 @@ class TNTSearchPlugin extends Plugin
         $page = $e['page'];
         $fields = $e['fields'];
 
-        if (isset($page->header()->author)) {
-            $fields->author = $page->header()->author;
+        if ($page && $page instanceof Page && isset($page->header()->author)) {
+            $author = $page->header()->author;
+            if (is_string($author)) {
+                $fields->author = $author;
+            }
         }
     }
 
@@ -140,20 +181,6 @@ class TNTSearchPlugin extends Plugin
         $this->search_route = $this->config->get('plugins.tntsearch.search_route');
         $this->query_route = $this->config->get('plugins.tntsearch.query_route');
 
-        $this->query = $uri->param('q') ?: $uri->query('q');
-
-        $snippet = $this->getFormValue('sl');
-        $limit = $this->getFormValue('l');
-
-        if ($snippet) {
-            $options['snippet'] = $snippet;
-        }
-        if ($limit) {
-            $options['limit'] = $limit;
-        }
-
-        $this->gtnt = new GravTNTSearch($options);
-
         $pages = $this->grav['pages'];
         $page = $pages->dispatch($this->current_route);
 
@@ -174,14 +201,31 @@ class TNTSearchPlugin extends Plugin
             }
         }
 
-        if ($page) {
-            $this->config->set('plugins.tntsearch', $this->mergeConfig($page));
-        }
+        $this->query = $uri->param('q') ?: $uri->query('q');
 
-        try {
-            $this->results = $this->gtnt->search($this->query);
-        } catch (IndexNotFoundException $e) {
-            $this->results = ['number_of_hits' => 0, 'hits' => [], 'execution_time' => 'missing index'];
+        if ($this->query) {
+
+            $snippet = $this->getFormValue('sl');
+            $limit = $this->getFormValue('l');
+
+            if ($snippet) {
+                $options['snippet'] = $snippet;
+            }
+            if ($limit) {
+                $options['limit'] = $limit;
+            }
+
+            $this->grav['tntsearch'] = $this->getSearchObjectType($options);
+
+            if ($page) {
+                $this->config->set('plugins.tntsearch', $this->mergeConfig($page));
+            }
+
+            try {
+                $this->results = $this->GravTNTSearch()->search($this->query);
+            } catch (IndexNotFoundException $e) {
+                $this->results = ['number_of_hits' => 0, 'hits' => [], 'execution_time' => 'missing index'];
+            }
         }
     }
 
@@ -247,55 +291,51 @@ class TNTSearchPlugin extends Plugin
 
             // disable warnings
             error_reporting(1);
+            // disable execution time
+            set_time_limit(0);
 
-            // capture content
-            ob_start();
-            $this->gtnt->createIndex();
-            ob_get_clean();
-
-            list($status, $msg) = $this->getIndexCount();
+            list($status, $msg, $output) = $this->indexJob();
 
             $json_response = [
                 'status'  => $status ? 'success' : 'error',
-                'message' => '<i class="fa fa-book"></i> ' . $msg
+                'message' => $msg
             ];
+
             echo json_encode($json_response);
             exit;
         }
 
     }
 
-
-
     /**
      * Perform an 'add' or 'update' for index data as needed
      *
      * @param $event
      * @return bool
      */
-    public function onAdminAfterSave($event)
+    public function onObjectSave($event)
     {
-        $obj = $event['object'];
+        $obj = $event['object'] ?: $event['page'];
 
-        if ($obj instanceof Page) {
-            $this->gtnt->updateIndex($obj);
+        if ($obj) {
+            $this->GravTNTSearch()->updateIndex($obj);
         }
 
         return true;
     }
 
     /**
-     * Perform an 'add' or 'update' for index data as needed
+     * Perform a 'delete' for index data as needed
      *
      * @param $event
      * @return bool
      */
-    public function onAdminAfterDelete($event)
+    public function onObjectDelete($event)
     {
-        $obj = $event['object'];
+        $obj = $event['object'] ?: $event['page'];
 
-        if ($obj instanceof Page) {
-            $this->gtnt->deleteIndex($obj);
+        if ($obj) {
+            $this->GravTNTSearch()->deleteIndex($obj);
         }
 
         return true;
@@ -307,8 +347,9 @@ class TNTSearchPlugin extends Plugin
     public function onTwigAdminVariables()
     {
         $twig = $this->grav['twig'];
+        $gtnt = $this->GravTNTSearch();
 
-        list($status, $msg) = $this->getIndexCount();
+        list($status, $msg) = $this->getIndexCount($gtnt);
 
         if ($status === false) {
             $message = '<i class="fa fa-binoculars"></i> <a href="/'. trim($this->admin_route, '/') . '/plugins/tntsearch">TNTSearch must be indexed before it will function properly.</a>';
@@ -337,14 +378,22 @@ class TNTSearchPlugin extends Plugin
     /**
      * Wrapper to get the number of documents currently indexed
      *
+     * @param $gtnt GravTNTSearch
      * @return array
      */
-    protected function getIndexCount()
+    protected static function getIndexCount($gtnt)
     {
         $status = true;
         try {
-            $this->gtnt->tnt->selectIndex('grav.index');
-            $msg = $this->gtnt->tnt->totalDocumentsInCollection() . ' documents indexed';
+            $msg = '';
+            $gtnt->selectIndex();
+            $doc_count = $gtnt->tnt->totalDocumentsInCollection();
+
+            $language = Grav::instance()['language'];
+            if ($language->enabled()) {
+                $msg .= 'Processed ' . count($language->getLanguages()) . ' languages, each with ';
+            }
+            $msg .=  $doc_count . ' documents reindexed';
         } catch (IndexNotFoundException $e) {
             $status = false;
             $msg = "Index not created";
@@ -365,5 +414,64 @@ class TNTSearchPlugin extends Plugin
         return $uri->param($val) ?: $uri->query($val) ?: filter_input(INPUT_POST, $val, FILTER_SANITIZE_ENCODED);;
     }
 
+    public static function getSearchObjectType($options = [])
+    {
+        $type = 'Grav\\Plugin\\TNTSearch\\' . Grav::instance()['config']->get('plugins.tntsearch.search_object_type', 'Grav') . 'TNTSearch';
+        if (class_exists($type)) {
+            return new $type($options);
+        } else {
+            throw new \RuntimeException('Search class: ' . $type . ' does not exist');
+        }
+    }
+
+    public static function indexJob()
+    {
+        $grav = Grav::instance();
+
+        $grav['debugger']->enabled(false);
+        $grav['twig']->init();
+
+        $language = $grav['language'];
+
+        ob_start();
+
+        if ($language->enabled()) {
+            foreach ($language->getLanguages() as $lang) {
+                $language->init();
+                $language->setActive($lang);
+
+                echo("\nLanguage: $lang\n");
+                $grav['pages']->init();
+                $gtnt = static::getSearchObjectType();
+                $gtnt->createIndex();
+            }
+        } else {
+            $grav['pages']->init();
+            $gtnt = static::getSearchObjectType();
+            $gtnt->createIndex();
+        }
+        
+        $output = ob_get_clean();
+
+        // Reset and get index count and status
+        $gtnt = static::getSearchObjectType();
+        list($status, $msg) = static::getIndexCount($gtnt);
+
+        return [$status, $msg, $output];
+    }
+
+    /**
+     * Helper to initialize TNTSearch if required
+     *
+     * @return TNTSearch\GravTNTSearch
+     */
+    protected function GravTNTSearch()
+    {
+        if (!isset($this->grav['tntsearch'])) {
+            $this->grav['tntsearch'] = static::getSearchObjectType();
+        }
+
+        return $this->grav['tntsearch'];
+    }
 
 }

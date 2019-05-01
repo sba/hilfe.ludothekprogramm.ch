@@ -1,14 +1,13 @@
 email: stefan@databauer.ch
 access:
   admin:
-    login: true
-    super: true
+    super: 'true'
+    login: 'true'
   site:
-    login: true
+    login: 'true'
 fullname: 'Stefan Bauer'
-title: null
 state: enabled
 hashed_password: $2y$10$PaVjpD4Pd/94W3JP3w5C8.0kQ/Kb559G2iFHPQd8CELdv5V/CjWTy
-language: en
-login_attempts: {  }
+language: de
 twofa_secret: YNWLZHH2VHJFHKHKMZS7RDQQAECWQYQM
+twofa_enabled: false

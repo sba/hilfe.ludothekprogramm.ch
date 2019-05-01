@@ -66,11 +66,13 @@ const throttling = throttle(async ({ input, results, historyValue = false } = {}
         ajax: true,
     };
 
+    const startEvent = new Event('tntsearch:start');
     const query = Object.keys(params)
         .map(k => `${k}=${params[k]}`)
         .join('&');
 
-    fetch(`${data.uri}?${query}`)
+    input.dispatchEvent(startEvent);
+    fetch(`${data.uri}?${query}`, { credentials: 'same-origin' })
         .then((response) => response.text())
         .then((response) => {
             if (data.in_page && data.live_update && !historyValue) {
@@ -79,8 +81,10 @@ const throttling = throttle(async ({ input, results, historyValue = false } = {}
             return response;
         })
         .then((response) => {
+            const doneEvent = new Event('tntsearch:done');
             results.style.display = '';
             results.innerHTML = response;
+            input.dispatchEvent(doneEvent);
 
             return response;
         });

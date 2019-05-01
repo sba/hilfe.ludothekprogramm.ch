@@ -1,3 +1,8 @@
+.tntsearch-form .form-input {
+    height: 2.4rem;
+    padding-left: 1rem;
+}
+
 #tntsearch-wrapper {
     position: relative;
 }
@@ -26,7 +31,7 @@
     position: absolute;
     top: 0;
     right: 0;
-    width: 266px;
+    width: 400px;
     background: #fff;
     box-shadow: 0 2px 20px rgba(0,0,0, 0.1);
     padding: 10px;
@@ -34,22 +39,21 @@
 }
 
 .tntsearch-results .info {
-    color: black;
+    color: #999;
     font-size: 90%;
 }
 
 .tntsearch-results .title {
-    /* margin-bottom: 5px; */
+    margin-bottom: 10px;
 }
 
 .tntsearch-results .route {
     margin-top: 0;
-    /*margin-bottom: 5px; */
+    margin-bottom: 10px;
 }
 
 .tntsearch-results .row > p {
     margin-top: 0;
-    color: black;
 }
 
 .tntsearch-results em {

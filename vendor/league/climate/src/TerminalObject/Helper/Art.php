@@ -2,6 +2,8 @@
 
 namespace League\CLImate\TerminalObject\Helper;
 
+use League\CLImate\Exceptions\UnexpectedValueException;
+
 trait Art
 {
     /**
@@ -85,7 +87,16 @@ trait Art
      */
     protected function artFile($art)
     {
-        $files = $this->fileSearch($art, '.*');
+        $files = $this->fileSearch($art, '[^' . \DIRECTORY_SEPARATOR . ']*$');
+
+        if (count($files) === 0) {
+            $this->addDir(__DIR__ . '/../../ASCII');
+            $files = $this->fileSearch($this->default_art, '.*');
+        }
+
+        if (count($files) === 0) {
+            throw new UnexpectedValueException("Unable to find an art file with the name '{$art}'");
+        }
 
         return reset($files);
     }

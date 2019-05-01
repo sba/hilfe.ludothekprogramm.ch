@@ -2,12 +2,10 @@
 import 'babel-polyfill';
 
 import domready from 'domready';
-import URI from 'url-parse';
 import search from './search';
-import history from './history';
 
-domready(() => {
-    const uri = new URI(global.location.href, true);
+const GravTNTSearch = () => {
+    /* const uri = new URI(global.location.href, true);
     history.replace({
         search: global.location.search,
         hash: global.location.hash,
@@ -15,7 +13,7 @@ domready(() => {
             historyValue: uri.query.q || '',
             type: 'tntsearch',
         },
-    });
+    });*/
 
     const searchForms = document.querySelectorAll('form.tntsearch-form');
     [...searchForms].forEach((form) => {
@@ -27,15 +25,19 @@ domready(() => {
         form.addEventListener('submit', (event) => event.preventDefault());
         input.addEventListener('focus', () => search(input, results));
         input.addEventListener('input', () => {
-            clear.style.display = '';
+            if (clear) {
+                clear.style.display = '';
+            }
             search.cancel();
             search({ input, results });
         });
 
         if (clear) {
             clear.addEventListener('click', () => {
+                if (clear) {
+                    clear.style.display = 'none';
+                }
                 input.value = '';
-                clear.style.display = 'none';
                 search.cancel();
                 search({ input, results });
             });
@@ -52,4 +54,8 @@ domready(() => {
             }
         });
     });
-});
+};
+
+domready(GravTNTSearch);
+
+window.GravTNTSearch = GravTNTSearch;

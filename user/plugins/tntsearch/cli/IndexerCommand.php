@@ -3,7 +3,8 @@ namespace Grav\Plugin\Console;
 
 use Grav\Common\Grav;
 use Grav\Console\ConsoleCommand;
-use Grav\Plugin\TNTSearch\GravTNTSearch;
+use Grav\Plugin\TNTSearchPlugin;
+use Symfony\Component\Console\Input\InputOption;
 
 /**
  * Class IndexerCommand
@@ -37,6 +38,7 @@ class IndexerCommand extends ConsoleCommand
     {
         $this
             ->setName("index")
+            ->addOption("alt", null, InputOption::VALUE_NONE, 'alternative output')
             ->setDescription("TNTSearch Indexer")
             ->setHelp('The <info>index command</info> re-indexes the search engine');
     }
@@ -46,28 +48,34 @@ class IndexerCommand extends ConsoleCommand
      */
     protected function serve()
     {
+        $alt_output = $this->input->getOption('alt') ? true : false;
 
-        $this->output->writeln('');
-        $this->output->writeln('<magenta>Re-indexing Search</magenta>');
-        $this->output->writeln('');
-
-        $this->doIndex();
-        $this->output->writeln('Done.');
+        if ($alt_output) {
+            $this->doIndex($alt_output);
+        } else {
+            $this->output->writeln('');
+            $this->output->writeln('<magenta>Re-indexing</magenta>');
+            $this->output->writeln('');
+            $start = microtime(true);
+            $this->doIndex($alt_output);
+            $end =  number_format(microtime(true) - $start,1);
+            $this->output->writeln('');
+            $this->output->writeln('Indexed in ' . $end . 's');
+        }
     }
 
-    private function doIndex()
+    private function doIndex($alt_output = false)
     {
-        include __DIR__.'/../vendor/autoload.php';
         error_reporting(1);
 
         $grav = Grav::instance();
-        $grav['debugger']->enabled(false);
-        $grav['twig']->init();
-        $grav['pages']->init();
+        $grav->fireEvent('onPluginsInitialized');
+        $grav->fireEvent('onThemeInitialized');
 
-        $gtnt = new GravTNTSearch();
-        $gtnt->createIndex();
+        list($status, $msg, $output) = TNTSearchPlugin::indexJob();
 
+        $this->output->write($output);
+        $this->output->writeln('');
     }
 }
 
