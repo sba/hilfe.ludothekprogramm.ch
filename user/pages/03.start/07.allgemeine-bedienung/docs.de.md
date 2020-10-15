@@ -22,7 +22,7 @@ Die Statusleiste befindet sich am unteren Bildschirmrand. Dort wird für die mei
 
 ![datensatz-navigator](../../images/datensatz-navigator.png)
 
-Mit diesen Steuerelementen kann zwischen dem ersten, vorherigen, nächsten und letzten Datensatz im aktuellen Datenblatt geblättert werden. Die Schaltfläche ![neuer-datensatz](../../images/neuer-datensatz.png) erstellt einen neuen Datensatz.
+Mit diesen Steuerelementen kann zwischen dem ersten, vorherigen, nächsten und letzten Datensatz im aktuellen Datenblatt geblättert werden. Die Schaltfläche <img src="../../images/neuer-datensatz.png" class="img-inline"> erstellt einen neuen Datensatz.
 
 #### Rich-Text Felder
 
@@ -48,26 +48,28 @@ Spiel-Strichcodes: **Ausleihfenster, Spiele, Spiele Suchen**
 
 #### Auswahlfeld / Kombinationsfeld
 
-![auswahlfeld](../../images/auswahlfeld.png)
+![auswahlfeld](../../images/auswahlfeld.png?classes=left " ")
 
-Das Feld kann mit der Maus oder durch Drücken der **[F4]**-Taste aufgeklappt werden. Wenn Sie in ein leeres Auswahlfeld schreiben, wird der angezeigte Eintrag durch drücken von **[Enter]** ausgewählt. Es gibt zwei Arten von Auswahlfeldern: Die einen lassen jede Texteingabe zu, die andern erlauben nur Eingaben aus der vorhandenen Auswahl.
+Das Feld kann mit der Maus oder durch Drücken der **[F4</kbd>-Taste aufgeklappt werden. Wenn Sie in ein leeres Auswahlfeld schreiben, wird der angezeigte Eintrag durch drücken von **[Enter</kbd> ausgewählt. Es gibt zwei Arten von Auswahlfeldern: Die einen lassen jede Texteingabe zu, die andern erlauben nur Eingaben aus der vorhandenen Auswahl.
 
 #### Bedienung mit der Tastatur
 
 In Windows gibt es wichtige Tastaturbefehle, welche in fast jedem anderen Programm verwendet werden können und die Bedienung erleichtern. Darunter zählen unter andern:
 
-**[Ctrl]+[c]** um die Markierung in die Zwischenablage zu kopieren.
+<kbd>Ctrl</kbd> + <kbd>c</kbd> um die Markierung in die Zwischenablage zu kopieren.
 
-**[Ctrl]+[x]** um die Markierung auszuschneiden und in die Zwischenablage zu kopieren.
+<kbd>Ctrl</kbd> + <kbd>x</kbd> um die Markierung auszuschneiden und in die Zwischenablage zu kopieren.
 
-**[Ctrl]+[v]**um den Inhalt der Zwischenablage einzufügen.
+<kbd>Ctrl</kbd> + <kbd>v</kbd>um den Inhalt der Zwischenablage einzufügen.
 
-**[Ctrl]+[f]** öffnet das Suchfenster, nützlich in einem Datenblatt.
+<kbd>Ctrl</kbd> + <kbd>f</kbd> öffnet das Suchfenster, nützlich in einem Datenblatt.
 
-**[Ctrl]+[h]** öffnet das Suchen und Ersetzen Fenster, nützlich in einem Datenblatt.
+<kbd>Ctrl</kbd> + <kbd>h</kbd> öffnet das Suchen und Ersetzen Fenster, nützlich in einem Datenblatt.
 
-**[Ctrl]+[z]** um die letzte Aktion rückgängig zu machen
+<kbd>Ctrl</kbd> + <kbd>z</kbd> um die letzte Aktion rückgängig zu machen
 
-**[Ctrl]+[a]** um alles auszuwählen.
+<kbd>Ctrl</kbd> + <kbd>a</kbd> um alles auszuwählen.
 
-**[ESC]** um die letzte Eingabe rückgängig zu machen und teilweise um ein Fenster zu schliessen.
+<kbd>ESC</kbd> um die letzte Eingabe rückgängig zu machen und teilweise um ein Fenster zu schliessen.
+
+<kbd>ESC</kbd> <kbd>ESC</kbd> um alle Änderungen in allen Feldern desselben Datensatzes rückgängig zu machen.

@@ -14,3 +14,10 @@ figure.image-caption{
 img.caption {
     margin-bottom: 1rem;
 }
+
+.img-inline {
+    display: inline;
+    margin: 0;
+    padding: 0 3px;
+}
+

@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Die **Übersicht** wird automatisch beim Starten von **LUPO** geöffnet. Sie kann auch via **Menüband** oder mit der Taste [F12] geöffnet werden.
+Die **Übersicht** wird automatisch beim Starten von **LUPO** geöffnet. Sie kann auch via [Menüband](/start/menuband-symbolleiste) oder mit der Taste <kbd>F12</kbd> geöffnet werden.
 
 ![Übersicht](../../images/uebersicht.png)
 
