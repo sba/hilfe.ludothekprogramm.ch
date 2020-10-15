@@ -3,7 +3,6 @@
 <div class="learn-brand">
     <div id="header">
         <a id="logo" href="{{ theme_config.home_url ?: base_url_absolute }}">{% include 'partials/logo.html.twig' %}</a>
-
         <div class="search-options columns">
             <div class="adv-search column col-8"><i class="fa fa-search"></i> <a href="{{ url('search') }}">Suche</a></div>
             {% include 'partials/versions.html.twig' %}
@@ -15,7 +14,7 @@
         {% if theme_config.top_level_version %}
             {% for slug, ver in pages.children %}
                 {{ macros.version(ver) }}
-                <ul id="{{ slug }}" class="topics">
+                <ul class="was" id="{{ slug }}" class="topics">
                 {{ macros.loop(ver, '') }}
                 </ul>
             {% endfor %}
