@@ -4,8 +4,15 @@ fullname: 'Stefan Bauer'
 title: Administrator
 access:
   admin:
-    login: true
-    super: true
+    super: 'true'
+    login: 'true'
   site:
-    login: true
+    login: 'true'
 hashed_password: $2y$10$h6fIC36qLjxF9KAaHja7.eerI19AZI.zpZJ.gojf6z5BZzscmWEYq
+password: null
+language: de
+twofa_enabled: false
+twofa_secret: DPLYTVSKA774OXUOL26TTOXT543OVS5P
+avatar: {  }
+info: null
+groups: null
