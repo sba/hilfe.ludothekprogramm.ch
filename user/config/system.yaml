@@ -27,7 +27,7 @@ languages:
   http_accept_language: false
   override_locale: false
 home:
-  alias: '/inhaltsverzeichnis'
+  alias: /inhaltsverzeichnis
   hide_in_urls: false
 pages:
   theme: learn4
