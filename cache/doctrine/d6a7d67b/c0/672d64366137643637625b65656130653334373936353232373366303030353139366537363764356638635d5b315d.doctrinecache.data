@@ -1,0 +1,18 @@
+1603366494
+a:2:{s:7:"content";s:1489:"<p>Auf der Webseite kann der Ausleihhstatus (ausgeliehen/verfügbar) des Spiels angezeigt werden:
+<img alt="ausleihstatus-website" src="/user/pages/images/ausleihstatus-website.png" /></p>
+<p>Neben dem Ausleihstatus ist das WebSync Programm auch zuständig zur Übermittlung der vom Kunden ausgeliehenen Spiele (für Kundenlogin auf der Webseite) sowie zum Einlesen der durch den Kunden online getätigten Verlängerungen.</p>
+<h2>Websync einrichten</h2>
+<p>Das WebSync-Programm kann vom LUPO her gestartet werden:
+<img alt="internetexport-websync" src="/user/pages/images/internetexport-websync.png" />
+Bei gesetztem Häkchen öffnet sich das Programm automatisch und minimiert sich nach dem Start in die Taskleiste.</p>
+<p><img alt="websync" src="/user/pages/images/websync.png" /></p>
+<p>In den WebSync-Einstellungen können folgende Werte definiert werden:
+<img alt="websync-einstellungen" src="/user/pages/images/websync-einstellungen.png" /></p>
+<p><strong>Webseite URL</strong><br />
+Tragen Sie hier die Adresse Ihrer Webseite ein, z.B. https://ludothek-zofingen.ch/</p>
+<p><strong>Authentifizierungs-Code</strong><br />
+Dies ist das "Passwort" für den Dienst zum Schreiben und Lesen der Daten auf Ihrer Webseite.
+Derselbe Wert muss im Joomla-Administrator bei den LUPO-Optionen gespeichert werden:</p>
+<p><img alt="websync-online" src="/user/pages/images/websync-online.png" /></p>
+<p>Vergessen Sie nicht vor dem Herunterfahren des PCs auch das WebSynx-Programm zu schliessen.</p>";s:12:"content_meta";N;}

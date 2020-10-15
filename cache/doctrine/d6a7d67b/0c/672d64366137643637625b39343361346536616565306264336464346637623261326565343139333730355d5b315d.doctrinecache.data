@@ -1,0 +1,10 @@
+1603366494
+a:2:{s:7:"content";s:877:"<p>Die Übungsversion kann über den Menübefehl <strong>Übungsdaten</strong> aktiviert bzw. desaktiviert werden.</p>
+<p><img alt="uebungsversion-nicht-aktiv" src="/user/pages/images/uebungsversion-nicht-aktiv.png" /></p>
+<p>Ist das Häkchen gesetzt, dann wird die aktuelle Daten-Datenbank in die Übungsversion kopiert.</p>
+<p><img alt="uebungsversion-aktiviert" src="/user/pages/images/uebungsversion-aktiviert.png" /></p>
+<p>Die Übungsversion verlassen um wieder mit den „echten" Daten zu arbeiten.</p>
+<h4>Übungsdaten beim Starten von LUPO</h4>
+<p>Bevor beim Start von LUPO die Übungsdaten geladen werden erscheint folgende Warnung:</p>
+<p><img alt="uebungsversion-warning" src="/user/pages/images/uebungsversion-warning.png" /></p>
+<p>Klicken Sie auf Ja um mit den 'richtigen' Daten zu arbeiten oder wählen Sie Nein um weiterhin mit den Übungsdaten zu spielen.</p>";s:12:"content_meta";N;}
