@@ -24,7 +24,7 @@ Normalerweise bezahlt der Kunde in Bar und es wird vom Kunden-Debitorenkonto (11
 Falls Sie LUPO mit der Option Bondrucker installiert haben, besteht die Möglichkeit direkt nach dem Bezahlen den Bon auszudrucken.
 
 
->>>>>> Wenn z.B. das Bondrucker-Papier ausgegangen ist, so kann der aktuelle Zustand des Häkchens durch Klicken auf das kleine Diskettenbild gespeichert werden.
+!!!! Wenn z.B. das Bondrucker-Papier ausgegangen ist, so kann der aktuelle Zustand des Häkchens durch Klicken auf das kleine Diskettenbild gespeichert werden.
 
 ### Einnahmen und Rückerstattungen
 
@@ -64,7 +64,7 @@ Markieren Sie eine Buchung in der Liste und klicken Sie auf den Knopf <span clas
 Wird eine Buchung storniert, welche den Kunden- oder Ausleihkontostand des aktuellen Kunden betrifft, so wird dieser angepasst.
 
 
->>>>>> Anstatt eine Buchung zu stornieren, kann auch eine neue Buchung mit einer Gutschrift erfasst werden.
+!!!! Anstatt eine Buchung zu stornieren, kann auch eine neue Buchung mit einer Gutschrift erfasst werden.
 
 ### Gutscheine verkaufen und einlösen
 

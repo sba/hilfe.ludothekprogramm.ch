@@ -13,7 +13,7 @@ Die Liste zeigt alle aktiven Adressen. Gelöschte Adressen werden nicht angezeig
 Mit <span class="btn">Adress-Etiketten Zweckform 3664</span> werden alle angezeigten Adressen (ihr Filter wird beachtet!) in Seitenansicht zum Drucken auf Etiketten angezeigt.
 
 
->>>>>> In allen Listen können Sie die Datensätze sortieren und filtern und in die Zwischenablage kopieren. Um den Listeninhalt zu kopieren, markieren Sie alle Datensätze indem Sie auf die linke Ecke oben in der Liste klicken. Danach drücken Sie **[Ctrl]+[c]** um die Daten in die Zwischenablage zu kopieren und danach in ein anderes Programm wie z.B. Word oder Excel um und von dort her formatiert auszudrucken, als Serienbrief-Datenquelle oder sonst wie zu nutzen.
+!!!! In allen Listen können Sie die Datensätze sortieren und filtern und in die Zwischenablage kopieren. Um den Listeninhalt zu kopieren, markieren Sie alle Datensätze indem Sie auf die linke Ecke oben in der Liste klicken. Danach drücken Sie **[Ctrl]+[c]** um die Daten in die Zwischenablage zu kopieren und danach in ein anderes Programm wie z.B. Word oder Excel um und von dort her formatiert auszudrucken, als Serienbrief-Datenquelle oder sonst wie zu nutzen.
 
 ### Adressliste drucken
 
