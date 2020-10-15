@@ -1,5 +1,5 @@
 ---
-title: 'Spiel ausleihe'
+title: 'Spiele ausleihen'
 taxonomy:
     category:
         - docs
@@ -12,7 +12,7 @@ content:
     pagination: true   
 ---
 
-# Spiel ausleihe
+# Spiele ausleihen
 
 {% for p in page.collection %}
 <a href="{{p.url}}"><h5>{{ p.title }}</h5></a>
