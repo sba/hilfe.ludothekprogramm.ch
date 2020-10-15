@@ -27,7 +27,7 @@ Email von ist die Absenderadresse des Emails, Antwort an ist optional und kann v
 Die Signatur wird unten an jede Email angefügt (aber nicht bei Versand mit Outlook oder Thunderbird).
 
 
->>>> Falls der Direkt-Versand von Emails nicht klappt, prüfen Sie ob Ihre Firewall oder der Virenscanner den Port blockt. Je nach System und Aufbau des Netzwerkes kann auch ihr Internet-Router eine Firewall haben und ausgehende Emails blockieren.
+!! Falls der Direkt-Versand von Emails nicht klappt, prüfen Sie ob Ihre Firewall oder der Virenscanner den Port blockt. Je nach System und Aufbau des Netzwerkes kann auch ihr Internet-Router eine Firewall haben und ausgehende Emails blockieren.
 
 #### Test E-Mail versenden
 

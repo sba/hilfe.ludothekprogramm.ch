@@ -16,4 +16,4 @@ Mit dem zweiten Download Button wird die Webseite **www.ludothekprogramm.ch** ge
 
 Je nach Browser und Windows-Sicherheitseinstellungen muss noch die eine oder andere Warnung bestätigt werden, bevor die Installationsdatei **Update_Lupo2019_de.exe** ausgeführt werden kann.
 
->>>>Das Update kann nur installiert werden, wenn LUPO geschlossen ist. Falls LUPO im Netzwerk verwendet wird muss das Update auf jedem PC installiert werden.
+!!Das Update kann nur installiert werden, wenn LUPO geschlossen ist. Falls LUPO im Netzwerk verwendet wird muss das Update auf jedem PC installiert werden.

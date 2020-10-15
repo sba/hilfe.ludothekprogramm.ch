@@ -26,13 +26,13 @@ Die Spiele, welche Sie ausleihen, erhalten das im Feld Aktuelles Rückgabedatum 
 Unter dem Rückgabedatum werden die Anzahl Spiele angezeigt, welche heute ausgeliehen wurden. In der zweiten Zeile bei Rückgabedatum heute wird die Summe der Spiele, welche theoretisch am heutigen Tag zurückgebracht werden angezeigt.
 
 
->>>>> Wenn ein Spiel nicht die Normalausleihdauer (meistens 28 Tage) hat, wird das Rückgabedatum immer aus **[heute] + [Anzahl Ausleihtage des Spiels]** berechnet.
+!!! Wenn ein Spiel nicht die Normalausleihdauer (meistens 28 Tage) hat, wird das Rückgabedatum immer aus **[heute] + [Anzahl Ausleihtage des Spiels]** berechnet.
 
 #### Rückgabedatum fällt vor oder in die Ferien
 
 Wenn das automatisch berechnete Rückgabedatum kurz vor oder in die Ferien fällt, erscheint eine Meldung.
 
->>>
+!
 **Einstellung Ferienplan**  
 Der Ferienplan kann in den Allgemeinen Programmeinstellungen definiert werden.
 

@@ -19,7 +19,7 @@ Ist das Spiel an einen anderen Kunden als dem aktuell angezeigten ausgeliehen so
 ![spielruecknahme-auswahl](../../images/spielruecknahme-auswahl.png)
 
   
->>> Wenn Sie die Spielnummer in das Spielnummernfeld eingetragen haben drücken Sie **[Enter]**. Je nachdem ob das Spiel ausgeliehen oder in der Ludo liegt wird durch **[Enter]** der Ausleihen oder der Zurücknehmen Button betätigt. (Gilt nur, wenn in den Einstellungen unter **Einstellungen => Ausleihen => Erweitere Ausleiheinstellungen** die **[Enter]**-Taste zum Zurücknehmen von Spielen erlaubt ist.)
+! Wenn Sie die Spielnummer in das Spielnummernfeld eingetragen haben drücken Sie **[Enter]**. Je nachdem ob das Spiel ausgeliehen oder in der Ludo liegt wird durch **[Enter]** der Ausleihen oder der Zurücknehmen Button betätigt. (Gilt nur, wenn in den Einstellungen unter **Einstellungen => Ausleihen => Erweitere Ausleiheinstellungen** die **[Enter]**-Taste zum Zurücknehmen von Spielen erlaubt ist.)
 
 #### Häkchen „Gebühr zurückerstatten"
 

@@ -33,7 +33,7 @@ Die hier eingetragenen Tätigkeiten können im Fenster zum Erfassen der Arbeitsz
 Als Arbeitszeit in Stunden wird im Feld Vorgabezeit definierte Zahl vorgeschlagen.
 
  
->>>>> Beim Erfassen der Tätigkeiten kann nicht nur ein vordefinierter Text gewählt werden, sondern es be-steht auch die Möglichkeit einen freien Text einzutragen. Beachten Sie jedoch, dass eine statistische Auswertung besser gelingt, wenn einheitliche Texte verwendet werden.
+!!! Beim Erfassen der Tätigkeiten kann nicht nur ein vordefinierter Text gewählt werden, sondern es be-steht auch die Möglichkeit einen freien Text einzutragen. Beachten Sie jedoch, dass eine statistische Auswertung besser gelingt, wenn einheitliche Texte verwendet werden.
 
 #### MitarbeiterIn erfassen
 

@@ -15,4 +15,4 @@ Diese Datumsspanne (Statistik von … bis …) gilt für die grün geschriebenen
 Markieren Sie das Kontrollkästchen für die Statistiken, welche Sie <span class="btn">Anzeigen</span> oder <span class="btn">Drucken</span> wollen.
 
 
->>>>> Muster-Ausdrucke von Statistiken finden Sie im Anhang B.
+!!! Muster-Ausdrucke von Statistiken finden Sie im Anhang B.

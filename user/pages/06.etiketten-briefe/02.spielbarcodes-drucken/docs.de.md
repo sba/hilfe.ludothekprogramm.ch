@@ -22,7 +22,7 @@ Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 ![spielsuchliste](../../images/spielsuchliste.png)
 
 
->>>>> Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
+!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
 
 <span class="btn">Barcodeliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken von **[Del]** aus der Liste löschen.
 
@@ -43,7 +43,7 @@ Suchen Sie die Adressen mit Hilfe der gelben Suchfelder unterhalb der Adresslist
 Mit den Buttons <span class="btn">Alle auswählen</span> und <span class="btn">Auswahl aufheben</span> können Sie alle Elemente in der Liste an bzw. abwählen.
 
  
->>>>> Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Kunden mit dem Eintrittsdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
+!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Kunden mit dem Eintrittsdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
 
 <span class="btn">Druckliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken der Taste **[Del]** aus der Liste löschen.
 

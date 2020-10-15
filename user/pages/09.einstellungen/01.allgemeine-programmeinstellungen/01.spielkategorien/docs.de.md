@@ -8,7 +8,7 @@ visible: true
 
 Die Allgemeinen Einstellungen erreichen Sie mit **Übersicht => Einstellungen => Programmeinstellungen**
 
->>> Alle folgenden Bildschirmfotos sind mit gedrücktem Knopf Erweiterte Optionen einblenden erstellt worden. Damit werden auch Einstellungsmöglichkeiten angezeigt, welche meistens nicht verändert werden müssen, da der Standardwert für fast alle Ludotheken zutrifft.
+! Alle folgenden Bildschirmfotos sind mit gedrücktem Knopf Erweiterte Optionen einblenden erstellt worden. Damit werden auch Einstellungsmöglichkeiten angezeigt, welche meistens nicht verändert werden müssen, da der Standardwert für fast alle Ludotheken zutrifft.
 
 ![spielkategorien](../../../images/spielkategorien.png)
 
@@ -25,4 +25,4 @@ Bei Spielen einer Kategorie mit einem Wert im Feld **Spezielle Mahnfrist** wird 
 Ist der **Retour-Bon** aktiviert, so wird beim retournieren eines Spiels dieser Spielkategorie ein Bon mit Informationen zur Spielkontrolle gedruckt.
 
 
->>>> Wenn Sie eine neue Spielart erfassen wollen, welche zwischen zwei bestehenden liegt (z.B. 4500) dann müssen Sie diese in ein neues, leeres Feld unten in der Liste erfassen. Fügen Sie die neue Gruppe **nicht** in der Mitte der Liste ein, indem Sie eine bestehende überschreiben (5000 zu 4500, 6000 zu 5000 usw.)
+!! Wenn Sie eine neue Spielart erfassen wollen, welche zwischen zwei bestehenden liegt (z.B. 4500) dann müssen Sie diese in ein neues, leeres Feld unten in der Liste erfassen. Fügen Sie die neue Gruppe **nicht** in der Mitte der Liste ein, indem Sie eine bestehende überschreiben (5000 zu 4500, 6000 zu 5000 usw.)

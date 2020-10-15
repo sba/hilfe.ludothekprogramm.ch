@@ -21,4 +21,4 @@ Nur hier erfasste Gebühren können den Spielen zugeordnet werden. Der Text im F
 
 .
 
->>>> Wird eine Gebühr geändert, ändert diese bei allen Spielen, welche dieser Spielgebühr zugeordnet sind.
+!! Wird eine Gebühr geändert, ändert diese bei allen Spielen, welche dieser Spielgebühr zugeordnet sind.

@@ -140,7 +140,7 @@ Das Kaufdatum des Spiels. Es wird automatisch das heutige Datum vorgeschlagen.
 
 Tragen Sie hier den Kaufpreis des Spiels ein. Dieser Betrag wird für die Berechnung des Restwertes (Kaufpreis – Summe aller Ausleihgebühren) verwendet.
 
->>>>> **Hinweis**  
+!!! **Hinweis**  
 Der Kaufpreis wird nicht ins Journal eingetragen. Wollen Sie Ihre Spieleinkäufe in der LUPO-Buchhaltung erfassen, dann müssen Sie dies über das Einzelbuchung (mit Vorgaben) Fenster (Öffnen über Übersicht -> Buchhaltung -> Einzelbuchung (mit Vorgaben)) verbuchen
 
 #### Katalogpreis

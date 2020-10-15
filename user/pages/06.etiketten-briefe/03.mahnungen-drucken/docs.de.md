@@ -38,4 +38,4 @@ Zeigt die berechneten Mahnungen (Briefe) in Seitenansicht an bzw. sendet das Ema
 Zeigt eine Liste mit allen neu gemahnten Kunden und eine Liste der gemahnten Spiele in Seitenansicht an.
 
 
->>>>> Die Anzahl Tage bis eine (weitere) Mahnung erstellt wird ist in den **Einstellungen** definiert. Eine erstellte Mahnung kann kein zweites Mal berechnet werden. Eine weitere (z.B. 2. Mahnung) wird erst nach Ablauf der Toleranztage (Die 2. Mahnung ist fällig) erstellt.
+!!! Die Anzahl Tage bis eine (weitere) Mahnung erstellt wird ist in den **Einstellungen** definiert. Eine erstellte Mahnung kann kein zweites Mal berechnet werden. Eine weitere (z.B. 2. Mahnung) wird erst nach Ablauf der Toleranztage (Die 2. Mahnung ist fällig) erstellt.

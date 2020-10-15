@@ -18,12 +18,12 @@ Die Bondrucker-Software kann zusammen mit den LUPO-Programmdateien installiert w
 
 Falls bereits eine aktuelle LUPO-Version installiert ist, dann kann das Programm zur Ansteuerung des Druckers auch von unserer Webseite heruntergeladen werden: 
 
->>>> **SetupPOS Version 2.5 oder älter **  
+!! **SetupPOS Version 2.5 oder älter **  
 Wenn eine ältere Version des Bondrucker-Treibers installiert ist, z.B. für den TM-T210D Drucker, dann muss diese zuerst deinstalliert werden. Das «darüber installieren» der Version 2.8 funktioniert nicht.
 
 .
 
->>>> **Windows Drucker**  
+!! **Windows Drucker**  
 Der Drucker wird direkt aus LUPO über spezielle Drucker-Kommandos angesteuert. Es muss NICHT als Windows-Drucker (unter Drucker und Scanner) installiert werden.
 
 #### Druckertreiber konfigurieren

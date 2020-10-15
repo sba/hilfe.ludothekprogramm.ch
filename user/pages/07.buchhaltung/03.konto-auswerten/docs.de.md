@@ -21,7 +21,7 @@ Die Kontennummern, welche sie anzeigen wollen (Bsp. 1000 – 2999 = Aktiven /Pas
 Der Datumsbereich, über welchen sie die Konti anzeigen wollen.
 
 
->>>>> Es wird mit der genauen Zeit gerechnet. Wenn Sie in beide Felder das gleiche Datum eingeben, werden keine Buchungen angezeigt.
+!!! Es wird mit der genauen Zeit gerechnet. Wenn Sie in beide Felder das gleiche Datum eingeben, werden keine Buchungen angezeigt.
 
 #### Druckerausgabe
 

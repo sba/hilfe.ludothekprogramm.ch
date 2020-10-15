@@ -41,7 +41,7 @@ Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhal
 Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfer).
 
 
->>>> Sie dürfen die Kontobezeichnungen anpassen (z.B. Hauptkasse in PC-Konto ändern) und neue Konten erfassen. Die bestehenden Kontonummern dürfen aber nicht verändert werden.
+!! Sie dürfen die Kontobezeichnungen anpassen (z.B. Hauptkasse in PC-Konto ändern) und neue Konten erfassen. Die bestehenden Kontonummern dürfen aber nicht verändert werden.
 
 | **Buchhaltungsklasse** |  **Konntengruppe** |  **Konto Bezeichnung** |  **Konto** |
 | --- | --- |--- |--- |

@@ -34,5 +34,5 @@ Die Anschrift (Adresse des Kunden) kann links oder rechts ausgerichtet werden un
 
 Die zwei grossen Textfelder und die Emailfelder können bei jedem Brief einen anderen Inhalt haben. Alle anderen Einstellungen gelten für jeden Brief.
 
->>>>>
+!!!
 Weitere Informationen zur Gestaltung der Briefe erhalten Sie, wenn Sie den <span class="btn">Musterbrief anzeigen</span>.

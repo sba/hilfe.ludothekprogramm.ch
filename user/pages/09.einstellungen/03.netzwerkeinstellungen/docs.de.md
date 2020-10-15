@@ -17,7 +17,7 @@ In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellung
 ![netzwerkeinstellungen-client](../../images/netzwerkeinstellungen-client.png)
 
 
->>>>> Der Computer, welcher die Daten über das Netzwerk liest (der Rücknahme-PC), kann nur verwendet werden, wenn der „Server" (Ausleih-PC) hochgefahren und angemeldet ist.
+!!! Der Computer, welcher die Daten über das Netzwerk liest (der Rücknahme-PC), kann nur verwendet werden, wenn der „Server" (Ausleih-PC) hochgefahren und angemeldet ist.
 
 #### Datenbank
 
