@@ -51,9 +51,9 @@ Das Ausleihkonto kann keinen negativen Kontostand haben. Solange ein positiver A
 
 In dieses Feld können die Kinder mit Vorname und Geburtsdatum / Jahrgang oder die Anzahl Familienmitglieder eingegeben werden.
 
->>>
-**Einstellung**  
-Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen => Diverses** ausgeblendet werden.
+
+! **Einstellung**  
+! Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen => Diverses** ausgeblendet werden.
 
 #### Neue Adresse
 

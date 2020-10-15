@@ -32,9 +32,8 @@ Unter dem Rückgabedatum werden die Anzahl Spiele angezeigt, welche heute ausgel
 
 Wenn das automatisch berechnete Rückgabedatum kurz vor oder in die Ferien fällt, erscheint eine Meldung.
 
-!
-**Einstellung Ferienplan**  
-Der Ferienplan kann in den Allgemeinen Programmeinstellungen definiert werden.
+! **Einstellung Ferienplan**  
+! Der Ferienplan kann in den Allgemeinen Programmeinstellungen definiert werden.
 
 #### Alle Ausleihen und Rücknahmen von …
 
