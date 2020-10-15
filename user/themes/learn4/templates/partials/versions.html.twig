@@ -1,5 +1,4 @@
 <div class="version-chooser column col-4 text-right">
-    <select id="switch-version">
     {% set langobj = grav['language'] %}
     {% for key in langswitcher.languages %}
         {% if key == langswitcher.current %}
@@ -14,5 +13,5 @@
     </select>
 </div>
 <script>
-jQuery(document).on('change', '#switch-version', function() { window.location.href = this.value });
+    jQuery(document).on('change', '#switch-version', function() { window.location.href = this.value });
 </script>
