@@ -10,7 +10,7 @@ Alle Aktionen (wie Abo lösen, Spiel ausleihen, reservieren, ...) die Sie im Fen
 
 ![kunden-erfassen ](../../images/kunden-erfassen.png)
 
-Sie können den Nachnamen, Vornamen, Ort oder einen Teil davon oder die Adressnummer in das Suchfeld eingeben. Durch Drücken von **[Enter]** oder des Such-Buttons rechts vom Suchfeld wird die Suche gestartet. Wählen Sie den gewünschten Name durch klicken in die Suchergebnisliste aus.
+Sie können den Nachnamen, Vornamen, Ort oder einen Teil davon oder die Adressnummer in das Suchfeld eingeben. Durch Drücken von <kbd>Enter</kbd> oder des Such-Buttons rechts vom Suchfeld wird die Suche gestartet. Wählen Sie den gewünschten Name durch klicken in die Suchergebnisliste aus.
 
 **Phonetische Suche:**  
 Wenn Sie einen Namen falsch eintippen und die Suche nichts findet wird automatisch ein zweite phonetische Suche gestartet. So wird bei einer Suche nach Abüehl trotz falscher Schreibweise der Name Abbühl gefunden.

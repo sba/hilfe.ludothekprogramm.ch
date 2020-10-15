@@ -39,17 +39,17 @@ Beim Spiele Verlängern können Sie zwischen drei Rechnungsarten für das verlä
 
 #### Spiele ausleihen / Zurücknehmen
 
-Um Spiele im Spiele Ausleihen und Zurücknehmen Fenster auszuleihen oder zurückzunehmen können Sie die Nummer ins Spielfeld schreiben und [Enter] drücken. Je nachdem wird das Spiel zurückgenommen oder ausgeliehen. Dies gilt auch für das Einlesen von Nummern mit dem Barcodeleser.
+Um Spiele im Spiele Ausleihen und Zurücknehmen Fenster auszuleihen oder zurückzunehmen können Sie die Nummer ins Spielfeld schreiben und <kbd>Enter</kbd> drücken. Je nachdem wird das Spiel zurückgenommen oder ausgeliehen. Dies gilt auch für das Einlesen von Nummern mit dem Barcodeleser.
 
-Wenn Sie nun wollen, dass Spiele nur durch drücken des Ausleihen Knopfes ausgeliehen werden können, müssen Sie das Kontrollkästchen Ausleihen / Zurücknehmen mit [Enter] zulassen desaktivieren.
+Wenn Sie nun wollen, dass Spiele nur durch drücken des Ausleihen Knopfes ausgeliehen werden können, müssen Sie das Kontrollkästchen Ausleihen / Zurücknehmen mit <kbd>Enter</kbd> zulassen desaktivieren.
 
-Ist das Kontrollkästchen Mit Enter Spiele immer ausleihen aktiviert wird bei [Enter] immer versucht das Spiel auszuleihen.
+Ist das Kontrollkästchen Mit Enter Spiele immer ausleihen aktiviert wird bei <kbd>Enter</kbd> immer versucht das Spiel auszuleihen.
 
-Wenn Sie mit dem Barcodeleser arbeiten und die [Enter]-Taste desaktiviert ist, muss nach dem scannen der Nummer noch der entsprechende Barcode-Befehl (Ausleihen oder Rücknahme) eingelesen werden bzw. Ausleihen oder Rücknahme geklickt werden.
+Wenn Sie mit dem Barcodeleser arbeiten und die <kbd>Enter</kbd>-Taste desaktiviert ist, muss nach dem scannen der Nummer noch der entsprechende Barcode-Befehl (Ausleihen oder Rücknahme) eingelesen werden bzw. Ausleihen oder Rücknahme geklickt werden.
 
 !
 **Einstellung**  
-Falls Sie mit zwei Computern arbeiten (Netzwerkversion) und in den Netzwerkeinstellungen definiert ist, dass sich die beiden PC's als Ausgabe- und Rücknahmestation unterscheiden, gilt die [Enter]-Taste so wie in den Netzwerkeinstellungen eingestellt.
+Falls Sie mit zwei Computern arbeiten (Netzwerkversion) und in den Netzwerkeinstellungen definiert ist, dass sich die beiden PC's als Ausgabe- und Rücknahmestation unterscheiden, gilt die <kbd>Enter</kbd>-Taste so wie in den Netzwerkeinstellungen eingestellt.
 
 Nachfragen bevor ein Spiel mit abhaken zurückgenommen wird betrifft das Häkchen vorne in der Liste der ausgeliehenen Spiele:
 

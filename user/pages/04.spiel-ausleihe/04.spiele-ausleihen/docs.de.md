@@ -10,12 +10,12 @@ Die Spiele, welche Sie ausleihen, werden der Spielliste des aktuellen Kunden hin
 
 #### Ausleihen Button
 
-Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf den <span class="btn">Ausleihen</span> Button oder drücken Sie die **[Enter]**\- Taste.
+Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf den <span class="btn">Ausleihen</span> Button oder drücken Sie die <kbd>Enter</kbd>\- Taste.
 
 Falls Sie mit Barcodes arbeiten kann beim Einscannen irgendein Feld im Ausleihfenster aktiv sein. Der Cursor muss vor dem Scannen nicht in das Spiel-Suchfeld gesetzt werden.
 
 ! **Verhalten der Enter-Taste**  
-Ob Spiele mit **[Enter]** ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen => Ausleihen => Spiele Ausleihen / Zurücknehmen** definiert werden.
+Ob Spiele mit <kbd>Enter</kbd> ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen => Ausleihen => Spiele Ausleihen / Zurücknehmen** definiert werden.
 
 #### Einschränkung Anzahl Spiele
 

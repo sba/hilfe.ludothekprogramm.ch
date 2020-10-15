@@ -16,7 +16,7 @@ Um den Filter zu entfernen klicken Sie auf den Knopf Gefiltert im Datensatznavig
 
 ![kopf-gefiltert](../../images/kopf-gefiltert.png)
 
-Mit dem Feld Suchen kann nach Text im Datenblatt gesucht werden. Schreiben Sie dazu ihr Suchbegriff in das Textfeld und navigieren dann durch mehrfaches drücken von **[Enter]** zu den einzelnen Datensätzen welche den Suchbegriff enthalten.
+Mit dem Feld Suchen kann nach Text im Datenblatt gesucht werden. Schreiben Sie dazu ihr Suchbegriff in das Textfeld und navigieren dann durch mehrfaches drücken von <kbd>Enter</kbd> zu den einzelnen Datensätzen welche den Suchbegriff enthalten.
 
 **Hinweis**  
 Die Filter- und Sortiereinstellungen gehen nach dem **Schliessen** des Formulars **verloren!**

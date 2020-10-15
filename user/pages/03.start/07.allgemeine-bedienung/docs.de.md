@@ -50,7 +50,7 @@ Spiel-Strichcodes: **Ausleihfenster, Spiele, Spiele Suchen**
 
 ![auswahlfeld](../../images/auswahlfeld.png?classes=left " ")
 
-Das Feld kann mit der Maus oder durch Drücken der **[F4</kbd>-Taste aufgeklappt werden. Wenn Sie in ein leeres Auswahlfeld schreiben, wird der angezeigte Eintrag durch drücken von **[Enter</kbd> ausgewählt. Es gibt zwei Arten von Auswahlfeldern: Die einen lassen jede Texteingabe zu, die andern erlauben nur Eingaben aus der vorhandenen Auswahl.
+Das Feld kann mit der Maus oder durch Drücken der <kbd>F4</kbd>-Taste aufgeklappt werden. Wenn Sie in ein leeres Auswahlfeld schreiben, wird der angezeigte Eintrag durch drücken von <kbd>Enter</kbd> ausgewählt. Es gibt zwei Arten von Auswahlfeldern: Die einen lassen jede Texteingabe zu, die andern erlauben nur Eingaben aus der vorhandenen Auswahl.
 
 #### Bedienung mit der Tastatur
 
