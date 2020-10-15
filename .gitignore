@@ -5,7 +5,6 @@ backup/*
 cache/*
 !cache/.*
 logs/*
-!logs/.*
 user/data/*
 !user/data/.*
 
