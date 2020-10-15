@@ -6,3 +6,11 @@
     margin: 20px 0px 0px 5px;
     font-size: 22px;
 }
+
+figure.image-caption{
+    margin-bottom: 2rem;
+}
+
+img.caption {
+    margin-bottom: 1rem;
+}
