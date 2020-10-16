@@ -10,7 +10,7 @@ Die Spiele, welche Sie ausleihen, werden der Spielliste des aktuellen Kunden hin
 
 #### Ausleihen Button
 
-Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf den <span class="btn-lupo">Ausleihen</span> Button oder drücken Sie die <kbd>Enter</kbd>\- Taste.
+Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf den <span class="btn-lupo">Ausleihen</span> Button oder drücken Sie die <kbd>Enter</kbd>-Taste.
 
 Falls Sie mit Barcodes arbeiten kann beim Einscannen irgendein Feld im Ausleihfenster aktiv sein. Der Cursor muss vor dem Scannen nicht in das Spiel-Suchfeld gesetzt werden.
 

@@ -1,5 +1,5 @@
 ---
-title: 'Kunden erfassen, suchen und anzeigen'
+title: 'Kunden suchen und erfassen'
 taxonomy:
     category:
         - docs

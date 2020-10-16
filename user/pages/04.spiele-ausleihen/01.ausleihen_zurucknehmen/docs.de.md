@@ -1,5 +1,5 @@
 ---
-title: 'Spiele ausleihen und zurücknehmen'
+title: 'Ausleihen und zurücknehmen'
 taxonomy:
     category:
         - docs
