@@ -2,6 +2,16 @@
     margin-top: 100px;
 }
 
+.off-canvas .learn-sidebar .learn-brand {
+    height: auto;
+}
+
+.off-canvas .learn-sidebar .learn-nav ul li.active > a {
+    background-color: #331e48;
+    margin-left: -1rem;
+    padding-left: 1rem;
+}
+
 .lupo-title {
     margin: 20px 0px 0px 5px;
     font-size: 22px;
