@@ -19,7 +19,7 @@ Schreiben Sie am Anfang des Memos ein ! (Ausrufezeichen), um das Memo beim Aufru
 ![kundenmemo](../../images/kundenmemo.png)
 
 ! **Automatische Kundenmemos**  
-Beim Mahnen wird automatisch ein Memo geschrieben. Die kann in den Einstellungen deaktiviert werden.
+! Beim Mahnen wird automatisch ein Memo geschrieben. Die kann in den Einstellungen deaktiviert werden.
 
 Der Knopf <span class="btn-lupo"> Kundengeschichte</span> zeigt alle Adressdetails und alle jemals vom Kunden ausgeliehenen Spiele an.
 
