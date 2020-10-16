@@ -12,7 +12,7 @@ Das Aussehen der Briefe Mahnbrief, Reservationsbrief und Infobrief kann (mit bes
 
 #### Schriftart und -grösse
 
-Die Schriftart und Grösse der Textfelder kann durch Klicken auf <span class="btn">A</span> angepasst werden. Bei Textfeldern ohne diesen Knopf kann die Schrift mit der Formatierungs-Symbolleiste angepasst werden.
+Die Schriftart und Grösse der Textfelder kann durch Klicken auf <span class="btn-lupo">A</span> angepasst werden. Bei Textfeldern ohne diesen Knopf kann die Schrift mit der Formatierungs-Symbolleiste angepasst werden.
 
 #### Logo im Briefkopf / Fuss auswählen
 
@@ -34,5 +34,4 @@ Die Anschrift (Adresse des Kunden) kann links oder rechts ausgerichtet werden un
 
 Die zwei grossen Textfelder und die Emailfelder können bei jedem Brief einen anderen Inhalt haben. Alle anderen Einstellungen gelten für jeden Brief.
 
-!!!
-Weitere Informationen zur Gestaltung der Briefe erhalten Sie, wenn Sie den <span class="btn">Musterbrief anzeigen</span>.
+!!! Weitere Informationen zur Gestaltung der Briefe erhalten Sie, wenn Sie den <span class="btn-lupo">Musterbrief anzeigen</span>.

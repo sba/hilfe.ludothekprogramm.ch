@@ -28,7 +28,7 @@ Falls Sie LUPO mit der Option Bondrucker installiert haben, besteht die Möglich
 
 ### Einnahmen und Rückerstattungen
 
-Mit dem Button <span class="btn">Einnahmen und Rückerstattungen</span> öffnen Sie das Fenster **Buchung für Kunde**.
+Mit dem Button <span class="btn-lupo">Einnahmen und Rückerstattungen</span> öffnen Sie das Fenster **Buchung für Kunde**.
 
 In diesem Fenster kann dem Kunden (z.B. für ein verlorenes Spiel) ein Betrag verrechnet oder gutgeschrieben werden.
 
@@ -38,7 +38,7 @@ Die Buchungen, welche Sie erfassen werden dem Kunden- oder Ausleihkonto belastet
 
 Um dem Kunden eine Gutschrift zu machen, wählen Sie im Auswahlfeld rechts des Betrages Betrag dem Kundenkonto gutschreiben oder schreiben Sie eine negative Zahl in Feld.
 
-<span class="btn">Buchen</span> speichert die Buchung und verrechnet den Betrag dem Kunden. Der Buchungstext kann automatisch ins Kundenmemo übertragen werden.
+<span class="btn-lupo">Buchen</span> speichert die Buchung und verrechnet den Betrag dem Kunden. Der Buchungstext kann automatisch ins Kundenmemo übertragen werden.
 
 ! **Einstellung**  
 Die Buchungs-Vorgaben können im Fenster **Übersicht => Buchhaltung => Buchungstexte** bearbeiten definiert werden.
@@ -57,7 +57,7 @@ Druckt alle Buchungen eines definierten Zeitraums auf den Bondrucker aus.
 
 #### Markierte Buchung stornieren
 
-Markieren Sie eine Buchung in der Liste und klicken Sie auf den Knopf <span class="btn">Markierte Buchung stornieren</span> um die ausgewählte Buchung zu stornieren.
+Markieren Sie eine Buchung in der Liste und klicken Sie auf den Knopf <span class="btn-lupo">Markierte Buchung stornieren</span> um die ausgewählte Buchung zu stornieren.
 
 ![buchung-stornieren](../../images/buchung-stornieren.png)
 

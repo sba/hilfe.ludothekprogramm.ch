@@ -19,8 +19,8 @@ Starten Sie dazu das LUPO Update Programm ( -Taste drücken, dann nach LUPO Date
 
 ![daten-konvertieren](../../images/tabellen-konvertieren.png)
 
-Normalerweise müssen hier keine Einstellungen angepasst werden. Klicken Sie auf <span class="btn"> Tabellenupdate STARTEN</span> um den Vorgang auszuführen.
-Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn">Ja</span>,dann wird eine bereits vorhandene LUPO 2019 Daten-Datei überschrieben.
+Normalerweise müssen hier keine Einstellungen angepasst werden. Klicken Sie auf <span class="btn-lupo"> Tabellenupdate STARTEN</span> um den Vorgang auszuführen.
+Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn-lupo">Ja</span>,dann wird eine bereits vorhandene LUPO 2019 Daten-Datei überschrieben.
 
 ![tabelle-konvertieren-warning](../../images/tabellen-konvertieren-msg-warning.png)
 

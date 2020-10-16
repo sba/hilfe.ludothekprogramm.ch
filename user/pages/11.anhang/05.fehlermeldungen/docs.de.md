@@ -71,7 +71,7 @@ Probieren Sie, ob das Drucken aus einem anderen Programm funktioniert (z.B. Word
 
 ![programm-absturz](../../images/programm-absturz.png)
 
-Bill Gates lässt grüssen... Drücken Sie auf <span class="btn">Programm schliessen</span> und starten Sie LUPO neu.
+Bill Gates lässt grüssen... Drücken Sie auf <span class="btn-lupo">Programm schliessen</span> und starten Sie LUPO neu.
 
 #### Task-Manager ([Ctrl]+[Alt]+[Esc])
 
@@ -79,7 +79,7 @@ Falls LUPO überhaupt nicht mehr reagiert oder Sie eine Fehlermeldung oder ein F
 
 ![task-manager](../../images/task-manager.png)
 
-Zuerst markieren Sie LUPO in der Liste der laufenden Anwendungen, dann klicken Sie auf <span class="btn">Task beenden</span> , danach auf <span class="btn">Sofort beenden</span> .
+Zuerst markieren Sie LUPO in der Liste der laufenden Anwendungen, dann klicken Sie auf <span class="btn-lupo">Task beenden</span> , danach auf <span class="btn-lupo">Sofort beenden</span> .
 
 #### Andere Fehlermeldungen
 

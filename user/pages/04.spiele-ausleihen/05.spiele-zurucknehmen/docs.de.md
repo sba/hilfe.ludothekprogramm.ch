@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Tragen die Spielnummer in das Spielnummernfeld ein und drücken dann den Button <span class="btn"> Rücknahme</span> oder <kbd>Enter</kbd>. Es wird automatisch zum Kunden, welcher das Spiel ausgeliehen hat, gewechselt.
+Tragen die Spielnummer in das Spielnummernfeld ein und drücken dann den Button <span class="btn-lupo"> Rücknahme</span> oder <kbd>Enter</kbd>. Es wird automatisch zum Kunden, welcher das Spiel ausgeliehen hat, gewechselt.
 
 #### Zurücknehmen
 

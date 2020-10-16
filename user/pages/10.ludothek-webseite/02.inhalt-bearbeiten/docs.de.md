@@ -31,6 +31,6 @@ Der Inhalt der Website ist in verschiedene Bereiche unterteilt. Beiträge könne
 
 #### Modul bearbeiten
 
-Und um den Inhalt eines Moduls zu bearbeiten kann im Frontend auf das Icon oben links geklickt werden:
+Um den Inhalt eines Moduls zu bearbeiten kann im Frontend auf das Icon oben links geklickt werden:
 
 ![webseite_frontend_modul_bearbeiten ](../../images/webseite_frontend_modul_bearbeiten.png)

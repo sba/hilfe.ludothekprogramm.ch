@@ -1,5 +1,5 @@
 ---
-title: 'Spiele, Adressen und Mitarbeiter'
+title: 'Spiele erfassen und bearbeiten'
 taxonomy:
     category:
         - docs
@@ -110,7 +110,7 @@ Zu jedem Spiel kann eine Bilddatei hinterlegt werden. Es ist erlaubt grosse Date
 
 ![bild](../../images/bild.png)
 
-Wenn ein Spielfoto mit der <span class="btn">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste => Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
+Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste => Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
 
 #### Jedem Spielkind kann zugeordnet werden:
 
@@ -141,7 +141,7 @@ Das Kaufdatum des Spiels. Es wird automatisch das heutige Datum vorgeschlagen.
 Tragen Sie hier den Kaufpreis des Spiels ein. Dieser Betrag wird für die Berechnung des Restwertes (Kaufpreis – Summe aller Ausleihgebühren) verwendet.
 
 !!! **Hinweis**  
-Der Kaufpreis wird nicht ins Journal eingetragen. Wollen Sie Ihre Spieleinkäufe in der LUPO-Buchhaltung erfassen, dann müssen Sie dies über das Einzelbuchung (mit Vorgaben) Fenster (Öffnen über Übersicht -> Buchhaltung -> Einzelbuchung (mit Vorgaben)) verbuchen
+!!! Der Kaufpreis wird nicht ins Journal eingetragen. Wollen Sie Ihre Spieleinkäufe in der LUPO-Buchhaltung erfassen, dann müssen Sie dies über das Einzelbuchung (mit Vorgaben) Fenster (Öffnen über Übersicht -> Buchhaltung -> Einzelbuchung (mit Vorgaben)) verbuchen
 
 #### Katalogpreis
 
@@ -157,7 +157,7 @@ Dieser Memotext wird im **Ausleihen / Zurücknehmen** Fenster in der Spielliste 
 
 ### Spielinhalt erfassen und drucken
 
-Sie können für jedes Spiel den Spielinhalt (die Ausstattung) erfassen. Schreiben Sie dazu den Text in das dafür vorgesehene Feld oder betätigen Sie den Button <span class="btn">Spielinhalt zusammenbauen</span> um das Spielinhalt-Fenster in Grossansicht angezeigt zu bekommen.
+Sie können für jedes Spiel den Spielinhalt (die Ausstattung) erfassen. Schreiben Sie dazu den Text in das dafür vorgesehene Feld oder betätigen Sie den Button <span class="btn-lupo">Spielinhalt zusammenbauen</span> um das Spielinhalt-Fenster in Grossansicht angezeigt zu bekommen.
 
 In diesem Fenster wird der Spielinhalt erfasst. Sie können den Inhalt ausdrucken um danach am Spiel zu befestigen.
 
@@ -169,11 +169,11 @@ Durch Doppelklicken auf die Inhalt-Datenzeile wird der Eintrag dem Spielinhalt h
 
 Wenn Sie die dortigen Vorgaben nicht benötigen kann der Spielinhalt auch direkt in diesem Fenster erfasst und ausgedruckt werden.
 
-<span class="btn">Drucken</span> / <span class="btn">Anzeigen</span> gibt den Spielinhalt im ausgewählten Format auf den Drucker / Seitenansicht aus. Das standardmässig vorgeschlagene Ausgebeformat ist in den Einstellungen definiert.
+<span class="btn-lupo">Drucken</span> / <span class="btn-lupo">Anzeigen</span> gibt den Spielinhalt im ausgewählten Format auf den Drucker / Seitenansicht aus. Das standardmässig vorgeschlagene Ausgebeformat ist in den Einstellungen definiert.
 
 ### Neues Spiel (Neue Spielfamilie)
 
-Um ein neues Spiel zu erfassen müssen Sie den Button <span class="btn">Neue Spielfamilie</span> im Spiele Fenster drücken.
+Um ein neues Spiel zu erfassen müssen Sie den Button <span class="btn-lupo">Neue Spielfamilie</span> im Spiele Fenster drücken.
 
 ![spielfamilie-erfassen](../../images/spielfamilie-erfassen.png)
 
@@ -181,7 +181,7 @@ Wählen Sie die Spielart des neuen Spiels aus.
 
 Falls Sie dem neuen Spiel eine andere als die vom Computer vorgeschlagene Nummer geben wollen, können Sie diese in das Nummer-Textfeld schreiben. Existiert Ihre Nummer bereits, erscheint eine Fehlermeldung.
 
-Mit <span class="btn">OK</span> wird das neue Spiel gespeichert.
+Mit <span class="btn-lupo">OK</span> wird das neue Spiel gespeichert.
 
 ### Neues Spielkind
 

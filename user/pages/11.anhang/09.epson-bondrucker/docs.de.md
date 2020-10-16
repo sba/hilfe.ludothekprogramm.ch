@@ -8,9 +8,9 @@ visible: true
 
 ## EPSON Bondrucker installieren
 
-Diese Installationsanleitung gilt für die EPSON-Drucker **TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II** Der Bondrucker wird direkt über die OPOS / UPOS Schnittstelle angesteuert und muss nicht als Windows-Drucker installiert werden. Es ist korrekt, wenn in der Systemsteuerung unter Geräte und Drucker der Bondrucker nicht aufgelistet ist.
+Diese Installationsanleitung gilt für die EPSON-Drucker **TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III** Der Bondrucker wird direkt über die OPOS / UPOS Schnittstelle angesteuert und muss nicht als Windows-Drucker installiert werden. Der Drucker muss bei den Windows-Einstellungen unter **Drucker & Scanner** nicht aufgelistet sein.
 
-#### EPSON OPOS ADK 2.80 installieren
+#### EPSON OPOS ADK 3.0 installieren
 
 Die Bondrucker-Software kann zusammen mit den LUPO-Programmdateien installiert werden. Wählen Sie dazu im LUPO Installationsassistent das Häkchen **EPSON Bondrucker** an:
 
@@ -19,12 +19,12 @@ Die Bondrucker-Software kann zusammen mit den LUPO-Programmdateien installiert w
 Falls bereits eine aktuelle LUPO-Version installiert ist, dann kann das Programm zur Ansteuerung des Druckers auch von unserer Webseite heruntergeladen werden: 
 
 !! **SetupPOS Version 2.5 oder älter **  
-Wenn eine ältere Version des Bondrucker-Treibers installiert ist, z.B. für den TM-T210D Drucker, dann muss diese zuerst deinstalliert werden. Das «darüber installieren» der Version 2.8 funktioniert nicht.
+!! Wenn eine ältere Version des Bondrucker-Treibers installiert ist, z.B. für den TM-T210D Drucker, dann muss diese zuerst deinstalliert werden. Das «darüber installieren» der Version 3.0 funktioniert nicht.
 
-.
+
 
 !! **Windows Drucker**  
-Der Drucker wird direkt aus LUPO über spezielle Drucker-Kommandos angesteuert. Es muss NICHT als Windows-Drucker (unter Drucker und Scanner) installiert werden.
+!! Der Drucker wird direkt aus LUPO über spezielle Drucker-Kommandos angesteuert. Es muss NICHT als Windows-Drucker (unter Drucker und Scanner) installiert werden.
 
 #### Druckertreiber konfigurieren
 
@@ -36,15 +36,15 @@ Mit einem Klick auf das Symbol ganz links (Add New Device) öffnet sich folgende
 
 ![Druckmodell_hinzufuegen](../../images/Druckmodell_hinzufuegen.png)
 
-1. **Ihr Druckermodell auswählen:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II
-2. **Ihr Druckermodell schreiben:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II
+1. **Ihr Druckermodell auswählen:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
+2. **Ihr Druckermodell schreiben:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
 3. **Weiter mit Next**
 
 ![druckmodell_testen](../../images/druckmodell_testen.png)
 
-4\. **Drucker testen.** Öffnet ein Fenster zum Testen des Druckers. Werden beim Klicken auf **Start** einige Zeilen gedruckt, so ist der Druckertreiber korrekt installiert.
+4. **Drucker testen.** <span class="btn-lupo">CheckHealth Interactive</span> öffnet ein Fenster zum Testen des Druckers. Werden beim Klicken auf **Start** einige Zeilen gedruckt, so ist der Druckertreiber korrekt installiert.
 
-Wenn bei TMPORT Settings „(none)" steht, dann muss ein Port ausgewählt werden oder mit <span class="btn">Make Port</span> ein neuer erstellt werden. Mit <span class="btn">Finish</span> wird die Installation abgeschlossen.
+Wenn bei TMPORT Settings „(none)" steht, dann muss ein Port ausgewählt werden oder mit <span class="btn-lupo">Make Port</span> ein neuer erstellt werden. Mit <span class="btn-lupo">Finish</span> wird die Installation abgeschlossen.
 
 #### LUPO konfigurieren
 

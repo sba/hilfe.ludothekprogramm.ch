@@ -40,7 +40,7 @@ Diese Aktion speichert im Tagesjournal alle Buchungen, die seit dem letzten Spei
 
 ![journal-speichern](../../images/journal-speichern.png)
 
-Wenn Sie die vorhergehende Frage mit <span class="btn">Ja</span> beantwortet haben öffnet sich das Tagesabschluss buchen Fenster:
+Wenn Sie die vorhergehende Frage mit <span class="btn-lupo">Ja</span> beantwortet haben öffnet sich das Tagesabschluss buchen Fenster:
 
 ![tagesabschluss-buchen](../../images/tagesabschluss-buchen.png)
 

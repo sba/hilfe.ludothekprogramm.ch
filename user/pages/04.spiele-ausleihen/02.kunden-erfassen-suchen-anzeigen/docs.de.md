@@ -27,13 +27,13 @@ Wird die Adressnummer eines gelöschten Kunden eingeben, erscheint folgende Meld
 
 #### Neuer Kunde erfassen
 
-Der Knopf <span class="btn">Neuer Kunde</span> öffnet das Fenster um eine Adresse zu erfassen. Die Adressnummer wird automatisch vorgeschlagen, kann aber verändert werden.
+Der Knopf <span class="btn-lupo">Neuer Kunde</span> öffnet das Fenster um eine Adresse zu erfassen. Die Adressnummer wird automatisch vorgeschlagen, kann aber verändert werden.
 
 ![kunde-erfassen](../../images/kunde-erfassen.png)
 
 Ist das Kontrollkästchen **Nach dem Speichern der Adresse ein Abo lösen** aktiviert, so öffnet sich automatisch das **Abo lösen** Fenster.
 
-<span class="btn">Barcode drucken</span> wird angezeigt, wenn Sie die Barcodes mit dem Etiketten-Drucker ausdrucken.
+<span class="btn-lupo">Barcode drucken</span> wird angezeigt, wenn Sie die Barcodes mit dem Etiketten-Drucker ausdrucken.
 
 Das LUPO-Programm prüft während der Eingabe der Adresse ob ein Duplikat vorhanden ist. Stimmen Name, Vorname und Strasse mit einer bereits gespeicherten Adresse überein, so erscheint folgende Meldung:
 

@@ -21,9 +21,9 @@ Schreiben Sie am Anfang des Memos ein ! (Ausrufezeichen), um das Memo beim Aufru
 ! **Automatische Kundenmemos**  
 Beim Mahnen wird automatisch ein Memo geschrieben. Die kann in den Einstellungen deaktiviert werden.
 
-Der Knopf <span class="btn"> Kundengeschichte</span> zeigt alle Adressdetails und alle jemals vom Kunden ausgeliehenen Spiele an.
+Der Knopf <span class="btn-lupo"> Kundengeschichte</span> zeigt alle Adressdetails und alle jemals vom Kunden ausgeliehenen Spiele an.
 
-Mit <span class="btn"> Bon Drucken </span> wird ein Bon auf den Kassendrucker ausgegeben. Normalerweise muss dieser Knopf nicht gedrückt werden da der Bon automatisch beim Bezahlen ausgedruckt wird.
+Mit <span class="btn-lupo"> Bon Drucken </span> wird ein Bon auf den Kassendrucker ausgegeben. Normalerweise muss dieser Knopf nicht gedrückt werden da der Bon automatisch beim Bezahlen ausgedruckt wird.
 
 #### Brief drucken
 
@@ -33,7 +33,7 @@ Sie haben die Möglichkeit einen Brief mit den Ausleihen und optional den dazu a
 
 Um den Brieftext zu ändern muss in den **Briefeinstellungen** der Textkörper Quittung angepasst werden.
 
-Wird der Brieftext abgeändert speichert LUPO diesen und er wird beim nächsten Öffnen des Fensters wieder angezeigt. Mit <span class="btn">Standard-Texte laden</span> werden die in den Brief-Einstellungen definierten Texte geladen.
+Wird der Brieftext abgeändert speichert LUPO diesen und er wird beim nächsten Öffnen des Fensters wieder angezeigt. Mit <span class="btn-lupo">Standard-Texte laden</span> werden die in den Brief-Einstellungen definierten Texte geladen.
 
 #### Abonnement lösen
 

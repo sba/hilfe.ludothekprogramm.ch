@@ -16,7 +16,7 @@ Diese Funktionen sollten nur von erfahrenen LUPO- und Computerbenutzern verwende
 
 #### Alte Adressen löschen
 
-Mit dieser Funktion werden alle Adressen deren Abo-Enddatum kleiner als Ihre Eingabe ist auf den Status gelöscht gesetzt. Gelöschte Adressen können im Kunden-Fenster mit <span class="btn">Nur Gelöschte Adressen anzeigen</span> angezeigt und wieder aktiviert (wiederhergestellt) werden.
+Mit dieser Funktion werden alle Adressen deren Abo-Enddatum kleiner als Ihre Eingabe ist auf den Status gelöscht gesetzt. Gelöschte Adressen können im Kunden-Fenster mit <span class="btn-lupo">Nur Gelöschte Adressen anzeigen</span> angezeigt und wieder aktiviert (wiederhergestellt) werden.
 
 #### Adressen endgültig löschen
 
@@ -91,7 +91,7 @@ Scanner von Datalogic (Touch / QuickScan Mobile / Gryphon) können so programmie
 
 Mit dem Barcode-Handler kann das Verhalten von LUPO beim Verarbeiten von gescannten Barcodes definiert werden. Ist Freier Code gesetzt können x-beliebige Codes mit einem Kunden oder Spiel gepaart werden (z.B. der EAN Produktecode eines Spieles oder der Migros-Cumulus Strichcode zur Identifikation des Kunden). In diesem Modus muss der Barcodescanner so konfiguriert werden, dass neben dem $ auch noch das Zeichen X als Preamble gesendet wird.
 
-Der Knopf <span class="btn">Barcode Befehle</span> anzeigen druckt die verfügbaren Barcode-Befehle auf Etiketten im Format Zweckform 3664 (LUPO-Standardgrösse).
+Der Knopf <span class="btn-lupo">Barcode Befehle</span> anzeigen druckt die verfügbaren Barcode-Befehle auf Etiketten im Format Zweckform 3664 (LUPO-Standardgrösse).
 
 #### Bondrucker
 
@@ -99,7 +99,7 @@ Wird der Bondrucker synchron angesteuert (Syncmode=True), dann ist das LUPO wäh
 
 Wird von einem Computer ohne Bondrucker ein Bon gedruckt landet dieser in einer Warteschlange, welche vom PC mit angeschlossenem Bondrucker in einem bestimmten Intervall abgefragt wird. Bei einem kleinen Abfrageintervall (< 1000ms) kann das System spürbar träge werden, bei einem grossen Wert (>5000ms) dauert es zu lange vom Befehl zum Drucken des Bons bis zur tatsächlichen Ausgabe. Ein guter Wert ist 1500ms.
 
-Der Knopf <span class="btn">TEST-printout full ASCII</span> druckt einen Bon mit dem gesamten Zeichensatz des Bondruckers. Diese Funktion ist hilfreich wenn Sonderzeichen wie z.B. Umlaute falsch dargestellt werden.
+Der Knopf <span class="btn-lupo">TEST-printout full ASCII</span> druckt einen Bon mit dem gesamten Zeichensatz des Bondruckers. Diese Funktion ist hilfreich wenn Sonderzeichen wie z.B. Umlaute falsch dargestellt werden.
 
 Die **SetupPOS** Software für einen EPSON oder Bixolon Bondrucker kann durch Drücken des entsprechenden Knopfes gestartet werden. Eine detaillierte Anleitung zum Konfigurieren der OPOS-Druckertreiber entnehmen Sie bitte der separaten Anleitung.
 

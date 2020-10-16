@@ -1,4 +1,5 @@
 ---
+title: 'Allgemeine Einstellungen'
 taxonomy:
     category:
         - docs
@@ -11,7 +12,7 @@ content:
     pagination: true   
 ---
 
-# Pprogramm Einstellungen
+# Allgemeine Programmeinstellungen
 {% for p in page.collection %}
 <a href="{{p.url}}"><h5>{{ p.title }}</h5></a>
 {% endfor %}

@@ -1,5 +1,5 @@
 ---
-title: 'Spiele, Adressen und Mitarbeiter'
+title: 'Spiele und Adressen'
 taxonomy:
     category:
         - docs

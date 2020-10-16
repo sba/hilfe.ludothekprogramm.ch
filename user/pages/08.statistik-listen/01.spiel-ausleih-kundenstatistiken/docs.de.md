@@ -12,7 +12,4 @@ Dieses Fenster kann mit **Übersicht => Statistik und Listen** oder direkt aus d
 
 Diese Datumsspanne (Statistik von … bis …) gilt für die grün geschriebenen Statistiken (bei Ausleihen gilt das Ausleihdatum als Referenz)
 
-Markieren Sie das Kontrollkästchen für die Statistiken, welche Sie <span class="btn">Anzeigen</span> oder <span class="btn">Drucken</span> wollen.
-
-
-!!! Muster-Ausdrucke von Statistiken finden Sie im Anhang B.
+Markieren Sie das Kontrollkästchen für die Statistiken, welche Sie <span class="btn-lupo">Anzeigen</span> oder <span class="btn-lupo">Drucken</span> wollen.
