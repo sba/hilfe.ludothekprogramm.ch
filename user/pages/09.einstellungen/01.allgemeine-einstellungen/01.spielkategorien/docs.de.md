@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Die Allgemeinen Einstellungen erreichen Sie mit **Übersicht => Einstellungen => Programmeinstellungen**
+Die Allgemeinen Einstellungen erreichen Sie mit **Übersicht → Einstellungen → Programmeinstellungen**
 
 ! Alle folgenden Bildschirmfotos sind mit gedrücktem Knopf Erweiterte Optionen einblenden erstellt worden. Damit werden auch Einstellungsmöglichkeiten angezeigt, welche meistens nicht verändert werden müssen, da der Standardwert für fast alle Ludotheken zutrifft.
 

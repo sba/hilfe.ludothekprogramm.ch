@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Ein Klick auf den Menüpunkt Inhalt => Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
+Ein Klick auf den Menüpunkt Inhalt → Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
 
 ![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
 

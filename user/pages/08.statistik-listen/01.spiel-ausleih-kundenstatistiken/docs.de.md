@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Dieses Fenster kann mit **Übersicht => Statistik und Listen** oder direkt aus der Symbolleiste geöffnet werden. In der ersten Registerkarte des **Statistik** Fensters können Sie vordefinierte Statistiken und Listen ausdrucken. Die hinteren 6 Karten enthalten Listen, welche alle wesentlichen Felder der entsprechenden Tabelle zeigen.
+Dieses Fenster kann mit **Übersicht → Statistik und Listen** oder direkt aus der Symbolleiste geöffnet werden. In der ersten Registerkarte des **Statistik** Fensters können Sie vordefinierte Statistiken und Listen ausdrucken. Die hinteren 6 Karten enthalten Listen, welche alle wesentlichen Felder der entsprechenden Tabelle zeigen.
 
 ![statistik-und-listen](../../images/statistik-und-listen.png)
 

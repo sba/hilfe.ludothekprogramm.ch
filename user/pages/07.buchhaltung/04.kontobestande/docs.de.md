@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung => Kontobestände** öffnen.
+Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Kontobestände** öffnen.
 
 ![kontobestaende](../../images/kontobestaende.png)
 
@@ -32,7 +32,7 @@ Wechselt zum Fenster Tagesabschluss.
 
 #### Banana-Export
 
-Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten => Zeilen importieren eingelesen werden.
+Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden.
 
 Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
 

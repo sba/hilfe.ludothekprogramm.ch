@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Die Registrierungsinformationen können Sie mit dem Übersichtsbefehl **Einstellungen => Registrierung** anzeigen.
+Die Registrierungsinformationen können Sie mit dem Übersichtsbefehl **Einstellungen → Registrierung** anzeigen.
 
 ![lupo-registration](../../images/lupo-registration.png)
 

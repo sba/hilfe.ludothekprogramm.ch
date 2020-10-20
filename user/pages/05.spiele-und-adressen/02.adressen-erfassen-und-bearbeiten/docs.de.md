@@ -53,7 +53,7 @@ In dieses Feld können die Kinder mit Vorname und Geburtsdatum / Jahrgang oder d
 
 
 ! **Einstellung**  
-! Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen => Diverses** ausgeblendet werden.
+! Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen → Diverses** ausgeblendet werden.
 
 #### Neue Adresse
 

@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das Fenster **Buchungstexte** können Sie mit **Übersicht => Buchhaltung => Buchungstexte bearbeiten** öffnen. Diese Buchungstexte sind die Auswahlmöglichkeiten in den **Buchen – Fenster** (Spiele ausleihen und zurücknehmen und Einzelbuchungen (manuell buchen)).
+Das Fenster **Buchungstexte** können Sie mit **Übersicht → Buchhaltung → Buchungstexte bearbeiten** öffnen. Diese Buchungstexte sind die Auswahlmöglichkeiten in den **Buchen – Fenster** (Spiele ausleihen und zurücknehmen und Einzelbuchungen (manuell buchen)).
 
 ![buchungstexte-generieren](../../images/buchungstexte-generieren.png)
 

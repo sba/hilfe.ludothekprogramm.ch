@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Öffnen Sie dieses Fenster mit **Übersicht => Adressen, Spiele und Mitarbeiter => Mitarbeiter**
+Öffnen Sie dieses Fenster mit **Übersicht → Adressen, Spiele und Mitarbeiter → Mitarbeiter**
 
 ![mitarbeiter-ein-austritte](../../images/mitarbeiter-ein-austritte.png)
 

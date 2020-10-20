@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das **Mitarbeiter Arbeitszeiten** Fenster kann mit dem Übersichtsbefehl **Übersicht => Adressen, Spiele und Mitarbeiter => Arbeitszeiten** geöffnet werden.
+Das **Mitarbeiter Arbeitszeiten** Fenster kann mit dem Übersichtsbefehl **Übersicht → Adressen, Spiele und Mitarbeiter → Arbeitszeiten** geöffnet werden.
 
 ![mitarbeiter-arbeitszeiten](../../images/mitarbeiter-arbeitszeiten.png)
 

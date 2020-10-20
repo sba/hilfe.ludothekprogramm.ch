@@ -24,6 +24,6 @@ Die Spielgebühr wird dem Ausleihkonto verrechnet, ist dieses leer **(Null)**, d
 
 Klicken Sie auf <span class="btn-lupo">Spezielle Verlängerungen</span> um weitere Optionen zur Verlängerung anzuzeigen. Um eine spezielle Verlängerung anzuwenden, verwenden Sie den entsprechenden Knopf.
 
-!!! Beachten Sie auch Möglichkeiten in den **Einstellungen => Ausleihen**. Je nach Konfiguration wird das neue Rückgabedatum aus dem alten + 28 Tage berechnet oder es wird das aktuell eingestellte Stempeldatum verwendet.
+!!! Beachten Sie auch Möglichkeiten in den **Einstellungen → Ausleihen**. Je nach Konfiguration wird das neue Rückgabedatum aus dem alten + 28 Tage berechnet oder es wird das aktuell eingestellte Stempeldatum verwendet.
 
 Wenn Sie ein Spiel nur für wenige Tage verlängern wollen, können Sie dies auch über die Funktion **Rückgabedatum manuell ändern** tun. Dabei wird dem Kunden keine Gebühr verrechnet.

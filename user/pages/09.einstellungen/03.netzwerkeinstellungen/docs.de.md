@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellungen => Netzwerkeinstellungen**. Falls Sie mit zwei Computern arbeiten, muss der eine PC über das Netzwerk auf die Daten des anderen Computers zugreifen. Vorzugsweise sollten die Daten auf dem Ausleih-Computer gespeichert sein.
+In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellungen → Netzwerkeinstellungen**. Falls Sie mit zwei Computern arbeiten, muss der eine PC über das Netzwerk auf die Daten des anderen Computers zugreifen. Vorzugsweise sollten die Daten auf dem Ausleih-Computer gespeichert sein.
 
 #### Einstellung auf dem Ausleih-PC (Server)
 

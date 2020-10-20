@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung => Konto-Auswertung** öffnen.
+Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung → Konto-Auswertung** öffnen.
 
 ![konto-auswertungen](../../images/konto-auswertungen.png)
 

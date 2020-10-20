@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das **Spielinhalt Drucken** Fenster kann über die **Übersicht => Drucken => Spielinhalt drucken** geöffnet werden.
+Das **Spielinhalt Drucken** Fenster kann über die **Übersicht → Drucken → Spielinhalt drucken** geöffnet werden.
 
 ![spielinhalt-drucken](../../images/spielinhalt-drucken.png)
 

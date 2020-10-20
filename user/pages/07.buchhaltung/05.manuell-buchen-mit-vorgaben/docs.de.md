@@ -6,13 +6,13 @@ taxonomy:
 visible: true
 ---
 
-Das **Einzelbuchung** Fenster können Sie mit **Übersicht => Buchhaltung => Manuell buchen** öffnen.
+Das **Einzelbuchung** Fenster können Sie mit **Übersicht → Buchhaltung → Manuell buchen** öffnen.
 
 ![einzelbuchung-erfassen](../../images/einzelbuchung-erfassen.png)
 
 #### Buchung
 
-Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht => Buchhaltung => Buchungstexte bearbeiten** erstellt oder bearbeitet werden.
+Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht → Buchhaltung → Buchungstexte bearbeiten** erstellt oder bearbeitet werden.
 
 #### Buchung betrifft
 

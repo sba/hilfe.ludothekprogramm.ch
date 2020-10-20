@@ -19,8 +19,8 @@ In der Liste werden verschiedene Farben angezeigt:
 | Seit 2 Tagen |  Das Spiel ist in der Ludothek und abholbereit |  
 | Reserviert ab [Datum] |  Wenn die Reservation nicht ab einem Datum sondern ab sofort gilt |  
 | Reserviert ab [Datum] |  Das Datum liegt in der Vergangenheit, das Spiel ist verspätet |  
-| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen => Kunde informieren |  
-| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen => Kunde ist informiert | 
+| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen → Kunde informieren |  
+| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen → Kunde ist informiert | 
 
 Die Funktionen zum Kunden und die Spiel-Reservationen links im Navigationsbereich sind abhängig von der in der Liste ausgewählten Reservation.
 
