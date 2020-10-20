@@ -70,7 +70,7 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 
 #### LUPO-Einstellungen
 
-Unter **Übersicht --> Einstellungen --> Programmeinstellungen** bei Spiel-Barcode den entsprechenden Etikettentyp sowie die Label-Datei wählen:
+Unter **Übersicht → Einstellungen → Programmeinstellungen** bei Spiel-Barcode den entsprechenden Etikettentyp sowie die Label-Datei wählen:
 
 ![einstellungen](../../images/einstellungen.png)
 

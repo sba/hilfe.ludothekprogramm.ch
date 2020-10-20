@@ -28,7 +28,8 @@ Falls bereits eine aktuelle LUPO-Version installiert ist, dann kann das Programm
 
 #### Druckertreiber konfigurieren
 
-Nach erfolgreicher Installation muss der Bondrucker konfiguriert werden. Starten Sie dazu das Programm **SetupPOS**( __ -Taste drücken, dann **SetupPOS** schreiben / suchen
+Nach erfolgreicher Installation muss der Bondrucker konfiguriert werden. Starten Sie dazu das Programm **SetupPOS** 
+(Windows-Taste <kbd>⊞</kbd> drücken, dann **SetupPOS** schreiben / suchen)
 
 ![drucktreiber_konfigurieren](../../images/drucktreiber_konfigurieren.png)
 
@@ -42,15 +43,18 @@ Mit einem Klick auf das Symbol ganz links (Add New Device) öffnet sich folgende
 
 ![druckmodell_testen](../../images/druckmodell_testen.png)
 
-4. **Drucker testen.** <span class="btn-lupo">CheckHealth Interactive</span> öffnet ein Fenster zum Testen des Druckers. Werden beim Klicken auf **Start** einige Zeilen gedruckt, so ist der Druckertreiber korrekt installiert.
+4. **Drucker testen.** <span class="btn-lupo">CheckHealth Interactive</span> öffnet ein Fenster zum Testen des Druckers. Werden beim Klicken auf <span class="btn-lupo">Start</span> einige Zeilen gedruckt, so ist der Druckertreiber korrekt installiert.
 
-Wenn bei TMPORT Settings „(none)" steht, dann muss ein Port ausgewählt werden oder mit <span class="btn-lupo">Make Port</span> ein neuer erstellt werden. Mit <span class="btn-lupo">Finish</span> wird die Installation abgeschlossen.
+!! Wenn bei TMPORT Settings „(none)" steht, dann muss ein Port ausgewählt werden oder mit <span class="btn-lupo">Make Port</span> ein neuer erstellt werden. 
+
+5. Mit <span class="btn-lupo">Finish</span> wird die Installation abgeschlossen.
+
 
 #### LUPO konfigurieren
 
-Nach der Installation und Konfiguration des Druckertreibers muss im LUPO unter **Übersicht --> Einstellungen --> Programmeinstellungen** noch das Druckermodell bestimmt werden. Wählen Sie dazu im Auswahlfeld POS-Printer Ihr Bondruckermodell (TM-U220D, TM-T88III, TM-T88IV, TM-T20 oder TM-T20II) aus.
+Nach der Installation und Konfiguration des Druckertreibers muss im LUPO bei den [Bondrucker-Programmeinstellungen](/einstellungen/allgemeine-einstellungen/bondrucker) noch das Druckermodell bestimmt werden. Wählen Sie dazu im Auswahlfeld POS-Printer Ihr Bondruckermodell (TM-U220D, TM-T88III, TM-T88IV, TM-T20, TM-T20II oder TM-T20III) aus.
 
-![lupo_drucker_konfigurieren](../../images/lupo_drucker_konfigurieren.png)
+![lupo_drucker_konfigurieren](../../images/bondrucker.png)
 
 Wenn im Netzwerk gearbeitet wird muss auf dem PC mit angeschlossenem Bondrucker das Häkchen An diesem Computer ist ein Bondrucker angeschlossen aktiviert sein. Die Option Drucken via Netzwerk aktivieren muss auf beiden Computern aktiviert sein. Der Druckertreiber (Setup-POS) muss nur auf dem PC, an welchem der Bondrucker angeschlossen ist, installiert werden.
 
