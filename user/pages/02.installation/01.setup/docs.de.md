@@ -24,9 +24,11 @@ Zusammen mit LUPO kann optional auch die Software für EPSON Bondrucker (detaill
 
 | Ordner | Funktion |
 | ------ | ----------- |
-|C:\Lupo12 | Das Programmverzeichnis: Hier sind alle von LUPO benötigen Dateien gespeichert. |
+|C:\Lupo{{LUPO_VERSION_SHORT}} | Das Programmverzeichnis: Hier sind alle von LUPO benötigen Dateien gespeichert. |
 |C:\Lupo_Daten | Das Datenverzeichnis mit Ihren persönlichen Daten: Die Datenbank mit den Adressen, Ausleihen, Spielen usw. {{LupoXX_Daten.accdb}} und die Logo-Dateien sind hier gespeichert. |
 |C:\Lupo_Daten\Spiele-Fotos | Im diesem Unterordner werden die Fotos der Spiele gespeichert |
+|C:\Lupo_Daten\Spiele-Fotos-Web | Im diesem Unterordner werden die alternativen Fotos für die Webseite gespeichert |
+|C:\Lupo_Daten\Spielanleitungen | Im diesem Unterordner werden die Spielanleitungen (z.B. pdf) gespeichert |
 
 
 

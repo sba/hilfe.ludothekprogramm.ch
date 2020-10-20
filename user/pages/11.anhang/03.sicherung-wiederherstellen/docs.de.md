@@ -12,11 +12,11 @@ Die Datensicherung kann nicht direkt aus LUPO zurück gelesen werden. Auf diese 
 
 ![lupo-backup](../../images/lupo-backup.png)
 
-Falls die LUPO-Einstellung Jeder Sicherung einen anderen Namen geben aktiviert ist, wird die Sicherungsdatei mit dem Datum und der Uhrzeit im Dateinamen abgespeichert. Solche Dateien haben auf der Festplatte oder dem USB-Stick Dateinamen wie **LupoSave2015-02-10_15-31.rar**
+Falls die LUPO-Einstellung Jeder Sicherung einen anderen Namen geben aktiviert ist, wird die Sicherungsdatei mit dem Datum und der Uhrzeit im Dateinamen abgespeichert. Solche Dateien haben auf der Festplatte oder dem USB-Stick Dateinamen wie **LupoSave{{LUPO_VERSION_YEAR}}-02-10_15-31.rar**
 
 Der erste Button (USB-Stick) öffnet den im LUPO als externes Speichermedium definierter Pfad.
 
-Der zweite Knopf (Smiley) öffnet das lokale Standard-Backupverzeichnis **C:Lupo8Backup**.
+Der zweite Knopf (Smiley) öffnet das lokale Standard-Backupverzeichnis **C:\Lupo{{LUPO_VERSION_SHORT}}\Backup**.
 
 Mit dem dritten Knopf (Ordner) wird das Fenster zur Auswahl eines Ordners angezeigt. Wählen Sie z.B. unter „Arbeitsplatz" den USB-Speicherstick mit Ihren Sicherungen.
 

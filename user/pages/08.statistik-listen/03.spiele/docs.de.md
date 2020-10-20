@@ -41,6 +41,6 @@ Um nicht alle Spiele anzuzeigen können Filter gesetzt werden. Bei den Feldern A
 
 ### Spielausleihen für Statistik nachbuchen
 
-Hier können Ausleihen, welche vor der LUPO-Zeit getätigt wurden nachgebucht werden, so dass die Anzahl Ausleihen und Gebühreneinnahmen eines Spieles stimmen. Tragen Sie die Spielnummer ein, mit **[Tab]** zum Feld Anzahl Ausleihen springen, dann mit <kbd>Enter</kbd> Ausleihen.
+Hier können Ausleihen, welche vor der LUPO-Zeit getätigt wurden nachgebucht werden, so dass die Anzahl Ausleihen und Gebühreneinnahmen eines Spieles stimmen. Tragen Sie die Spielnummer ein, mit <kbd>Tab</kbd> zum Feld Anzahl Ausleihen springen, dann mit <kbd>Enter</kbd> Ausleihen.
 
 ![statistik-nachbuchen](../../images/statistik-nachbuchen.png)

@@ -63,7 +63,7 @@ Beim Erfassen einer neuen Adresse wird automatisch die nächst Grösste Nummer v
 
 Adressen können gelöscht bzw. deaktiviert werden. Wenn Sie eine Adresse löschen, verschwindet diese aus allen Adresslisten. Sie wird aber nur komplett aus der Datenbank gelöscht, wenn mit dieser Adresse nie ein Spiel ausgeliehen wurde, ansonsten wird die Adresse nur versteckt (aus statistischen Gründen).
 
-Versteckte Adressen können Sie anzeigen, indem Sie den Knopf <span class="btn-lupo">Nur gelöschte Adressen anzeigen</span> unterhalb der Suchliste drücken. Um die Adresse wiederherzustellen drücken Sie den Knopf <span class="btn-lupo">Adresse wiederherstellen</span>.
+Versteckte Adressen können Sie anzeigen, indem Sie den Knopf <span class="btn-lupo">Nur&nbsp;gelöschte&nbsp;Adressen&nbsp;anzeigen</span> unterhalb der Suchliste drücken. Um die Adresse wiederherzustellen drücken Sie den Knopf <span class="btn-lupo">Adresse&nbsp;wiederherstellen</span>.
 
 #### Adressen endgültig löschen
 
