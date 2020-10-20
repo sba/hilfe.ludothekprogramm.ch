@@ -11,7 +11,7 @@ Jeder Kunde hat zwei Konten, ein Kundenkonto und ein Ausleihkonto. Das Geld auf 
 ![kontostand](../../images/kontostand.png)
 
 ! **Einstellung**  
-! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen → Wertkarte** ein- bzw. ausgeblendet werden.
+! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen → [Wertkarte](/einstellungen/allgemeine-einstellungen/wertkarte-vorauszahlungen#meldung-gutschriftenkonto-aufgebraucht)** ein- bzw. ausgeblendet werden.
 
 ### Kunde bezahlt
 
@@ -41,7 +41,7 @@ Um dem Kunden eine Gutschrift zu machen, wählen Sie im Auswahlfeld rechts des B
 <span class="btn-lupo">Buchen</span> speichert die Buchung und verrechnet den Betrag dem Kunden. Der Buchungstext kann automatisch ins Kundenmemo übertragen werden.
 
 ! **Einstellung**  
-! Die Buchungs-Vorgaben können im Fenster **Übersicht → Buchhaltung → Buchungstexte** bearbeiten definiert werden.
+! Die Buchungs-Vorgaben können im Fenster **Übersicht → Buchhaltung → [Buchungstexte](/buchhaltung/buchungstexte-bearbeiten#buchungstext)** bearbeiten definiert werden.
 
 ### Liste aller Buchungen
 
@@ -91,6 +91,6 @@ Drücken Sie Gutschein einlösen um dem Kunden eine Gutschrift auf sein Ausleihk
 
 Sie haben (z.B. am Weihnachtsmarkt) 12 Karten als Geschenk verkauft, Sie wissen also noch nicht wer die Gutschrift einlöst. Wenn Sie diese Einnahmen in die Tageskasse legen müssen Sie das Geld auch verbuchen.
 
-Öffnen Sie dazu das Fenster **Übersicht → Buchhaltung → Einzelbuchung (mit Vorgaben)** und führen Sie folgende Buchung durch.
+Öffnen Sie dazu das Fenster **Übersicht → Buchhaltung → [Einzelbuchung (mit Vorgaben)](/buchhaltung/manuell-buchen-mit-vorgaben)** und führen Sie folgende Buchung durch.
 
 ![einzelbuchung](../../images/einzelbuchung.png)

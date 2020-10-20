@@ -38,8 +38,6 @@ Mit aktivierter Option Bei aktiven Kunden das bestehende Abo um exakt ein Jahr v
 
 Falls Kunden den Jahresbeitrag per Einzahlungsschein bezahlen und bei der Ausleihe die Quittung vorweisen können Sie ein Abo lösen ohne den Betrag in die Tageskasse zu buchen. Damit die Buchhaltung stimmt müssen die Einnahmen der per Überweisung bezahlten Abos manuell gebucht werden.
 
-![beitraege-abos](../../../images/beitraege-abos.png)
-
 #### Abokarte nach Verkauf automatisch drucken
 
 Mit dieser Option ist das Häkchen Nach dem Lösen Abokarte drucken im Abo-Fenster gesetzt. Bei DYMO LabelWriter Etiketten und bei der A4-Abokarte wird der Druck sofort gestartet, bei den anderen Etiketten wird der Kunde der Abokarten-Druckliste hinzugefügt.

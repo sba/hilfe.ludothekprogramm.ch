@@ -8,7 +8,7 @@ visible: true
 
 !!! Der Windows-Benutzer, mit welchem LUPO später verwendet wird, muss während der Installation über Administrator-Rechte verfügen.
 
-Starten Sie die Datei **Setup_Lupo2019_de.exe** um mit der Installation zu beginnen. Falls die Windows Benutzerkontensteuerung nachfragt, ob die Software installiert werden soll, beantworten Sie dies mit Ja. Folgen Sie nun den Anweisungen des Setup-Assistenten, welcher sie durch die Installation führen wird.
+Starten Sie die Datei **{{Setup_LupoXXXX_YY.exe}}** um mit der Installation zu beginnen. Falls die Windows Benutzerkontensteuerung nachfragt, ob die Software installiert werden soll, beantworten Sie dies mit Ja. Folgen Sie nun den Anweisungen des Setup-Assistenten, welcher sie durch die Installation führen wird.
 
 ![Install](../../images/install-welcome.png)
 
@@ -25,7 +25,7 @@ Zusammen mit LUPO kann optional auch die Software für EPSON Bondrucker (detaill
 | Ordner | Funktion |
 | ------ | ----------- |
 |C:\Lupo12 | Das Programmverzeichnis: Hier sind alle von LUPO benötigen Dateien gespeichert. |
-|C:\Lupo_Daten | Das Datenverzeichnis mit Ihren persönlichen Daten: Die Datenbank mit den Adressen, Ausleihen, Spielen usw. (Lupo12_Daten.accdb) und die Logo-Dateien sind hier gespeichert. |
+|C:\Lupo_Daten | Das Datenverzeichnis mit Ihren persönlichen Daten: Die Datenbank mit den Adressen, Ausleihen, Spielen usw. {{LupoXX_Daten.accdb}} und die Logo-Dateien sind hier gespeichert. |
 |C:\Lupo_Daten\Spiele-Fotos | Im diesem Unterordner werden die Fotos der Spiele gespeichert |
 
 

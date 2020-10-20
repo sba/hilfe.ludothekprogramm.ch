@@ -12,7 +12,7 @@ Das **Einzelbuchung** Fenster können Sie mit **Übersicht → Buchhaltung → M
 
 #### Buchung
 
-Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht → Buchhaltung → Buchungstexte bearbeiten** erstellt oder bearbeitet werden.
+Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht → Buchhaltung → [Buchungstexte bearbeiten](/buchhaltung/buchungstexte-bearbeiten)** erstellt oder bearbeitet werden.
 
 #### Buchung betrifft
 

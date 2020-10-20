@@ -56,8 +56,8 @@ Wenn die Kasse nicht stimmt (es ist zu viel oder zu wenig Geld in der Kasse) kan
 
 #### Speichern
 
-Die Tagesabschlussbuchung wird durchgeführt. Wenn das Häkchen Tagesjournal nach dem Buchen drucken gesetzt ist, werden so viele Exemplare wie in den Einstellungen → Diverses definiert sind auf den Drucker ausgegeben.
+Die Tagesabschlussbuchung wird durchgeführt. Wenn das Häkchen Tagesjournal nach dem Buchen drucken gesetzt ist, werden so viele Exemplare wie in den Einstellungen → [Diverses](/einstellungen/allgemeine-einstellungen/diverses) definiert sind auf den Drucker ausgegeben.
 
-!
-**Einstellung**  
-Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstellungen → Diverses** angepasst werden.
+
+! **Einstellung**  
+! Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstellungen → [Diverses](/einstellungen/allgemeine-einstellungen/diverses)** angepasst werden.
