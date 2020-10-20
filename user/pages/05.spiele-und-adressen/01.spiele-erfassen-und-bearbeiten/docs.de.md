@@ -72,7 +72,7 @@ Wenn Sie Spiele wie Backförmli, Zinngiessfiguren oder ähnliches haben, muss ni
 
 #### ProLitteris
 
-Das schweizerische Urheberrechts-gesetz (URG) verlangt die Abgabe eines Teils der von den Benützern bezahlten Entgelte. Davon betroffen sind die Einnahmen aus Ausleihen von Ton- und Tonbildträger sowie Büchern. Bei ProLitteris pflichtigen Spielen wir bei jeder Ausleihe der abgabepflichtige Teil (12%) der Spielgebühr berechnet. (Nachträgliches Berechnen unter **Einstellungen => ProLitteris** möglich)
+Das schweizerische Urheberrechts-gesetz (URG) verlangt die Abgabe eines Teils der von den Benützern bezahlten Entgelte. Davon betroffen sind die Einnahmen aus Ausleihen von Ton- und Tonbildträger sowie Büchern. Bei ProLitteris pflichtigen Spielen wir bei jeder Ausleihe der abgabepflichtige Teil (12%) der Spielgebühr berechnet. (Nachträgliches Berechnen unter **Einstellungen → ProLitteris** möglich)
 
 #### Nicht exportieren
 
@@ -110,7 +110,7 @@ Zu jedem Spiel kann eine Bilddatei hinterlegt werden. Es ist erlaubt grosse Date
 
 ![bild](../../images/bild.png)
 
-Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste => Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
+Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste → Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
 
 #### Jedem Spielkind kann zugeordnet werden:
 

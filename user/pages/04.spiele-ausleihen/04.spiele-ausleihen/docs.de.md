@@ -15,7 +15,7 @@ Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf de
 Falls Sie mit Barcodes arbeiten kann beim Einscannen irgendein Feld im Ausleihfenster aktiv sein. Der Cursor muss vor dem Scannen nicht in das Spiel-Suchfeld gesetzt werden.
 
 ! **Verhalten der Enter-Taste**  
-! Ob Spiele mit <kbd>Enter</kbd> ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen => Ausleihen => Spiele Ausleihen / Zurücknehmen** definiert werden.
+! Ob Spiele mit <kbd>Enter</kbd> ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen → Ausleihen → Spiele Ausleihen / Zurücknehmen** definiert werden.
 
 #### Einschränkung Anzahl Spiele
 

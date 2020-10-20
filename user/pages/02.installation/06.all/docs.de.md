@@ -1,6 +1,4 @@
 ---
-#ALLES
----
 title: ALLES
 taxonomy:
     category:
@@ -12,6 +10,8 @@ process:
 content:
     items: '@self.siblings'
 ---
+
+
 
 # LUPO Online-Hilfe
 
@@ -512,7 +512,7 @@ Das **Spiele ausleihen und zurücknehmen** Fenster können Sie mit der Übersich
 
 #### Rückgabedatum bestimmen (Stempeldatum)
 
-Die Spiele, welche Sie ausleihen, erhalten das im Feld Aktuelles Rückgabedatum eingetragene Datum. Das Rückgabedatum wird standardmässig auf **[heute] + [Anzahl eingestellte Tage]** vorgeschlagen. Die Anzahl der vorgeschlagenen Ausleihtage können Sie in den **Einstellungen => Ausleihen** ändern. Sie können das vorgeschlagene Rückgabedatum auf ein x-beliebiges Datum ändern. Doppelklicken Sie auf das Datum um den **Kalender** zu öffnen.
+Die Spiele, welche Sie ausleihen, erhalten das im Feld Aktuelles Rückgabedatum eingetragene Datum. Das Rückgabedatum wird standardmässig auf **[heute] + [Anzahl eingestellte Tage]** vorgeschlagen. Die Anzahl der vorgeschlagenen Ausleihtage können Sie in den **Einstellungen → Ausleihen** ändern. Sie können das vorgeschlagene Rückgabedatum auf ein x-beliebiges Datum ändern. Doppelklicken Sie auf das Datum um den **Kalender** zu öffnen.
 
 Unter dem Rückgabedatum werden die Anzahl Spiele angezeigt, welche heute ausgeliehen wurden. In der zweiten Zeile bei Rückgabedatum heute wird die Summe der Spiele, welche theoretisch am heutigen Tag zurückgebracht werden angezeigt.
 
@@ -670,7 +670,7 @@ Leiht das in das Spielnummerfeld eingetragene Spiel aus. Klicken Sie dazu auf de
 Falls Sie mit Barcodes arbeiten kann beim Einscannen irgendein Feld im Ausleihfenster aktiv sein. Der Cursor muss vor dem Scannen nicht in das Spiel-Suchfeld gesetzt werden.
 
 ! **Verhalten der Enter-Taste**  
-! Ob Spiele mit <kbd>Enter</kbd> ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen => Ausleihen => Spiele Ausleihen / Zurücknehmen** definiert werden.
+! Ob Spiele mit <kbd>Enter</kbd> ausgeliehen oder zurückgenommen oder immer ausgeliehen werden kann unter **Einstellungen → Ausleihen → Spiele Ausleihen / Zurücknehmen** definiert werden.
 
 #### Einschränkung Anzahl Spiele
 
@@ -727,7 +727,7 @@ Ist das Spiel an einen anderen Kunden als dem aktuell angezeigten ausgeliehen so
 ![spielruecknahme-auswahl](../../images/spielruecknahme-auswahl.png)
 
   
-! Wenn Sie die Spielnummer in das Spielnummernfeld eingetragen haben drücken Sie <kbd>Enter</kbd>. Je nachdem ob das Spiel ausgeliehen oder in der Ludo liegt wird durch <kbd>Enter</kbd> der Ausleihen oder der Zurücknehmen Button betätigt. (Gilt nur, wenn in den Einstellungen unter **Einstellungen => Ausleihen => Erweitere Ausleiheinstellungen** die <kbd>Enter</kbd>-Taste zum Zurücknehmen von Spielen erlaubt ist.)
+! Wenn Sie die Spielnummer in das Spielnummernfeld eingetragen haben drücken Sie <kbd>Enter</kbd>. Je nachdem ob das Spiel ausgeliehen oder in der Ludo liegt wird durch <kbd>Enter</kbd> der Ausleihen oder der Zurücknehmen Button betätigt. (Gilt nur, wenn in den Einstellungen unter **Einstellungen → Ausleihen → Erweitere Ausleiheinstellungen** die <kbd>Enter</kbd>-Taste zum Zurücknehmen von Spielen erlaubt ist.)
 
 #### Häkchen „Gebühr zurückerstatten"
 
@@ -771,7 +771,7 @@ Die Spielgebühr wird dem Ausleihkonto verrechnet, ist dieses leer **(Null)**, d
 
 Klicken Sie auf <span class="btn-lupo">Spezielle Verlängerungen</span> um weitere Optionen zur Verlängerung anzuzeigen. Um eine spezielle Verlängerung anzuwenden, verwenden Sie den entsprechenden Knopf.
 
-!!! Beachten Sie auch Möglichkeiten in den **Einstellungen => Ausleihen**. Je nach Konfiguration wird das neue Rückgabedatum aus dem alten + 28 Tage berechnet oder es wird das aktuell eingestellte Stempeldatum verwendet.
+!!! Beachten Sie auch Möglichkeiten in den **Einstellungen → Ausleihen**. Je nach Konfiguration wird das neue Rückgabedatum aus dem alten + 28 Tage berechnet oder es wird das aktuell eingestellte Stempeldatum verwendet.
 
 Wenn Sie ein Spiel nur für wenige Tage verlängern wollen, können Sie dies auch über die Funktion **Rückgabedatum manuell ändern** tun. Dabei wird dem Kunden keine Gebühr verrechnet.
 
@@ -819,7 +819,7 @@ Sobald ein reserviertes Spiel eintrifft, erscheint eine Meldung auf dem Bildschi
 
 ![reserviertes-spiel-eingetroffen](../../images/reserviertes-spiel-eingetroffen.png)
 
-Wenn Sie diese Meldung mit Ja bestätigen kann ab jetzt der Mitteilungsbrief (Spiel ist eingetroffen) an den Kunden gedruckt werden. Das Spiel gilt als so lange reserviert, wie in den **Einstellungen => Ausleihen** eingetragen ist.
+Wenn Sie diese Meldung mit Ja bestätigen kann ab jetzt der Mitteilungsbrief (Spiel ist eingetroffen) an den Kunden gedruckt werden. Das Spiel gilt als so lange reserviert, wie in den **Einstellungen → Ausleihen** eingetragen ist.
 
 Falls ein Bondrucker angeschlossen ist, kann ein jetzt ein Bon mit Informationen zur Spielreservation ausgedruckt und am Spiel befestigt werden.
 
@@ -838,7 +838,7 @@ Jeder Kunde hat zwei Konten, ein Kundenkonto und ein Ausleihkonto. Das Geld auf 
 ![kontostand](../../images/kontostand.png)
 
 ! **Einstellung**  
-! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen => Wertkarte** ein- bzw. ausgeblendet werden.
+! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen → Wertkarte** ein- bzw. ausgeblendet werden.
 
 ### Kunde bezahlt
 
@@ -868,7 +868,7 @@ Um dem Kunden eine Gutschrift zu machen, wählen Sie im Auswahlfeld rechts des B
 <span class="btn-lupo">Buchen</span> speichert die Buchung und verrechnet den Betrag dem Kunden. Der Buchungstext kann automatisch ins Kundenmemo übertragen werden.
 
 ! **Einstellung**  
-! Die Buchungs-Vorgaben können im Fenster **Übersicht => Buchhaltung => Buchungstexte** bearbeiten definiert werden.
+! Die Buchungs-Vorgaben können im Fenster **Übersicht → Buchhaltung → Buchungstexte** bearbeiten definiert werden.
 
 ### Liste aller Buchungen
 
@@ -918,7 +918,7 @@ Drücken Sie Gutschein einlösen um dem Kunden eine Gutschrift auf sein Ausleihk
 
 Sie haben (z.B. am Weihnachtsmarkt) 12 Karten als Geschenk verkauft, Sie wissen also noch nicht wer die Gutschrift einlöst. Wenn Sie diese Einnahmen in die Tageskasse legen müssen Sie das Geld auch verbuchen.
 
-Öffnen Sie dazu das Fenster **Übersicht => Buchhaltung => Einzelbuchung (mit Vorgaben)** und führen Sie folgende Buchung durch.
+Öffnen Sie dazu das Fenster **Übersicht → Buchhaltung → Einzelbuchung (mit Vorgaben)** und führen Sie folgende Buchung durch.
 
 ![einzelbuchung](../../images/einzelbuchung.png)
 
@@ -1007,7 +1007,7 @@ Wenn Sie Spiele wie Backförmli, Zinngiessfiguren oder ähnliches haben, muss ni
 
 #### ProLitteris
 
-Das schweizerische Urheberrechts-gesetz (URG) verlangt die Abgabe eines Teils der von den Benützern bezahlten Entgelte. Davon betroffen sind die Einnahmen aus Ausleihen von Ton- und Tonbildträger sowie Büchern. Bei ProLitteris pflichtigen Spielen wir bei jeder Ausleihe der abgabepflichtige Teil (12%) der Spielgebühr berechnet. (Nachträgliches Berechnen unter **Einstellungen => ProLitteris** möglich)
+Das schweizerische Urheberrechts-gesetz (URG) verlangt die Abgabe eines Teils der von den Benützern bezahlten Entgelte. Davon betroffen sind die Einnahmen aus Ausleihen von Ton- und Tonbildträger sowie Büchern. Bei ProLitteris pflichtigen Spielen wir bei jeder Ausleihe der abgabepflichtige Teil (12%) der Spielgebühr berechnet. (Nachträgliches Berechnen unter **Einstellungen → ProLitteris** möglich)
 
 #### Nicht exportieren
 
@@ -1045,7 +1045,7 @@ Zu jedem Spiel kann eine Bilddatei hinterlegt werden. Es ist erlaubt grosse Date
 
 ![bild](../../images/bild.png)
 
-Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste => Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
+Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste → Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
 
 #### Jedem Spielkind kann zugeordnet werden:
 
@@ -1181,7 +1181,7 @@ In dieses Feld können die Kinder mit Vorname und Geburtsdatum / Jahrgang oder d
 
 
 ! **Einstellung**  
-! Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen => Diverses** ausgeblendet werden.
+! Falls Sie die Kinder der Familie nicht erfassen möchten, so kann diese Tabelle unter **Einstellungen → Diverses** ausgeblendet werden.
 
 #### Neue Adresse
 
@@ -1211,7 +1211,7 @@ Wenn Sie eine Adresse erfassen und Name, Vorname und Strasse der neuen Adresse i
 
 ---
 
-Öffnen Sie dieses Fenster mit **Übersicht => Adressen, Spiele und Mitarbeiter => Mitarbeiter**
+Öffnen Sie dieses Fenster mit **Übersicht → Adressen, Spiele und Mitarbeiter → Mitarbeiter**
 
 ![mitarbeiter-ein-austritte](../../images/mitarbeiter-ein-austritte.png)
 
@@ -1231,7 +1231,7 @@ Um einen Eintrag zu löschen den Datensatz markieren und mit **[Delete]** lösch
 
 ---
 
-Das **Mitarbeiter Arbeitszeiten** Fenster kann mit dem Übersichtsbefehl **Übersicht => Adressen, Spiele und Mitarbeiter => Arbeitszeiten** geöffnet werden.
+Das **Mitarbeiter Arbeitszeiten** Fenster kann mit dem Übersichtsbefehl **Übersicht → Adressen, Spiele und Mitarbeiter → Arbeitszeiten** geöffnet werden.
 
 ![mitarbeiter-arbeitszeiten](../../images/mitarbeiter-arbeitszeiten.png)
 
@@ -1263,7 +1263,7 @@ Sie können einen Mitarbeiter und die Tätigkeit auswählen und die Arbeitszeit 
 
 ---
 
-Das **Spielinhalt Drucken** Fenster kann über die **Übersicht => Drucken => Spielinhalt drucken** geöffnet werden.
+Das **Spielinhalt Drucken** Fenster kann über die **Übersicht → Drucken → Spielinhalt drucken** geöffnet werden.
 
 ![spielinhalt-drucken](../../images/spielinhalt-drucken.png)
 
@@ -1295,7 +1295,7 @@ Definieren Sie die Schriftart, -grösse und das Format des Spielinhaltes. In den
 
 ---
 
-Das **Barcode Drucken** Fenster kann über die **Übersicht => Drucken => Barcodes Drucken** geöffnet werden.
+Das **Barcode Drucken** Fenster kann über die **Übersicht → Drucken → Barcodes Drucken** geöffnet werden.
 
 ![barcodes-drucken](../../images/barcodes-drucken.png)
 
@@ -1321,7 +1321,7 @@ Es können nicht nur Barcodes für bestehende Spiele ausgedruckt werden, sondern
 
 ## Abokarten drucken
 
-Dieses Fenster kann mit **Übersicht => Drucken => Abokarten Drucken** geöffnet werden.
+Dieses Fenster kann mit **Übersicht → Drucken → Abokarten Drucken** geöffnet werden.
 
 ![abokarten-drucken](../../images/abokarten-drucken.png)
 
@@ -1403,8 +1403,8 @@ In der Liste werden verschiedene Farben angezeigt:
 | Seit 2 Tagen |  Das Spiel ist in der Ludothek und abholbereit |  
 | Reserviert ab [Datum] |  Wenn die Reservation nicht ab einem Datum sondern ab sofort gilt |  
 | Reserviert ab [Datum] |  Das Datum liegt in der Vergangenheit, das Spiel ist verspätet |  
-| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen => Kunde informieren |  
-| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen => Kunde ist informiert | 
+| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen → Kunde informieren |  
+| Kunde |  Alle reservierten Spiele des Kunden sind eingetroffen → Kunde ist informiert | 
 
 Die Funktionen zum Kunden und die Spiel-Reservationen links im Navigationsbereich sind abhängig von der in der Liste ausgewählten Reservation.
 
@@ -1462,7 +1462,7 @@ Wie Ausleihgebühren, Mahnungen, Reservationskosten, Verlängerungen.
 
 Wie Verkauf von Spiel an Kunde, Kosten für Reparaturen verursacht durch Kunde, ... Diese Buchungen beziehen sich auf den angezeigten Kunden.
 
-##### Manuelle Buchungen aus dem Fenster **Übersicht => Buchhaltung => Manuell buchen**
+##### Manuelle Buchungen aus dem Fenster **Übersicht → Buchhaltung → Manuell buchen**
 
 Ähnlich wie die manuellen Buchungen vom Spiele ausleihen und zurücknehmen Fenster, ausser dass aus anderen vordefinierten Buchungssätzen ausgewählt werden kann und sich die sich die Buchung immer auf die Ludothek-Adresse bezieht. (Jede Buchung muss mit einer Adresse verbunden sein.)
 
@@ -1540,11 +1540,11 @@ Wenn die Kasse nicht stimmt (es ist zu viel oder zu wenig Geld in der Kasse) kan
 
 #### Speichern
 
-Die Tagesabschlussbuchung wird durchgeführt. Wenn das Häkchen Tagesjournal nach dem Buchen drucken gesetzt ist, werden so viele Exemplare wie in den Einstellungen => Diverses definiert sind auf den Drucker ausgegeben.
+Die Tagesabschlussbuchung wird durchgeführt. Wenn das Häkchen Tagesjournal nach dem Buchen drucken gesetzt ist, werden so viele Exemplare wie in den Einstellungen → Diverses definiert sind auf den Drucker ausgegeben.
 
 !
 **Einstellung**  
-Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstellungen => Diverses** angepasst werden.
+Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstellungen → Diverses** angepasst werden.
 ---
 # Konto auswerten'
 
@@ -1553,7 +1553,7 @@ Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstel
 
 ---
 
-Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung => Konto-Auswertung** öffnen.
+Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung → Konto-Auswertung** öffnen.
 
 ![konto-auswertungen](../../images/konto-auswertungen.png)
 
@@ -1584,7 +1584,7 @@ Wenn Sie auf <span class="btn-lupo">Anzeigen</span> klicken, werden die Kontenbl
 
 ---
 
-Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung => Kontobestände** öffnen.
+Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Kontobestände** öffnen.
 
 ![kontobestaende](../../images/kontobestaende.png)
 
@@ -1610,7 +1610,7 @@ Wechselt zum Fenster Tagesabschluss.
 
 #### Banana-Export
 
-Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten => Zeilen importieren eingelesen werden.
+Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden.
 
 Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
 
@@ -1673,13 +1673,13 @@ Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfe
 
 ---
 
-Das **Einzelbuchung** Fenster können Sie mit **Übersicht => Buchhaltung => Manuell buchen** öffnen.
+Das **Einzelbuchung** Fenster können Sie mit **Übersicht → Buchhaltung → Manuell buchen** öffnen.
 
 ![einzelbuchung-erfassen](../../images/einzelbuchung-erfassen.png)
 
 #### Buchung
 
-Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht => Buchhaltung => Buchungstexte bearbeiten** erstellt oder bearbeitet werden.
+Auswählen des vordefinierten Buchungssatzes. Buchungssätze können unter **Übersicht → Buchhaltung → Buchungstexte bearbeiten** erstellt oder bearbeitet werden.
 
 #### Buchung betrifft
 
@@ -1693,7 +1693,7 @@ Buchungen die in diesem Fenster ausgeführt werden beziehen sich immer auf die L
 
 ---
 
-Das **Einzelbuchungen individuell** Fenster können Sie mit dem Übersichtsbefehl **Übersicht => Buchhaltung => Manuell buchen (individuell)** öffnen.
+Das **Einzelbuchungen individuell** Fenster können Sie mit dem Übersichtsbefehl **Übersicht → Buchhaltung → Manuell buchen (individuell)** öffnen.
 
 Im **Einzelbuchung individuell** Fenster können Sie Buchungen von einem frei wählbaren Konto nach einem frei wählbaren Konto erfassen. Hier übernimmt der Computer keine Kontrolle über Ihre Buchungen. Was Sie eingeben wird gebucht!
 
@@ -1707,7 +1707,7 @@ Im **Einzelbuchung individuell** Fenster können Sie Buchungen von einem frei w�
 
 ---
 
-Das Fenster **Buchungstexte** können Sie mit **Übersicht => Buchhaltung => Buchungstexte bearbeiten** öffnen. Diese Buchungstexte sind die Auswahlmöglichkeiten in den **Buchen – Fenster** (Spiele ausleihen und zurücknehmen und Einzelbuchungen (manuell buchen)).
+Das Fenster **Buchungstexte** können Sie mit **Übersicht → Buchhaltung → Buchungstexte bearbeiten** öffnen. Diese Buchungstexte sind die Auswahlmöglichkeiten in den **Buchen – Fenster** (Spiele ausleihen und zurücknehmen und Einzelbuchungen (manuell buchen)).
 
 ![buchungstexte-generieren](../../images/buchungstexte-generieren.png)
 
@@ -1757,7 +1757,7 @@ In dieser Reihenfolge werden die Buchungen angezeigt. Ist nichts eingetragen so 
 
 ---
 
-Dieses Fenster kann mit **Übersicht => Statistik und Listen** oder direkt aus der Symbolleiste geöffnet werden. In der ersten Registerkarte des **Statistik** Fensters können Sie vordefinierte Statistiken und Listen ausdrucken. Die hinteren 6 Karten enthalten Listen, welche alle wesentlichen Felder der entsprechenden Tabelle zeigen.
+Dieses Fenster kann mit **Übersicht → Statistik und Listen** oder direkt aus der Symbolleiste geöffnet werden. In der ersten Registerkarte des **Statistik** Fensters können Sie vordefinierte Statistiken und Listen ausdrucken. Die hinteren 6 Karten enthalten Listen, welche alle wesentlichen Felder der entsprechenden Tabelle zeigen.
 
 ![statistik-und-listen](../../images/statistik-und-listen.png)
 
@@ -1957,7 +1957,7 @@ Mit der Funktion <span class="btn-lupo">SQL-Datei importieren</span> können vor
 
 ---
 
-Die Allgemeinen Einstellungen erreichen Sie mit **Übersicht => Einstellungen => Programmeinstellungen**
+Die Allgemeinen Einstellungen erreichen Sie mit **Übersicht → Einstellungen → Programmeinstellungen**
 
 ! Alle folgenden Bildschirmfotos sind mit gedrücktem Knopf Erweiterte Optionen einblenden erstellt worden. Damit werden auch Einstellungsmöglichkeiten angezeigt, welche meistens nicht verändert werden müssen, da der Standardwert für fast alle Ludotheken zutrifft.
 
@@ -2638,7 +2638,7 @@ Die zwei grossen Textfelder und die Emailfelder können bei jedem Brief einen an
 visible: true
 ---
 
-In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellungen => Netzwerkeinstellungen**. Falls Sie mit zwei Computern arbeiten, muss der eine PC über das Netzwerk auf die Daten des anderen Computers zugreifen. Vorzugsweise sollten die Daten auf dem Ausleih-Computer gespeichert sein.
+In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellungen → Netzwerkeinstellungen**. Falls Sie mit zwei Computern arbeiten, muss der eine PC über das Netzwerk auf die Daten des anderen Computers zugreifen. Vorzugsweise sollten die Daten auf dem Ausleih-Computer gespeichert sein.
 
 #### Einstellung auf dem Ausleih-PC (Server)
 
@@ -2694,7 +2694,7 @@ Fenster, bei welchen im Feld Passwort eine Zeichenfolge eingetragen ist, können
 visible: true
 ---
 
-Die Registrierungsinformationen können Sie mit dem Übersichtsbefehl **Einstellungen => Registrierung** anzeigen.
+Die Registrierungsinformationen können Sie mit dem Übersichtsbefehl **Einstellungen → Registrierung** anzeigen.
 
 ![lupo-registration](../../images/lupo-registration.png)
 
@@ -2782,7 +2782,7 @@ Nach erfolgter Anmeldung im Administrator sehen Sie die Administrator-Startseite
 visible: true
 ---
 
-Ein Klick auf den Menüpunkt Inhalt => Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
+Ein Klick auf den Menüpunkt Inhalt → Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
 
 ![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
 
@@ -2870,7 +2870,7 @@ visible: true
 
 Mit der Erweiterung Widgetkit kann eine Slideshow wie auf der Frontseite erstellt werden. Ebenfalls der Lageplan mit der Google-Maps Karte ist mit Widgetkit erstellt.
 
-Um neue Widgets zu erstellen oder bestehende zu bearbeiten ist im Administrator unter Komponenten => Widgetkit folgendes Fenster zu öffnen:
+Um neue Widgets zu erstellen oder bestehende zu bearbeiten ist im Administrator unter Komponenten → Widgetkit folgendes Fenster zu öffnen:
 
 ![webseite_backend_widgetkit](../../images/webseite_backend_widgetkit.png)
 
@@ -2880,7 +2880,7 @@ Auf das Element (z.B. «Lageplan») klicken um die Slideshow zu bearbeiten:
 
 Im Editier-Fenster der Slideshow können Bilder hinzugefügt, verändert neu sortiert oder gelöscht werden.
 
-Um die Anzeigeeinstellungen des Widgets zu verändern muss das Modul geöffnet werden. Die Module sind im Administrator unter **Erweiterungen => Module** zu finden:
+Um die Anzeigeeinstellungen des Widgets zu verändern muss das Modul geöffnet werden. Die Module sind im Administrator unter **Erweiterungen → Module** zu finden:
 
 ![webseite_backend_erweiterung_module](../../images/webseite_backend_erweiterung_module.png)
 Im geöffneten Modul kann auf den Knopf Widgetkit geklickt werden um die Anzeige-Einstellungen zu öffnen:

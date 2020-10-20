@@ -20,7 +20,7 @@ Wie Ausleihgebühren, Mahnungen, Reservationskosten, Verlängerungen.
 
 Wie Verkauf von Spiel an Kunde, Kosten für Reparaturen verursacht durch Kunde, ... Diese Buchungen beziehen sich auf den angezeigten Kunden.
 
-##### Manuelle Buchungen aus dem Fenster **Übersicht => Buchhaltung => Manuell buchen**
+##### Manuelle Buchungen aus dem Fenster **Übersicht → Buchhaltung → Manuell buchen**
 
 Ähnlich wie die manuellen Buchungen vom Spiele ausleihen und zurücknehmen Fenster, ausser dass aus anderen vordefinierten Buchungssätzen ausgewählt werden kann und sich die sich die Buchung immer auf die Ludothek-Adresse bezieht. (Jede Buchung muss mit einer Adresse verbunden sein.)
 

@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das **Barcode Drucken** Fenster kann über die **Übersicht => Drucken => Barcodes Drucken** geöffnet werden.
+Das **Barcode Drucken** Fenster kann über die **Übersicht → Drucken → Barcodes Drucken** geöffnet werden.
 
 ![barcodes-drucken](../../images/barcodes-drucken.png)
 
@@ -32,7 +32,7 @@ Es können nicht nur Barcodes für bestehende Spiele ausgedruckt werden, sondern
 
 ## Abokarten drucken
 
-Dieses Fenster kann mit **Übersicht => Drucken => Abokarten Drucken** geöffnet werden.
+Dieses Fenster kann mit **Übersicht → Drucken → Abokarten Drucken** geöffnet werden.
 
 ![abokarten-drucken](../../images/abokarten-drucken.png)
 
