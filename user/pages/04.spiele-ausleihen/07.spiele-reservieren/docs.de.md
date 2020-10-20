@@ -42,7 +42,7 @@ Sobald ein reserviertes Spiel eintrifft, erscheint eine Meldung auf dem Bildschi
 
 ![reserviertes-spiel-eingetroffen](../../images/reserviertes-spiel-eingetroffen.png)
 
-Wenn Sie diese Meldung mit Ja bestätigen kann ab jetzt der Mitteilungsbrief (Spiel ist eingetroffen) an den Kunden gedruckt werden. Das Spiel gilt als so lange reserviert, wie in den **Einstellungen → Ausleihen** eingetragen ist.
+Wenn Sie diese Meldung mit Ja bestätigen kann ab jetzt der Mitteilungsbrief (Spiel ist eingetroffen) an den Kunden gedruckt werden. Das Spiel gilt als so lange reserviert, wie in den **Einstellungen → [Ausleihen]((/einstellungen/allgemeine-einstellungen/ausleihen))** eingetragen ist.
 
 Falls ein Bondrucker angeschlossen ist, kann ein jetzt ein Bon mit Informationen zur Spielreservation ausgedruckt und am Spiel befestigt werden.
 
