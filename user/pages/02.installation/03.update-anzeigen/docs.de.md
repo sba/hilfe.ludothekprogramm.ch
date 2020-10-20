@@ -14,6 +14,6 @@ Mit dem ersten Download Button kann die Update-Datei **direkt** aus LUPO herunte
 
 Mit dem zweiten Download Button wird die Webseite **www.ludothekprogramm.ch** geöffnet, auf welcher die Update-Installationsdatei heruntergeladen werden kann. Zudem kann online die komplette Liste aller Korrekturen und Neuerungen (Release-Notes) en werden.
 
-Je nach Browser und Windows-Sicherheitseinstellungen muss noch die eine oder andere Warnung bestätigt werden, bevor die Installationsdatei **Update_Lupo2019_de.exe** ausgeführt werden kann.
+Je nach Browser und Windows-Sicherheitseinstellungen muss noch die eine oder andere Warnung bestätigt werden, bevor die Installationsdatei **{{Update_LupoXXXX_YY.exe}}** ausgeführt werden kann.
 
 !! Das Update kann nur installiert werden, wenn LUPO geschlossen ist. Falls LUPO im Netzwerk verwendet wird muss das Update auf jedem PC installiert werden.
