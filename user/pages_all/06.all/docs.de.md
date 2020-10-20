@@ -3,7 +3,7 @@ title: ALLES
 taxonomy:
     category:
         - docs
-visible: true
+visible: false
 process:
     markdown: true
     twig: true
@@ -34,11 +34,11 @@ content:
 
 Starten Sie die Datei **Setup_Lupo2019_de.exe** um mit der Installation zu beginnen. Falls die Windows Benutzerkontensteuerung nachfragt, ob die Software installiert werden soll, beantworten Sie dies mit Ja. Folgen Sie nun den Anweisungen des Setup-Assistenten, welcher sie durch die Installation führen wird.
 
-![Install](../../images/install-welcome.png)
+![Install](../../pages/images/install-welcome.png)
 
 Klicken Sie auf **Weiter** ⭢ bis folgendes Fenster angezeigt wird:
 
-![Install](../../images/install-components.png)
+![Install](../../pages/images/install-components.png)
 
 Ist unter Komponenten LUPO 11 entfernen angewählt so wird der Programmordner (C:\Lupo11) und die Access Runtime Installation vor der Installation von LUPO 11 entfernt. Benutzer Dateien (Datenbank und Logos) bleiben dabei erhalten. Dasselbe gilt für eine allfällige ältere LUPO-Installation.
 
@@ -64,7 +64,7 @@ Zusammen mit LUPO kann optional auch die Software für EPSON Bondrucker (detaill
 
 ## Office-Updates Dialog beim ersten Start:
 
-![access-warning](../../images/access-warning.png)
+![access-warning](../../pages/images/access-warning.png)
 
 Falls Microsoft Office 2010 vor der LUPO-Installation noch nie gestartet wurde erscheint beim ersten Start von LUPO ein Fenster Microsoft Office schützen und verbessern. Wählen Sie Empfohlene Einstellungen verwenden oder Nur Updates installieren.
 
@@ -73,12 +73,12 @@ Falls Microsoft Office 2010 vor der LUPO-Installation noch nie gestartet wurde e
 LUPO 2019 kann nicht mit den Original-Daten einer Vorgängerversion arbeiten. Deshalb muss die Daten-Datei einmalig ins aktuelle Datenbank-Format (accdb-Datei) konvertiert werden.
 Starten Sie dazu das LUPO Update Programm ( -Taste drücken, dann nach LUPO Daten-Update suchen):
 
-![daten-konvertieren](../../images/tabellen-konvertieren.png)
+![daten-konvertieren](../../pages/images/tabellen-konvertieren.png)
 
 Normalerweise müssen hier keine Einstellungen angepasst werden. Klicken Sie auf <span class="btn-lupo"> Tabellenupdate STARTEN</span> um den Vorgang auszuführen.
 Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn-lupo">Ja</span>,dann wird eine bereits vorhandene LUPO 2019 Daten-Datei überschrieben.
 
-![tabelle-konvertieren-warning](../../images/tabellen-konvertieren-msg-warning.png)
+![tabelle-konvertieren-warning](../../pages/images/tabellen-konvertieren-msg-warning.png)
 
 !! Beachten Sie das Updateprotokoll. Dort werden allfällige Probleme oder Fehler aufgelistet. Da LUPO 2019 die Daten teilweise ein bisschen anders speichert als bisher, kann es vorkommen, dass einige Datensätze nicht importiert werden können. Dabei handelt es meistens um verwaiste und somit nicht mehr benötigte Daten. (z. B. die Tabelle ‚Adressen Kinder‘ enthält oftmals solche Datensätze)
 
@@ -96,7 +96,7 @@ Nun sollten Sie das LUPO-Programm starten und kontrollieren, ob Ihre Daten über
 
 Etwa alle ein bis zwei Monate erscheint ein Update mit Fehlerkorrekturen und neuen Funktionen. Wenn der Computer mit dem Internet verbunden ist, wird im Übersichtsfenster ein Hinweis eingeblendet:
 
-![Image](../../images/update-available.png)
+![Image](../../pages/images/update-available.png)
 
 Mit dem ersten Download Button kann die Update-Datei **direkt** aus LUPO heruntergeladen werden. Bevor der Download startet kann festgelegt werden, ob die Datei gespeichert oder ausgeführt werden soll.
 
@@ -193,7 +193,7 @@ Es ist nach meinem Erachten nicht sinnvoll die Spielnummer sprechend zu machen. 
 # LUPO Starten'
 ---
 
-![start-win10](../../images/start-win10.png?classes=caption "LUPO unter «Alle Apps» im Startmenü von Windows 10")
+![start-win10](../../pages/images/start-win10.png?classes=caption "LUPO unter «Alle Apps» im Startmenü von Windows 10")
 
 
 | Verknüpfung | Programm |
@@ -214,7 +214,7 @@ Es ist nach meinem Erachten nicht sinnvoll die Spielnummer sprechend zu machen. 
 
 Starten Sie **LUPO** mit dem Desktop-Icon oder über das Startmenü Als erstes Fenster öffnet Sich die **Übersicht**, dann darüber der **Notizblock**.
 
-![notizblock](../../images/notizblock.png)
+![notizblock](../../pages/images/notizblock.png)
 
 Im Notizblock können allgemeine Informationen wie z. B. das nächste Sitzungsdatum der Ludothek vermerkt werden. Ist das Kontrollkästchen Notizblock beim Start anzeigen angewählt, wird der Notizblock beim nächsten Start von LUPO automatisch geöffnet. Um den Notizblock erneut zu öffnen, muss der entsprechende Knopf in der Symbolleiste gedrückt werden.
 
@@ -226,9 +226,9 @@ Im Notizblock können allgemeine Informationen wie z. B. das nächste Sitzungsda
 
 ---
 
-Die **Übersicht** wird automatisch beim Starten von **LUPO** geöffnet. Sie kann auch via [Menüband](/start/menuband-symbolleiste) oder mit der Taste <kbd>F12</kbd> geöffnet werden.
+Die **Übersicht** wird automatisch beim Starten von **LUPO** geöffnet. Sie kann auch via [Menüband](../../../index.phpband-symbolleiste) oder mit der Taste <kbd>F12</kbd> geöffnet werden.
 
-![Übersicht](../../images/uebersicht.png)
+![Übersicht](../../pages/images/uebersicht.png)
 
 Die Übersicht besteht aus fünf Seiten: Der **Hauptübersicht, Stammdaten, Drucken, Buchhaltung** und der **Einstellungen** Übersicht. Sie können von jeder Unterseite wieder zur Hauptübersicht zurückkehren.
 * Spiele Ausleihen/Zurücknehmen
@@ -268,7 +268,7 @@ Die Übersicht besteht aus fünf Seiten: Der **Hauptübersicht, Stammdaten, Druc
 
 Meistens lernt man ein Computerprogramm am einfachsten kennen, indem man die verschiedenen Funktionen ausprobiert und mit dem Programm spielt. Deshalb besteht in LUPO die Möglichkeit mit Übungsdaten zu arbeiten. Damit Sie auf keinen Fall versehentlich in der Übungsversion arbeiten oder umgekehrt, unterscheiden sich die beiden Versionen durch das Übersichtsbild Übungsversion anstelle dem Logo ihrer Ludothek und die Fenster-Titelbalken werden **rot anstatt blau oder grau** dargestellt.
 
-![uebungsversion](../../images/interface-uebungsversion.png)
+![uebungsversion](../../pages/images/interface-uebungsversion.png)
 
 Das Übersichtsfenster mit aktivierten Übungsdaten
 
@@ -282,11 +282,11 @@ Das Übersichtsfenster mit aktivierten Übungsdaten
 
 Die Übungsversion kann über den Menübefehl **Übungsdaten** aktiviert bzw. desaktiviert werden.
 
-![uebungsversion-nicht-aktiv](../../images/uebungsversion-nicht-aktiv.png)
+![uebungsversion-nicht-aktiv](../../pages/images/uebungsversion-nicht-aktiv.png)
 
 Ist das Häkchen gesetzt, dann wird die aktuelle Daten-Datenbank in die Übungsversion kopiert.
 
-![uebungsversion-aktiviert](../../images/uebungsversion-aktiviert.png)
+![uebungsversion-aktiviert](../../pages/images/uebungsversion-aktiviert.png)
 
 Die Übungsversion verlassen um wieder mit den „echten" Daten zu arbeiten.
 
@@ -294,7 +294,7 @@ Die Übungsversion verlassen um wieder mit den „echten" Daten zu arbeiten.
 
 Bevor beim Start von LUPO die Übungsdaten geladen werden erscheint folgende Warnung:
 
-![uebungsversion-warning](../../images/uebungsversion-warning.png)
+![uebungsversion-warning](../../pages/images/uebungsversion-warning.png)
 
 
 Klicken Sie auf Ja um mit den 'richtigen' Daten zu arbeiten oder wählen Sie Nein um weiterhin mit den Übungsdaten zu spielen.
@@ -309,19 +309,19 @@ Klicken Sie auf Ja um mit den 'richtigen' Daten zu arbeiten oder wählen Sie Nei
 
 Das LUPO-Menüband (Ribbon) bietet direkten Zugriff auf die wichtigsten Fenster und Funktionen.
 
-![menuepunkt-lupo](../../images/menuepunkt-lupo.png)
+![menuepunkt-lupo](../../pages/images/menuepunkt-lupo.png)
 
 Im Tools-Tab liegen Funktionen zur Sortierung von Datenblättern und zur Formatierung von Rich-Text Feldern.
 
-![menuepunkt-tools](../../images/menuepunkt-tools.png)
+![menuepunkt-tools](../../pages/images/menuepunkt-tools.png)
 
 Wenn ein Bericht geöffnet ist wird das Menüband Seitenansicht angezeigt. Hier finden Sie Funktionen um die Seite und Druckausgabe anzupassen. Mit den Befehlen der Gruppe Daten-Export kann der Seiteninhalt als pdf-, Word- oder Excel-Datei gespeichert werden.
 
-![menuepunkt-seitenansicht](../../images/menuepunkt-seitenansicht.png)
+![menuepunkt-seitenansicht](../../pages/images/menuepunkt-seitenansicht.png)
 
 Das Menüband kann eingeklappt werden. Um die Anzeige wiederherzustellen muss auf den Pfeil links im Fenster geklickt werden:
 
-![menueband-verstecken](../../images/menueband-verstecken.png)
+![menueband-verstecken](../../pages/images/menueband-verstecken.png)
 
 ---
 # Allgemeine Bedienung'
@@ -333,19 +333,19 @@ Das Menüband kann eingeklappt werden. Um die Anzeige wiederherzustellen muss au
 
 #### Fenster schliessen (Registerkarte)
 
-![registerkarte-schliessen](../../images/registerkarte-schliessen.png)
+![registerkarte-schliessen](../../pages/images/registerkarte-schliessen.png)
 
 Das X rechts auf Höhe der Registerkarten schliesst das Fenster.
 
 #### Statusleiste
 
-![statusleiste](../../images/statusleiste.png)
+![statusleiste](../../pages/images/statusleiste.png)
 
 Die Statusleiste befindet sich am unteren Bildschirmrand. Dort wird für die meisten Steuerelemente eine kurze Beschreibung angezeigt.
 
 #### Datensatz-Navigator
 
-![datensatz-navigator](../../images/datensatz-navigator.png)
+![datensatz-navigator](../../pages/images/datensatz-navigator.png)
 
 Mit diesen Steuerelementen kann zwischen dem ersten, vorherigen, nächsten und letzten Datensatz im aktuellen Datenblatt geblättert werden. Die Schaltfläche <img src="../../images/neuer-datensatz.png" class="img-inline"> erstellt einen neuen Datensatz.
 
@@ -353,13 +353,13 @@ Mit diesen Steuerelementen kann zwischen dem ersten, vorherigen, nächsten und l
 
 Einige Textfelder – z.B. das Spielmemo oder der Spielinhalt – können formatierten Text enthalten. Sobald Text markiert wird, wird eine Symbolleiste zum Formatieren eingeblendet:
 
-![rich-text](../../images/rich-text.png)
+![rich-text](../../pages/images/rich-text.png)
 
 #### Kalender
 
 Immer wenn hinter einem Datum das Kalendersymbol angezeigt wird können Sie durch Klicken den Kalender öffnen. Mit Heute wechseln Sie im Kalender zum aktuellen Datum, mit Übernehmen wählen Sie das angwählte Datum aus.
 
-![kalender](../../images/kalender.png)
+![kalender](../../pages/images/kalender.png)
 
 Ferientage werden im Kalender rot dargestellt
 
@@ -373,7 +373,7 @@ Spiel-Strichcodes: **Ausleihfenster, Spiele, Spiele Suchen**
 
 #### Auswahlfeld / Kombinationsfeld
 
-![auswahlfeld](../../images/auswahlfeld.png?classes=left " ")
+![auswahlfeld](../../pages/images/auswahlfeld.png?classes=left " ")
 
 Das Feld kann mit der Maus oder durch Drücken der <kbd>F4</kbd>-Taste aufgeklappt werden. Wenn Sie in ein leeres Auswahlfeld schreiben, wird der angezeigte Eintrag durch drücken von <kbd>Enter</kbd> ausgewählt. Es gibt zwei Arten von Auswahlfeldern: Die einen lassen jede Texteingabe zu, die andern erlauben nur Eingaben aus der vorhandenen Auswahl.
 
@@ -409,13 +409,13 @@ In Windows gibt es wichtige Tastaturbefehle, welche in fast jedem anderen Progra
 
 Datenblätter enthalten eine tabellarische Darstellung von Daten. Der angezeigte Inhalt kann sortiert und mit einem Filter eingeschränkt.
 
-![datenblatt](../../images/datenblatt.png)
+![datenblatt](../../pages/images/datenblatt.png)
 
 Um eine Spalte zu Filtern oder um die Datensätze zu sortieren kann auf den kleinen Pfeil im Spaltentitel geklickt werden.
 
 Um den Filter zu entfernen klicken Sie auf den Knopf Gefiltert im Datensatznavigator:
 
-![kopf-gefiltert](../../images/kopf-gefiltert.png)
+![kopf-gefiltert](../../pages/images/kopf-gefiltert.png)
 
 Mit dem Feld Suchen kann nach Text im Datenblatt gesucht werden. Schreiben Sie dazu ihr Suchbegriff in das Textfeld und navigieren dann durch mehrfaches drücken von <kbd>Enter</kbd> zu den einzelnen Datensätzen welche den Suchbegriff enthalten.
 
@@ -427,7 +427,7 @@ Die Filter- und Sortiereinstellungen gehen nach dem **Schliessen** des Formulars
 
 #### Datensätze markieren
 
-![datensaetze-markieren](../../images/datensaetze-markieren.png)
+![datensaetze-markieren](../../pages/images/datensaetze-markieren.png)
 
 Datensätze können durch Klicken auf den Datensatzmarkierer links im Datenblatt ausgewählt werden, um diese anschliessend zu kopieren oder löschen.
 
@@ -441,7 +441,7 @@ Datensätze können durch Klicken auf den Datensatzmarkierer links im Datenblatt
 
 Das **Adresse suchen** Fenster kann via dem **Menüband** oder dem Feldstecher-Button geöffnet werden.
 
-![adresse-suchen](../../images/adresse-suchen.png)
+![adresse-suchen](../../pages/images/adresse-suchen.png)
 
 Schreiben Sie in die gelben Felder das Suchkriterium für die entsprechende Spalte. Starten Sie die Suche indem Sie auf Suchen klicken. Die Liste kann durch einen Klick auf den Knopf im Spaltentitel entsprechend sortiert werden.
 
@@ -461,7 +461,7 @@ Kundengeschichte öffnet den Bericht mit der Kundengeschichte der markierten Adr
 
 Das **Spiel suchen** Fenster kann via dem **Menüband** oder dem Feldstecher-Button geöffnet werden.
 
-![spiel-suchen](../../images/spiel-suchen.png)
+![spiel-suchen](../../pages/images/spiel-suchen.png)
 
 Schreiben Sie in die gelben Felder das Suchkriterium für die entsprechende Spalte. Starten Sie die Suche indem Sie auf Suchen klicken. Die Liste kann durch einen Klick auf den Knopf im Spaltentitel entsprechend sortiert werden.
 
@@ -508,7 +508,7 @@ Das **Spiele ausleihen und zurücknehmen** Fenster können Sie mit der Übersich
     * Die Adressdaten des Kunden verändern
     * Einen neuen Kunden erfassen
 
-![spiele-ausleihen-zuruecknehmen](../../images/spiele-ausleihen-zuruecknehmen.png)
+![spiele-ausleihen-zuruecknehmen](../../pages/images/spiele-ausleihen-zuruecknehmen.png)
 
 #### Rückgabedatum bestimmen (Stempeldatum)
 
@@ -540,13 +540,13 @@ Die am PC arbeitende Mitarbeiterin. Die hier eingetragene Person wird zu jeder A
 
 Ist in den Einstellungen im Reiter Mitarbeiterinnen die Option Erfassen welche Mitarbeiterin Spiele ausleiht und zurücknimmt aktiviert, dann ist diese Information Pflicht. Wenn keine Person ausgewählt ist, dann erscheint vor der Ausleihe folgendes Fenster:
 
-![mitarbeiter](../../images/mitarbeiter.png)
+![mitarbeiter](../../pages/images/mitarbeiter.png)
 
 #### Spielliste des Kunden
 
 Die Liste mit den ausgeliehenen Spielen des aktuellen Kunden zeigt verschiedene Farbcodes an.
 
-![spielliste-kunde](../../images/spielliste-kunde.png)
+![spielliste-kunde](../../pages/images/spielliste-kunde.png)
 
 
 | **Farbe** |  **Status** |
@@ -569,7 +569,7 @@ Die Liste mit den ausgeliehenen Spielen des aktuellen Kunden zeigt verschiedene 
 
 Alle Aktionen (wie Abo lösen, Spiel ausleihen, reservieren, ...) die Sie im Fenster Spiele ausleihen und zurücknehmen ausführen, beziehen sich auf den rechts im Fenster angezeigten Kunden. Die linke Seite mit der Adressliste dient zum Suchen bestehender und Erfassen neuer Adressen.
 
-![kunden-erfassen ](../../images/kunden-erfassen.png)
+![kunden-erfassen ](../../pages/images/kunden-erfassen.png)
 
 Sie können den Nachnamen, Vornamen, Ort oder einen Teil davon oder die Adressnummer in das Suchfeld eingeben. Durch Drücken von <kbd>Enter</kbd> oder des Such-Buttons rechts vom Suchfeld wird die Suche gestartet. Wählen Sie den gewünschten Name durch klicken in die Suchergebnisliste aus.
 
@@ -584,13 +584,13 @@ Wenn Sie ein **Spiel zurücknehmen**, wechselt das Programm automatisch zum Kund
 
 Wird die Adressnummer eines gelöschten Kunden eingeben, erscheint folgende Meldung:
 
-![geloeschte-kontakte](../../images/geloeschte-kontakte.png)
+![geloeschte-kontakte](../../pages/images/geloeschte-kontakte.png)
 
 #### Neuer Kunde erfassen
 
 Der Knopf <span class="btn-lupo">Neuer Kunde</span> öffnet das Fenster um eine Adresse zu erfassen. Die Adressnummer wird automatisch vorgeschlagen, kann aber verändert werden.
 
-![kunde-erfassen](../../images/kunde-erfassen.png)
+![kunde-erfassen](../../pages/images/kunde-erfassen.png)
 
 Ist das Kontrollkästchen **Nach dem Speichern der Adresse ein Abo lösen** aktiviert, so öffnet sich automatisch das **Abo lösen** Fenster.
 
@@ -598,7 +598,7 @@ Ist das Kontrollkästchen **Nach dem Speichern der Adresse ein Abo lösen** akti
 
 Das LUPO-Programm prüft während der Eingabe der Adresse ob ein Duplikat vorhanden ist. Stimmen Name, Vorname und Strasse mit einer bereits gespeicherten Adresse überein, so erscheint folgende Meldung:
 
-![kunde-existiert-bereits](../../images/kunde-existiert-bereits.png)
+![kunde-existiert-bereits](../../pages/images/kunde-existiert-bereits.png)
 
 Merken Sie sich die Adressnummer und brechen die Erfassung des Kunden ab.
 
@@ -612,7 +612,7 @@ Merken Sie sich die Adressnummer und brechen die Erfassung des Kunden ab.
 
 Bei der im weissen Adress-Feld angezeigten Adresse handelt es sich jeweils um den aktiven Kunden.
 
-![kundendaten](../../images/kundendaten.png)
+![kundendaten](../../pages/images/kundendaten.png)
 
 #### Kundenmemo
 
@@ -620,7 +620,7 @@ Bei Kunden mit Text im Memofeld wird dieses rot dargestellt. Um ein neues Memo z
 
 Schreiben Sie am Anfang des Memos ein ! (Ausrufezeichen), um das Memo beim Aufruf des Kunden in einem separaten Fenster angezeigt zu bekommen:
 
-![kundenmemo](../../images/kundenmemo.png)
+![kundenmemo](../../pages/images/kundenmemo.png)
 
 ! **Automatische Kundenmemos**  
 ! Beim Mahnen wird automatisch ein Memo geschrieben. Die kann in den Einstellungen deaktiviert werden.
@@ -633,7 +633,7 @@ Mit <span class="btn-lupo"> Bon Drucken </span> wird ein Bon auf den Kassendruck
 
 Sie haben die Möglichkeit einen Brief mit den Ausleihen und optional den dazu angefallenen Kosten (Abonnement, Reservation, ...) auszudrucken.
 
-![quittung-schreiben](../../images/quittung-schreiben.png)
+![quittung-schreiben](../../pages/images/quittung-schreiben.png)
 
 Um den Brieftext zu ändern muss in den **Briefeinstellungen** der Textkörper Quittung angepasst werden.
 
@@ -645,7 +645,7 @@ Damit der Kunde Spiele ausleihen kann, muss er ein gültiges Abo besitzen (Falls
 
 Sie müssen sich keine Gedanken darüber machen, ob der Kunde ein gültiges Abo hat oder nicht. Sobald Sie ein Spiel an jemanden ausleihen möchten, dessen Abo abgelaufen ist, öffnet sich automatisch das Fenster zu erneuern des Abos:
 
-![abo-neukunde](../../images/abo-neukunde.png)
+![abo-neukunde](../../pages/images/abo-neukunde.png)
 
 Die Gültigkeitsdauer und Preise können in den **Einstellungen** definiert werden.
 
@@ -676,7 +676,7 @@ Falls Sie mit Barcodes arbeiten kann beim Einscannen irgendein Feld im Ausleihfe
 
 Die maximale Anzahl Spiele und / oder eSpiele pro Kunde kann eingeschränkt werden. Die Anzahl ist beim Abo vorgegeben und wird beim Verkauf eines solchen beim Kunden gespeichert. Beim Überschreiten der definierten Anzahl erscheint folgende Meldung:
 
-![max-spiele](../../images/max-spiele.png)
+![max-spiele](../../pages/images/max-spiele.png)
 
 #### Spezial-Ausleihe
 
@@ -684,7 +684,7 @@ Mit Hilfe einer Spezial-Ausleihe kann ein Spiel mit einer **veränderten Ausleih
 
 Durch Drücken auf den Knopf <span class="btn-lupo"> Spezial Ausleihe </span> oder wenn das Häkchen Spezial-Ausleihe aktiviert ist, wird vor der Spielausleihe folgendes Fenster angezeigt:
 
-![ausleihoptionen](../../images/ausleihoptionen.png)
+![ausleihoptionen](../../pages/images/ausleihoptionen.png)
 
 Die zur Auswahl stehenden Spezial-Ausleihen können in den Einstellungen definiert werden. Ist nur eine aktive Spezial-Ausleihe definiert, so wird diese beim Ausleihen automatisch angewandt und das Fenster nicht angezeigt.
 
@@ -692,7 +692,7 @@ Die zur Auswahl stehenden Spezial-Ausleihen können in den Einstellungen definie
 
 Wenn beim Spiel die Eigenschaft Einzelteil gesetzt ist, erscheint beim Ausleihen folgender Dialog:
 
-![einzelteile](../../images/einzelteile.png)
+![einzelteile](../../pages/images/einzelteile.png)
 
 Geben Sie die Anzahl Stück ein und drücken Sie <span class="btn-lupo"> Ausleihen </span>. Die Spielgebühr wird mit der Stückzahl multipliziert und dem Kunden verrechnet. Die Anzahl wird ins Spielkind-Memo geschrieben.
 
@@ -700,7 +700,7 @@ Geben Sie die Anzahl Stück ein und drücken Sie <span class="btn-lupo"> Ausleih
 
 Manchmal ist es notwendig, das Rückgabedatum zu verändern, ohne das Spiel zu verlängern (eine Verlängerung ist normalerweise kostenpflichtig). Doppelklicken Sie auf das Ausleih- oder Rückgabedatum in der Spielliste um folgendes Fenster angezeigt zu bekommen:
 
-![stempeldatum-manuell-aendern](../../images/stempeldatum-manuell-aendern.png)
+![stempeldatum-manuell-aendern](../../pages/images/stempeldatum-manuell-aendern.png)
 
 Nachdem Sie das Rückgabedatum verändert haben, wird das Mahndatum automatisch neu berechnet.
 
@@ -720,11 +720,11 @@ Tragen die Spielnummer in das Spielnummernfeld ein und drücken dann den Button 
 
 Die Spiele können auch durch „abhaken" in der **Kundenspielliste** einzeln zurückgenommen werden oder indem Sie die Spielnummer ins Spielnummernfeld schreiben und auf den Knopf Rücknahme drücken.
 
-![spiele-zuruecknehmen](../../images/spiele-zuruecknehmen.png)
+![spiele-zuruecknehmen](../../pages/images/spiele-zuruecknehmen.png)
 
 Ist das Spiel an einen anderen Kunden als dem aktuell angezeigten ausgeliehen so wechselt LUPO automatisch zum Kunden welcher das Spiel ausgeliehen hat
 
-![spielruecknahme-auswahl](../../images/spielruecknahme-auswahl.png)
+![spielruecknahme-auswahl](../../pages/images/spielruecknahme-auswahl.png)
 
   
 ! Wenn Sie die Spielnummer in das Spielnummernfeld eingetragen haben drücken Sie <kbd>Enter</kbd>. Je nachdem ob das Spiel ausgeliehen oder in der Ludo liegt wird durch <kbd>Enter</kbd> der Ausleihen oder der Zurücknehmen Button betätigt. (Gilt nur, wenn in den Einstellungen unter **Einstellungen → Ausleihen → Erweitere Ausleiheinstellungen** die <kbd>Enter</kbd>-Taste zum Zurücknehmen von Spielen erlaubt ist.)
@@ -741,7 +741,7 @@ Es werden alle Spiele des aktuellen Kunden zurückgenommen (Es gibt eine Einstel
 
 Wenn Sie ein Spiel am gleichen Tag zurücknehmen, an welchem Sie dieses ausgeliehen haben, dann erscheint folgende Meldung:
 
-![ausleihgebuehr-zurueckerstatten](../../images/ausleihgebuehr-zurueckerstatten.png)
+![ausleihgebuehr-zurueckerstatten](../../pages/images/ausleihgebuehr-zurueckerstatten.png)
 
 Wenn Sie auf Ja klicken wird das Spiel zurückgenommen und die Ausleihgebühr dem Kunden zurückerstattet. Klicken Sie auf Nein, wird das Spiel ebenfalls zurückgenommen, jedoch bleibt die verrechnete Ausleihgebühr dem Kundenkonto belastet. Mit Abbrechen bleibt das Spiel ausgeliehen.
 
@@ -755,11 +755,11 @@ Wenn Sie auf Ja klicken wird das Spiel zurückgenommen und die Ausleihgebühr de
 
 Klicken Sie auf <span class="btn-lupo">Verlängern</span> im Spiele Ausleihen und Zurücknehmen Fenster um den folgenden Dialog angezeigt zu bekommen:
 
-![spiele-verlaengern](../../images/spiele-verlaengern.png)
+![spiele-verlaengern](../../pages/images/spiele-verlaengern.png)
 
 Falls reservierte Spiele vorhanden sind erscheint zuerst folgende Meldung:
 
-![reservierte-spiele-vorhanden](../../images/reservierte-spiele-vorhanden.png)
+![reservierte-spiele-vorhanden](../../pages/images/reservierte-spiele-vorhanden.png)
 
 Danach sind in der Spalte Info die Besonderheiten wie Ferien oder Reservationen des Spieles ersichtlich.
 
@@ -789,7 +789,7 @@ Eine Reservation kann sich auf mehrere Spiele beziehen. Es kann nicht nur ein ei
 
 Sobald das erste aller reservierten Spiele (einer Reservation) eintrifft, gelten die andern als nicht mehr reserviert.
 
-![spiele-reservieren](../../images/spiele-reservieren.png)
+![spiele-reservieren](../../pages/images/spiele-reservieren.png)
 
 #### Spielnummer
 
@@ -817,13 +817,13 @@ Löscht die in der Liste markierte Reservation. Bei einer Spielfamilienreservati
 
 Sobald ein reserviertes Spiel eintrifft, erscheint eine Meldung auf dem Bildschirm:
 
-![reserviertes-spiel-eingetroffen](../../images/reserviertes-spiel-eingetroffen.png)
+![reserviertes-spiel-eingetroffen](../../pages/images/reserviertes-spiel-eingetroffen.png)
 
 Wenn Sie diese Meldung mit Ja bestätigen kann ab jetzt der Mitteilungsbrief (Spiel ist eingetroffen) an den Kunden gedruckt werden. Das Spiel gilt als so lange reserviert, wie in den **Einstellungen → Ausleihen** eingetragen ist.
 
 Falls ein Bondrucker angeschlossen ist, kann ein jetzt ein Bon mit Informationen zur Spielreservation ausgedruckt und am Spiel befestigt werden.
 
-![bon-drucken ](../../images/bon-drucken.png)
+![bon-drucken ](../../pages/images/bon-drucken.png)
 
 ---
 # Kunden- und Ausleihkonto'
@@ -835,14 +835,14 @@ Falls ein Bondrucker angeschlossen ist, kann ein jetzt ein Bon mit Informationen
 
 Jeder Kunde hat zwei Konten, ein Kundenkonto und ein Ausleihkonto. Das Geld auf dem Ausleihkonto wird über das Einlösen eines Gutscheins deponiert und kann nur für Ausleihgebühren verwendet werden. Der Kunden¬konto¬stand kann mit dem Knopf Kunde bezahlt auf 0 gesetzt werden. Der Kunde bezahlt in Bar.
 
-![kontostand](../../images/kontostand.png)
+![kontostand](../../pages/images/kontostand.png)
 
 ! **Einstellung**  
 ! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen → Wertkarte** ein- bzw. ausgeblendet werden.
 
 ### Kunde bezahlt
 
-![kunde-bezahlt](../../images/kunde-bezahlt.png)
+![kunde-bezahlt](../../pages/images/kunde-bezahlt.png)
 
 Der Kunde bezahlt 20.00 Fr. Sein Kontostand wird wieder zu 0.00. Bezahlt er einen anderen Betrag, so können Sie diesen in das Textfeld eintragen. Bezahlt er zu wenig wird diese Zahlung als Teilzahlung, bezahlt er zu viel, als Vorauszahlung im Journal eingetragen.
 
@@ -859,7 +859,7 @@ Mit dem Button <span class="btn-lupo">Einnahmen und Rückerstattungen</span> öf
 
 In diesem Fenster kann dem Kunden (z.B. für ein verlorenes Spiel) ein Betrag verrechnet oder gutgeschrieben werden.
 
-![buchung-kunde](../../images/buchung-kunde.png)
+![buchung-kunde](../../pages/images/buchung-kunde.png)
 
 Die Buchungen, welche Sie erfassen werden dem Kunden- oder Ausleihkonto belastet bzw. gutgeschrieben.
 
@@ -874,7 +874,7 @@ Um dem Kunden eine Gutschrift zu machen, wählen Sie im Auswahlfeld rechts des B
 
 Klicken Sie auf den Reiter Alle Buchungen um die Journaleinträge des aktuellen Kunden angezeigt zu bekommen.
 
-![liste-buchungen-kunden](../../images/liste-buchungen-kunden.png)
+![liste-buchungen-kunden](../../pages/images/liste-buchungen-kunden.png)
 
 Bei Buchungen von heute wird das Buchungsdatum blau dargestellt.
 
@@ -886,7 +886,7 @@ Druckt alle Buchungen eines definierten Zeitraums auf den Bondrucker aus.
 
 Markieren Sie eine Buchung in der Liste und klicken Sie auf den Knopf <span class="btn-lupo">Markierte Buchung stornieren</span> um die ausgewählte Buchung zu stornieren.
 
-![buchung-stornieren](../../images/buchung-stornieren.png)
+![buchung-stornieren](../../pages/images/buchung-stornieren.png)
 
 Wird eine Buchung storniert, welche den Kunden- oder Ausleihkontostand des aktuellen Kunden betrifft, so wird dieser angepasst.
 
@@ -904,7 +904,7 @@ Jeder Kunde hat ein 'normales' Konto mit Bargeld-Schulden oder -Guthaben und ein
 
 Aktivieren Sie das Kontrollkästchen Dem Ausleihkonto von Kunde xxx Verrechnen um den Gutschein direkt dem aktuellen Kunden seinem Ausleihkonto gutzuschreiben.
 
-![gutschriftenkarte](../../images/gutschriftenkarte.png)
+![gutschriftenkarte](../../pages/images/gutschriftenkarte.png)
 
 Falls der Kunde Schulden auf seinem Kundenkonto hat (die Spiele wurden bereits ausgeliehen und erst jetzt will der Kunde eine Gutscheinkarte kaufen) und diese nachträglich mit dem Ausleihkonto bezahlt werden sollen, aktivieren Sie das Kontrollkästchen Bar-Kontostand (Schulden) jetzt dem Ausleihkonto abziehen.
 
@@ -912,7 +912,7 @@ Falls der Kunde Schulden auf seinem Kundenkonto hat (die Spiele wurden bereits a
 
 Drücken Sie Gutschein einlösen um dem Kunden eine Gutschrift auf sein Ausleihkonto zu buchen. Geben Sie den effektiven Wert (also inkl. Rabatt) der Karte ein.
 
-![gutschriftenkarte-einloesen](../../images/gutschriftenkarte-einloesen.png)
+![gutschriftenkarte-einloesen](../../pages/images/gutschriftenkarte-einloesen.png)
 
 #### Manuelle Sammelbuchung für Wertkarten-Verkauf
 
@@ -920,7 +920,7 @@ Sie haben (z.B. am Weihnachtsmarkt) 12 Karten als Geschenk verkauft, Sie wissen 
 
 Öffnen Sie dazu das Fenster **Übersicht → Buchhaltung → Einzelbuchung (mit Vorgaben)** und führen Sie folgende Buchung durch.
 
-![einzelbuchung](../../images/einzelbuchung.png)
+![einzelbuchung](../../pages/images/einzelbuchung.png)
 
 ---
 # Spiele ausleihen' 
@@ -949,7 +949,7 @@ Beim Reservieren eines Spiels kann so die ganze Familie reserviert werden. Sobal
 
 Das **Spiele erfassen und bearbeiten** Fenster können Sie mit der **Übersicht** oder der **Symbolleiste** öffnen.
 
-![spiele-erfassen-bearbeiten](../../images/spiele-erfassen-bearbeiten.png)
+![spiele-erfassen-bearbeiten](../../pages/images/spiele-erfassen-bearbeiten.png)
 
 #### Spiel suchen
 
@@ -1035,7 +1035,7 @@ Zu jedem Spiel können Dokumente hinterlegt werden. Dabei kann es sich um eine l
 
 Die folgenden Dokument-Typen können gewählt werden:
 
-![dokumente](../../images/dokumente.png)
+![dokumente](../../pages/images/dokumente.png)
 
 Mit * gekennzeichnete Einträge sind öffentlich und werden im Internetexport (XML) eingeschlossen. Für YouTube und Vimeo darf nur der Video-Code eingetragen werden, während für die anderen die komplette URL erforderlich ist.
 
@@ -1043,7 +1043,7 @@ Mit * gekennzeichnete Einträge sind öffentlich und werden im Internetexport (X
 
 Zu jedem Spiel kann eine Bilddatei hinterlegt werden. Es ist erlaubt grosse Dateien oder hochauflösende Fotos zu verwenden. Die Bilder werden beim Internetexport automatisch in der für die Website ideale Grösse gespeichert. Die Datei muss im Ordner **C:Lupo_DatenSpiele-Fotos** im jpg, gif oder png-Format mit der Spielnummer als Dateiname abgelegt werden.
 
-![bild](../../images/bild.png)
+![bild](../../pages/images/bild.png)
 
 Wenn ein Spielfoto mit der <span class="btn-lupo">Google-Bildersuche</span> im Internet gefunden haben, dann kann dieses mit der **rechten Maustaste → Kopieren** in die Zwischenablage kopiert werden. Der Knopf <span class="btn-lupo">Zwischenablage</span> speichert dann das Bild automatisch mit dem korrekten Dateinamen. Ein Foto des Spiels mit dem Index 0 gilt für alle Spielkinder.
 
@@ -1096,7 +1096,7 @@ Sie können für jedes Spiel den Spielinhalt (die Ausstattung) erfassen. Schreib
 
 In diesem Fenster wird der Spielinhalt erfasst. Sie können den Inhalt ausdrucken um danach am Spiel zu befestigen.
 
-![spielinhalt-erfassen](../../images/spielinhalt-erfassen.png)
+![spielinhalt-erfassen](../../pages/images/spielinhalt-erfassen.png)
 
 In der Liste Links stehen die zur Auswahl möglichen Spielinhalt-Positionen. Verwenden Sie das Platzhalterzeichen ‚?' um z.B. eine Zahl vor die Vorgabe zu stellen (Bsp.: '- ? Würfel' kann '- 3 Würfel' ergeben).
 
@@ -1110,7 +1110,7 @@ Wenn Sie die dortigen Vorgaben nicht benötigen kann der Spielinhalt auch direkt
 
 Um ein neues Spiel zu erfassen müssen Sie den Button <span class="btn-lupo">Neue Spielfamilie</span> im Spiele Fenster drücken.
 
-![spielfamilie-erfassen](../../images/spielfamilie-erfassen.png)
+![spielfamilie-erfassen](../../pages/images/spielfamilie-erfassen.png)
 
 Wählen Sie die Spielart des neuen Spiels aus.
 
@@ -1136,7 +1136,7 @@ Mit dieser Funktion werden die Familiennummern liquidierter Spiele für die erne
 
 Das "Adressen"-Fenster können Sie mit der "Übersicht" oder der "Symbolleiste" öffnen.
 
-![adressen-erfassen-bearbeiten](../../images/adressen-erfassen-bearbeiten.png)
+![adressen-erfassen-bearbeiten](../../pages/images/adressen-erfassen-bearbeiten.png)
 
 #### Adressen suchen
 
@@ -1201,7 +1201,7 @@ Im LUPO-Admin Fenster steht eine Funktion zum endgültigen Löschen der Adressen
 
 Wenn Sie eine Adresse erfassen und Name, Vorname und Strasse der neuen Adresse identisch mit einer bereits gespeicherten Adresse sind, erscheint bereits während der Eingabe der Daten folgende Meldung:
 
-![adress-duplikat](../../images/adress-duplikat.png)
+![adress-duplikat](../../pages/images/adress-duplikat.png)
 
 ---
 # Mitarbeiter Ein- und Austritte'
@@ -1213,7 +1213,7 @@ Wenn Sie eine Adresse erfassen und Name, Vorname und Strasse der neuen Adresse i
 
 Öffnen Sie dieses Fenster mit **Übersicht → Adressen, Spiele und Mitarbeiter → Mitarbeiter**
 
-![mitarbeiter-ein-austritte](../../images/mitarbeiter-ein-austritte.png)
+![mitarbeiter-ein-austritte](../../pages/images/mitarbeiter-ein-austritte.png)
 
 Wenn Sie im **Adressen**-Fenster das Mitarbeiterin Kontrollkästchen aktivieren, wird die Mitarbeiterin in der Liste oberhalb eingetragen.
 
@@ -1233,7 +1233,7 @@ Um einen Eintrag zu löschen den Datensatz markieren und mit **[Delete]** lösch
 
 Das **Mitarbeiter Arbeitszeiten** Fenster kann mit dem Übersichtsbefehl **Übersicht → Adressen, Spiele und Mitarbeiter → Arbeitszeiten** geöffnet werden.
 
-![mitarbeiter-arbeitszeiten](../../images/mitarbeiter-arbeitszeiten.png)
+![mitarbeiter-arbeitszeiten](../../pages/images/mitarbeiter-arbeitszeiten.png)
 
 Sind bereits Arbeitszeiten im aktuellen Monat erfasst worden, so werden diese automatisch gefiltert. In den Filter-Feldern kann ein Monat oder ein ganzes Jahr sowie zusätzlich eine Mitarbeiterin ausgewählt werden.
 
@@ -1241,7 +1241,7 @@ Sind bereits Arbeitszeiten im aktuellen Monat erfasst worden, so werden diese au
 
 <span class="btn-lupo">Arbeitszeiten erfassen</span> öffnet dasselbe Fenster welches auch vom Beenden-Assistent her geöffnet werden kann.
 
-![arbeitszeit-erfassen](../../images/arbeitszeit-erfassen.png)
+![arbeitszeit-erfassen](../../pages/images/arbeitszeit-erfassen.png)
 
 Sie können einen Mitarbeiter und die Tätigkeit auswählen und die Arbeitszeit eintragen (2.50 = 2h 30min). Die Einträge erscheinen auf dem Tagesjournal-Ausdruck.
 
@@ -1265,7 +1265,7 @@ Sie können einen Mitarbeiter und die Tätigkeit auswählen und die Arbeitszeit 
 
 Das **Spielinhalt Drucken** Fenster kann über die **Übersicht → Drucken → Spielinhalt drucken** geöffnet werden.
 
-![spielinhalt-drucken](../../images/spielinhalt-drucken.png)
+![spielinhalt-drucken](../../pages/images/spielinhalt-drucken.png)
 
 #### Spielsuchliste (Links im Fenster)
 
@@ -1275,7 +1275,7 @@ Mit den Buttons <span class="btn-lupo">Alle auswählen</span> und <span class="b
 
 Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 
-![sortier-moeglichkeiten](../../images/sortier-moeglichkeiten.png)
+![sortier-moeglichkeiten](../../pages/images/sortier-moeglichkeiten.png)
 
 !!! Verwenden Sie im Suchfeld das Platzhalterzeichen * (Stern) für beliebig viele, das ? (Fragezeichen) für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2013 anzeigen wollen, können Sie ??.02.2013 oder *.02.2013 eingeben
 
@@ -1297,7 +1297,7 @@ Definieren Sie die Schriftart, -grösse und das Format des Spielinhaltes. In den
 
 Das **Barcode Drucken** Fenster kann über die **Übersicht → Drucken → Barcodes Drucken** geöffnet werden.
 
-![barcodes-drucken](../../images/barcodes-drucken.png)
+![barcodes-drucken](../../pages/images/barcodes-drucken.png)
 
 #### Spielsuchliste (Links im Fenster)
 
@@ -1308,7 +1308,7 @@ Mit den Buttons <span class="btn-lupo">Alle auswählen</span> und <span class="b
 
 Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 
-![spielsuchliste](../../images/spielsuchliste.png)
+![spielsuchliste](../../pages/images/spielsuchliste.png)
 
 
 !!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
@@ -1323,7 +1323,7 @@ Es können nicht nur Barcodes für bestehende Spiele ausgedruckt werden, sondern
 
 Dieses Fenster kann mit **Übersicht → Drucken → Abokarten Drucken** geöffnet werden.
 
-![abokarten-drucken](../../images/abokarten-drucken.png)
+![abokarten-drucken](../../pages/images/abokarten-drucken.png)
 
 #### Adresssuchliste
 
@@ -1350,7 +1350,7 @@ Mit den Buttons <span class="btn-lupo">Alle auswählen</span> und <span class="b
 
 Das **Mahnungen drucken** Fenster kann mit der **Übersicht** oder beim **Beenden** von LUPO geöffnet werden.
 
-![mahnungen-drucken](../../images/mahnungen-drucken.png)
+![mahnungen-drucken](../../pages/images/mahnungen-drucken.png)
 
 Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt. Bis eine gedruckt oder per Email versendet werden kann, sind vier Schritte vorzunehmen:
 
@@ -1392,7 +1392,7 @@ Zeigt eine Liste mit allen neu gemahnten Kunden und eine Liste der gemahnten Spi
 
 Das **Reservationen drucken** Fenster kann mit der **Übersicht** oder beim **Beenden** von **LUPO** geöffnet werden.
 
-![reservationen-drucken](../../images/reservationen-drucken.png)
+![reservationen-drucken](../../pages/images/reservationen-drucken.png)
 
 Sobald ein Spiel einer Reservation eingetroffen ist, kann der Reservationsbrief erstellt und gedruckt oder per Email an den Kunden geschickt werden.
 
@@ -1492,7 +1492,7 @@ Zu jeder Buchung sind ein Soll- und ein Habenkonto gespeichert. Das heisst, imme
 
 Das Tagesjournal drucken Fenster kann vom Beenden Assistent her, mit der Übersicht oder der Symbolleiste geöffnet werden.
 
-![tagesjournal](../../images/tagesjournal.png)
+![tagesjournal](../../pages/images/tagesjournal.png)
 
 Nach jedem Ausleihtag sollten Sie den Tag abschliessen. Das Tagesjournal enthält Informationen über den Tageskasseninhalt, Mitarbeiterleistungen und Statistiken.
 
@@ -1516,17 +1516,17 @@ Sie können ein Journal über eine x-beliebige Zeitspanne ausdrucken. Dabei werd
 
 Mit den Plus- und Minus-Buttons können die Daten monatsweise durchgeblättert werden.
 
-![journal-zusammenzug](../../images/journal-zusammenzug.png)
+![journal-zusammenzug](../../pages/images/journal-zusammenzug.png)
 
 ### Tagesabschluss
 
 Diese Aktion speichert im Tagesjournal alle Buchungen, die seit dem letzten Speichern neu dazugekommen sind.
 
-![journal-speichern](../../images/journal-speichern.png)
+![journal-speichern](../../pages/images/journal-speichern.png)
 
 Wenn Sie die vorhergehende Frage mit <span class="btn-lupo">Ja</span> beantwortet haben öffnet sich das Tagesabschluss buchen Fenster:
 
-![tagesabschluss-buchen](../../images/tagesabschluss-buchen.png)
+![tagesabschluss-buchen](../../pages/images/tagesabschluss-buchen.png)
 
 #### Tagesabschluss
 
@@ -1555,7 +1555,7 @@ Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstel
 
 Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung → Konto-Auswertung** öffnen.
 
-![konto-auswertungen](../../images/konto-auswertungen.png)
+![konto-auswertungen](../../pages/images/konto-auswertungen.png)
 
 Sie können die Liste filtern nach Kontonummer und / oder Buchungsdatum.
 
@@ -1586,13 +1586,13 @@ Wenn Sie auf <span class="btn-lupo">Anzeigen</span> klicken, werden die Kontenbl
 
 Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Kontobestände** öffnen.
 
-![kontobestaende](../../images/kontobestaende.png)
+![kontobestaende](../../pages/images/kontobestaende.png)
 
 Es werden alle Soll-Beträge und alle Haben-Beträge aller jemals gespeicherten Buchungen im Journal zusammengezählt. Der Bestand bildet sich aus **[Summe Haben] – [Summe Soll]**.
 
 #### Bestand ändern
 
-![bestand-aendern](../../images/bestand-aendern.png)
+![bestand-aendern](../../pages/images/bestand-aendern.png)
 
 Geben Sie den neuen Bestand ein. Je nach Konto wird der Differenzbetrag auf das Haben- oder Sollkonto verrechnet. Die Gegenbuchung wird entsprechend dem Hilfskonto (8000) belastet.
 
@@ -1675,7 +1675,7 @@ Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfe
 
 Das **Einzelbuchung** Fenster können Sie mit **Übersicht → Buchhaltung → Manuell buchen** öffnen.
 
-![einzelbuchung-erfassen](../../images/einzelbuchung-erfassen.png)
+![einzelbuchung-erfassen](../../pages/images/einzelbuchung-erfassen.png)
 
 #### Buchung
 
@@ -1697,7 +1697,7 @@ Das **Einzelbuchungen individuell** Fenster können Sie mit dem Übersichtsbefeh
 
 Im **Einzelbuchung individuell** Fenster können Sie Buchungen von einem frei wählbaren Konto nach einem frei wählbaren Konto erfassen. Hier übernimmt der Computer keine Kontrolle über Ihre Buchungen. Was Sie eingeben wird gebucht!
 
-![einzelbuchungen-individuell](../../images/einzelbuchungen-individuell.png)
+![einzelbuchungen-individuell](../../pages/images/einzelbuchungen-individuell.png)
 
 ---
 # Buchungstexte bearbeiten'
@@ -1709,7 +1709,7 @@ Im **Einzelbuchung individuell** Fenster können Sie Buchungen von einem frei w�
 
 Das Fenster **Buchungstexte** können Sie mit **Übersicht → Buchhaltung → Buchungstexte bearbeiten** öffnen. Diese Buchungstexte sind die Auswahlmöglichkeiten in den **Buchen – Fenster** (Spiele ausleihen und zurücknehmen und Einzelbuchungen (manuell buchen)).
 
-![buchungstexte-generieren](../../images/buchungstexte-generieren.png)
+![buchungstexte-generieren](../../pages/images/buchungstexte-generieren.png)
 
 #### Buchungs-Fenster
 
@@ -1759,7 +1759,7 @@ In dieser Reihenfolge werden die Buchungen angezeigt. Ist nichts eingetragen so 
 
 Dieses Fenster kann mit **Übersicht → Statistik und Listen** oder direkt aus der Symbolleiste geöffnet werden. In der ersten Registerkarte des **Statistik** Fensters können Sie vordefinierte Statistiken und Listen ausdrucken. Die hinteren 6 Karten enthalten Listen, welche alle wesentlichen Felder der entsprechenden Tabelle zeigen.
 
-![statistik-und-listen](../../images/statistik-und-listen.png)
+![statistik-und-listen](../../pages/images/statistik-und-listen.png)
 
 Diese Datumsspanne (Statistik von … bis …) gilt für die grün geschriebenen Statistiken (bei Ausleihen gilt das Ausleihdatum als Referenz)
 
@@ -1775,7 +1775,7 @@ Markieren Sie das Kontrollkästchen für die Statistiken, welche Sie <span class
 
 Die Liste zeigt alle aktiven Adressen. Gelöschte Adressen werden nicht angezeigt.
 
-![aktive-adressen](../../images/aktive-adressen.png)
+![aktive-adressen](../../pages/images/aktive-adressen.png)
 
 Mit <span class="btn-lupo">Adress-Etiketten Zweckform 3664</span> werden alle angezeigten Adressen (ihr Filter wird beachtet!) in Seitenansicht zum Drucken auf Etiketten angezeigt.
 
@@ -1786,7 +1786,7 @@ Mit <span class="btn-lupo">Adress-Etiketten Zweckform 3664</span> werden alle an
 
 Das **Adressen drucken** Fenster kann mit **Adressliste drucken** geöffnet werden:
 
-![adressen-drucken](../../images/adressen-drucken.png)
+![adressen-drucken](../../pages/images/adressen-drucken.png)
 
 Bestimmen sie durch ankreuzen der entsprechenden Optionen welche Adressen angezeigt werden sollen. Gewisse Optionen können miteinander kombiniert werden.
 
@@ -1796,7 +1796,7 @@ Wenn Sie auf <span class="btn-lupo">Emailadressen kopieren</span> klicken, werde
 
 Falls Sie im Adress-Datenblatt einen Filter gesetzt haben wird dieser berücksichtigt.
 
-![massenemail-versenden](../../images/massenemail-versenden.png)
+![massenemail-versenden](../../pages/images/massenemail-versenden.png)
 
 ### Serienbrief in Word
 
@@ -1804,7 +1804,7 @@ Bei der Installation des LUPO wird die Serienbrief-Vorlage **C:\Lupo_Daten\Serie
 
 Bevor der Serienbrief angezeigt wird muss folgende Frage mit Ja bestätigt werden:
 
-![serienbrief-anzeigen](../../images/serienbrief-anzeigen.png)
+![serienbrief-anzeigen](../../pages/images/serienbrief-anzeigen.png)
 
 ---
 #Spiele
@@ -1816,13 +1816,13 @@ Bevor der Serienbrief angezeigt wird muss folgende Frage mit Ja bestätigt werde
 
 Zeigt alle Spielkinder an. Jedes Spielkind enthält auch die Daten seiner Spielfamilie.
 
-![spielkinder-anzeigen](../../images/spielkinder-anzeigen.png)
+![spielkinder-anzeigen](../../pages/images/spielkinder-anzeigen.png)
 
 ### Spielekatalog und Inventar drucken
 
 Spielekatalog und Inventar drucken öffnet folgendes Fenster. Diese kann auch direkt aus dem Spiele-Fenster geöffnet werden.
 
-![spielliste-inventar-drucken](../../images/spielliste-inventar-drucken.png)
+![spielliste-inventar-drucken](../../pages/images/spielliste-inventar-drucken.png)
 
 #### A4 hoch
 
@@ -1851,7 +1851,7 @@ Um nicht alle Spiele anzuzeigen können Filter gesetzt werden. Bei den Feldern A
 
 Hier können Ausleihen, welche vor der LUPO-Zeit getätigt wurden nachgebucht werden, so dass die Anzahl Ausleihen und Gebühreneinnahmen eines Spieles stimmen. Tragen Sie die Spielnummer ein, mit **[Tab]** zum Feld Anzahl Ausleihen springen, dann mit <kbd>Enter</kbd> Ausleihen.
 
-![statistik-nachbuchen](../../images/statistik-nachbuchen.png)
+![statistik-nachbuchen](../../pages/images/statistik-nachbuchen.png)
 
 ---
 #Ausleihen
@@ -1863,7 +1863,7 @@ Hier können Ausleihen, welche vor der LUPO-Zeit getätigt wurden nachgebucht we
 
 Eine Liste mit allen Spielausleihen zwischen den beiden im Fenster oben rechts eingetragenen Daten.
 
-![ausleihen](../../images/ausleihen.png)
+![ausleihen](../../pages/images/ausleihen.png)
 
 ---
 #Buchungen
@@ -1875,7 +1875,7 @@ Eine Liste mit allen Spielausleihen zwischen den beiden im Fenster oben rechts e
 
 Die Liste aller Buchungen zwischen der eingetragenen Zeitspanne.
 
-![liste-buchungen](../../images/liste-buchungen.png)
+![liste-buchungen](../../pages/images/liste-buchungen.png)
 
 ---
 #Mitarbeiterleistungen
@@ -1887,7 +1887,7 @@ Die Liste aller Buchungen zwischen der eingetragenen Zeitspanne.
 
 Liste aller erfassten Arbeitszeiten der Mitarbeiterinnen zwischen der eingetragenen Zeitspanne.
 
-![mitarbeiterleistungen](../../images/mitarbeiterleistungen.png)
+![mitarbeiterleistungen](../../pages/images/mitarbeiterleistungen.png)
 
 Arbeitsrapport Mitarbeiter zeigt einen Bericht mit der Summe aller Arbeitszeiten.
 
@@ -1901,7 +1901,7 @@ Arbeitsrapport Mitarbeiter zeigt einen Bericht mit der Summe aller Arbeitszeiten
 
 Liste aller aktiven Mitarbeiterinnen. Das Eintrittsdatum wurde beim anhaken der Mitarbeiter Checkbox bestimmt.
 
-![mitarbeiterInnen](../../images/mitarbeiterInnen.png)
+![mitarbeiterInnen](../../pages/images/mitarbeiterInnen.png)
 
 Mit Adress-Etiketten Zweckform 3664 werden alle angezeigten Adressen (ihr Filter wird beachtet!) in Seitenansicht zum Drucken auf Etiketten angezeigt.
 ---
@@ -1938,7 +1938,7 @@ Es besteht die Möglichkeit, eigene SQL-Abfragen zu Erstellen und Speichern. Dam
 
 Mit der Funktion <span class="btn-lupo">SQL-Datei importieren</span> können vordefinierte Abfragen die Sie z.B. wegen einer Supportanfrage oder mit einen Download von unserer Website erhalten haben eingelesen werden. Eine solche Datei muss auf der ersten Zeile den Abfrage-Titel und im Rest das SQL-Statement enthalten und im ANSI Dateiformat gespeichert sein.
 
-![sql-abfrage](../../images/sql-abfrage.png)
+![sql-abfrage](../../pages/images/sql-abfrage.png)
 
 ---
 # Statistik & Listen'  
@@ -2602,7 +2602,7 @@ visible: true
 
 Das Aussehen der Briefe Mahnbrief, Reservationsbrief und Infobrief kann (mit beschränkten Möglichkeiten) Ihren Bedürfnissen entsprechend angepasst werden.
 
-![briefeinstellung](../../images/briefeinstellung.png)
+![briefeinstellung](../../pages/images/briefeinstellung.png)
 
 #### Schriftart und -grösse
 
@@ -2642,11 +2642,11 @@ In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellung
 
 #### Einstellung auf dem Ausleih-PC (Server)
 
-![netzwerkeinstellungen-server](../../images/netzwerkeinstellungen-server.png)
+![netzwerkeinstellungen-server](../../pages/images/netzwerkeinstellungen-server.png)
 
 #### Einstellung auf dem Rücknahme-PC (Client)
 
-![netzwerkeinstellungen-client](../../images/netzwerkeinstellungen-client.png)
+![netzwerkeinstellungen-client](../../pages/images/netzwerkeinstellungen-client.png)
 
 
 !!! Der Computer, welcher die Daten über das Netzwerk liest (der Rücknahme-PC), kann nur verwendet werden, wenn der „Server" (Ausleih-PC) hochgefahren und angemeldet ist.
@@ -2663,7 +2663,7 @@ Auf der Ausleihstation werden Spiele mit <kbd>Enter</kbd> im Spielnummerfeld imm
 
 Ist ein Spiel bereits ausgeliehen (und Sie weisen LUPO trotzdem an das Spiel auszuleihen) so erscheint folgende Meldung:
 
-![get-back-fenster](../../images/get-back-fenster.png)
+![get-back-fenster](../../pages/images/get-back-fenster.png)
 
 Die Knöpfe Ausleihen und Rücknahme funktionieren auf beiden Arbeitsplätzen gleich. Sie können problemlos auf der Ausleihstation Spiele zurücknehmen oder mit dem Rückgabecomputer Spiele ausleihen.
 
@@ -2681,11 +2681,11 @@ visible: true
 
 Jedes Fenster kann mit einem Passwort geschützt werden.
 
-![passwords](../../images/passwords.png)
+![passwords](../../pages/images/passwords.png)
 
 Fenster, bei welchen im Feld Passwort eine Zeichenfolge eingetragen ist, können nur durch Eingabe des korrekten Passwortes geöffnet werden.
 
-![passwords-saved](../../images/passwords-saved.png)
+![passwords-saved](../../pages/images/passwords-saved.png)
 ---
 # LUPO registrieren'
 
@@ -2696,7 +2696,7 @@ visible: true
 
 Die Registrierungsinformationen können Sie mit dem Übersichtsbefehl **Einstellungen → Registrierung** anzeigen.
 
-![lupo-registration](../../images/lupo-registration.png)
+![lupo-registration](../../pages/images/lupo-registration.png)
 
 Aktivieren Sie die von Ihnen bestellten Programmoptionen (Netzwerk, Barcode, Bondrucker) und tragen Sie den Namen Ihrer Ludothek sowie den Registriercode in die vorgesehenen Textfelder ein. Achten Sie auf die genaue Schreibweise. Drücken Sie auf Registrieren um die Demoversion-Einschränkungen aufzuheben.
 
@@ -2721,8 +2721,8 @@ visible: true
 
 Der Inhalt der Website ist in verschiedene Bereiche unterteilt. Beiträge können direkt im Frontend bearbeitet werden, der andere Inhalt (Module) wird im Administrator verwaltet.
 
-![webseite_aufbau](../../images/webseite_aufbau.png)
-![webseite_aufbau_legende](../../images/webseite_aufbau_legende.png)
+![webseite_aufbau](../../pages/images/webseite_aufbau.png)
+![webseite_aufbau_legende](../../pages/images/webseite_aufbau_legende.png)
 
 ---
 # Inhalt bearbeiten'
@@ -2749,17 +2749,17 @@ Der Inhalt der Website ist in verschiedene Bereiche unterteilt. Beiträge könne
 
 Änderungen an bestehenden Beiträgen können direkt im Frontend vorgenommen werden. Dazu müssen Sie sich auf der Seite Impressum im Login-Bereich oben rechts anmelden:
 
-![webseite_frontend](../../images/webseite_frontend.png)
+![webseite_frontend](../../pages/images/webseite_frontend.png)
 
 **Im Frontend können nur Beiträge bearbeitet werden.** Änderungen am Modulen, Menüs, Links und dem Spielangebot müssen im Administrator ausgeführt werden.
 
-![webseite_frontend_bearbeiten](../../images/webseite_frontend_bearbeiten.png)
+![webseite_frontend_bearbeiten](../../pages/images/webseite_frontend_bearbeiten.png)
 
 #### Modul bearbeiten
 
 Um den Inhalt eines Moduls zu bearbeiten kann im Frontend auf das Icon oben links geklickt werden:
 
-![webseite_frontend_modul_bearbeiten ](../../images/webseite_frontend_modul_bearbeiten.png)
+![webseite_frontend_modul_bearbeiten ](../../pages/images/webseite_frontend_modul_bearbeiten.png)
 ---
 # Administrator Login'
 
@@ -2772,7 +2772,7 @@ Sämtliche Inhalte der Website können über den Administrator kontrolliert werd
 
 Nach erfolgter Anmeldung im Administrator sehen Sie die Administrator-Startseite:
 
-![webseite_administrator_dashboard](../../images/webseite_administrator_dashboard.png)
+![webseite_administrator_dashboard](../../pages/images/webseite_administrator_dashboard.png)
 
 ---
 #Beiträge
@@ -2784,13 +2784,13 @@ visible: true
 
 Ein Klick auf den Menüpunkt Inhalt → Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
 
-![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
+![webseite_backend_beitraege](../../pages/images/webseite_backend_beitraege.png)
 
 Es existieren drei Beitrags-Kategorien: Ohne Kategorie, Über uns und Aktuell. Beiträge der Kategorie Aktuell werden in der Webseite beim Menüpunkt Aktuell aufgeführt die mit Über uns unter dem entsprechenden Menülink.
 
 #### Hauptbeiträge
 
-![webseite_backend_hauptbeitraege](../../images/webseite_backend_hauptbeitraege.png)
+![webseite_backend_hauptbeitraege](../../pages/images/webseite_backend_hauptbeitraege.png)
 
 Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren muss unter Status der Stern gesetzt werden.
 
@@ -2798,7 +2798,7 @@ Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hau
 
 Ein Klick auf den Beitrag-Link öffnet die Seite zur Bearbeitung:
 
-![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
+![webseite_backend_beitraege](../../pages/images/webseite_backend_beitraege.png)
 
 Soll der Beitrag unter Aktuell aufgeführt werden, muss die Kategorie entsprechend gesetzt werden.
 
@@ -2806,29 +2806,29 @@ Ein Beitrag kann geteilt werden, so dass nur der Anriss angezeigt wird und der v
 
 Wenn formatierter Text, z.B. aus einem Word-Dokument, kopiert wurde sollte der Text ohne Formatierung eingefügt werden. Dies kann mit folgendem Editor-Symbol erreicht werden:
 
-![webseite_backend_beitrag_bearbeiten](../../images/webseite_backend_beitrag_bearbeiten.png)
+![webseite_backend_beitrag_bearbeiten](../../pages/images/webseite_backend_beitrag_bearbeiten.png)
 
 #### Beiträge unter "Aktuell"
 
 Bei Beiträgen in der Kategorie Aktuell wird das Datum angezeigt, welches unter Erstellungsdatum gespeichert ist. Der Zeitraum, in welchem der Artikel auf der Website angezeigt wird, kann mit den beiden Daten Veröffentlichung starten und Veröffentlichung beenden definiert werden.
 
-![webseite_backend_beitrag_aktuell](../../images/webseite_backend_beitrag_aktuell.png)
+![webseite_backend_beitrag_aktuell](../../pages/images/webseite_backend_beitrag_aktuell.png)
 
 #### Beiträge unter "Agenda"
 
 Agenda-Einträge werden sortiert nach dem Veranstaltungsdatum (=Erstellungsdatum) angezeigt. Im Menüpunkt „Agenda" werden alle Beträge der Kategorie aufgelistet und zusätzlich können auf der Startseite die aktuellsten Anlässe durch ein Modul angezeigt werden. In den Modul-Einstellungen kann die Anzahl der Veranstaltungen definiert werden.
 
-![webseite_backend_beitrag_agenda](../../images/webseite_backend_beitrag_agenda.png)
+![webseite_backend_beitrag_agenda](../../pages/images/webseite_backend_beitrag_agenda.png)
 
 Die Daten **Veröffentlichung starten** und **Veröffentlichung beenden** steuern die Sichtbarkeit der Veranstaltung.
 
 Das **Erstellungsdatum** muss auf das Veranstaltungsdatum gesetzt werden und wird auf der Webseite angezeigt:
 
-![webseite_beitrag_klein](../../images/webseite_beitrag_klein.png)
+![webseite_beitrag_klein](../../pages/images/webseite_beitrag_klein.png)
 
 Unter **Bilder und Links** kann ein Einleitungsbild und eine Beitragsbild definiert werden:
 
-![webseite_backend_beitrag_bilderundlinks](../../images/webseite_backend_beitrag_bilderundlinks.png)
+![webseite_backend_beitrag_bilderundlinks](../../pages/images/webseite_backend_beitrag_bilderundlinks.png)
 
 Für eine optisch anspruchsvolle Liste sollten alle Einleitungsbilder ein etwa gleiches Seitenverhältnis haben. Weiter ist zu empfehlen die Einleitungsbilder vor dem Hochladen in einem Grafikprogramm zu verkleinern. Empfehlenswert ist eine Grösse von maximal 800 x 600 Pixel und unter 100 KB.
 
@@ -2836,13 +2836,13 @@ Für eine optisch anspruchsvolle Liste sollten alle Einleitungsbilder ein etwa g
 
 Bilder und Dateien können auch direkt im Artikel-Text eingefügt werden. Mit folgendem Icon öffnet sich der Bilder-Manager:
 
-![webseite_backend_beitrag_bilder_hochladen](../../images/webseite_backend_beitrag_bilder_hochladen.png)
+![webseite_backend_beitrag_bilder_hochladen](../../pages/images/webseite_backend_beitrag_bilder_hochladen.png)
 
-![webseite_backend_beitrag_bildermanager](../../images/webseite_backend_beitrag_bildermanager.png)
+![webseite_backend_beitrag_bildermanager](../../pages/images/webseite_backend_beitrag_bildermanager.png)
 
-Klicken Sie auf das Icon ![webseite_backend_upload_bild](../../images/webseite_backend_upload_bild.png) um ein neues Bild hochzuladen. Folgendes Fenster öffnet sich:
+Klicken Sie auf das Icon ![webseite_backend_upload_bild](../../pages/images/webseite_backend_upload_bild.png) um ein neues Bild hochzuladen. Folgendes Fenster öffnet sich:
 
-![webseite_backend_bild_hochladen_fenster](../../images/webseite_backend_bild_hochladen_fenster.png)
+![webseite_backend_bild_hochladen_fenster](../../pages/images/webseite_backend_bild_hochladen_fenster.png)
 
 Bitte beachten Sie, dass Fotos nicht in voller Auflösung (der Digi-Cam) hochgeladen werden sollten. Es besteht zwar die Möglichkeit durch Aktivierung des Häkchens „Grösse ändern" die Bilder nach dem Hochladen klein zu rechnen, allerdings empfiehlt es sich, dies bereits vorher in einem Grafikprogramm zu erledigen.
 
@@ -2856,7 +2856,7 @@ visible: true
 
 Ein Klick auf den Menüpunkt Module (im Kontrollzentrum Links unter Struktur) öffnet die Seite zum Bearbeiten der Module:
 
-![webseite_backend_module](../../images/webseite_backend_module.png)
+![webseite_backend_module](../../pages/images/webseite_backend_module.png)
 
 Bearbeiten Sie ein Modul um den Inhalt oder die Position zu ändern.
 
@@ -2872,20 +2872,20 @@ Mit der Erweiterung Widgetkit kann eine Slideshow wie auf der Frontseite erstell
 
 Um neue Widgets zu erstellen oder bestehende zu bearbeiten ist im Administrator unter Komponenten → Widgetkit folgendes Fenster zu öffnen:
 
-![webseite_backend_widgetkit](../../images/webseite_backend_widgetkit.png)
+![webseite_backend_widgetkit](../../pages/images/webseite_backend_widgetkit.png)
 
 Auf das Element (z.B. «Lageplan») klicken um die Slideshow zu bearbeiten:
 
-![webseite_backend_widgetkit_bearbeiten](../../images/webseite_backend_widgetkit_bearbeiten.png)
+![webseite_backend_widgetkit_bearbeiten](../../pages/images/webseite_backend_widgetkit_bearbeiten.png)
 
 Im Editier-Fenster der Slideshow können Bilder hinzugefügt, verändert neu sortiert oder gelöscht werden.
 
 Um die Anzeigeeinstellungen des Widgets zu verändern muss das Modul geöffnet werden. Die Module sind im Administrator unter **Erweiterungen → Module** zu finden:
 
-![webseite_backend_erweiterung_module](../../images/webseite_backend_erweiterung_module.png)
+![webseite_backend_erweiterung_module](../../pages/images/webseite_backend_erweiterung_module.png)
 Im geöffneten Modul kann auf den Knopf Widgetkit geklickt werden um die Anzeige-Einstellungen zu öffnen:
 
-![webseite_backend_widgetkit_slideshow](../../images/webseite_backend_widgetkit_slideshow.png)
+![webseite_backend_widgetkit_slideshow](../../pages/images/webseite_backend_widgetkit_slideshow.png)
 ---
 # Spielliste aus LUPO exportieren'
 
@@ -2896,11 +2896,11 @@ visible: true
 
 Das Exportfenster kann im LUPO-Menü mit dem Button Joomla! / Wordpress geöffnet werden:
 
-![spielliste_exportfenster](../../images/spielliste_exportfenster.png)
+![spielliste_exportfenster](../../pages/images/spielliste_exportfenster.png)
 
 Das Internetexport-Fenster öffnen Sie mit dem Menübefehl **Joomla! / Wordpress:**
 
-![spielliste_internetexport ](../../images/spielliste_internetexport.png)
+![spielliste_internetexport ](../../pages/images/spielliste_internetexport.png)
 
 Mit dem Knopf **Exportdatei erstellen** wird eine zip-Datei mit den gewählten Einstellungen und Inhalten erstellt.
 
@@ -2908,7 +2908,7 @@ Mit dem Knopf **Exportdatei erstellen** wird eine zip-Datei mit den gewählten E
 
 Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Dazu ist das Fenster unter **Komponenten  LUPO Spielliste** zu öffnen:
 
-![spielliste_joomla_importieren](../../images/spielliste_joomla_importieren.png)
+![spielliste_joomla_importieren](../../pages/images/spielliste_joomla_importieren.png)
 
 Um die aus dem LUPO exportierte Spieleliste ins Joomla zu importieren, die **zip-Datei Auswählen** und dann mit dem Knopf **Datei hochladen** auf dem Server speichern. Danach können mit der Funktion **Hochgeladene Daten verarbeiten ** die Spiele eingelesen werden
 
@@ -2922,7 +2922,7 @@ visible: true
 
 Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Dazu ist das Fenster unter **Komponenten  LUPO Spielliste** zu öffnen:
 
-![spielliste_joomla_importieren](../../images/spielliste_joomla_importieren.png)
+![spielliste_joomla_importieren](../../pages/images/spielliste_joomla_importieren.png)
 
 Um die aus dem LUPO exportierte Spieleliste ins Joomla zu importieren, die **zip-Datei Auswählen** und dann mit dem Knopf **Datei hochladen** auf dem Server speichern. Danach können mit der Funktion **Hochgeladene Daten verarbeiten ** die Spiele eingelesen werden
 
@@ -2935,20 +2935,20 @@ visible: true
 ---
 
 Auf der Webseite kann der Ausleihhstatus (ausgeliehen/verfügbar) des Spiels angezeigt werden:
-![ausleihstatus-website](../../images/ausleihstatus-website.png)
+![ausleihstatus-website](../../pages/images/ausleihstatus-website.png)
 
 Neben dem Ausleihstatus ist das WebSync Programm auch zuständig zur Übermittlung der vom Kunden ausgeliehenen Spiele (für Kundenlogin auf der Webseite) sowie zum Einlesen der durch den Kunden online getätigten Verlängerungen.
 
 ##Websync einrichten
 
 Das WebSync-Programm kann vom LUPO her gestartet werden:
-![internetexport-websync](../../images/internetexport-websync.png)
+![internetexport-websync](../../pages/images/internetexport-websync.png)
 Bei gesetztem Häkchen öffnet sich das Programm automatisch und minimiert sich nach dem Start in die Taskleiste.
 
-![websync](../../images/websync.png)
+![websync](../../pages/images/websync.png)
 
 In den WebSync-Einstellungen können folgende Werte definiert werden:
-![websync-einstellungen](../../images/websync-einstellungen.png)
+![websync-einstellungen](../../pages/images/websync-einstellungen.png)
 
 **Webseite URL**  
 Tragen Sie hier die Adresse Ihrer Webseite ein, z.B. https://ludothek-zofingen.ch/
@@ -2957,7 +2957,7 @@ Tragen Sie hier die Adresse Ihrer Webseite ein, z.B. https://ludothek-zofingen.c
 Dies ist das "Passwort" für den Dienst zum Schreiben und Lesen der Daten auf Ihrer Webseite. 
 Derselbe Wert muss im Joomla-Administrator bei den LUPO-Optionen gespeichert werden:
 
-![websync-online](../../images/websync-online.png)
+![websync-online](../../pages/images/websync-online.png)
 
 Vergessen Sie nicht vor dem Herunterfahren des PCs auch das WebSynx-Programm zu schliessen.
 
@@ -2980,7 +2980,7 @@ visible: true
 
 Standardmässig speichert LUPO alle Benutzer-Daten im Ordner **C:\Lupo_Daten**. In diesem Verzeichnis sind die Datenbank **Lupo12_Daten.accdb**, die Logo-Dateien und die Spiel-Fotos abgelegt. Die Datensicherung, welche beim entsprechenden Punkt im Beenden-Assistent durchgeführt wird, enthält aber nur die Daten-Datei. Eine Sicherung mit allen Benutzer-Daten kann manuell erstellt werden. Klicken Sie dazu im Menü auf den Knopf Datensicherung:
 
-![datensicherung](../../images/datensicherung.png)
+![datensicherung](../../pages/images/datensicherung.png)
 
 Die ausgewählten Dateien werden komprimiert in einem RAR-Archiv gespeichert. Um den Inhalt von RAR-Dateien zu extrahieren kann die kostenlose Software WinRAR (Shareware-Version) verwendet werden.
 
@@ -3004,7 +3004,7 @@ Die Datensicherung kann nicht direkt aus LUPO zurück gelesen werden. Auf diese 
 
 Öffnen Sie dieses durch Drücken der Windows-Taste und anschliessendem Suchen nach **LUPO Datensicherung**:
 
-![lupo-backup](../../images/lupo-backup.png)
+![lupo-backup](../../pages/images/lupo-backup.png)
 
 Falls die LUPO-Einstellung Jeder Sicherung einen anderen Namen geben aktiviert ist, wird die Sicherungsdatei mit dem Datum und der Uhrzeit im Dateinamen abgespeichert. Solche Dateien haben auf der Festplatte oder dem USB-Stick Dateinamen wie **LupoSave2015-02-10_15-31.rar**
 
@@ -3037,7 +3037,7 @@ Diese Funktionen sollten nur von erfahrenen LUPO- und Computerbenutzern verwende
 
 #### Zusatzfunktionen
 
-![lupo-admin](../../images/lupo-admin.png)
+![lupo-admin](../../pages/images/lupo-admin.png)
 
 #### Alte Adressen löschen
 
@@ -3047,7 +3047,7 @@ Mit dieser Funktion werden alle Adressen deren Abo-Enddatum kleiner als Ihre Ein
 
 Adressen, welche den Status gelöscht haben werden **ENDGÜLTIG** gelöscht werden. Dieser Befehl kann ausgeführt werden nachdem die alten Adressen mit der oberhalb beschriebenen Funktion gelöscht wurden.
 
-![adressen-endgueltig-loeschen](../../images/adressen-endgueltig-loeschen.png)
+![adressen-endgueltig-loeschen](../../pages/images/adressen-endgueltig-loeschen.png)
 
 #### Leere Adressnummern finden / Leere Spielnummern finden
 
@@ -3076,21 +3076,21 @@ Zeigt alle Adress- oder Spieldaten in einer Tabelle an. Sie können die Daten **
 
 Mit dem Tabellen-Editor kann jede im LUPO verwendete Tabelle angezeigt und deren Inhalt verändert werden.
 
-![tabellen-editor](../../images/tabellen-editor.png)
+![tabellen-editor](../../pages/images/tabellen-editor.png)
 
 #### Oberfläche
 
-![oberflaeche](../../images/oberflaeche.png)
+![oberflaeche](../../pages/images/oberflaeche.png)
 
 Hier kann die Hintergrundfarbe und die Grafik-Datei in der Übersicht definiert werden. Die ideale Abmessung der Grafikdatei ist **394 x 382** Pixel (Breite x Höhe).
 
 Unter Office Farbschema können die Farben der Oberfläche bestimmt werden. Die Bildschirmfotos in diesem Handbuch sind alle mit dem Farbschema Blau aufgenommen worden. So sieht das Fenster mit Silber aus:
 
-![oberflaeche-silver](../../images/oberflaeche-silver.png)
+![oberflaeche-silver](../../pages/images/oberflaeche-silver.png)
 
 #### Übersetzung
 
-![uebersetzung](../../images/uebersetzung.png)
+![uebersetzung](../../pages/images/uebersetzung.png)
 
 #### Sprache wechseln
 
@@ -3100,7 +3100,7 @@ Mit diesem Befehl werden alle Sprachbasierten Texte neu initialisiert. Einstellu
 
 Mit dieser Funktion können Texte und Wörter umbenannt werden, z.B. wenn anstelle von Tragtasche das Wort Stofftasche angezeigt werden soll. Achten Sie auf die exakte Schreibweise. Es muss immer der gesamte Text eingetragen werden, das Beispiel unterhalb ändert nur den Text Tragtasche im Ausleihfenster, aber nicht Häkchen ‚Tragtasche' anzeigen in den Einstellungen.
 
-![benutzerdefinierte-texte](../../images/benutzerdefinierte-texte.png)
+![benutzerdefinierte-texte](../../pages/images/benutzerdefinierte-texte.png)
 
 #### Translation Tools
 
@@ -3108,7 +3108,7 @@ Für Übersetzter der Software nützliche Funktionen und Listen.
 
 #### Barcode / POS-Printer
 
-![pos-printer](../../images/pos-printer.png)
+![pos-printer](../../pages/images/pos-printer.png)
 
 #### Barcode
 
@@ -3130,7 +3130,7 @@ Die **SetupPOS** Software für einen EPSON oder Bixolon Bondrucker kann durch Dr
 
 #### Diverses
 
-![diverses2](../../images/diverses2.png)
+![diverses2](../../pages/images/diverses2.png)
 
 #### Online Support-Forum
 
@@ -3175,7 +3175,7 @@ Nachfolgend finden sie einige bekannte oder gängige Probleme sowie passende Lö
 
 Beim Start von LUPO oder einem anderen LUPO-Programm (z.B. dem Datenupdate-Programm) erscheint folgende Meldung oben im Fenster:
 
-![sicherheitsmeldung-beim-starten](../../images/sicherheitsmeldung-beim-starten.png)
+![sicherheitsmeldung-beim-starten](../../pages/images/sicherheitsmeldung-beim-starten.png)
 
 LUPO wurde unter einem anderen Benutzer installiert als der aktuell angemeldete. Führen Sie das Programm **LUPO Installation reparieren** unter dem aktuellen Benutzer aus um den Inhalt dauerhaft zu aktivieren.
 
@@ -3183,31 +3183,31 @@ LUPO wurde unter einem anderen Benutzer installiert als der aktuell angemeldete.
 
 Sofort nach dem Start von LUPO erscheint diese Fehlermeldung:
 
-![database-not-found](../../images/database-not-found.png)
+![database-not-found](../../pages/images/database-not-found.png)
 
 LUPO kann die Daten-Datenbank (die Datei, in welcher alle Daten wie Adressen, Spiele, Ausleihen usw. gespeichert sind) nicht öffnen. Normalerweise ist diese Datei unter C:Lupo_DatenLupo10_Daten.accdb auf dem Haupt-PC und unter Z:Lupo10_Daten.accdb auf dem Netzwerk-PC gespeichert. Wenn die Meldung auf dem PC erscheint, welcher via Netzwerk auf den anderen zugreifen soll überprüfen Sie ob im Windows-Explorer das Netzlaufwerk (Z:) angezeigt wird und ob Sie darauf zugreifen können.
 
 #### Nicht erkennbares Datenbankformat
 
-![nicht-erkennbares-datenbankformat](../../images/nicht-erkennbares-datenbankformat.png)
+![nicht-erkennbares-datenbankformat](../../pages/images/nicht-erkennbares-datenbankformat.png)
 
 Diese Fehlermeldung erscheint wenn die LUPO-Datendatei beschädigt ist. Dies kann z. B. geschehen wenn der PC abstürzt oder abgeschaltet wurde ohne herunterzufahren. Klicken Sie auf OK und im nächsten Dateiauswahl-Fenster auf Öffnen . Wenn LUPO danach ohne weitere Fehlermeldungen startet hat das Reparieren funktioniert und Sie können normal weiterarbeiten.
 
 #### Unzulässiger Wert
 
-![unzulaessiger-wert](../../images/unzulaessiger-wert.png)
+![unzulaessiger-wert](../../pages/images/unzulaessiger-wert.png)
 
 Sie haben z.B. einen Buchstaben in ein Zahlenfeld eingegeben. Bestätigen Sie die Fehlermeldung und korrigieren Sie den Feldinhalt auf einen gültigen Wert oder drücken Sie [ESC] um Ihre Eingabe rückgängig zu machen und das Feld zu verlassen.
 
 #### Kein Wert aus der Auswahlliste
 
-![kein-wert-aus-der-auswahlliste](../../images/kein-wert-aus-der-auswahlliste.png)
+![kein-wert-aus-der-auswahlliste](../../pages/images/kein-wert-aus-der-auswahlliste.png)
 
 Sie haben in einer Auswahlliste einen Wert eingegeben der nicht in der Liste vorkommt. Bestätigen Sie die Fehlermeldung und wählen Sie ein Element aus der Liste oder drücken Sie [ESC] um das Feld zu verlassen.
 
 #### Datensatz löschen geht nicht
 
-![datensatz-loeschen-geht-nicht](../../images/datensatz-loeschen-geht-nicht.png)
+![datensatz-loeschen-geht-nicht](../../pages/images/datensatz-loeschen-geht-nicht.png)
 
 Sie versuchen einen Datensatz zu löschen, z.B. eine Spielkategorie in den Einstellungen, welcher noch einem anderen Datensatz zugeordnet ist. Heben Sie zuerst alle Verknüpfungen zu diesem Datensatz auf.
 
@@ -3229,7 +3229,7 @@ Probieren Sie, ob das Drucken aus einem anderen Programm funktioniert (z.B. Word
 
 #### Programm Absturz
 
-![programm-absturz](../../images/programm-absturz.png)
+![programm-absturz](../../pages/images/programm-absturz.png)
 
 Bill Gates lässt grüssen... Drücken Sie auf <span class="btn-lupo">Programm schliessen</span> und starten Sie LUPO neu.
 
@@ -3237,7 +3237,7 @@ Bill Gates lässt grüssen... Drücken Sie auf <span class="btn-lupo">Programm s
 
 Falls LUPO überhaupt nicht mehr reagiert oder Sie eine Fehlermeldung oder ein Fenster nicht wegbringen, dann kann LUPO mit dem Task-Manager geschlossen werden. Drücken Sie dazu gleichzeitig die Tasten [Ctrl]+[Alt]+[Esc] oder klicken Sie mit der rechten Maustaste auf die Uhr im Bildschirm unten rechts um den Windows Task-Manager zu öffnen.
 
-![task-manager](../../images/task-manager.png)
+![task-manager](../../pages/images/task-manager.png)
 
 Zuerst markieren Sie LUPO in der Liste der laufenden Anwendungen, dann klicken Sie auf <span class="btn-lupo">Task beenden</span> , danach auf <span class="btn-lupo">Sofort beenden</span> .
 
@@ -3260,10 +3260,10 @@ Wenn LUPO nicht mehr gestartet werden kann oder beim Start nur eine Fehlermeldun
 
 Öffnen Sie dieses durch Drücken der Windows-Taste und anschliessendem Suchen nach **LUPO**:
 
-![lupo-reparieren1](../../images/lupo-reparieren1.png)
+![lupo-reparieren1](../../pages/images/lupo-reparieren1.png)
 
  
-![lupo-reparieren2](../../images/lupo-reparieren2.png)
+![lupo-reparieren2](../../pages/images/lupo-reparieren2.png)
 ---
 # Fernwartung mit TeamViewer'
 
@@ -3276,19 +3276,19 @@ Zusammen mit LUPO wird die Software TeamViewer installiert, mit welcher von eine
 
 Starten Sie den TeamViewer mit dem Desktop-Icon oder durch Drücken der Windows-Taste und anschliessendem Suchen nach TeamViewer oder direkt mit dem Symbolleistenbefehl im LUPO:
 
-![fernwartung](../../images/fernwartung.png)
+![fernwartung](../../pages/images/fernwartung.png)
 
 Bei aktivierter Benutzerkontensteuerung erscheint folgender Dialog, welcher mit Ja beantwortet werden muss:
 
-![tv-zulassen](../../images/tv-zulassen.png)
+![tv-zulassen](../../pages/images/tv-zulassen.png)
 
 Wenn das LUPO Quick-Support Fenster erscheint kann Ihr Support-Partner eine Verbindung zu Ihrem PC aufbauen.
 
-![fernsteuerung](../../images/fernsteuerung.png)
+![fernsteuerung](../../pages/images/fernsteuerung.png)
 
 Die Support-Verbindung zu Ihrem PC muss nun noch durch Sie bestätigt werden:
 
-![support-verbindung](../../images/support-verbindung.png)
+![support-verbindung](../../pages/images/support-verbindung.png)
 
 Nach erfolgter Verbindung können Sie sich zurücklehnen und zuschauen.
 
@@ -3306,13 +3306,13 @@ Installieren Sie – bevor Sie den Drucker am PC anschliessen – die Software m
 
 Bei der Installation von LUPO werden folgende drei Etiketten-Vorlagedateien in den Ordner C:Lupo_daten kopiert:
 
-![dymo_vorlagedateien](../../images/dymo_vorlagedateien.png)
+![dymo_vorlagedateien](../../pages/images/dymo_vorlagedateien.png)
 
 Dies sind alles Vorlagen der Etikettengrösse 32 mm x 57 mm (Art. N° 11354). Sie können selbstverständlich jedes beliebige andere Etikettenformat verwenden.
 
 Öffnen Sie mit der DYMO Label v.8 Software eine Label-Datei:
 
-![dymo_label](../../images/dymo_label.png)
+![dymo_label](../../pages/images/dymo_label.png)
 
 Unter dem Reiter Einfügen können Sie frei Texte und Bilder dem Etikett hinzufügen oder bestehende Elemente anpassen.
 
@@ -3320,7 +3320,7 @@ Unter dem Reiter Einfügen können Sie frei Texte und Bilder dem Etikett hinzuf�
 
 Damit Lupo den Barcode oder Spielnamen mit Inhalt füllen kann müssen die Objekte mit dem korrekten Objektnamen versehen werden. Klicken Sie dazu im **Einfügen-Modus** mit der rechten Maustaste auf ein Objekt, dann wählen Sie **Eigenschaften**.
 
-![dymo_etiketten](../../images/dymo_etiketten.png)
+![dymo_etiketten](../../pages/images/dymo_etiketten.png)
 
 Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 
@@ -3366,23 +3366,23 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 
 Unter **Übersicht --> Einstellungen --> Programmeinstellungen** bei Spiel-Barcode den entsprechenden Etikettentyp sowie die Label-Datei wählen:
 
-![einstellungen](../../images/einstellungen.png)
+![einstellungen](../../pages/images/einstellungen.png)
 
 Und für die Kunden-Barcodes:
 
-![einstellungen_etiketten](../../images/einstellungen_etiketten.png)
+![einstellungen_etiketten](../../pages/images/einstellungen_etiketten.png)
 
 #### Einzelne Etikette drucken
 
 Die Etikette eines Spiels kann durch Klicken auf den Barcode-Knopf in **Spiele Erfassen** Fenster gedruckt werden:
 
-![etiketten_drucken](../../images/etiketten_drucken.png)
+![etiketten_drucken](../../pages/images/etiketten_drucken.png)
 
 Im **Adressfenster** befindet sich hinter der Adressnummer ein Barcode-Knopf zum Drucken des Etiketts.
 
 Ebenfalls kann im Fenster **Neue Adresse** direkt nach dem Eintippen der Adresse ein Etikett gedruckt werden:
 
-![neue_adresse_erfassen](../../images/neue_adresse_erfassen.png)
+![neue_adresse_erfassen](../../pages/images/neue_adresse_erfassen.png)
 
 !! Die DYMO-LabelWriter drucken mit dem Thermodirekt-Verfahren. Ein Nachteil von Thermopapier ist, dass die Etiketten mit der Zeit etwas verblassen. Hitze, direktes Sonnenlicht aber auch die Kunststoff-ausdunstung von Plastikfolien können diesen Prozess noch beschleunigen. Deshalb sollten die Etiketten nicht mit einer Schutzfolie überklebt werden.
 
@@ -3402,7 +3402,7 @@ Diese Installationsanleitung gilt für die EPSON-Drucker **TM-U220D / TM-T88III 
 
 Die Bondrucker-Software kann zusammen mit den LUPO-Programmdateien installiert werden. Wählen Sie dazu im LUPO Installationsassistent das Häkchen **EPSON Bondrucker** an:
 
-![installation_bondrucker](../../images/installation_bondrucker.png)
+![installation_bondrucker](../../pages/images/installation_bondrucker.png)
 
 Falls bereits eine aktuelle LUPO-Version installiert ist, dann kann das Programm zur Ansteuerung des Druckers auch von unserer Webseite heruntergeladen werden: 
 
@@ -3418,17 +3418,17 @@ Falls bereits eine aktuelle LUPO-Version installiert ist, dann kann das Programm
 
 Nach erfolgreicher Installation muss der Bondrucker konfiguriert werden. Starten Sie dazu das Programm **SetupPOS**( __ -Taste drücken, dann **SetupPOS** schreiben / suchen
 
-![drucktreiber_konfigurieren](../../images/drucktreiber_konfigurieren.png)
+![drucktreiber_konfigurieren](../../pages/images/drucktreiber_konfigurieren.png)
 
 Mit einem Klick auf das Symbol ganz links (Add New Device) öffnet sich folgendes Fenster. Wählen Sie **POSPrinter** als DeviceClass falls Sie danach gefragt werden.
 
-![Druckmodell_hinzufuegen](../../images/Druckmodell_hinzufuegen.png)
+![Druckmodell_hinzufuegen](../../pages/images/Druckmodell_hinzufuegen.png)
 
 1. **Ihr Druckermodell auswählen:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
 2. **Ihr Druckermodell schreiben:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
 3. **Weiter mit Next**
 
-![druckmodell_testen](../../images/druckmodell_testen.png)
+![druckmodell_testen](../../pages/images/druckmodell_testen.png)
 
 4. **Drucker testen.** <span class="btn-lupo">CheckHealth Interactive</span> öffnet ein Fenster zum Testen des Druckers. Werden beim Klicken auf **Start** einige Zeilen gedruckt, so ist der Druckertreiber korrekt installiert.
 
@@ -3438,7 +3438,7 @@ Wenn bei TMPORT Settings „(none)" steht, dann muss ein Port ausgewählt werden
 
 Nach der Installation und Konfiguration des Druckertreibers muss im LUPO unter **Übersicht --> Einstellungen --> Programmeinstellungen** noch das Druckermodell bestimmt werden. Wählen Sie dazu im Auswahlfeld POS-Printer Ihr Bondruckermodell (TM-U220D, TM-T88III, TM-T88IV, TM-T20 oder TM-T20II) aus.
 
-![lupo_drucker_konfigurieren](../../images/lupo_drucker_konfigurieren.png)
+![lupo_drucker_konfigurieren](../../pages/images/lupo_drucker_konfigurieren.png)
 
 Wenn im Netzwerk gearbeitet wird muss auf dem PC mit angeschlossenem Bondrucker das Häkchen An diesem Computer ist ein Bondrucker angeschlossen aktiviert sein. Die Option Drucken via Netzwerk aktivieren muss auf beiden Computern aktiviert sein. Der Druckertreiber (Setup-POS) muss nur auf dem PC, an welchem der Bondrucker angeschlossen ist, installiert werden.
 
@@ -3446,7 +3446,7 @@ Wenn im Netzwerk gearbeitet wird muss auf dem PC mit angeschlossenem Bondrucker 
 
 Wenn Sie nicht sicher sind, welchen Bondrucker Sie verwenden, können Sie anhand der folgenden Bilder Ihr Druckermodell bestimmen:
 
-![bondrucker_modelle](../../images/bondrucker_modelle.png)
+![bondrucker_modelle](../../pages/images/bondrucker_modelle.png)
 ---
 # Technische Informationen'
 
