@@ -21,7 +21,7 @@ In die Netzwerkeinstellungen gelangen Sie durch die Übersicht mit **Einstellung
 
 #### Datenbank
 
-Wählen Sie die LUPO Datenbank **Lupo10_Daten.accdb** über den Dateiwahl-Dialog aus oder schreiben Sie den korrekten Pfad inkl. Datei in das Textfeld. Auch Netzwerkpfade wie **\PC-AusleiheCLupo_Daten** sind erlaubt.
+Wählen Sie die LUPO Datenbank **{{LupoXX_Daten.accdb}}** über den Dateiwahl-Dialog aus oder schreiben Sie den korrekten Pfad inkl. Datei in das Textfeld. Auch Netzwerkpfade wie **\\PC-Ausleihe\Lupo_Daten** sind erlaubt.
 
 #### Spiele ausleihen und zurücknehmen Fenster
 
