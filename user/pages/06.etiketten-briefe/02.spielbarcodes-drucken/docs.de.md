@@ -24,7 +24,7 @@ Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 
 !!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
 
-<span class="btn-lupo">Barcodeliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken von **[Del]** aus der Liste löschen.
+<span class="btn-lupo">Barcodeliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken von <kbd>Delete</kbd> aus der Liste löschen.
 
 <span class="btn-lupo">Barcode Drucken</span> druckt die Barcodes der in der Druckliste aufgeführten Spiele auf den Standard-Drucker. Um einen anderen Drucker oder z.B. den manuellen Papiereinzug angeben zu können muss sie Liste in der Seitenansicht angezeigt werden. Wenn Sie den Ausdruck nicht beim ersten Barcode-Etikett beginnen wollen, können Sie das Etikett, bei welchem der Druck gestartet werden soll, in das Textfeld oben links eintragen.
 
