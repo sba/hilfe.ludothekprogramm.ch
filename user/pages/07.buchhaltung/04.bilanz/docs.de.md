@@ -1,14 +1,14 @@
 ---
-title: Kontobestände
+title: Bilanz
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Kontobestände** öffnen.
+Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Bilanz** öffnen.
 
-![kontobestaende](../../images/kontobestaende.png)
+![kontobestaende](../../images/bilanz.png)
 
 Es werden alle Soll-Beträge und alle Haben-Beträge aller jemals gespeicherten Buchungen im Journal zusammengezählt. Der Bestand bildet sich aus **[Summe Haben] – [Summe Soll]**.
 

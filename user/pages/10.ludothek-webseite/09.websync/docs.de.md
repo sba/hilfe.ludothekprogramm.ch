@@ -15,7 +15,7 @@ Neben dem Ausleihstatus ist das WebSync Programm auch zuständig zur Übermittlu
 
 Das WebSync-Programm kann vom LUPO her gestartet werden:
 ![internetexport-websync](../../images/internetexport-websync.png)
-Bei gesetztem Häkchen öffnet sich das Programm automatisch und minimiert sich nach dem Start in die Taskleiste.
+Bei gesetztem Häkchen öffnet sich das Programm automatisch.
 
 ![websync](../../images/websync.png)
 
