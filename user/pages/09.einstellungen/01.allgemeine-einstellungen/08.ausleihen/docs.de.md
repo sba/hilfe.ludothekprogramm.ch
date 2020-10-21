@@ -47,9 +47,8 @@ Ist das Kontrollkästchen Mit Enter Spiele immer ausleihen aktiviert wird bei <k
 
 Wenn Sie mit dem Barcodeleser arbeiten und die <kbd>Enter</kbd>-Taste desaktiviert ist, muss nach dem scannen der Nummer noch der entsprechende Barcode-Befehl (Ausleihen oder Rücknahme) eingelesen werden bzw. Ausleihen oder Rücknahme geklickt werden.
 
-!
-**Einstellung**  
-Falls Sie mit zwei Computern arbeiten (Netzwerkversion) und in den Netzwerkeinstellungen definiert ist, dass sich die beiden PC's als Ausgabe- und Rücknahmestation unterscheiden, gilt die <kbd>Enter</kbd>-Taste so wie in den Netzwerkeinstellungen eingestellt.
+! **Einstellung**  
+! Falls Sie mit zwei Computern arbeiten (Netzwerkversion) und in den Netzwerkeinstellungen definiert ist, dass sich die beiden PC's als Ausgabe- und Rücknahmestation unterscheiden, gilt die <kbd>Enter</kbd>-Taste so wie in den Netzwerkeinstellungen eingestellt.
 
 Nachfragen bevor ein Spiel mit abhaken zurückgenommen wird betrifft das Häkchen vorne in der Liste der ausgeliehenen Spiele:
 

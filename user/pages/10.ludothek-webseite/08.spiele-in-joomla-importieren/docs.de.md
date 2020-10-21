@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Dazu ist das Fenster unter **Komponenten  LUPO Spielliste** zu öffnen:
+Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Dazu ist das Fenster unter **Komponenten → LUPO Spielliste** zu öffnen:
 
 ![spielliste_joomla_importieren](../../images/spielliste_joomla_importieren.png)
 

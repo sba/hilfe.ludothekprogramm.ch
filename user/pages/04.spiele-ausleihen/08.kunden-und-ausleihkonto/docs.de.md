@@ -11,7 +11,7 @@ Jeder Kunde hat zwei Konten, ein Kundenkonto und ein Ausleihkonto. Das Geld auf 
 ![kontostand](../../images/kontostand.png)
 
 ! **Einstellung**  
-! Das Feld Ausleihkonto und die Knöpfe **Gutschein verkaufen** und **Gutschein einlösen** können im Fenster **Einstellungen → [Wertkarte](/einstellungen/allgemeine-einstellungen/wertkarte-vorauszahlungen#meldung-gutschriftenkonto-aufgebraucht)** ein- bzw. ausgeblendet werden.
+! Das Feld Ausleihkonto und die Knöpfe <span class="btn-lupo">Gutschein verkaufen</span> und <span class="btn-lupo">Gutschein einlösen</span> können im Fenster **Einstellungen → [Wertkarte](/einstellungen/allgemeine-einstellungen/wertkarte-vorauszahlungen#meldung-gutschriftenkonto-aufgebraucht)** ein- bzw. ausgeblendet werden.
 
 ### Kunde bezahlt
 

@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das LUPO Admin Fenster enthält erweiterte Funktionen und ist für fortgeschrittene Benutzer und Administratoren gedacht. Das Fenster kann durch einen Button in den Allgemeinen Programmeinstellungen oder durch Drücken der Tastenkombination **[Ctrl] + [F12]** geöffnet werden.
+Das LUPO Admin Fenster enthält erweiterte Funktionen und ist für fortgeschrittene Benutzer und Administratoren gedacht. Das Fenster kann durch einen Button in den Allgemeinen Programmeinstellungen oder durch Drücken der Tastenkombination <kbd>Ctrl</kbd> + <kbd>F12</kbd> geöffnet werden.
 
 Diese Funktionen sollten nur von erfahrenen LUPO- und Computerbenutzern verwendet werden! Wenn Sie Daten in der Tabellenansicht verändern, sollten Sie sich bewusst sein, was Sie tun. Es sind fast keine Kontrollmechanismen aktiv; Sie können die Daten so verändern, dass das LUPO-Programm danach nicht mehr korrekt funktioniert!
 

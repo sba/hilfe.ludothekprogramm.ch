@@ -37,13 +37,13 @@ Diese Fehlermeldung erscheint wenn die LUPO-Datendatei beschädigt ist. Dies kan
 
 ![unzulaessiger-wert](../../images/unzulaessiger-wert.png)
 
-Sie haben z.B. einen Buchstaben in ein Zahlenfeld eingegeben. Bestätigen Sie die Fehlermeldung und korrigieren Sie den Feldinhalt auf einen gültigen Wert oder drücken Sie [ESC] um Ihre Eingabe rückgängig zu machen und das Feld zu verlassen.
+Sie haben z.B. einen Buchstaben in ein Zahlenfeld eingegeben. Bestätigen Sie die Fehlermeldung und korrigieren Sie den Feldinhalt auf einen gültigen Wert oder drücken Sie <kbd>ESC</kbd> um Ihre Eingabe rückgängig zu machen und das Feld zu verlassen.
 
 #### Kein Wert aus der Auswahlliste
 
 ![kein-wert-aus-der-auswahlliste](../../images/kein-wert-aus-der-auswahlliste.png)
 
-Sie haben in einer Auswahlliste einen Wert eingegeben der nicht in der Liste vorkommt. Bestätigen Sie die Fehlermeldung und wählen Sie ein Element aus der Liste oder drücken Sie [ESC] um das Feld zu verlassen.
+Sie haben in einer Auswahlliste einen Wert eingegeben der nicht in der Liste vorkommt. Bestätigen Sie die Fehlermeldung und wählen Sie ein Element aus der Liste oder drücken Sie <kbd>ESC</kbd> um das Feld zu verlassen.
 
 #### Datensatz löschen geht nicht
 
@@ -63,7 +63,7 @@ Sie versuchen einen Datensatz zu löschen, z.B. eine Spielkategorie in den Einst
 
 Wenn Sie nicht Drucken können, überprüfen Sie ob der Drucker auf ON-LINE steht, Papier vorhanden ist und keine Fehlermeldung (rotes Lämpchen oder so) am Drucker angezeigt wird. Stellen Sie sicher, dass der Drucker richtig am Computer angeschlossen ist.
 
-Überprüfen Sie ob Ihr Drucker als Standarddrucker definiert ist (Windows Systemsteuerung  Drucker und Geräte).
+Überprüfen Sie ob Ihr Drucker als Standarddrucker definiert ist (Windows Systemsteuerung → Drucker und Geräte).
 
 Probieren Sie, ob das Drucken aus einem anderen Programm funktioniert (z.B. Word)
 
@@ -73,13 +73,13 @@ Probieren Sie, ob das Drucken aus einem anderen Programm funktioniert (z.B. Word
 
 Bill Gates lässt grüssen... Drücken Sie auf <span class="btn-lupo">Programm schliessen</span> und starten Sie LUPO neu.
 
-#### Task-Manager ([Ctrl]+[Alt]+[Esc])
+#### Task-Manager
 
-Falls LUPO überhaupt nicht mehr reagiert oder Sie eine Fehlermeldung oder ein Fenster nicht wegbringen, dann kann LUPO mit dem Task-Manager geschlossen werden. Drücken Sie dazu gleichzeitig die Tasten [Ctrl]+[Alt]+[Esc] oder klicken Sie mit der rechten Maustaste auf die Uhr im Bildschirm unten rechts um den Windows Task-Manager zu öffnen.
+Falls LUPO überhaupt nicht mehr reagiert oder Sie eine Fehlermeldung oder ein Fenster nicht wegbringen, dann kann LUPO mit dem Task-Manager geschlossen werden. Drücken Sie dazu gleichzeitig die Tasten <kbd>Ctrl</kbd>+<kbd>Alt</kbd>+<kbd>Esc</kbd> oder klicken Sie mit der rechten Maustaste auf die Uhr im Bildschirm unten rechts um den Windows Task-Manager zu öffnen.
 
 ![task-manager](../../images/task-manager.png)
 
-Zuerst markieren Sie LUPO in der Liste der laufenden Anwendungen, dann klicken Sie auf <span class="btn-lupo">Task beenden</span> , danach auf <span class="btn-lupo">Sofort beenden</span> .
+Zuerst markieren Sie LUPO in der Liste der laufenden Anwendungen, dann klicken Sie auf <span class="btn-lupo">Task beenden</span> , danach auf <span class="btn-lupo">Sofort&nbsp;beenden</span> .
 
 #### Andere Fehlermeldungen
 

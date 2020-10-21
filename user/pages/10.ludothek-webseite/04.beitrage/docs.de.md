@@ -64,7 +64,7 @@ Bilder und Dateien können auch direkt im Artikel-Text eingefügt werden. Mit fo
 
 ![webseite_backend_beitrag_bildermanager](../../images/webseite_backend_beitrag_bildermanager.png)
 
-Klicken Sie auf das Icon ![webseite_backend_upload_bild](../../images/webseite_backend_upload_bild.png) um ein neues Bild hochzuladen. Folgendes Fenster öffnet sich:
+Klicken Sie auf das Icon <img src="../../images/webseite_backend_upload_bild.png" class="img-inline"> um ein neues Bild hochzuladen. Folgendes Fenster öffnet sich:
 
 ![webseite_backend_bild_hochladen_fenster](../../images/webseite_backend_bild_hochladen_fenster.png)
 

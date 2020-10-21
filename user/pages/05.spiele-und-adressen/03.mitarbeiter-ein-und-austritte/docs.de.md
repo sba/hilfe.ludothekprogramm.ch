@@ -12,7 +12,7 @@ visible: true
 
 Wenn Sie im **Adressen**-Fenster das Mitarbeiterin Kontrollkästchen aktivieren, wird die Mitarbeiterin in der Liste oberhalb eingetragen.
 
-Um einen Eintrag zu löschen den Datensatz markieren und mit **[Delete]** löschen. Dabei wird die Mitarbeiterin **NUR** aus dieser Liste gelöscht, der Mitarbeiterinnen-Status (das Häkchen) der Adresse und die Adresse selbst bleibt dabei erhalten.
+Um einen Eintrag zu löschen den Datensatz markieren und mit <kbd>Delete</kbd> löschen. Dabei wird die Mitarbeiterin **NUR** aus dieser Liste gelöscht, der Mitarbeiterinnen-Status (das Häkchen) der Adresse und die Adresse selbst bleibt dabei erhalten.
 
 #### Adressetiketten
 

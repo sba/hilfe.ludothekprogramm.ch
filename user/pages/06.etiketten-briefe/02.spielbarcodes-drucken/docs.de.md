@@ -12,7 +12,7 @@ Das **Barcode Drucken** Fenster kann über die **Übersicht → Drucken → Barc
 
 #### Spielsuchliste (Links im Fenster)
 
-Suchen Sie die Spiele mit Hilfe der gelben Suchfelder in der Spielliste und markieren Sie die gewünschten Spiele. Mehrere Spiele auf einmal können Sie durch Klicken und gleichzeitiges Halten der Taste **[Ctrl]** oder **[Shift]** auswählen.
+Suchen Sie die Spiele mit Hilfe der gelben Suchfelder in der Spielliste und markieren Sie die gewünschten Spiele. Mehrere Spiele auf einmal können Sie durch Klicken und gleichzeitiges Halten der Taste <kbd>Ctrl</kbd> oder <kbd>Shift</kbd> auswählen.
 
 Die markierten Spiele können Sie durch Drücken des Pfeil Buttons in die Barcode Druckliste aufnehmen.   
 Mit den Buttons <span class="btn-lupo">Alle auswählen</span> und <span class="btn-lupo">Auswahl aufheben</span> können alle Elemente in der Liste an bzw. abwählt werden.
