@@ -1,12 +1,12 @@
 ---
-title: 'Tagesjournal speichern und ausdrucken'
+title: 'Tagesjournal speichern'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Das Tagesjournal drucken Fenster kann vom Beenden Assistent her, mit der Übersicht oder der Symbolleiste geöffnet werden.
+Das Fenster zum Speichern und Drucken des Tagesjournals kann vom Beenden Assistent her, mit der Übersicht oder der Symbolleiste geöffnet werden.
 
 ![tagesjournal](../../images/tagesjournal.png)
 

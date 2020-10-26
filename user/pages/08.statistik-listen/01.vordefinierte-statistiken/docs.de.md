@@ -1,5 +1,5 @@
 ---
-title: 'Spiel-, Ausleih- und Kundenstatistiken'
+title: 'Vordefinierte Statistiken'
 taxonomy:
     category:
         - docs
