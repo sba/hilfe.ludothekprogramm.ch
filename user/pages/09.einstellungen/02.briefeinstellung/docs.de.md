@@ -32,7 +32,7 @@ Die Anschrift (Adresse des Kunden) kann links oder rechts ausgerichtet werden un
 
 #### Textkörper
 
-Die zwei grossen Textfelder und die Emailfelder können bei jedem Brief einen anderen Inhalt haben. Alle anderen Einstellungen gelten für jeden Brief.
+Die zwei grossen Textfelder und die E-Mailfelder können bei jedem Brief einen anderen Inhalt haben. Alle anderen Einstellungen gelten für jeden Brief.
 
 !!! Weitere Informationen zur Gestaltung der Briefe erhalten Sie, wenn Sie den <span class="btn-lupo">Musterbrief anzeigen</span>.
 

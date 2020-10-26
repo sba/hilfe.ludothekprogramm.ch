@@ -28,7 +28,7 @@ Falls bei gewissen Kunden (z.B. Institutionen) keine Mahngebühr verrechnet werd
 
 #### Keine Werbung
 
-Falls der Kunde keine Werbe-Newsletter auf seine Emailadresse wünscht.
+Falls der Kunde keine Werbe-Newsletter auf seine E-Mailadresse wünscht.
 
 #### Anzahl Spiele / Anzahl eSpiele
 

@@ -10,7 +10,7 @@ Das **Mahnungen drucken** Fenster kann mit der **Übersicht** oder beim **Beende
 
 ![mahnungen-drucken](../../images/mahnungen-drucken.png)
 
-Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt. Bis eine gedruckt oder per Email versendet werden kann, sind vier Schritte vorzunehmen:
+Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt. Bis eine gedruckt oder per E-Mail versendet werden kann, sind vier Schritte vorzunehmen:
 
 
 <<<< Mahnungen müssen nach dem Ausleihtag erstellt werden. Sonst ist der Kunde bereits gemahnt, auch wenn er das Spiel noch am selben Tag zurückbringt.
@@ -27,11 +27,11 @@ Alle Kunden in der oberen Liste erhalten eine Mahnung. Soll ein Kunde nicht gema
 
 ### 3\. Gebühren Verrechnen
 
-Nachdem Sie die Gebühren verrechnet haben, können die Briefe angezeigt und Emails gesendet werden.
+Nachdem Sie die Gebühren verrechnet haben, können die Briefe angezeigt und E-Mails gesendet werden.
 
-### 4\. Mahnbriefe drucken / Emails senden
+### 4\. Mahnbriefe drucken / E-Mails senden
 
-Zeigt die berechneten Mahnungen (Briefe) in Seitenansicht an bzw. sendet das Email. Das Aussehen des Briefes und der Mahntext kann im Fenster **Briefeinstellungen** angepasst werden.
+Zeigt die berechneten Mahnungen (Briefe) in Seitenansicht an bzw. sendet das E-Mail. Das Aussehen des Briefes und der Mahntext kann im Fenster **Briefeinstellungen** angepasst werden.
 
 #### Mahnliste drucken
 

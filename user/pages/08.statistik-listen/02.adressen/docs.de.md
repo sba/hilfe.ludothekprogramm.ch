@@ -23,9 +23,9 @@ Das **Adressen drucken** Fenster kann mit **Adressliste drucken** geöffnet werd
 
 Bestimmen sie durch ankreuzen der entsprechenden Optionen welche Adressen angezeigt werden sollen. Gewisse Optionen können miteinander kombiniert werden.
 
-### Email Massenversand
+### E-Mail Massenversand
 
-Wenn Sie auf <span class="btn-lupo">Emailadressen kopieren</span> klicken, werden Sie aufgefordert die Paketgrösse der Emailadressen anzugeben. Die meisten Emailanbieter akzeptieren nur eine bestimmte Anzahl Email-Adressen in einem Email (zum Schutz vor Spamversand). Geben Sie deshalb eine Zahl kleiner als 100 ein. Es werden alle Emailadressen der Adressliste in Blöcke an X Emailadressen aufgelistet. Erstellen Sie für jeden Block eine einzelne Email. Die Emailadressen sollten Sie in das BCC-Feld (Blindkopie) kopieren.
+Wenn Sie auf <span class="btn-lupo">E-Mailadressen kopieren</span> klicken, werden Sie aufgefordert die Paketgrösse der E-Mailadressen anzugeben. Die meisten E-Mailanbieter akzeptieren nur eine bestimmte Anzahl E-Mail-Adressen in einem E-Mail (zum Schutz vor Spamversand). Geben Sie deshalb eine Zahl kleiner als 100 ein. Es werden alle E-Mailadressen der Adressliste in Blöcke an X E-Mailadressen aufgelistet. Erstellen Sie für jeden Block eine einzelne E-Mail. Die E-Mailadressen sollten Sie in das BCC-Feld (Blindkopie) kopieren.
 
 Falls Sie im Adress-Datenblatt einen Filter gesetzt haben wird dieser berücksichtigt.
 

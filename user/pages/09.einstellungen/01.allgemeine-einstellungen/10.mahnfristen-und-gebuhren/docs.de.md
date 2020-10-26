@@ -12,7 +12,7 @@ Bringt der Kunde seine Spiele bis zum Überschreiten des Mahndatums nicht zurüc
 
 #### Mahnfristen
 
-**Erinnerung vor Fristende:** Ist das Häkchen Als Email senden aktiviert so kann an Kunden mit einer Emailadresse eine Erinnerung gesendet werden. Es werden Spiele berücksichtigt, deren Rückgabedatum in maximal X Tagen ist und das Mahndatum noch nicht erreicht wurde.
+**Erinnerung vor Fristende:** Ist das Häkchen Als E-Mail senden aktiviert so kann an Kunden mit einer E-Mailadresse eine Erinnerung gesendet werden. Es werden Spiele berücksichtigt, deren Rückgabedatum in maximal X Tagen ist und das Mahndatum noch nicht erreicht wurde.
 
 Beispiel mit Einstellung „Erinnerung vor Fristende: 4 Tage", „Frist bis 1. Mahnung: 7 Tage": Wenn heute der 10.02.2014 ist wird für alle Spiele mit Rückgabedatum zwischen 04.02.2014 und 14.02.2014 eine Erinnerung erstellt. Spiele mit Rückgabedatum 03.02.2014 werden bereits gemahnt.
 
