@@ -4,8 +4,8 @@ grid-size: grid-lg
 github:
   note: true
   link: true
-  tree: https://github.com/sba/lupodoc_pages/blob/master/
-  commits: https://github.com/sba/lupodoc_pages/commits/develop/
+  tree: https://github.com/sba/hilfe.ludothekprogramm.ch/tree/master/user/pages/
+  commits: https://github.com/sba/hilfe.ludothekprogramm.ch/tree/master/user/pages/
 spectre:
   exp: false
   icons: false
