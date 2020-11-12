@@ -42,6 +42,6 @@ Anstelle des vorgegebenen Templates könnte z.B. auch folgendes Layout verwendet
 `<p>[quote] <em>[name]</em></p>`
 
 !! **Achtung bei eigenen Modulen**  
-!! Beachten Sie, dass bei einem Modul unter **Optionen** bei **Inhalte vorbereiten** der Wert **Ja** gespeichert sein muss. Ansonsten wird der Platzhalter nicht ersetzt.
+!! Beachten Sie, dass Platzhalter in einem eigenen Modul nur verarbeitet werden, wenn unter **Optionen** bei **Inhalte vorbereiten** der Wert **Ja** gespeichert ist.
 
 ![module-inhalte-vorbereiten.png](../../../images/module-inhalte-vorbereiten.png)
