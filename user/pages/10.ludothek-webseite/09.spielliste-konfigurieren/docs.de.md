@@ -42,5 +42,7 @@ Im Joomla-Administrator kann unter Erweiterungen → Module das Modul geöffnet 
 
 ![](../../images/modul-spielkategorien-optionen.png)
 
-Mit aktivierter Option **Zeige Anzahl Spiele** werden
+Mit aktivierter Option **Zeige Anzahl Spiele** wird neben der Kategorie ein Badge mit der Anzahl Spiele angezeigt.
+
+Sollen nicht alle Genres angezeigt werden, so können im Feld **Genres filtern** die gewünschten eingetragen werden. Pro Zeile muss ein Genre geschreiben werden, achten Sie auf die exakte Schreibweise! Die Anzeigereihenfolge entspricht der Eingabe. 
 
