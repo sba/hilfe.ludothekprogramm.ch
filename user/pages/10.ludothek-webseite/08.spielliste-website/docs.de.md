@@ -8,7 +8,7 @@ visible: true
 
 Wenn an den Spiele-Daten etwas geändert oder ein neues Spielfoto erfasst wird, muss der komplette Spiele-Katalog im LUPO exportiert und auf der Webseite im Joomla-Administrator importiert werden.
 
-##Spielliste in LUPO exportieren
+##1. Spielliste in LUPO exportieren
 
 ![spielliste_exportfenster](../../images/spielliste_exportfenster.png)
 
@@ -18,7 +18,7 @@ Das Exportfenster wird vom LUPO-Menüband mit dem Button **Joomla!** geöffnet.
 
 Mit dem Knopf <span class="btn-lupo">Export-Datei erstellen</span> wird eine zip-Datei mit den gewählten Einstellungen und Inhalten erstellt.
 
-##Spielliste in Joomla importieren
+##2. Spielliste in Joomla importieren
 
 Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Das Fenster kann mit dem Menübefehl **Komponenten → LUPO Spielliste** oder mit dem Link **Spiele aktualisieren** im Dashboard. 
 

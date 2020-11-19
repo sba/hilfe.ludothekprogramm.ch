@@ -10,7 +10,7 @@ Ein Klick auf den Menüpunkt Inhalt → Beiträge öffnet die Seite zum Bearbeit
 
 ![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
 
-Es existieren drei Beitrags-Kategorien: Ohne Kategorie, Über uns und Aktuell. Beiträge der Kategorie Aktuell werden in der Webseite beim Menüpunkt Aktuell aufgeführt die mit Über uns unter dem entsprechenden Menülink.
+Es existieren standardmässig drei Beitrags-Kategorien: Ohne Kategorie, Aktuell und Agenda. Beiträge der Kategorie Aktuell werden auf der Webseite beim Menüpunkt Aktuell aufgeführt, die mit Agenda unter dem entsprechenden Menülink.
 
 #### Hauptbeiträge
 
