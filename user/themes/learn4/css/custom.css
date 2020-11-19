@@ -47,6 +47,7 @@ img.caption {
     filter: progid: DXImageTransform.Microsoft.gradient( startColorstr='#f2f2f2', endColorstr='#cfcfcf', GradientType=0);
     transition: all 0.1s ease-in;
     border: 1px solid #707070;
+    white-space: nowrap;
 }
 
 
