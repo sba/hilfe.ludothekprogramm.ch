@@ -39,4 +39,4 @@ foreach($placeholder in $placeholders.keys)
     }
 }
 
-[System.Windows.Forms.MessageBox]::Show(„Alles kopiert und kompiliert!“,“lupodoc_pages“,0)
+Write-Host "Alles kopiert und kompiliert!" -ForegroundColor Green 
