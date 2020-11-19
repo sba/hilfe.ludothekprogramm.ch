@@ -32,6 +32,15 @@ Unter **Online-Dienste** kann der Ausleihstatus ein- und ausgeschaltet werden.
 
 ![lupo-spielliste](../../images/ausleihstatus-bild.png)
 
-Unter **Integration** kann man bei **Menü Kategorie-Links** einstellen, ...?
+## Modul Spielangebot
 
-![lupo-spielliste](../../images/integration.png)
+Dieses Modul zeigt eine Navigation mit Spielkategorien und Genres an: 
+
+![modul-spielangebot](../../images/modul-spielangebot.png)
+
+Im Joomla-Administrator kann unter Erweiterungen → Module das Modul geöffnet und konfiguriert werden:
+
+![](../../images/modul-spielkategorien-optionen.png)
+
+Mit aktivierter Option **Zeige Anzahl Spiele** werden
+

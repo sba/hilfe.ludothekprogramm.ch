@@ -6,33 +6,53 @@ taxonomy:
 visible: true
 ---
 
-Ein Klick auf den Menüpunkt Module (im Kontrollzentrum links unter Struktur oder mit dem Menübefehl Erweiterungen → Module) öffnet die Seite zum Bearbeiten der Module:
+Ein Klick auf den Menüpunkt Module (im Kontrollzentrum links unter Struktur oder mit dem Menübefehl Erweiterungen → Module) zeigt alle vorhandenen Module an:
 
 ![webseite_backend_module](../../images/webseite_backend_module.png)
 
-Um die Position oder den Inhalt eines Modules zu ändern müssen Sie auf den Titel des Modules klicken. 
+Es gibt verschiedene Modultypen, benutzerdefinierte Inhalte werden mit dem Typ **Eigenes Modul** erstellt. In dieser Anleitung wird auf diesen eingegangen. Um ein Modul zu bearbeiten kann auf den Titel des Modules geklickt werden. Die Seite zum Bearbeiten wird angezeigt, hier des Modultyps **Eigenes Modul**:
 
 ![website_backend_module](../../images/module-maskenpflicht.png)
 
-Mit dem Editor können Sie direkt den Inhalt ändern. 
-Beim Dropdown **Position** können Sie die Position des Modules ändern. "sidebar-a" steht für links, "sidebar-b" steht für rechts, etc. 
+Titel, Inhalt und weitere Optionen, welche die Anzeige des Moduls steuern, werden hier definiert.  
+
+
+### Position
+
+Mit **Position** wird bestimmt wo das Modul angezeigt wird. 
 
 ![website_backend_module](../../images/module-position.png)
 
-Mithilfe des Knopfes **Status** können Sie auswählen, ob das Modul auf der Webseite sichtbar sein sollte (Veröffentlicht) oder nicht (Versteckt). 
+Die wichtigsten Positionen sind:
+
+| Position | Anzeige auf Webseite | 
+| --- |--- |
+| Top A | Unterhalb Menu, oberhalb Sidebar |
+| Top B | Unterhalb Top A, oberhalb Sidebar |
+| Top C | Unterhalb Top B, oberhalb Sidebar |
+| Sidebar A | Sidebar links |
+| Sidebar B | Sidebar rechts |
+| Main Top | Oberhalb Beitrag, neben Sidebar |
+| Main Bottom | Unterhalb Beitrag, neben Sidebar |
+| Bottom A | Oberhalb Bottom B, unterhalb Sidebar |
+| Bottom B | Oberhalb Bottom C, unterhalb Sidebar |
+| Bottom C | Oberhalb Footer, unterhalb Sidebar |
+
+### Sichtbarkeit steuern
+
+Mithilfe des Knopfes **Status** kann die Sichtbarkeit des Moduls gesteuert werden. Durch setzen eines Datums bei **Veröffentlichung starten/beenden** kann ebenfalls die Sichtbarkeit gesteuert werden. 
 
 ![website_backend_module](../../images/module-status.png)
 
-Wenn Sie das Modul nur auf benutzerdefinierten Seiten haben wollen, müssen Sie auf **Menüzuweisung** klicken. 
+
+### Menüzuweisung
+
+Mit der **Menüzuweisung** wird gesteuert, auf welchen Seiten das Modul sichtbar sein soll. 
 
 ![website_backend_module](../../images/module-menuezuweisung.png)
 
-Unter **Modulzuweisung** können Sie verschiedene Funktionen einsetzen. Wenn Sie "Nur auf den gewählten Seiten" klicken, wird das Modul **NUR** auf den gewählten Seiten vorkommen. Wählen Sie "Auf allen, ausser den gewählten Seiten" aus, kommt das Modul **NICHT** bei den ausgewählten Seiten vor.
+Bei **Modulzuweisung** kann zwischen verschiedener Anzeigelogik gewählt werden:
 
-Nachdem Sie alles bearbeitet haben, klicken Sie oben bei der Übersicht auf <span class="btn-lupo">Speichern</span> und danach anschliessend auf <span class="btn-lupo">Schliessen</span>. Sie können aber auch direkt auf <span class="btn-lupo">Speicher & Schliessen</span> klicken.
+![website-modul-zuweisung](../../images/website-modul-zuweisung.png)
 
-
-
-
-
-
+Entsprechend der Anzeigelogik und den gesetzten Häkchen unter **Menüauswahl** wird das Modul auf den entsprechenden Seiten angezeigt.   
