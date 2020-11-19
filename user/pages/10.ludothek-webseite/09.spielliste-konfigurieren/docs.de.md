@@ -38,11 +38,11 @@ Dieses Modul zeigt eine Navigation mit Spielkategorien und Genres an:
 
 ![modul-spielangebot](../../images/modul-spielangebot.png)
 
-Im Joomla-Administrator kann unter Erweiterungen → Module das Modul geöffnet und konfiguriert werden:
+Im Joomla-Administrator kann unter **Erweiterungen → Module** das Modul geöffnet und konfiguriert werden:
 
 ![](../../images/modul-spielkategorien-optionen.png)
 
-Mit aktivierter Option **Zeige Anzahl Spiele** wird neben der Kategorie ein Badge mit der Anzahl Spiele angezeigt.
+Mit aktivierter Option **Zeige Anzahl Spiele** wird neben dem Kategorie-Text ein Badge mit der Anzahl Spiele angezeigt.
 
-Sollen nicht alle Genres angezeigt werden, so können im Feld **Genres filtern** die gewünschten eingetragen werden. Pro Zeile muss ein Genre geschreiben werden, achten Sie auf die exakte Schreibweise! Die Anzeigereihenfolge entspricht der Eingabe. 
+Sollen nicht alle Genres angezeigt werden, so können im Feld **Genres filtern** die gewünschten eingetragen werden. Pro Zeile muss ein Genre geschreiben werden. Achten Sie auf die exakte Schreibweise! Die Anzeigereihenfolge entspricht der Eingabe. 
 
