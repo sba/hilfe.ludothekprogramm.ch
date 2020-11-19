@@ -1,4 +1,6 @@
-﻿#copy files
+﻿#ACHTUNG: Dropbox pausieren!
+
+#copy files
 $sourceDir = "C:\htdocs\hilfe.ludothekprogramm.ch\user\pages\"
 $targetDir = "C:\Users\Stefan\Dropbox\Projekte\Lupo\web\lupodoc_pages"
 
