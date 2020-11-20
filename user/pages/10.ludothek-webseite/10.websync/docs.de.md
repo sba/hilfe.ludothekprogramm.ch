@@ -25,6 +25,12 @@ Im einen Erinnerungs- oder Mahnungs-E-Mail kann der Platzhalter **{{LOGINLINK}}*
 
 Wird bei **Loginlink-Text** der Wert "Spiele online verlängern" eingefügt, so erscheint der Link als [Spiele online verlängern](https://example.com/sortiment/kundenlogin?ll=0-LULU), ansonsten wird nur die URL angezeigt: [https://example.com/sortiment/kundenlogin?ll=0-LULU](https://example.com/sortiment/kundenlogin?ll=0-LULU) 
 
+![](../../images/email-erinnerung-einstellungen.png?classes=caption "E-Mailkonfiguration im Fenster Briefeinstellungen")
+
+
+![](../../images/email-erinnerung.png?classes=caption "E-Mail mit ersetzten Platzhalter")
+
+
 #### WebSync Fenster beim automatischen Öffnen nicht anzeigen
 
 Ist diese Option aktiviert erscheint, so erscheint das WebSync nicht als Reiter neben dem Übersicht-Reiter. Falls WebSync läuft, wird in der Übersicht links unten ein Icon angezeigt.
