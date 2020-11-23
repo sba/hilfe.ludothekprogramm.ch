@@ -14,10 +14,10 @@ Um neue Widgets zu erstellen oder bestehende zu bearbeiten ist im Administrator 
 
 Auf das Element (z.B. «Home Slideshow») klicken um die Slideshow zu bearbeiten:
 
-![webseite_backend_widgetkit_bearbeiten](../../images/webseite_backend_widgetkit_bearbeiten.png)
+![webseite_backend_widgetkit_bearbeiten](../../images/webseite_backend_widgetkit_bearbeiten.png?classes=caption "Im Inhalts-Fenster der Slideshow können Bilder hinzugefügt, neu sortiert oder gelöscht werden.")
 
-Im Inhalts-Fenster der Slideshow können Bilder hinzugefügt, neu sortiert oder gelöscht werden.
 
-Über die Optionen im Einstellungen-Fenster wird die Darstellung des Widgets kontrolliert:
-![webseite_backend_widgetkit_slideshow](../../images/webseite_backend_widgetkit_slideshow.png)
+![webseite_backend_widgetkit_slideshow](../../images/webseite_backend_widgetkit_slideshow.png?classes=caption "Über die Optionen im Einstellungen-Fenster wird die Darstellung des Widgets kontrolliert")
+
+![](../../../images/)
 
