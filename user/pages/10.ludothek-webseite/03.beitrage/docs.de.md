@@ -6,17 +6,17 @@ taxonomy:
 visible: true
 ---
 
-Ein Klick auf den Menüpunkt Inhalt → Beiträge öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
+Ein Klick auf den Menüpunkt **Inhalt → Beiträge** öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
 
 ![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
 
-Es existieren standardmässig drei Beitrags-Kategorien: Ohne Kategorie, Aktuell und Agenda. Beiträge der Kategorie Aktuell werden auf der Webseite beim Menüpunkt Aktuell aufgeführt, die mit Agenda unter dem entsprechenden Menülink.
+Es existieren standardmässig drei Beitrags-Kategorien: Ohne Kategorie, Aktuell und Agenda. Beiträge der Kategorie **Aktuell** werden auf der Webseite beim Menüpunkt Aktuell aufgeführt, die mit Agenda unter dem entsprechenden Menülink.
 
 #### Hauptbeiträge
 
 ![webseite_backend_hauptbeitraege](../../images/webseite_backend_hauptbeitraege.png)
 
-Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren muss unter Status der Stern gesetzt werden.
+Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren, muss unter Status der Stern gesetzt werden.
 
 #### Beitrag bearbeiten
 
@@ -40,7 +40,7 @@ Bei Beiträgen in der Kategorie Aktuell wird das Datum angezeigt, welches unter 
 
 #### Beiträge unter "Agenda"
 
-Agenda-Einträge werden sortiert nach dem Veranstaltungsdatum (=Erstellungsdatum) angezeigt. Im Menüpunkt „Agenda" werden alle Beträge der Kategorie aufgelistet und zusätzlich können auf der Startseite die aktuellsten Anlässe durch ein Modul angezeigt werden. In den Modul-Einstellungen kann die Anzahl der Veranstaltungen definiert werden.
+Agenda-Einträge werden sortiert nach dem Veranstaltungsdatum (=Erstellungsdatum) angezeigt. Im Menüpunkt **Agenda** werden alle Beträge der Kategorie aufgelistet und zusätzlich können auf der Startseite die aktuellsten Anlässe durch ein Modul angezeigt werden. In den Modul-Einstellungen kann die Anzahl der Veranstaltungen definiert werden.
 
 ![webseite_backend_beitrag_agenda](../../images/webseite_backend_beitrag_agenda.png)
 

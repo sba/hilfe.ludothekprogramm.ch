@@ -27,19 +27,3 @@ Der Inhalt der Website ist in verschiedene Bereiche unterteilt. Beiträge könne
 | Reglement |  Beitrag |  Frontend oder Administrator |  
 | Über uns |  Beitrag |  Frontend oder Administrator |  
 | Kontakt |  Erweiterung «Kontakt» |  Administrator | 
-
-#### Artikel im Frontend bearbeiten
-
-Änderungen an bestehenden Beiträgen können direkt im Frontend vorgenommen werden. Dazu müssen Sie sich auf der Seite Impressum im Login-Bereich oben rechts anmelden:
-
-![webseite_frontend](../../images/webseite_frontend.png)
-
-**Im Frontend können nur Beiträge bearbeitet werden.** Änderungen am Modulen, Menüs, Links und dem Spielangebot müssen im Administrator ausgeführt werden.
-
-![webseite_frontend_bearbeiten](../../images/webseite_frontend_bearbeiten.png)
-
-#### Modul bearbeiten
-
-Um den Inhalt eines Moduls zu bearbeiten kann im Frontend auf das Icon oben links geklickt werden:
-
-![webseite_frontend_modul_bearbeiten ](../../images/webseite_frontend_modul_bearbeiten.png)

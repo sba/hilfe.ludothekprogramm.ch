@@ -3,7 +3,7 @@ title: 'Medien'
 taxonomy:
     category:
         - docs
-visible: true
+visible: false
 ---
 
 Wenn Sie Med
