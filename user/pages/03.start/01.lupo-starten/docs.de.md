@@ -18,4 +18,4 @@ visible: true
 | LUPO Datensicherung |  Zurücklesen (Wiederherstellen) von Datensicherungen |    
 | LUPO Daten-Update |  Konvertiert die LUPO Datenbank ins aktuelle Format. Nötig beim Update. | 
 | LUPO Installation reparieren |  Falls LUPO nicht mehr gestartet werden kann hilft dies oftmals |  
-| TeamViewer |  Startet die Software für eine Fernwartung |  
+| LUPO TeamViewer |  Startet die Software für eine Fernwartung |  

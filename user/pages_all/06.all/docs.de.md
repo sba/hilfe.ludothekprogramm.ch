@@ -1355,7 +1355,7 @@ Das **Mahnungen drucken** Fenster kann mit der **Übersicht** oder beim **Beende
 Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt. Bis eine gedruckt oder per Email versendet werden kann, sind vier Schritte vorzunehmen:
 
 
-<<<< Mahnungen müssen nach dem Ausleihtag erstellt werden. Sonst ist der Kunde bereits gemahnt, auch wenn er das Spiel noch am selben Tag zurückbringt.
+!! Mahnungen müssen nach dem Ausleihtag erstellt werden. Sonst ist der Kunde bereits gemahnt, auch wenn er das Spiel noch am selben Tag zurückbringt.
 
 ### 1\. Mahnliste aktualisieren
 
