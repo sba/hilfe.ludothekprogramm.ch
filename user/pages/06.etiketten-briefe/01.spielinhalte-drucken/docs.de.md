@@ -20,7 +20,7 @@ Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 
 ![sortier-moeglichkeiten](../../images/sortier-moeglichkeiten.png)
 
-!!! Verwenden Sie im Suchfeld das Platzhalterzeichen * (Stern) für beliebig viele, das ? (Fragezeichen) für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2013 anzeigen wollen, können Sie ??.02.2013 oder *.02.2013 eingeben
+!!! Verwenden Sie im Suchfeld das Platzhalterzeichen * (Stern) für beliebig viele, das ? (Fragezeichen) für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2020 anzeigen wollen, können Sie ??.02.2020 oder *.02.2020 eingeben
 
 #### Ausgabeformat
 

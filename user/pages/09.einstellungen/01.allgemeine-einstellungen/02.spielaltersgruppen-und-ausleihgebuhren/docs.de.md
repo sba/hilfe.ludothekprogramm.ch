@@ -1,5 +1,5 @@
 ---
-title: 'Altersgruppen / Ausleihgebühren'
+title: 'Altersgruppen und Gebühren'
 taxonomy:
     category:
         - docs
@@ -10,7 +10,7 @@ visible: true
 
 #### Altersgruppen
 
-Die erfassten Altersgruppen können den Spielen zugeordnet werden. Das Kürzel kann auch hier max. 10 Zeichen lang sein.
+Die erfassten Altersgruppen können den Spielen zugeordnet werden. Das Kürzel kann max. 10 Zeichen lang sein.
 
 #### Spielgebühren
 

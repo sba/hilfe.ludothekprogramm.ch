@@ -1,12 +1,12 @@
 ---
-title: 'Kunden, Barcodes und Abokarten'
+title: 'Kundenkarten'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Die Kundenbarcodes können Sie entweder auf Etiketten, in Kreditkartengrösse oder auf A4-Vorlagen mit integrierter Karte (Card-in-Fold) gedruckt werden.
+Die Kundenbarcodes können entweder auf Etiketten, in Kreditkartengrösse oder auf A4-Vorlagen mit integrierter Karte (Card-in-Fold) gedruckt werden.
 
 ![card-in-fold](../../../images/card-in-fold.png)
 

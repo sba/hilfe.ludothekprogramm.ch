@@ -22,7 +22,7 @@ Folgende Sortier-Möglichkeiten stehen zur Verfügung:
 ![spielsuchliste](../../images/spielsuchliste.png)
 
 
-!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
+!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Spiele mit dem Kaufdatum im Februar 2020 anzeigen wollen, können Sie **??.02.2020** oder ***.02.2020** eingeben.
 
 <span class="btn-lupo">Barcodeliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken von <kbd>Delete</kbd> aus der Liste löschen.
 
@@ -38,14 +38,14 @@ Dieses Fenster kann mit **Übersicht → Drucken → Abokarten Drucken** geöffn
 
 #### Adresssuchliste
 
-Suchen Sie die Adressen mit Hilfe der gelben Suchfelder unterhalb der Adressliste und markieren Sie die gewünschten Adressen. Mehrere auf einmal können Sie durch Klicken und gleichzeitiges Halten der Taste **[Ctrl]** oder **[Shift]** ausgewählt werden. Die gewählten Adressen können Sie durch Drücken des Pfeil Buttons in die Barcode Druckliste aufnehmen, einzelne Einträge durch einen Doppelklick.
+Suchen Sie die Adressen mit Hilfe der gelben Suchfelder unterhalb der Adressliste und markieren Sie die gewünschten Adressen. Mehrere auf einmal können Sie durch Klicken und gleichzeitiges Halten der Taste <kbd>Ctrl</kbd> oder <kbd>Shift</kbd> ausgewählt werden. Die gewählten Adressen können Sie durch Drücken des Pfeil Buttons in die Barcode Druckliste aufnehmen, einzelne Einträge durch einen Doppelklick.
 
 Mit den Buttons <span class="btn-lupo">Alle auswählen</span> und <span class="btn-lupo">Auswahl aufheben</span> können Sie alle Elemente in der Liste an bzw. abwählen.
 
  
-!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Kunden mit dem Eintrittsdatum im Februar 2014 anzeigen wollen, können Sie **??.02.2014** oder ***.02.2014** eingeben.
+!!! Verwenden Sie im Suchfeld das **Platzhalterzeichen * (Stern)** für beliebig viele, das **? (Fragezeichen)** für genau ein unbekanntes Zeichen. Beispiel: Wenn Sie alle Kunden mit dem Eintrittsdatum im Februar 2020 anzeigen wollen, können Sie **??.02.2020** oder **.02.2020** eingeben.
 
-<span class="btn-lupo">Druckliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken der Taste **[Del]** aus der Liste löschen.
+<span class="btn-lupo">Druckliste löschen</span> löscht alle in der Druckliste angezeigten Barcodes. Einzelne (oder mehrere) Einträge in der Liste können Sie durch markieren und anschliessendem Drücken der Taste <kbd>Del</kbd> aus der Liste löschen.
 
 <span class="btn-lupo">Barcode Drucken</span> druckt die Abokarten der in der Druckliste aufgeführten Adressen auf den Standard-Drucker. Um einen anderen Drucker oder z.B. den manuellen Papiereinzug angeben zu können muss die Liste in der Seitenansicht angezeigt werden. Wenn Sie den Ausdruck nicht beim ersten Barcode-Etikett beginnen wollen, können Sie das Etikett bei welchem der Druck gestartet werden soll in das Textfeld oben rechts eintragen.
 
