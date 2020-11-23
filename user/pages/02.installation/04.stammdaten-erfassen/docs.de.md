@@ -17,4 +17,4 @@ visible: true
 3. Anpassen der Briefeinstellungen (Mahnung, Reservationsbrief und Quittung)
 4. Passen Sie die Buchungstexte für die Fenster Manuell Buchen und Einzelbuchungen Ihrer Ludothek an
 5. Erfassen der Adressen und Spiele
-6. Kontobestände einbuche
+6. Kontobestände einbuchen

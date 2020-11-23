@@ -20,7 +20,7 @@ Starten Sie dazu das LUPO Update Programm ( -Taste drücken, dann nach LUPO Date
 ![daten-konvertieren](../../images/tabellen-konvertieren.png)
 
 Normalerweise müssen hier keine Einstellungen angepasst werden. Klicken Sie auf <span class="btn-lupo"> Tabellenupdate STARTEN</span> um den Vorgang auszuführen.
-Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn-lupo">Ja</span>,dann wird eine bereits vorhandene LUPO {{LUPO_VERSION_YEAR}} Daten-Datei überschrieben.
+Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn-lupo">Ja</span>, dann wird eine bereits vorhandene LUPO {{LUPO_VERSION_YEAR}} Daten-Datei überschrieben.
 
 ![tabelle-konvertieren-warning](../../images/tabellen-konvertieren-msg-warning.png)
 
@@ -28,4 +28,4 @@ Erscheint nachstehende Meldung und Sie bestätigen diese mit <span class="btn-lu
 
 Nun sollten Sie das LUPO-Programm starten und kontrollieren, ob Ihre Daten übernommen wurden und ob es sich dabei um die aktuelle Datenbank handelt.
 
-!!! Überprüfen Sie ob auch wirklich alle alten LUPO 10/11/12 Desktop-Verknüpfungen entfernt wurden. Falls die alte Version beim Start von Windows automatisch gestartet wurde, muss die Verknüpfung in Autostart-Programmordner eventuell angepasst werden.
+!!! Überprüfen Sie ob auch wirklich alle alten LUPO 10/11/12 Desktop-Verknüpfungen entfernt wurden. Falls die alte Version beim Start von Windows automatisch gestartet wurde, muss die Verknüpfung in Autostart-Programmordner angepasst werden.

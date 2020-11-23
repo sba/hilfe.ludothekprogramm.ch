@@ -8,6 +8,8 @@ visible: true
 
 Zusammen mit LUPO wird die Software TeamViewer installiert, mit welcher von einem anderen Computer via Internetverbindung Ihr PC ferngesteuert werden kann.
 
+[Direkter Download von teamviewer.com](https://get.teamviewer.com/ludothekprogramm)
+
 Starten Sie den TeamViewer mit dem Desktop-Icon oder durch Drücken der Windows-Taste und anschliessendem Suchen nach TeamViewer oder direkt mit dem Symbolleistenbefehl im LUPO:
 
 ![fernwartung](../../images/fernwartung.png)

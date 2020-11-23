@@ -1,5 +1,5 @@
 ---
-title: 'Dymo LabelWriter'
+title: 'DYMO LabelWriter'
 taxonomy:
     category:
         - docs
@@ -8,9 +8,13 @@ visible: true
 
 #### Druckertreiber und «DYMO Label v.8»-Software installieren
 
-Installieren Sie – bevor Sie den Drucker am PC anschliessen – die Software mit der dem Drucker beigelegten CD. Eine Anleitung mit detaillierten Anweisungen liegt dem Drucker bei.
+Installieren Sie – bevor Sie den Drucker am PC anschliessen – die Software DYMO Label v.8.7.3
 
-Bei der Installation von LUPO werden folgende drei Etiketten-Vorlagedateien in den Ordner C:Lupo_daten kopiert:
+[Download DYMO Label v.8.7](https://www.ludothekprogramm.ch/download/item/dymo)
+
+!! Die Software **DYMO Connect for Desktop** wird von LUPO nicht unterstützt
+
+Bei der Installation von LUPO werden folgende drei Etiketten-Vorlagedateien in den Ordner C:\\Lupo_daten kopiert:
 
 ![dymo_vorlagedateien](../../images/dymo_vorlagedateien.png)
 
