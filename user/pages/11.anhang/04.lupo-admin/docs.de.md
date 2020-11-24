@@ -10,7 +10,7 @@ Das LUPO Admin Fenster enthält erweiterte Funktionen und ist für fortgeschritt
 
 Diese Funktionen sollten nur von erfahrenen LUPO- und Computerbenutzern verwendet werden! Wenn Sie Daten in der Tabellenansicht verändern, sollten Sie sich bewusst sein, was Sie tun. Es sind fast keine Kontrollmechanismen aktiv; Sie können die Daten so verändern, dass das LUPO-Programm danach nicht mehr korrekt funktioniert!
 
-#### Zusatzfunktionen
+### Zusatzfunktionen
 
 ![lupo-admin](../../images/lupo-admin.png)
 
@@ -53,9 +53,9 @@ Mit dem Tabellen-Editor kann jede im LUPO verwendete Tabelle angezeigt und deren
 
 ![tabellen-editor](../../images/tabellen-editor.png)
 
-#### Oberfläche
+### Oberfläche
 
-![oberflaeche](../../images/oberflaeche.png)
+![oberflaeche](../../images/lupo-admin-oberflaeche.png)
 
 Hier kann die Hintergrundfarbe und die Grafik-Datei in der Übersicht definiert werden. Die ideale Abmessung der Grafikdatei ist **394 x 382** Pixel (Breite x Höhe).
 
@@ -63,9 +63,9 @@ Unter Office Farbschema können die Farben der Oberfläche bestimmt werden. Die 
 
 ![oberflaeche-silver](../../images/oberflaeche-silver.png)
 
-#### Übersetzung
+### Übersetzung
 
-![uebersetzung](../../images/uebersetzung.png)
+![uebersetzung](../../images/lupo-admin-uebersetzung.png)
 
 #### Sprache wechseln
 
@@ -81,9 +81,9 @@ Mit dieser Funktion können Texte und Wörter umbenannt werden, z.B. wenn anstel
 
 Für Übersetzter der Software nützliche Funktionen und Listen.
 
-#### Barcode / POS-Printer
+### Barcode / POS-Printer
 
-![pos-printer](../../images/pos-printer.png)
+![pos-printer](../../images/lupo-admin-pos-printer.png)
 
 #### Barcode
 
@@ -103,13 +103,9 @@ Der Knopf <span class="btn-lupo">TEST-printout full ASCII</span> druckt einen Bo
 
 Die **SetupPOS** Software für einen EPSON oder Bixolon Bondrucker kann durch Drücken des entsprechenden Knopfes gestartet werden. Eine detaillierte Anleitung zum Konfigurieren der OPOS-Druckertreiber entnehmen Sie bitte der separaten Anleitung.
 
-#### Diverses
+### Diverses
 
-![diverses2](../../images/diverses2.png)
-
-#### Online Support-Forum
-
-Hier kann der Benutzername und das Passwort für den Zugriff auf die online Frage-Antwort Datenbank definiert werden. Per Vorgabe sind die Werte für den Benutzer ludothek gesetzt. Wenn Sie Sich auf unserer Website mit einem eigenen Benutzer registriert haben können hier Ihre persönlichen Zugangsdaten eingetragen werden.
+![diverses](../../images/lupo-admin-diverses.png)
 
 #### Datensicherung
 
@@ -128,6 +124,12 @@ Diese Adresse wird im Browser geöffnet wenn im Spielfenster die Web-Suche nach 
 #### Grafikprogramm
 
 Das Grafikprogramm mit welchem Grafik-Dateien geöffnet werden wenn auf den entsprechenden Button geklickt wird. Geben Sie den ganzen Pfad zur ausführbaren Datei an.
+
+
+### Experimentell
+
+![diverses](../../images/lupo-admin-experimentell.png)
+
 
 #### Entwicklung
 

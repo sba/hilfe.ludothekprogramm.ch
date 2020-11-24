@@ -1,5 +1,5 @@
 ---
-title: Spielsuchen
+title: Spiel suchen
 taxonomy:
     category:
         - docs

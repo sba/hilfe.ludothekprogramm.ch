@@ -6,13 +6,13 @@ taxonomy:
 visible: true
 ---
 
-Datenblätter enthalten eine tabellarische Darstellung von Daten. Der angezeigte Inhalt kann sortiert und mit einem Filter eingeschränkt.
+Datenblätter enthalten eine tabellarische Darstellung von Daten. Der angezeigte Inhalt kann sortiert und/oder mit einem Filter eingeschränkt werden.
 
 ![datenblatt](../../images/datenblatt.png)
 
-Um eine Spalte zu Filtern oder um die Datensätze zu sortieren kann auf den kleinen Pfeil im Spaltentitel geklickt werden.
+Um eine Spalte zu Filtern oder um die Datensätze zu sortieren, kann auf den kleinen Pfeil im Spaltentitel geklickt werden.
 
-Um den Filter zu entfernen klicken Sie auf den Knopf Gefiltert im Datensatznavigator:
+Um den Filter zu entfernen klicken Sie auf den Knopf **Gefiltert** im Datensatznavigator:
 
 ![kopf-gefiltert](../../images/kopf-gefiltert.png)
 
@@ -22,7 +22,7 @@ Mit dem Feld Suchen kann nach Text im Datenblatt gesucht werden. Schreiben Sie d
 Die Filter- und Sortiereinstellungen gehen nach dem **Schliessen** des Formulars **verloren!**
 
 **Tipp**  
-**Nutzen Sie diese Filter- und Sortierfunktionen!** Es sind vielseitig einsetzbare und einfach zu handhabende Funktionen. Sie können so zum Beispiel in den Listen des **Statistikfensters** die Daten sortieren und filtern um sie nachher via Zwischenablage in Excel zu kopieren um dort Summen zu berechnen, Diagramme zu erstellen usw.
+**Nutzen Sie diese Filter- und Sortierfunktionen!** Es sind vielseitig einsetzbare und einfach zu handhabende Funktionen. Sie können so zum Beispiel in den Listen des **Statistikfensters** die Daten sortieren und filtern, um sie nachher via Zwischenablage in Excel zu kopieren, um dort Summen zu berechnen, Diagramme zu erstellen usw.
 
 #### Datensätze markieren
 

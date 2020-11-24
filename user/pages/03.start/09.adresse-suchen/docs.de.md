@@ -1,5 +1,5 @@
 ---
-title: 'Adresse Suchen'
+title: 'Adresse suchen'
 taxonomy:
     category:
         - docs

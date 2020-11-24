@@ -6,16 +6,17 @@ taxonomy:
 visible: true
 ---
 
-Das **Spiele ausleihen und zurücknehmen** Fenster können Sie mit der Übersicht oder der Symbolleiste öffnen.
-* Die wichtigsten Aktionen, welche Sie in diesem Fenster durchführen können sind:
-    * Spiele ausleihen und zurücknehmen
-    * Spiele verlängern
-    * Spiele reservieren
-    * Abonnement (Mitgliederbeitrag) verkaufen
-    * Dem Kunden einen Betrag verrechnen oder zurückerstatten
-    * Gutscheinkarte (Vorauszahlung) verkaufen und einlösen
-    * Die Adressdaten des Kunden verändern
-    * Einen neuen Kunden erfassen
+Das **Spiele ausleihen und zurücknehmen** Fenster können Sie via Übersicht oder mit der Symbolleiste öffnen.
+
+**Die wichtigsten Aktionen in diesem Fenster sind:**
+* Spiele ausleihen und zurücknehmen
+* Spiele verlängern
+* Spiele reservieren
+* Abonnement (Mitgliederbeitrag) verkaufen
+* Dem Kunden einen Betrag verrechnen oder zurückerstatten
+* Gutscheinkarte (Vorauszahlung) verkaufen und einlösen
+* Die Adressdaten des Kunden verändern
+* Einen neuen Kunden erfassen
 
 ![spiele-ausleihen-zuruecknehmen](../../images/spiele-ausleihen-zuruecknehmen.png)
 
