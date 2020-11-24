@@ -12,11 +12,11 @@ LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem PC ab Windows XP SP3
 
 Ihr Computer muss mindestens folgenden Anforderungen entsprechen:
 
-\- Windows Vista oder später (mindestens Win XP Service Pack 3) - Pentium 4 1GHz - 1 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher - CD-ROM oder DVD Laufwerk (zur Installation ab CD) - 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) - Bildschirmauflösung min. 1280 x 768 Pixel
+\- Windows 10 (Build 1909) - Pentium 4 1GHz - 1 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher - 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) - Bildschirmauflösung min. 1280 x 768 Pixel
 
 Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leistungsmerkmale aufweisen:
 
-\- Windows 10 - Pentium 3GHz - 4 GB Arbeitsspeicher - 128 GB Festplatte oder SSD - Combo CD-RW/DVD (optional, nur zur Installation ab CD notwendig) - 6 x USB 2.0 Anschluss, 2 x USB 3.0 - Bildschirmauflösung 1440 x 900 Pixel
+\- Windows 10 - Pentium 3GHz - 4 GB Arbeitsspeicher - 128 GB Festplatte oder SSD - 6 x USB 2.0 Anschluss, 2 x USB 3.0 - Bildschirmauflösung 1920 x 1080 Pixel
 
 #### Bondrucker
 
@@ -26,7 +26,7 @@ Unterstützte Modelle:
 
 **EPSON:**
 
-TM-U210D / TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II
+TM-U210D / TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III
 
 **Bixolon:**
 
@@ -36,7 +36,7 @@ SRP-350 / SRP-350plus
 
 T-2
 
-Bei einer Neuanschaffung empfehlen wir den EPSON TM-T20II
+Bei einer Neuanschaffung empfehlen wir den EPSON TM-T20III
 
 Die Bondrucker EPSON TM-U210D / TM-U220D / TM-T88III werden über die serielle Schnittstelle gesteuert und an einem seriellen 9-Pol Stecker (COM, RS232) am Computer angeschlossen. Verfügt Ihr PC über keinen solchen Anschluss (was bei neueren PCs meist der Fall ist) kann dieser mit einer PCI oder PCI-Express Karte nachgerüstet werden. Eine solche Karte kostet um die Fr. 40.-
 
@@ -56,6 +56,8 @@ LUPO verwendet Barcodes mit CODE 39 und der Scanner muss so konfiguriert sein, d
 
 Eine Internetverbindung ist nicht zwingend notwendig, bietet aber einige Vorteile. So können über das Internet die LUPO-Updates heruntergeladen werden oder der PC mit dem Fernwartungstool TeamViewer ferngesteuert werden.
 
+Für den Zugriff auf die Online-Spieledatenbank und den Betrieb des WebSync-Programms ist eine Internetverbindung erforderlich.
+
 #### Netzwerk
 
 Falls Sie LUPO im Netzwerk betreiben wollen müssen die beiden Computer miteinander verbunden sein. Ein 'normales' Windows Netzwerk genügt. Es ist empfehlenswert die PC's mit einem Netzwerk-Switch (kleines Gerät, ab Fr. 40.-) zu verkabeln. Wireless-Netzwerke sind nicht zu empfehlen!
@@ -64,13 +66,13 @@ Falls Sie LUPO im Netzwerk betreiben wollen müssen die beiden Computer miteinan
 
 Sie sollten über einen Tintenstrahl- oder Laserdrucker verfügen. Wenn Sie LUPO mit der Zusatzfunktion Barcode nutzen, sollten Sie für den Druck der Barcode-Etiketten einen Laserdrucker verwenden.
 
-#### Windows Vista / 7 / 8 / 8.1 / 10
+#### Windows 8.1 / 10
 
-LUPO kann auf jeder Windows-Version ab Windows Vista problemlos installiert werden. Je nach Benutzerkonten-Einstellung und -Rechten muss das Programm mit Administrator-Rechten installiert werden.
+LUPO kann auf jeder Windows-Version ab Windows 8.1 problemlos installiert werden. Je nach Benutzerkonten-Einstellung und -Rechten muss das Programm mit Administrator-Rechten installiert werden.
 
-#### Windows XP
+#### Windows XP / Vista / 7 / 8
 
-Office Access 2010, auf welchem LUPO basiert, wird von Microsoft offiziell nicht unterstützt unter Windows XP. Unsere Tests zeigten aber, dass die Software trotzdem stabil läuft. Windows XP Service Pack 3 ist erforderlich.
+Office Access 2010, auf welchem LUPO basiert, wird von Microsoft offiziell nicht unterstützt unter Windows XP. Unsere Tests zeigten aber, dass die Software trotzdem stabil läuft. Mindestens Windows XP Service Pack 3 ist erforderlich.
 
 #### Microsoft-Access 2010 Runtime (32 Bit)
 
@@ -80,6 +82,6 @@ Mit dem Softwarepaket LUPO wird eine Access-Runtime Version mitgeliefert. Sie be
 
 Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer Office 2010 32 Bit Umgebung. Das Betriebssystem hingegen darf 64 Bit sein.
 
-#### Microsoft Office 2003 / 2007 / 2010 / 2013 / 2016
+#### Microsoft Office 2003 / 2007 / 2010 / 2013 / 2016 / 2019
 
 Auch wenn eine andere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls Sie ein Access installiert haben, dürfen Sie die LUPO Datenbank zwar öffnen, aber nicht in eine andre Version konvertieren.
