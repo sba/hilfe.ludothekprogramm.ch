@@ -8,37 +8,43 @@ visible: true
 
 #### Computeranforderungen
 
-LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem PC ab Windows XP SP3.
+LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem Windows 10 PC.
 
 Ihr Computer muss mindestens folgenden Anforderungen entsprechen:
 
-\- Windows 10 (Build 1909) - Pentium 4 1GHz - 1 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher - 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) - Bildschirmauflösung min. 1280 x 768 Pixel
+- Windows 10 (Build 1909) 
+- Pentium 4 1GHz 
+- 1 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher 
+- 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) 
+- Bildschirmauflösung min. 1280 x 768 Pixel
 
 Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leistungsmerkmale aufweisen:
 
-\- Windows 10 - Pentium 3GHz - 4 GB Arbeitsspeicher - 128 GB Festplatte oder SSD - 6 x USB 2.0 Anschluss, 2 x USB 3.0 - Bildschirmauflösung 1920 x 1080 Pixel
+- Windows 10 
+- Core i3 8th Gen 
+- 4 GB Arbeitsspeicher 
+- 128 GB Festplatte oder SSD 
+- 6 x USB 2.0 Anschluss, 2 x USB 3.0 
+- Bildschirmauflösung 1920 x 1080 Pixel
 
 #### Bondrucker
 
-Der Bondrucker wird mit einer speziellen Software (POS, OPOS) angesteuert und muss nicht als Windows-Drucker installiert werden. Bitte beachten Sie die separate Anleitung zur Installation eines Bondruckers.
+Der Bondrucker wird mit einer speziellen Software (POS, OPOS) angesteuert und muss nicht als Windows-Drucker installiert werden. Bitte beachten Sie die separate [Anleitung zur Installation eines Bondruckers](../epson-bondrucker).
 
 Unterstützte Modelle:
 
-**EPSON:**
+**EPSON:**  
+TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III
 
-TM-U210D / TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III
-
-**Bixolon:**
-
+**Bixolon:**  
 SRP-350 / SRP-350plus
 
-**Metapace:**
-
+**Metapace:**  
 T-2
 
 Bei einer Neuanschaffung empfehlen wir den EPSON TM-T20III
 
-Die Bondrucker EPSON TM-U210D / TM-U220D / TM-T88III werden über die serielle Schnittstelle gesteuert und an einem seriellen 9-Pol Stecker (COM, RS232) am Computer angeschlossen. Verfügt Ihr PC über keinen solchen Anschluss (was bei neueren PCs meist der Fall ist) kann dieser mit einer PCI oder PCI-Express Karte nachgerüstet werden. Eine solche Karte kostet um die Fr. 40.-
+Die Bondrucker EPSON TM-U220D / TM-T88III werden über die serielle Schnittstelle gesteuert und an einem seriellen 9-Pol Stecker (COM, RS232) am Computer angeschlossen. Verfügt Ihr PC über keinen solchen Anschluss (was bei neueren PCs meist der Fall ist) kann dieser mit einer PCI oder PCI-Express Karte nachgerüstet werden. Eine solche Karte kostet um die Fr. 40.-
 
 Die TM-U Drucker verwenden normales Rollen-Papier von 76 mm Breite und drucken mit einem Farbband vom Typ ERC-38 in violett, schwarz oder rot-schwarz.
 
