@@ -14,6 +14,10 @@ Neben dem Ausleihstatus ist das WebSync Programm auch zuständig zur Übermittlu
 ##WebSync einrichten
 
 Das WebSync-Programm kann im Fenster **Joomla / Internetexport** konfiguriert und gestartet werden.
+
+![spielliste_exportfenster](../../images/spielliste_exportfenster.png)
+
+
 ![internetexport-websync](../../images/internetexport-websync.png)
 
 Wenn WebSync genutzt wird, sollte es automatisch mit dem LUPO-Programm gestartet werden. Falls im Netzwerk gearbeitet wird, empfiehlt sich, dass das WebSync auf dem "Haupt"-PC ausgeführt wird.
