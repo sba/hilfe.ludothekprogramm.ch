@@ -25,7 +25,7 @@ Die Übersicht besteht aus fünf Seiten: Der **Hauptübersicht, Stammdaten, Druc
     * Reservationen drucken
 * Buchhaltung
     * Tagesjournal speichern und drucken
-    * Konto auswerten (Kontenblätter anzeigen)
+    * Buchungen (Kontenblätter anzeigen)
     * Kontobestände
     * Manuell buchen (mit Vorgaben)
     * Manuell buchen (Individuell)

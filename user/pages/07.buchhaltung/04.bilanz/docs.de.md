@@ -32,9 +32,11 @@ Wechselt zum Fenster Tagesabschluss.
 
 #### Banana-Export
 
-Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden.
+Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden. 
 
-Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
+![banana-import.png](../../images/banana-import.png)
+
+Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C\\:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
 
 ### Kontenplan
 
@@ -43,47 +45,47 @@ Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfe
 
 !! Sie dürfen die Kontobezeichnungen anpassen (z.B. Hauptkasse in PC-Konto ändern) und neue Konten erfassen. Die bestehenden Kontonummern dürfen aber nicht verändert werden.
 
-| **Buchhaltungsklasse** |  **Konntengruppe** |  **Konto Bezeichnung** |  **Konto** |
+|  **Konto** | **Konto Bezeichnung** | **Buchhaltungsklasse** |  **Konntengruppe** | 
 | --- | --- |--- |--- |
-| Aktiven |  100 flüssige Mittel |  Tageskasse |  1000 |  
-| Aktiven |  100 flüssige Mittel |  Hauptkasse |  1001 |  
-| Aktiven |  100 fküssige Mittel |  Differenzkonto |  1002 |  
-| Aktiven |  100 flüssige Mittel |  Bankkonto |  1009 |  
-| Aktiven |  110 Forderungen |  Debitoren |  1100 |  
-| Aktiven |  110 Forderungen |  Verrechnungssteuern |  1109 |  
-| Aktiven |  150 Mobile Sachanlagen |  Spielinventar |  1500 |  
-| Aktiven |  150 Mobile Sachanlagen |  Einrichtungen |  1501 |  
-| Aktiven |  150 Mobile Sachanlagen |  Computer |  1509 |  
-| Aktiven |  180 aktivierter Aufwand / Berichtigungen |  Aufwand Mitarbeiterinnen |  1800 |  
-| Passiven |  200 Kreditoren |  Lieferantenschulden |  2000 |  
-| Passiven |  200 Kreditoren |  Verrechnungsteuerschulden |  2009 |  
-| Passiven |  203 Kreditoren |  Vorauszahlungen |  2030 |  
-| Passiven |  203 Kreditoren |  Vorauszahlung Ausleihkonto |  2031 |  
-| Passiven |  280 Kapital |  Vereinsvermögen |  2800 |  
-| Ertrag |  300 Ausleihen |  Abonnements |  3000 |  
-| Ertrag |  300 Ausleihen |  Ausleihgebühren |  3001 |  
-| Ertrag |  300 Ausleihen |  Mahngebühren |  3003 |  
-| Ertrag |  300 Ausleihen |  Verlust Ausleihgebührenrabatte |  3004 |  
-| Ertrag |  300 Ausleihen |  e-Abonnemente |  3007 |  
-| Ertrag |  300 Ausleihen |  Abonnemente / e-Abonnemente (kombi.) |  3009 |  
-| Ertrag |  300 Ausleihen |  Verrechnung für Reparaturen / Verluste |  3009 |  
-| Ertrag |  310 Übrige Einnahmen |  Markteinnahmen / Verkäufe |  3100 |  
-| Ertrag |  320 Mitgliederbeiträge |  Spenden |  3200 |  
-| Ertrag |  320 Mitgliederbeiträge |  Mitgliederbeitrag |  3201 |  
-| Aufwand Spiele / Material |  400 Spielkauf |  Spieleinkauf |  4000 |  
-| Aufwand Spiele / Material |  400 Spielkauf |  Spielreparatur / Ersatzteile |  4001 |  
-| Aufwand Spiele / Material |  460 Verpackungsmaterial / Kopien |  Verpackungen / Kopien |  4600 |  
-| Aufwand Mitarbeiterinnen |  500 Leistungen Mitarbeiterinnen |  Arbeitsleistung Mitarbeiterinnen |  5000 |  
-| Aufwand Mitarbeiterinnen |  580 Weiterbildung / Vereinsanlässe |  Weiterbildung / Information |  5800 |  
-| Aufwand Mitarbeiterinnen |  580 Weiterbildung / Vereinsanlässe |  Ausflug / Geschenke |  5809 |  
-| Sonstiger Aufwand |  630 Versicher. / Abgaben / Bewilligungen |  Versicherungen |  6300 |  
-| Sonstiger Aufwand |  630 Versicher. / Abgaben / Bewilligungen |  Bewilligungen |  6301 |  
-| Sonstiger Aufwand |  650 Büromaterial / Telefon / Beiträge |  Büromaterial |  6500 |  
-| Sonstiger Aufwand |  650 Büromaterial / Telefon / Beiträge |  Telefon / Porti |  6501 |  
-| Sonstiger Aufwand |  650 Büromaterial / Telefon / Beiträge |  Beiträge |  6507 |  
-| Sonstiger Aufwand |  650 Büromaterial / Telefon / Beiträge |  EDV / Computer |  6509 |  
-| Sonstiger Aufwand |  660 Werbung |  Inserate |  6600 |  
-| Sonstiger Aufwand |  680 Zinsen und Spesen |  Zinsen / Spesen |  6800 |  
-| Sonstiger Aufwand |  690 Abschreibungen |  Amortisation Spiele |  6900 |  
-| Sonstiger Aufwand |  690 Abschreibungen |  Amortisation Einrichtungen |  6901 |  
-| Bestände |  800 Bestände |  Ausgleichkonto Bestände erfassen |  8000 | 
+| 1000 | Tageskasse | 100 flüssige Mittel | Aktiven | 
+| 1001 | Hauptkasse | 100 flüssige Mittel | Aktiven | 
+| 1002 | Differenzkonto | 100 fküssige Mittel | Aktiven | 
+| 1009 | Bankkonto | 100 flüssige Mittel | Aktiven | 
+| 1100 | Debitoren | 110 Forderungen | Aktiven | 
+| 1109 | Verrechnungssteuern | 110 Forderungen | Aktiven | 
+| 1500 | Spielinventar | 150 Mobile Sachanlagen | Aktiven | 
+| 1501 | Einrichtungen | 150 Mobile Sachanlagen | Aktiven | 
+| 1509 | Computer | 150 Mobile Sachanlagen | Aktiven | 
+| 1800 | Aufwand Mitarbeiterinnen | 180 aktivierter Aufwand / Berichtigungen | Aktiven | 
+| 2000 | Lieferantenschulden | 200 Kreditoren | Passiven | 
+| 2009 | Verrechnungsteuerschulden | 200 Kreditoren | Passiven | 
+| 2030 | Vorauszahlungen | 203 Kreditoren | Passiven | 
+| 2031 | Vorauszahlung Ausleihkonto | 203 Kreditoren | Passiven | 
+| 2800 | Vereinsvermögen | 280 Kapital | Passiven | 
+| 3000 | Abonnements | 300 Ausleihen | Ertrag | 
+| 3001 | Ausleihgebühren | 300 Ausleihen | Ertrag | 
+| 3003 | Mahngebühren | 300 Ausleihen | Ertrag | 
+| 3004 | Verlust Ausleihgebührenrabatte | 300 Ausleihen | Ertrag | 
+| 3007 | e-Abonnemente | 300 Ausleihen | Ertrag | 
+| 3009 | Abonnemente / e-Abonnemente (kombi.) | 300 Ausleihen | Ertrag | 
+| 3009 | Verrechnung für Reparaturen / Verluste | 300 Ausleihen | Ertrag | 
+| 3100 | Markteinnahmen / Verkäufe | 310 Übrige Einnahmen | Ertrag | 
+| 3200 | Spenden | 320 Mitgliederbeiträge | Ertrag | 
+| 3201 | Mitgliederbeitrag | 320 Mitgliederbeiträge | Ertrag | 
+| 4000 | Spieleinkauf | 400 Spielkauf | Aufwand Spiele / Material | 
+| 4001 | Spielreparatur / Ersatzteile | 400 Spielkauf | Aufwand Spiele / Material | 
+| 4600 | Verpackungen / Kopien | 460 Verpackungsmaterial / Kopien | Aufwand Spiele / Material | 
+| 5000 | Arbeitsleistung Mitarbeiterinnen | 500 Leistungen Mitarbeiterinnen | Aufwand Mitarbeiterinnen | 
+| 5800 | Weiterbildung / Information | 580 Weiterbildung / Vereinsanlässe | Aufwand Mitarbeiterinnen | 
+| 5809 | Ausflug / Geschenke | 580 Weiterbildung / Vereinsanlässe | Aufwand Mitarbeiterinnen | 
+| 6300 | Versicherungen | 630 Versicher. / Abgaben / Bewilligungen | Sonstiger Aufwand | 
+| 6301 | Bewilligungen | 630 Versicher. / Abgaben / Bewilligungen | Sonstiger Aufwand | 
+| 6500 | Büromaterial | 650 Büromaterial / Telefon / Beiträge | Sonstiger Aufwand | 
+| 6501 | Telefon / Porti | 650 Büromaterial / Telefon / Beiträge | Sonstiger Aufwand | 
+| 6507 | Beiträge | 650 Büromaterial / Telefon / Beiträge | Sonstiger Aufwand | 
+| 6509 | EDV / Computer | 650 Büromaterial / Telefon / Beiträge | Sonstiger Aufwand | 
+| 6600 | Inserate | 660 Werbung | Sonstiger Aufwand | 
+| 6800 | Zinsen / Spesen | 680 Zinsen und Spesen | Sonstiger Aufwand | 
+| 6900 | Amortisation Spiele | 690 Abschreibungen | Sonstiger Aufwand | 
+| 6901 | Amortisation Einrichtungen | 690 Abschreibungen | Sonstiger Aufwand | 
+| 8000 | Ausgleichkonto Bestände erfassen | 800 Bestände | Bestände | 

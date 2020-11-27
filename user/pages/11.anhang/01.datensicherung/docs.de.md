@@ -1,10 +1,27 @@
 ---
-title: 'Sicherung wiederherstellen'
+title: 'Datensicherung'
 taxonomy:
     category:
         - docs
 visible: true
 ---
+
+##Backup erstellen
+
+Standardmässig speichert LUPO alle Benutzer-Daten im Ordner **C:\Lupo_Daten**. In diesem Verzeichnis sind die Datenbank **{{LupoXX_Daten.accdb}}**, die Logo-Dateien, Spiel-Fotos und Spielanleitungen abgelegt. Die Datensicherung, welche beim entsprechenden Punkt im Beenden-Assistent durchgeführt wird, enthält aber nur die Daten-Datei. Eine Sicherung mit allen Benutzer-Daten kann manuell erstellt werden. Klicken Sie dazu im Menüband auf den Knopf Datensicherung:
+
+![datensicherung](../../images/datensicherung.png)
+
+Die ausgewählten Dateien werden komprimiert in einem RAR-Archiv gespeichert. Um den Inhalt von RAR-Dateien zu extrahieren kann die kostenlose Software [WinRAR](https://www.rarlab.com/) (Shareware) verwendet werden.
+
+#### Komplettes Backup
+
+Sichert alle Dateien im Ordner **[Lupo_Daten]** sowie alle Unterverzeichnisse und deren Dateien (rekursive Sicherung).
+
+!!! Um die Backup-Dateigrösse möglichst klein zuhalten, sollten nicht mehr benötigte Dateien, z.B. alte Lupo_Daten accdb-Dateien aus dem Lupo_Daten Ordner gelöscht werden. 
+
+
+##Backup zurücklesen 
 
 Die Datensicherung kann nicht direkt aus LUPO zurück gelesen werden. Auf diese Funktion wurde bewusst verzichtet, da die aktuellen Daten dabei überschrieben werden. Sie müssen die Sicherung mit dem Programm **LUPO Datensicherung** zurück lesen.
 

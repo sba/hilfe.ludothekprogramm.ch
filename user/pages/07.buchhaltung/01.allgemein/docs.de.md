@@ -1,5 +1,5 @@
 ---
-title: Buchhaltung
+title: Buha Einführung
 taxonomy:
     category:
         - docs

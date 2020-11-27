@@ -22,19 +22,16 @@ In dieser Liste werden alle gespeicherten Tagesjournale angezeigt. Die Felder Vo
 
 In dieser Liste werden alle Buchungen des gespeicherten Tagesjournals gruppiert nach Buchungssatz angezeigt.
 
+Durch einen Doppelklick auf eine Tabellenzelle wird ein Fenster mit allen Buchungen angezeigt:
+
+![tagesabschluss-buchungsdetails.png](../../images/tagesabschluss-buchungsdetails.png)
+
 #### Journal Anzeigen / Drucken
 
 Gibt das ausgewählte Journal in der Seitenansicht oder auf den Drucker aus.
 
-#### Journal Zusammenzug
 
-Sie können ein Journal über eine x-beliebige Zeitspanne ausdrucken. Dabei werden unabhängig von bereits gespeicherten Tagesabschlüssen die Daten zusammengefasst und wie auf einem Tagesjournal angezeigt.
-
-Mit den Plus- und Minus-Buttons können die Daten monatsweise durchgeblättert werden.
-
-![journal-zusammenzug](../../images/journal-zusammenzug.png)
-
-### Tagesabschluss
+## Tagesabschluss
 
 Diese Aktion speichert im Tagesjournal alle Buchungen, die seit dem letzten Speichern neu dazugekommen sind.
 
@@ -61,3 +58,12 @@ Die Tagesabschlussbuchung wird durchgeführt. Wenn das Häkchen Tagesjournal nac
 
 ! **Einstellung**  
 ! Der Bestand der Tageskasse sowie der Soll-Tageskasseninhalt kann unter **Einstellungen → [Diverses](/einstellungen/allgemeine-einstellungen/diverses)** angepasst werden.
+
+
+## Journal Zusammenzug
+
+Sie können ein Journal über eine x-beliebige Zeitspanne ausdrucken. Dabei werden unabhängig von bereits gespeicherten Tagesabschlüssen die Daten zusammengefasst und wie auf einem Tagesjournal angezeigt.
+
+Mit den Plus- und Minus-Buttons können die Daten monatsweise durchgeblättert werden.
+
+![journal-zusammenzug](../../images/journal-zusammenzug.png)
