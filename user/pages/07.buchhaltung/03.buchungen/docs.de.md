@@ -1,12 +1,13 @@
 ---
-title: 'Konto auswerten'
+title: 'Buchungen anzeigen'
 taxonomy:
     category:
         - docs
 visible: true
 ---
 
-Das Fenster **Konto-Auswertung** können Sie mit dem Übersichtsbefehl **Buchhaltung → Konto-Auswertung** öffnen.
+Das Fenster **Buchungen** können Sie mit dem Übersichtsbefehl **Buchhaltung → Buchungen** öffnen.
+Hier werden alle Buchungen einges definierten Zeitraums angezeigt.
 
 ![konto-auswertungen](../../images/konto-auswertungen.png)
 
