@@ -7,4 +7,5 @@ cache/*
 logs/*
 user/data/*
 !user/data/.*
+user/accounts/*
 
