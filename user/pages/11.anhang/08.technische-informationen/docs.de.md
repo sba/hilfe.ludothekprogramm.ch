@@ -81,7 +81,10 @@ Falls Sie LUPO im Netzwerk betreiben wollen müssen die beiden Computer miteinan
 
 #### Drucker
 
-Sie sollten über einen Tintenstrahl- oder Laserdrucker verfügen. Wenn Sie LUPO mit der Zusatzfunktion Barcode nutzen, sollten Sie für den Druck der Barcode-Etiketten einen Laserdrucker verwenden.
+Sie sollten über einen Tintenstrahl- oder Laserdrucker verfügen. Die [Abokarten zum raustrennen](https://www.ludothekprogramm.ch/shop/item/abokarten) können nur mit einem Laserdrucker bedruckt werden.
+
+Für Barcodeetiketten kann ein [DYMO LabelWriter](https://www.ludothekprogramm.ch/shop/category/etikettendrucker) eingesetzt werden, für die Kundenquittung ein [EPSON Bondrucker](https://www.ludothekprogramm.ch/shop/category/bondrucker-2).
+
 
 #### Windows 8.1 / 10
 
@@ -95,10 +98,10 @@ Office Access 2010, auf welchem LUPO basiert, wird von Microsoft offiziell nicht
 
 Mit dem Softwarepaket LUPO wird eine Access-Runtime Version mitgeliefert. Sie benötigen also keine installierte Access-Vollversion damit LUPO auf Ihrem Computer läuft.
 
-#### Microsoft Office 2010 64 Bit
+#### Microsoft Office 64 Bit
 
-Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer Office 2010 32 Bit Umgebung. Das Betriebssystem hingegen darf 64 Bit sein.
+Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer 32-Bit Office-Umgebung. Das Betriebssystem hingegen darf 64 Bit sein. Das Problem an 64-Bit ist, dass das für den Bondrucker notwendige ocx nicht in einer 64-Bit Version angeboten wird.
 
-#### Microsoft Office 2003 / 2007 / 2010 / 2013 / 2016 / 2019
+#### Microsoft Office 2013 / 2016 / 2019
 
-Auch wenn eine andere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls Sie ein Access installiert haben, dürfen Sie die LUPO Datenbank zwar öffnen, aber nicht in eine andre Version konvertieren.
+Auch wenn eine neuere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls ein Access installiert ist, dann kann das LUPO auch mit der neueren Access-Version geöffnet werden. Wichtig ist dabei, dass es eine 32-Bit Installation ist. 
