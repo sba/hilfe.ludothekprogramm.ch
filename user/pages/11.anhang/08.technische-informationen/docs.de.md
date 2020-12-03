@@ -64,6 +64,17 @@ Eine Internetverbindung ist nicht zwingend notwendig, bietet aber einige Vorteil
 
 Für den Zugriff auf die Online-Spieledatenbank und den Betrieb des WebSync-Programms ist eine Internetverbindung erforderlich.
 
+**Folgende Funktionen erfordern eine Internetverbindung:**
+
+* Nach Programmupdates prüfen und diese herunterladen
+* Fernwartung mit TeamViewer
+* Versenden der Erinnerungen und Mahnungen per E-Mail
+* Versenden eines E-Mails, wenn reserviertes Spiel eingetroffen ist
+* Zugriff auf Online-Spieldatenbank mit Foto, Spielbeschreibung etc.
+* WebSync-Programm zur Synchronisation von Ausleihstatus und Online-Verlängerungen (LUPO <-> Website) 
+
+Alle Funktionen laufen bereits mit minimaler Geschwindigkeit von 10 Megabit pro Sekunde (Mbit/s).
+
 #### Netzwerk
 
 Falls Sie LUPO im Netzwerk betreiben wollen müssen die beiden Computer miteinander verbunden sein. Ein 'normales' Windows Netzwerk genügt. Es ist empfehlenswert die PC's mit einem Netzwerk-Switch (kleines Gerät, ab Fr. 40.-) zu verkabeln. Wireless-Netzwerke sind nicht zu empfehlen!
