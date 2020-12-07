@@ -67,3 +67,15 @@ Sie können ein Journal über eine x-beliebige Zeitspanne ausdrucken. Dabei werd
 Mit den Plus- und Minus-Buttons können die Daten monatsweise durchgeblättert werden.
 
 ![journal-zusammenzug](../../images/journal-zusammenzug.png)
+
+#### Banana-Export
+
+Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden.
+
+Ist das Häkchen *Fibu-/Banan-Export mit Konten-Mapping** aktiviert, wo wird im Bericht bzw. der Banana-Importdatei das beim Kontenplan in der Spalte Export-Konto als Konto verwendet.
+
+![banana-import.png](../../images/banana-import.png)
+
+Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C\\:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
+
+

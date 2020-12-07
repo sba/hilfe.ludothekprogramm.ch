@@ -6,42 +6,14 @@ taxonomy:
 visible: true
 ---
 
-Das Fenster **Kontobestände** können Sie mit dem Übersichtsbefehl **Buchhaltung → Bilanz** öffnen.
+Das Fenster **Bilanz** kann mit dem Übersichtsbefehl **Buchhaltung → Bilanz** geöffnet werden.
 
 ![kontobestaende](../../images/bilanz.png)
 
-Es werden alle Soll-Beträge und alle Haben-Beträge aller jemals gespeicherten Buchungen im Journal zusammengezählt. Der Bestand bildet sich aus **[Summe Haben] – [Summe Soll]**.
-
-#### Bestand ändern
-
-![bestand-aendern](../../images/bestand-aendern.png)
-
-Geben Sie den neuen Bestand ein. Je nach Konto wird der Differenzbetrag auf das Haben- oder Sollkonto verrechnet. Die Gegenbuchung wird entsprechend dem Hilfskonto (8000) belastet.
-
-#### Kontenplan anzeigen
-
-Zeigt den Kontenplan in Seitenansicht an.
-
-#### Konto-Auswertungen
-
-Öffnet das Fenster für Kontoauswertungen.
-
-#### Tagesabschluss
-
-Wechselt zum Fenster Tagesabschluss.
-
-#### Banana-Export
-
-Exportiert alle Buchungen der ausgewählten Zeitspanne ins Textdatei-Format des Buchhaltungsprogrammes Banana. Diese Datei kann dann anschliessend im Banana über den Menübefehl Daten → Zeilen importieren eingelesen werden. 
-
-![banana-import.png](../../images/banana-import.png)
-
-Damit die Konten in Banana mit denen im LUPO korrespondieren, sollte die Buchhaltung auf der bei der LUPO Installation nach C\\:Lupo_Daten kopierten Datei **buchhaltung-lupo.ac2** basieren.
 
 ### Kontenplan
 
-Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfer).
-
+Der von LUPO verwendete Kontenplan entspricht mehr oder weniger einem KMU-Kontenrahmen.
 
 !! Sie dürfen die Kontobezeichnungen anpassen (z.B. Hauptkasse in PC-Konto ändern) und neue Konten erfassen. Die bestehenden Kontonummern dürfen aber nicht verändert werden.
 
@@ -88,4 +60,30 @@ Der von LUPO verwendete Kontenplan entspricht einem KMU Kontenrahmen (nach Käfe
 | 6800 | Zinsen / Spesen | 680 Zinsen und Spesen | Sonstiger Aufwand | 
 | 6900 | Amortisation Spiele | 690 Abschreibungen | Sonstiger Aufwand | 
 | 6901 | Amortisation Einrichtungen | 690 Abschreibungen | Sonstiger Aufwand | 
-| 8000 | Ausgleichkonto Bestände erfassen | 800 Bestände | Bestände | 
+| 8000 | Ausgleichkonto Bestände erfassen | 800 Bestände | Bestände |
+
+
+#### Kontenplan anzeigen
+
+Zeigt den Kontenplan in Seitenansicht an.
+
+#### Kontenplan bearbeiten
+
+Öffnet die Tabelle um Konten und Kontenbezeichnungen zu bearbeiten.
+
+#### Buchungen anzeigen
+
+Öffnet das Fenster für Kontoauswertungen. Dort können alle gespeicherten Buchungen nach Zeitspanne oder Kontonummer gefiltert werden. 
+
+#### Tagesabschluss
+
+Wechselt zum Fenster Tagesabschluss.
+
+#### Journal-Zusammenzug
+
+Tagesjournale über eine Zeitspanne zusammenfassen oder Buchungen für Banana exportieren.
+
+
+### Summe Kundenkonten
+
+Hier ist auf einen Blick ersichtlich welche Summe die Kunden der Ludothek noch schulden (z.B. offene Mahngebühren) und wie viel Geld insgesamt noch auf den Ausleih-Kundenkonten ist. Der Knopf <span class="btn-lupo">Adressen mit Guthaben / Schulden</span> öffnet einen Bericht, in welchem entsprechenden Kunden aufgelistet sind.
