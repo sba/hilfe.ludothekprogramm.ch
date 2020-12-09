@@ -32,8 +32,10 @@ class TNTSearchQueryCommand extends ConsoleCommand
         'EMERGENCY' => 'magenta'
     ];
 
+    protected $tnt;
+
     /**
-     * @return void
+     *
      */
     protected function configure()
     {
@@ -56,7 +58,7 @@ class TNTSearchQueryCommand extends ConsoleCommand
     }
 
     /**
-     * @return void
+     * @return int|null|void
      */
     protected function serve()
     {
@@ -67,9 +69,6 @@ class TNTSearchQueryCommand extends ConsoleCommand
         $this->output->writeln('');
     }
 
-    /**
-     * @return void
-     */
     private function doQuery()
     {
         $gtnt = TNTSearchPlugin::getSearchObjectType(['json' => true]);

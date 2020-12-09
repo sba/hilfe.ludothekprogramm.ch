@@ -58,13 +58,6 @@ class MySqlConnector extends Connector implements ConnectorInterface
         return $connection;
     }
 
-    public function getOptions(array $config)
-    {
-        return array_merge(parent::getOptions($config), [
-            PDO::MYSQL_ATTR_USE_BUFFERED_QUERY => false,
-        ]);
-    }
-
     /**
      * Create a DSN string from a configuration.
      *
