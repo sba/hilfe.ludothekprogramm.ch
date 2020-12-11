@@ -8,9 +8,9 @@ visible: true
 
 Das **Mahnungen drucken** Fenster kann mit der **Übersicht** oder beim **Beenden** von LUPO geöffnet werden.
 
-![mahnungen-drucken](../../images/mahnungen-drucken.png)
-
-Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt. Bis eine gedruckt oder per E-Mail versendet werden kann, sind vier Schritte vorzunehmen:
+Neue Mahnungen können für Spiele erstellt werden, deren Mahndatum in der Vergangenheit liegt.
+Erinnerungen werden erstellt, wenn das Rückgabedatum in weniger als die bei den Einstellungen definierte Anzahl Tage liegt.
+Bis eine Erinnerung oder Mahnung gedruckt oder per E-Mail versendet werden kann, sind vier Schritte vorzunehmen:
 
 
 !! Mahnungen müssen nach dem Ausleihtag erstellt werden. Sonst ist der Kunde bereits gemahnt, auch wenn er das Spiel noch am selben Tag zurückbringt.
@@ -21,6 +21,8 @@ Beim Aktualisieren der Mahnliste werden alle fälligen Spiele gefunden und nach 
 
 **ACHTUNG**: Beim Aktualisieren der Mahnliste werden die bestehenden Mahnungen überschrieben!
 
+![mahnungen-drucken](../../images/mahnungen-drucken.png)
+
 ### 2\. Mahnliste kontrollieren
 
 Alle Kunden in der oberen Liste erhalten eine Mahnung. Soll ein Kunde nicht gemahnt werden, so muss ein Häkchen in der Spalte **Nicht mahnen** gesetzt werden.
@@ -28,6 +30,8 @@ Alle Kunden in der oberen Liste erhalten eine Mahnung. Soll ein Kunde nicht gema
 ### 3\. Gebühren Verrechnen
 
 Nachdem Sie die Gebühren verrechnet haben, können die Briefe angezeigt und E-Mails gesendet werden.
+
+![mahnungen-drucken](../../images/mahnungen-drucken-2.png)
 
 ### 4\. Mahnbriefe drucken / E-Mails senden
 

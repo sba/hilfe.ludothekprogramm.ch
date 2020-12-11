@@ -10,7 +10,7 @@ visible: true
 
 Installieren Sie – bevor Sie den Drucker am PC anschliessen – die Software DYMO Label v.8.7.3
 
-[Download DYMO Label v.8.7](https://www.ludothekprogramm.ch/download/item/dymo)
+[Download DYMO Label v.8.7](../../../../index.php.ludothekprogramm.ch/download/item/dymo)
 
 !! Die Software **DYMO Connect for Desktop** wird von LUPO nicht unterstützt
 
