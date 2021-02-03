@@ -15,7 +15,7 @@ Start-Sleep -s 5
 #replace all placeholders with content
 cd C:\Users\Stefan\Dropbox\Projekte\Lupo\web\lupodoc_pages;
 
-$version_year = "2021"
+$version_year = "2020"
 $version_short = "13"
 $sprache = "de"
 

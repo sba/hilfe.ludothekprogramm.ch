@@ -8,7 +8,7 @@ enable_admin_page_events: true
 search_type: auto
 fuzzy: true
 phrases: true
-stemmer: german
+stemmer: default
 display_route: true
 display_hits: true
 display_time: false

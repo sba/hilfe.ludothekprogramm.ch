@@ -1,7 +1,11 @@
+DirectoryIndex index.php index.html index.htm
+
+Options -Indexes
+
+AddHandler application/x-httpd-php-hostpoint-default .php
+
 <IfModule mod_rewrite.c>
-
 RewriteEngine On
-
 ## Begin RewriteBase
 # If you are getting 500 or 404 errors on subpages, you may have to uncomment the RewriteBase entry
 # You should change the '/' to your appropriate subfolder. For example if you have
@@ -68,8 +72,8 @@ RewriteRule ^(LICENSE\.txt|composer\.lock|composer\.json|\.htaccess)$ error [F]
 ## End - Security
 
 </IfModule>
-
 # Begin - Prevent Browsing and Set Default Resources
-Options -Indexes
-DirectoryIndex index.php index.html index.htm
 # End - Prevent Browsing and Set Default Resources
+
+#@__HCP_END__@#
+# Anything after the comment above is left alone

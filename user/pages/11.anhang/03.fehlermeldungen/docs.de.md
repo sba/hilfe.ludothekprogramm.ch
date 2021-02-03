@@ -23,7 +23,7 @@ Sofort nach dem Start von LUPO erscheint diese Fehlermeldung:
 
 ![database-not-found](../../images/database-not-found.png)
 
-LUPO kann die Daten-Datenbank (die Datei, in welcher alle Daten wie Adressen, Spiele, Ausleihen usw. gespeichert sind) nicht öffnen. Normalerweise ist diese Datei unter C:\Lupo_Daten\\{{LupoXX_Daten.accdb}} auf dem Haupt-PC und unter Z:\\{{LupoXX_Daten.accdb}} auf dem Netzwerk-PC gespeichert. Wenn die Meldung auf dem PC erscheint, welcher via Netzwerk auf den anderen zugreifen soll überprüfen Sie ob im Windows-Explorer das Netzlaufwerk (Z:) angezeigt wird und ob Sie darauf zugreifen können.
+LUPO kann die Daten-Datenbank (die Datei, in welcher alle Daten wie Adressen, Spiele, Ausleihen usw. gespeichert sind) nicht öffnen. Normalerweise ist diese Datei unter C:\Lupo_Daten\\Lupo13_Daten.accdb auf dem Haupt-PC und unter Z:\\Lupo13_Daten.accdb auf dem Netzwerk-PC gespeichert. Wenn die Meldung auf dem PC erscheint, welcher via Netzwerk auf den anderen zugreifen soll überprüfen Sie ob im Windows-Explorer das Netzlaufwerk (Z:) angezeigt wird und ob Sie darauf zugreifen können.
 
 #### Nicht erkennbares Datenbankformat
 
