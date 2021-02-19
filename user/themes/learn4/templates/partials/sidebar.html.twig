@@ -3,9 +3,10 @@
 <div class="learn-brand">
     <div id="header">
         <a id="logo" href="{{ theme_config.home_url ?: base_url_absolute }}">{% include 'partials/logo.html.twig' %}</a>
-        <div class="search-options columns">
-            <div class="adv-search column col-8"><i class="fa fa-search"></i> <a href="{{ url('search') }}">Suche</a></div>
-            {% include 'partials/versions.html.twig' %}
+        <div class="search-options">
+            <a href="{{ url('search') }}">
+                <div class="adv-search column col-12"><i class="fa fa-search"></i> Suche</div>
+            </a>
         </div>
     </div>
 </div>
@@ -15,7 +16,7 @@
             {% for slug, ver in pages.children %}
                 {{ macros.version(ver) }}
                 <ul class="was" id="{{ slug }}" class="topics">
-                {{ macros.loop(ver, '') }}
+                    {{ macros.loop(ver, '') }}
                 </ul>
             {% endfor %}
         {% else %}
@@ -23,12 +24,16 @@
                 {% if theme_config.root_page %}
                     {{ macros.loop(page.find(theme_config.root_page), '') }}
                 {% else %}
-            {{ macros.loop(pages, '') }}
+                    {{ macros.loop(pages, '') }}
                 {% endif %}
             </ul>
         {% endif %}
-        <hr />
 
+        <a class=" padding" href="https://www.ludothekprogramm.ch/support/forum" target="_blank">
+            <i class="fa fa-fw fa-question-circle"></i> Support-Forum
+        </a><br/><br/>
+        <hr/>
+        <br/>
         <a class="side-tools padding" href="#" data-clear-history-toggle>
             <i class="fa fa-fw fa-history"></i> {{ 'THEME_LEARN4_CLEAR_HISTORY'|t }}
         </a><br/>
