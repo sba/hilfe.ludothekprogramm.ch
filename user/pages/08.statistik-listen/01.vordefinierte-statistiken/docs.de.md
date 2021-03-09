@@ -10,6 +10,6 @@ Dieses Fenster kann mit **Übersicht → Statistik und Listen** oder direkt aus 
 
 ![statistik-und-listen](../../images/statistik-und-listen.png)
 
-Diese Datumsspanne (Statistik von … bis …) gilt für die grün geschriebenen Statistiken (bei Ausleihen gilt das Ausleihdatum als Referenz)
+Diese Datumsspanne (Daten anzeigen vom ... bis ...) gilt für die grün geschriebenen Statistiken. Bei Ausleihen gilt das Ausleihdatum als Referenz.
 
 Markieren Sie das Kontrollkästchen für die Statistiken, welche Sie <span class="btn-lupo">Anzeigen</span> oder <span class="btn-lupo">Drucken</span> wollen.
