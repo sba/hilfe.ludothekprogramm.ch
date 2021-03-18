@@ -31,7 +31,7 @@ Der Text wird zentriert unter dem Logo ausgedruckt. Wenn eine Zeile Text mit gro
 Dieser Text wird am Ende des Bons gedruckt. Falls Sie ein zweifarbiges (schwarz/rot) Druckerband verwenden (nur Nadeldrucker) kann der Text in der zweiten Farbe gedruckt werden. Bei einem Thermodrucker kann der Text optional fett ausgegeben werden.
 
 
-!!!! Die Texte werden zentriert ausgegeben. Möchten Sie den Text links oder rechts ausgerichtet haben, so kann dies durch auffüllen mit Leerzeichen erreicht werden.
+!!!! Die Texte werden zentriert ausgegeben. Möchten Sie den Text links oder rechts ausgerichtet haben, so kann dies durch Auffüllen mit Leerzeichen erreicht werden.
 
 #### Abo Ablauf-Datum anzeigen
 
@@ -52,6 +52,10 @@ Falls der Kunde Geld auf seinem Ausleihkonto hat, wird der Betrag auf den Bon ge
 #### Liste der ausgeliehenen Spiele anzeigen
 
 Definieren Sie hier die Darstellung der Liste mit den ausgeliehenen Spielen.
+
+#### Website Kundenlogin-Informationen
+
+Dieser Text wird dem Schlusstext angefügt. Es können die Platzhalter {{ADRNR}} und {{PASSWORT}} verwendet werden um die Login-Informationenauf den Bon zu drucken. Das kleine grüne Icon oberhalb des Textfeldes lädt den Standard-Text inkl. Platzhalter. 
 
 #### QR-Code
 
