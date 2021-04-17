@@ -30,7 +30,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '284d9ea22bc6ae099133e4ff29ed1520357be7d9',
+    'reference' => 'b9ab491cbbfdabc4f7075c6824a3bfe557453348',
     'name' => 'getgrav/grav',
   ),
   'versions' => 
@@ -141,7 +141,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '284d9ea22bc6ae099133e4ff29ed1520357be7d9',
+      'reference' => 'b9ab491cbbfdabc4f7075c6824a3bfe557453348',
     ),
     'gregwar/cache' => 
     array (
@@ -411,12 +411,12 @@ private static $installed = array (
     ),
     'rockettheme/toolbox' => 
     array (
-      'pretty_version' => '1.5.7',
-      'version' => '1.5.7.0',
+      'pretty_version' => '1.5.9',
+      'version' => '1.5.9.0',
       'aliases' => 
       array (
       ),
-      'reference' => '8d3ebc4d982595d6eac90e851f2b4d5c0cec0399',
+      'reference' => '2d6693235aaca2efaadb61c84dac927aaf4eabfa',
     ),
     'seld/cli-prompt' => 
     array (
