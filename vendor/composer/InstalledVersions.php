@@ -32,7 +32,7 @@ private static $installed = array (
     'aliases' => 
     array (
     ),
-    'reference' => '668f8ccdbff3f0ae1e0a7bfdbf6ea9a5508eb1fd',
+    'reference' => 'b693ed4071229a0d99c8948c2262ef30b69b2766',
     'name' => 'getgrav/grav',
   ),
   'versions' => 
@@ -152,7 +152,7 @@ private static $installed = array (
       'aliases' => 
       array (
       ),
-      'reference' => '668f8ccdbff3f0ae1e0a7bfdbf6ea9a5508eb1fd',
+      'reference' => 'b693ed4071229a0d99c8948c2262ef30b69b2766',
     ),
     'getgrav/image' => 
     array (
