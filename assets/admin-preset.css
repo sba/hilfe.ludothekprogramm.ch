@@ -98,10 +98,10 @@ tr td.gpm-details {
   color: #ffffff;
 }
 .button.secondary.dropdown-toggle {
-  border-left: 1px solid #006294;
+  border-left: 1px solid #006295;
 }
 .button.secondary.dropdown-toggle {
-  border-left: 1px solid #006294;
+  border-left: 1px solid #006295;
 }
 .button.danger {
   color: rgba(255, 255, 255, 0.85);
@@ -293,7 +293,7 @@ tr td.gpm-details {
   color: #ffffff;
 }
 #admin-main .grav-update a.button.dropdown-toggle, #admin-main .grav-update span.button.dropdown-toggle, #admin-main .grav-update button.button.dropdown-toggle {
-  border-left: 1px solid #6c4d8e;
+  border-left: 1px solid #6b4d8f;
 }
 #admin-main .titlebar {
   background: #ffffff;
@@ -848,7 +848,7 @@ form .form-display-wrapper table tr {
   color: #ffffff;
 }
 .info a.button.dropdown-toggle, .info span.button.dropdown-toggle, .info button.button.dropdown-toggle {
-  border-left: 1px solid #6c4d8e;
+  border-left: 1px solid #6b4d8f;
 }
 .info-reverse {
   color: #77559D;
@@ -894,11 +894,11 @@ form .form-display-wrapper table tr {
   background: #c34646;
 }
 .error a.button:focus, .error a.button:hover, .error span.button:focus, .error span.button:hover, .error button.button:focus, .error button.button:hover, .warning a.button:focus, .warning a.button:hover, .warning span.button:focus, .warning span.button:hover, .warning button.button:focus, .warning button.button:hover {
-  background: #a63c3b;
+  background: #a63c3c;
   color: #ffffff;
 }
 .error a.button.dropdown-toggle, .error span.button.dropdown-toggle, .error button.button.dropdown-toggle, .warning a.button.dropdown-toggle, .warning span.button.dropdown-toggle, .warning button.button.dropdown-toggle {
-  border-left: 1px solid #c95a59;
+  border-left: 1px solid #c95959;
 }
 .error-reverse, .warning-reverse {
   color: #F45857;
