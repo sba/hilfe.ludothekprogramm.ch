@@ -36,6 +36,7 @@ Der von LUPO verwendete Kontenplan entspricht mehr oder weniger einem KMU-Konten
 | 2800 | Vereinsvermögen | 280 Kapital | Passiven | 
 | 3000 | Abonnements | 300 Ausleihen | Ertrag | 
 | 3001 | Ausleihgebühren | 300 Ausleihen | Ertrag | 
+| 3002 | Reservationsgebühren | 300 Ausleihen | Ertrag | 
 | 3003 | Mahngebühren | 300 Ausleihen | Ertrag | 
 | 3004 | Verlust Ausleihgebührenrabatte | 300 Ausleihen | Ertrag | 
 | 3007 | e-Abonnemente | 300 Ausleihen | Ertrag | 
