@@ -22,7 +22,7 @@ Unter **Spiel (Detail-Asnicht)** kann man die Detailansicht des Spiels bearbeite
 
 ![lupo-spielliste](../../images/spiel-detailansicht.png)
 
-Unter **Reservation** können Sie das "Spiel Reservieren-Formular" bearbeiten. Um auf dieses Formular zu gelangen, muss man bei der Detailanischt des Spiels auf <span class="btn-lupo">Spiel Reservieren</span> klicken.
+Unter **Reservation** können Sie das "Spiel Reservieren-Formular" bearbeiten. Um auf dieses Formular zu gelangen, muss man beim Kundenlogin-Fenster der Knopf <span class="btn-lupo">Reservationen senden</span> geklickt werden.
 
 ![lupo-spielliste](../../images/com_lupo_options_reservation.png)
 
