@@ -33,7 +33,7 @@ Unabhängig von der zuvor gewählten E-Mail-Blockgrösse können hier E-Mails in
 
 ### Serienbrief in Word
 
-Bei der Installation des LUPO wird die Serienbrief-Vorlage **C:\Lupo_Daten\Serienbrief.dotx** kopiert. Der Knopf Word Serienbrief öffnen exportiert alle angezeigten Adressen (gesetzte Filter werden beachtet) in die Datei **C:\Lupo_Daten\Serienbrief_Datenquelle.docx** und öffnet ein neues Dokument basierend auf der Vorlage in Microsoft Word (sofern installiert).
+Bei der Installation des LUPO wird die Serienbrief-Vorlage **C:\\Lupo_Daten\\Serienbrief.dotx** kopiert. Der Knopf Word Serienbrief öffnen exportiert alle angezeigten Adressen (gesetzte Filter werden beachtet) in die Datei **C:\Lupo_Daten\Serienbrief_Datenquelle.docx** und öffnet ein neues Dokument basierend auf der Vorlage in Microsoft Word (sofern installiert).
 
 Bevor der Serienbrief angezeigt wird muss folgende Frage mit Ja bestätigt werden:
 
