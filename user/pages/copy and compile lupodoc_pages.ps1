@@ -3,12 +3,7 @@ $sourceDir = "D:\htdocs\hilfe.ludothekprogramm.ch\user\pages\"
 $targetDir = "D:\htdocs\hilfe.ludothekprogramm.ch_COMPILED_PAGES\"
 
 Get-ChildItem -Path $targetDir -Recurse -exclude .git | Remove-Item -force -recurse
-
 Get-ChildItem -Path $sourceDir | Copy-Item -Destination $targetDir -Recurse -Container -force
-
-#Bugfix zu Error Set-Content : Der Prozess kann nicht auf die Datei ...
-#weil das kopieren offenbar noch nicht ganz fertig ist (Dropbox?)
-Start-Sleep -s 5 
 
 #replace all placeholders with content
 cd $targetDir;
