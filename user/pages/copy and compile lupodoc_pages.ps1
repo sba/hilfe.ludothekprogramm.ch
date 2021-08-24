@@ -1,8 +1,6 @@
-﻿#ACHTUNG: Dropbox pausieren!
-
-#copy files
+﻿#copy files
 $sourceDir = "D:\htdocs\hilfe.ludothekprogramm.ch\user\pages\"
-$targetDir = "C:\Users\Stefan\Dropbox\Projekte\Lupo\web\lupodoc_pages"
+$targetDir = "D:\htdocs\hilfe.ludothekprogramm.ch_COMPILED_PAGES\"
 
 Get-ChildItem -Path $targetDir -Recurse -exclude .git | Remove-Item -force -recurse
 
@@ -13,9 +11,9 @@ Get-ChildItem -Path $sourceDir | Copy-Item -Destination $targetDir -Recurse -Con
 Start-Sleep -s 5 
 
 #replace all placeholders with content
-cd C:\Users\Stefan\Dropbox\Projekte\Lupo\web\lupodoc_pages;
+cd $targetDir;
 
-$version_year = "2020"
+$version_year = "2021"
 $version_short = "13"
 $sprache = "de"
 
@@ -41,4 +39,4 @@ foreach($placeholder in $placeholders.keys)
     }
 }
 
-Write-Host "Alles kopiert und kompiliert!" -ForegroundColor Green 
+Write-Host "Alles kopiert und kompiliert!" -ForegroundColor Green
