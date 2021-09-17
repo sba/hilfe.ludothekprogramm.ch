@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit96a87f972be68efcb86d2c9d8073135c
+class ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -14,8 +14,8 @@ class ComposerStaticInit96a87f972be68efcb86d2c9d8073135c
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
     );
 
@@ -767,6 +767,7 @@ class ComposerStaticInit96a87f972be68efcb86d2c9d8073135c
         'Grav\\Common\\Taxonomy' => __DIR__ . '/../..' . '/system/src/Grav/Common/Taxonomy.php',
         'Grav\\Common\\Theme' => __DIR__ . '/../..' . '/system/src/Grav/Common/Theme.php',
         'Grav\\Common\\Themes' => __DIR__ . '/../..' . '/system/src/Grav/Common/Themes.php',
+        'Grav\\Common\\Twig\\Exception\\TwigException' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Exception/TwigException.php',
         'Grav\\Common\\Twig\\Extension\\FilesystemExtension' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Extension/FilesystemExtension.php',
         'Grav\\Common\\Twig\\Extension\\GravExtension' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Extension/GravExtension.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeCache' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeCache.php',
@@ -2076,11 +2077,11 @@ class ComposerStaticInit96a87f972be68efcb86d2c9d8073135c
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit96a87f972be68efcb86d2c9d8073135c::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit96a87f972be68efcb86d2c9d8073135c::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInit96a87f972be68efcb86d2c9d8073135c::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit96a87f972be68efcb86d2c9d8073135c::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit96a87f972be68efcb86d2c9d8073135c::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8dd2ce00f1c6bcc9413b7dcfebb4f362::$classMap;
 
         }, null, ClassLoader::class);
     }
