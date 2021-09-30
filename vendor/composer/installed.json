@@ -389,28 +389,28 @@
         },
         {
             "name": "donatj/phpuseragentparser",
-            "version": "v1.4.0",
-            "version_normalized": "1.4.0.0",
+            "version": "v1.5.0",
+            "version_normalized": "1.5.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/donatj/PhpUserAgent.git",
-                "reference": "246c1cf0a44f07168c702203bf30d5f48f17bab0"
+                "reference": "cc9d872cddfc180c52d084d0dff1e4aad653d37f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/246c1cf0a44f07168c702203bf30d5f48f17bab0",
-                "reference": "246c1cf0a44f07168c702203bf30d5f48f17bab0",
+                "url": "https://api.github.com/repos/donatj/PhpUserAgent/zipball/cc9d872cddfc180c52d084d0dff1e4aad653d37f",
+                "reference": "cc9d872cddfc180c52d084d0dff1e4aad653d37f",
                 "shasum": ""
             },
             "require": {
-                "php": ">=5.3.0"
+                "php": ">=5.4.0"
             },
             "require-dev": {
                 "camspiers/json-pretty": "~1.0",
                 "donatj/drop": "*",
                 "phpunit/phpunit": "~4.8|~9"
             },
-            "time": "2021-03-16T16:25:14+00:00",
+            "time": "2021-09-16T17:05:03+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -444,7 +444,7 @@
             ],
             "support": {
                 "issues": "https://github.com/donatj/PhpUserAgent/issues",
-                "source": "https://github.com/donatj/PhpUserAgent/tree/v1.4.0"
+                "source": "https://github.com/donatj/PhpUserAgent/tree/v1.5.0"
             },
             "funding": [
                 {
@@ -507,55 +507,6 @@
                 "source": "https://github.com/dragonmantank/cron-expression/tree/v1.2.0"
             },
             "install-path": "../dragonmantank/cron-expression"
-        },
-        {
-            "name": "enshrined/svg-sanitize",
-            "version": "0.14.1",
-            "version_normalized": "0.14.1.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/darylldoyle/svg-sanitizer.git",
-                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/darylldoyle/svg-sanitizer/zipball/307b42066fb0b76b5119f5e1f0826e18fefabe95",
-                "reference": "307b42066fb0b76b5119f5e1f0826e18fefabe95",
-                "shasum": ""
-            },
-            "require": {
-                "ext-dom": "*",
-                "ext-libxml": "*",
-                "php": "^7.0 || ^8.0"
-            },
-            "require-dev": {
-                "codeclimate/php-test-reporter": "^0.1.2",
-                "phpunit/phpunit": "^6.5 || ^8.5"
-            },
-            "time": "2021-08-09T23:46:54+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "enshrined\\svgSanitize\\": "src"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Daryll Doyle",
-                    "email": "daryll@enshrined.co.uk"
-                }
-            ],
-            "description": "An SVG sanitizer for PHP",
-            "support": {
-                "issues": "https://github.com/darylldoyle/svg-sanitizer/issues",
-                "source": "https://github.com/darylldoyle/svg-sanitizer/tree/0.14.1"
-            },
-            "install-path": "../enshrined/svg-sanitize"
         },
         {
             "name": "erusev/parsedown",
@@ -666,17 +617,17 @@
         },
         {
             "name": "filp/whoops",
-            "version": "2.14.1",
-            "version_normalized": "2.14.1.0",
+            "version": "2.14.3",
+            "version_normalized": "2.14.3.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/filp/whoops.git",
-                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1"
+                "reference": "89584ce67dd32307f1063cc43846674f4679feda"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/filp/whoops/zipball/15ead64e9828f0fc90932114429c4f7923570cb1",
-                "reference": "15ead64e9828f0fc90932114429c4f7923570cb1",
+                "url": "https://api.github.com/repos/filp/whoops/zipball/89584ce67dd32307f1063cc43846674f4679feda",
+                "reference": "89584ce67dd32307f1063cc43846674f4679feda",
                 "shasum": ""
             },
             "require": {
@@ -692,7 +643,7 @@
                 "symfony/var-dumper": "Pretty print complex values better with var-dumper available",
                 "whoops/soap": "Formats errors as SOAP responses"
             },
-            "time": "2021-08-29T12:00:00+00:00",
+            "time": "2021-09-19T12:00:00+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -728,7 +679,7 @@
             ],
             "support": {
                 "issues": "https://github.com/filp/whoops/issues",
-                "source": "https://github.com/filp/whoops/tree/2.14.1"
+                "source": "https://github.com/filp/whoops/tree/2.14.3"
             },
             "funding": [
                 {
@@ -1580,62 +1531,6 @@
             "install-path": "../nyholm/psr7-server"
         },
         {
-            "name": "phive/twig-extensions-deferred",
-            "version": "v1.0.2",
-            "version_normalized": "1.0.2.0",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/rybakit/twig-extensions-deferred-legacy.git",
-                "reference": "5a2426d622afa74034e754ca5ea1d1ff7887627f"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/rybakit/twig-extensions-deferred-legacy/zipball/5a2426d622afa74034e754ca5ea1d1ff7887627f",
-                "reference": "5a2426d622afa74034e754ca5ea1d1ff7887627f",
-                "shasum": ""
-            },
-            "require": {
-                "twig/twig": "~1.18"
-            },
-            "time": "2017-03-17T21:39:21+00:00",
-            "type": "library",
-            "installation-source": "dist",
-            "autoload": {
-                "psr-4": {
-                    "Phive\\Twig\\Extensions\\Deferred\\": "src/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "license": [
-                "MIT"
-            ],
-            "authors": [
-                {
-                    "name": "Eugene Leonovich",
-                    "email": "gen.work@gmail.com"
-                }
-            ],
-            "description": "An extension for Twig that allows to defer block rendering",
-            "homepage": "https://github.com/rybakit/twig-extensions-deferred",
-            "keywords": [
-                "defer",
-                "extension",
-                "lazy",
-                "twig"
-            ],
-            "support": {
-                "issues": "https://github.com/rybakit/twig-extensions-deferred-legacy/issues",
-                "source": "https://github.com/rybakit/twig-extensions-deferred-legacy/tree/v1.0.2"
-            },
-            "funding": [
-                {
-                    "url": "https://github.com/rybakit",
-                    "type": "github"
-                }
-            ],
-            "install-path": "../phive/twig-extensions-deferred"
-        },
-        {
             "name": "php-http/message-factory",
             "version": "v1.0.2",
             "version_normalized": "1.0.2.0",
@@ -2245,18 +2140,66 @@
             "install-path": "../ralouphie/getallheaders"
         },
         {
-            "name": "rockettheme/toolbox",
-            "version": "1.5.9",
-            "version_normalized": "1.5.9.0",
+            "name": "rhukster/dom-sanitizer",
+            "version": "1.0.5",
+            "version_normalized": "1.0.5.0",
             "source": {
                 "type": "git",
-                "url": "https://github.com/rockettheme/toolbox.git",
-                "reference": "2d6693235aaca2efaadb61c84dac927aaf4eabfa"
+                "url": "https://github.com/rhukster/dom-sanitizer.git",
+                "reference": "836d1dd9808adee0e4bb0ce4cdacc0f9a1497b7e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/2d6693235aaca2efaadb61c84dac927aaf4eabfa",
-                "reference": "2d6693235aaca2efaadb61c84dac927aaf4eabfa",
+                "url": "https://api.github.com/repos/rhukster/dom-sanitizer/zipball/836d1dd9808adee0e4bb0ce4cdacc0f9a1497b7e",
+                "reference": "836d1dd9808adee0e4bb0ce4cdacc0f9a1497b7e",
+                "shasum": ""
+            },
+            "require": {
+                "ext-dom": "*",
+                "ext-libxml": "*",
+                "php": ">=7.3"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9"
+            },
+            "time": "2021-09-29T20:14:54+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Rhukster\\DomSanitizer\\": "src"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Andy Miller",
+                    "email": "rhuk@rhuk.net"
+                }
+            ],
+            "description": "A simple but effective DOM/SVG/MathML Sanitizer for PHP 7.4+",
+            "support": {
+                "issues": "https://github.com/rhukster/dom-sanitizer/issues",
+                "source": "https://github.com/rhukster/dom-sanitizer/tree/1.0.5"
+            },
+            "install-path": "../rhukster/dom-sanitizer"
+        },
+        {
+            "name": "rockettheme/toolbox",
+            "version": "1.5.10",
+            "version_normalized": "1.5.10.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/rockettheme/toolbox.git",
+                "reference": "d9738de013fa12df77754a0f11dded220b246efb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/rockettheme/toolbox/zipball/d9738de013fa12df77754a0f11dded220b246efb",
+                "reference": "d9738de013fa12df77754a0f11dded220b246efb",
                 "shasum": ""
             },
             "require": {
@@ -2271,7 +2214,7 @@
                 "phpstan/phpstan-deprecation-rules": "^0.12",
                 "phpunit/phpunit": "~7.0"
             },
-            "time": "2021-04-14T19:52:40+00:00",
+            "time": "2021-09-29T16:50:13+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -2299,7 +2242,7 @@
             ],
             "support": {
                 "issues": "https://github.com/rockettheme/toolbox/issues",
-                "source": "https://github.com/rockettheme/toolbox/tree/1.5.9"
+                "source": "https://github.com/rockettheme/toolbox/tree/1.5.10"
             },
             "install-path": "../rockettheme/toolbox"
         },
@@ -2640,17 +2583,17 @@
         },
         {
             "name": "symfony/http-client",
-            "version": "v4.4.27",
-            "version_normalized": "4.4.27.0",
+            "version": "v4.4.31",
+            "version_normalized": "4.4.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/http-client.git",
-                "reference": "ade6979785bb799e08912f3104959fb169739462"
+                "reference": "6b900ffa399e25203f30f79f6f4a56b89eee14c2"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/http-client/zipball/ade6979785bb799e08912f3104959fb169739462",
-                "reference": "ade6979785bb799e08912f3104959fb169739462",
+                "url": "https://api.github.com/repos/symfony/http-client/zipball/6b900ffa399e25203f30f79f6f4a56b89eee14c2",
+                "reference": "6b900ffa399e25203f30f79f6f4a56b89eee14c2",
                 "shasum": ""
             },
             "require": {
@@ -2676,7 +2619,7 @@
                 "symfony/http-kernel": "^4.4.13",
                 "symfony/process": "^4.2|^5.0"
             },
-            "time": "2021-07-23T15:41:52+00:00",
+            "time": "2021-09-06T10:00:00+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -2704,7 +2647,7 @@
             "description": "Provides powerful methods to fetch HTTP resources synchronously or asynchronously",
             "homepage": "https://symfony.com",
             "support": {
-                "source": "https://github.com/symfony/http-client/tree/v4.4.27"
+                "source": "https://github.com/symfony/http-client/tree/v4.4.31"
             },
             "funding": [
                 {
@@ -3206,17 +3149,17 @@
         },
         {
             "name": "symfony/var-dumper",
-            "version": "v4.4.30",
-            "version_normalized": "4.4.30.0",
+            "version": "v4.4.31",
+            "version_normalized": "4.4.31.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/var-dumper.git",
-                "reference": "7f65c44c2ce80d3a0fcdb6385ee0ad535e45660c"
+                "reference": "1f12cc0c2e880a5f39575c19af81438464717839"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/7f65c44c2ce80d3a0fcdb6385ee0ad535e45660c",
-                "reference": "7f65c44c2ce80d3a0fcdb6385ee0ad535e45660c",
+                "url": "https://api.github.com/repos/symfony/var-dumper/zipball/1f12cc0c2e880a5f39575c19af81438464717839",
+                "reference": "1f12cc0c2e880a5f39575c19af81438464717839",
                 "shasum": ""
             },
             "require": {
@@ -3240,7 +3183,7 @@
                 "ext-intl": "To show region name in time zone dump",
                 "symfony/console": "To use the ServerDumpCommand and/or the bin/var-dump-server script"
             },
-            "time": "2021-08-04T20:31:23+00:00",
+            "time": "2021-09-24T15:30:11+00:00",
             "bin": [
                 "Resources/bin/var-dump-server"
             ],
@@ -3278,7 +3221,7 @@
                 "dump"
             ],
             "support": {
-                "source": "https://github.com/symfony/var-dumper/tree/v4.4.30"
+                "source": "https://github.com/symfony/var-dumper/tree/v4.4.31"
             },
             "funding": [
                 {
@@ -3372,17 +3315,17 @@
         },
         {
             "name": "twig/twig",
-            "version": "v1.44.4",
-            "version_normalized": "1.44.4.0",
+            "version": "v1.44.5",
+            "version_normalized": "1.44.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/twigphp/Twig.git",
-                "reference": "4d400421528e9fa40caaffcf7824c172526dd99d"
+                "reference": "dd4353357c5a116322e92a00d16043a31881a81e"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/twigphp/Twig/zipball/4d400421528e9fa40caaffcf7824c172526dd99d",
-                "reference": "4d400421528e9fa40caaffcf7824c172526dd99d",
+                "url": "https://api.github.com/repos/twigphp/Twig/zipball/dd4353357c5a116322e92a00d16043a31881a81e",
+                "reference": "dd4353357c5a116322e92a00d16043a31881a81e",
                 "shasum": ""
             },
             "require": {
@@ -3393,7 +3336,7 @@
                 "psr/container": "^1.0",
                 "symfony/phpunit-bridge": "^4.4.9|^5.0.9"
             },
-            "time": "2021-05-16T12:11:20+00:00",
+            "time": "2021-09-17T08:35:19+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -3437,7 +3380,7 @@
             ],
             "support": {
                 "issues": "https://github.com/twigphp/Twig/issues",
-                "source": "https://github.com/twigphp/Twig/tree/v1.44.4"
+                "source": "https://github.com/twigphp/Twig/tree/v1.44.5"
             },
             "funding": [
                 {
