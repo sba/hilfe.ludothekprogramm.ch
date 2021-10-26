@@ -16,4 +16,4 @@ Bei abgabepflichtigen «Spielen» muss im Spiel-Fenster das Häkchen ProLitteris
 
 Mit ProLitteris Gebühren berechnen werden neu gesetzte oder entfernte Häkchen bei den Spielen berücksichtigt und die bereits berechnete Abgabe pro Ausleihe aktualisiert. Diese Aktion kann auch direkt vor dem Ausdrucken der Abrechnung im Statistik-Fenster vorgenommen werden.
 
-Weitere Informationen zu ProLitteris können im pdf-Dokument Gemeinsamer Tarif 6 nachgelesen werden.
+Weitere Informationen zu ProLitteris können im verlinkten pdf-Dokument nachgelesen werden.
