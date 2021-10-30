@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f
+class ComposerStaticInit1effba6248e1a558dea53b711b28e7b7
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -226,8 +226,8 @@ class ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f
         ),
         'Psr\\Http\\Server\\' => 
         array (
-            0 => __DIR__ . '/..' . '/psr/http-server-handler/src',
-            1 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
+            0 => __DIR__ . '/..' . '/psr/http-server-middleware/src',
+            1 => __DIR__ . '/..' . '/psr/http-server-handler/src',
         ),
         'Psr\\Http\\Message\\' => 
         array (
@@ -648,11 +648,12 @@ class ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f
         'Grav\\Common\\GPM\\Remote\\Packages' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Packages.php',
         'Grav\\Common\\GPM\\Remote\\Plugins' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Plugins.php',
         'Grav\\Common\\GPM\\Remote\\Themes' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Remote/Themes.php',
-        'Grav\\Common\\GPM\\Response' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Response.php',
         'Grav\\Common\\GPM\\Upgrader' => __DIR__ . '/../..' . '/system/src/Grav/Common/GPM/Upgrader.php',
         'Grav\\Common\\Getters' => __DIR__ . '/../..' . '/system/src/Grav/Common/Getters.php',
         'Grav\\Common\\Grav' => __DIR__ . '/../..' . '/system/src/Grav/Common/Grav.php',
         'Grav\\Common\\GravTrait' => __DIR__ . '/../..' . '/system/src/Grav/Common/GravTrait.php',
+        'Grav\\Common\\HTTP\\Client' => __DIR__ . '/../..' . '/system/src/Grav/Common/HTTP/Client.php',
+        'Grav\\Common\\HTTP\\Response' => __DIR__ . '/../..' . '/system/src/Grav/Common/HTTP/Response.php',
         'Grav\\Common\\Helpers\\Base32' => __DIR__ . '/../..' . '/system/src/Grav/Common/Helpers/Base32.php',
         'Grav\\Common\\Helpers\\Excerpts' => __DIR__ . '/../..' . '/system/src/Grav/Common/Helpers/Excerpts.php',
         'Grav\\Common\\Helpers\\Exif' => __DIR__ . '/../..' . '/system/src/Grav/Common/Helpers/Exif.php',
@@ -2062,11 +2063,11 @@ class ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f::$prefixDirsPsr4;
-            $loader->fallbackDirsPsr4 = ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f::$fallbackDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc4ff26bfa2623e79a158810bf8adc39f::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit1effba6248e1a558dea53b711b28e7b7::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit1effba6248e1a558dea53b711b28e7b7::$prefixDirsPsr4;
+            $loader->fallbackDirsPsr4 = ComposerStaticInit1effba6248e1a558dea53b711b28e7b7::$fallbackDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit1effba6248e1a558dea53b711b28e7b7::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit1effba6248e1a558dea53b711b28e7b7::$classMap;
 
         }, null, ClassLoader::class);
     }
