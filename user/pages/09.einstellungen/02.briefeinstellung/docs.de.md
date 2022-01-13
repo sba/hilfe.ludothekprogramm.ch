@@ -41,3 +41,28 @@ Die zwei grossen Textfelder und die E-Mailfelder können bei jedem Brief einen a
 Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und -text verwendet werden. Diese werden dann ersetzt durch den spezifischen Wert.
 
 ![briefeinstellung](../../images/platzhalter.png)
+
+**Folgende Platzhalter stehen zu Verfügung:**
+
+```
+{{ADRNR}}
+{{PASSWORT}}
+{{NACHNAME}}
+{{VORNAME}}
+{{STRASSE}}
+{{PLZ}}
+{{ORT}}
+{{TELEFON}}
+{{EMAIL}}
+{{LOGINLINK}}
+{{SPIELE}}
+{{SPIELE_RES}}
+{{LUDOTHEK}} 
+{{LUDOSTRASSE}}
+{{LUDOPLZ}}
+{{LUDOORT}}
+{{LUDOEMAIL}}
+{{LUDOTEL}}
+```
+
+!! ACHTUNG: Einige Platzhalter werden nicht überall unterstützt
