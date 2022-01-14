@@ -20,7 +20,7 @@ Ihr Computer muss mindestens folgenden Anforderungen entsprechen:
 
 Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leistungsmerkmale aufweisen:
 
-- Windows 10 
+- Windows 10 oder Windows 11
 - Core i3 8th Gen 
 - 4 GB Arbeitsspeicher 
 - 128 GB Festplatte oder SSD 
@@ -90,9 +90,13 @@ Für Barcodeetiketten kann ein [DYMO LabelWriter](https://www.ludothekprogramm.c
 
 LUPO kann auf jeder Windows-Version ab Windows 8.1 problemlos installiert werden. Je nach Benutzerkonten-Einstellung und -Rechten muss das Programm mit Administrator-Rechten installiert werden.
 
-#### Windows XP / Vista / 7 / 8
+#### Windows 7 / 8.1
 
-Office Access 2010, auf welchem LUPO basiert, wird von Microsoft offiziell nicht unterstützt unter Windows XP. Unsere Tests zeigten aber, dass die Software trotzdem stabil läuft. Mindestens Windows XP Service Pack 3 ist erforderlich.
+Diese OS-Versionen sind zwar schon ziemlich veraltet, aber unsere Tests zeigten, dass die Software trotzdem stabil läuft. 
+
+#### Windows XP / Vista
+
+Dies sind definitiv zu alte Windows-Versionen. Sie benötigen einen neueren PC!
 
 #### Microsoft-Access 2010 Runtime (32 Bit)
 
@@ -102,6 +106,6 @@ Mit dem Softwarepaket LUPO wird eine Access-Runtime Version mitgeliefert. Sie be
 
 Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer 32-Bit Office-Umgebung. Das Betriebssystem hingegen darf 64 Bit sein. Das Problem an 64-Bit ist, dass das für den Bondrucker notwendige ocx nicht in einer 64-Bit Version angeboten wird.
 
-#### Microsoft Office 2013 / 2016 / 2019
+#### Microsoft Office 2013 / 2016 / 2019 / 2021
 
 Auch wenn eine neuere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls ein Access installiert ist, dann kann das LUPO auch mit der neueren Access-Version geöffnet werden. Wichtig ist dabei, dass es eine 32-Bit Installation ist. 
