@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '92824f44e68a5c84c77809c0aca927c644d273e2',
+        'reference' => 'bab83ed977225bb7b1aa197d259cf100d870a479',
         'name' => 'getgrav/grav',
         'dev' => false,
     ),
@@ -106,7 +106,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '92824f44e68a5c84c77809c0aca927c644d273e2',
+            'reference' => 'bab83ed977225bb7b1aa197d259cf100d870a479',
             'dev_requirement' => false,
         ),
         'getgrav/image' => array(
