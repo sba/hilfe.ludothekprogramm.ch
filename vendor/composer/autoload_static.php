@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit06477c840c66b12aff1d5f954436bc32
+class ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -15,8 +15,8 @@ class ComposerStaticInit06477c840c66b12aff1d5f954436bc32
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
+        'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
         '8ef9e3d3ddb4d123a4b13a2dd9c50970' => __DIR__ . '/../..' . '/system/src/DOMLettersIterator.php',
         'f4a9ce07f6028c83d803fa2e9b612d16' => __DIR__ . '/../..' . '/system/src/DOMWordsIterator.php',
@@ -770,6 +770,7 @@ class ComposerStaticInit06477c840c66b12aff1d5f954436bc32
         'Grav\\Common\\Twig\\Extension\\FilesystemExtension' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Extension/FilesystemExtension.php',
         'Grav\\Common\\Twig\\Extension\\GravExtension' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Extension/GravExtension.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeCache' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeCache.php',
+        'Grav\\Common\\Twig\\Node\\TwigNodeLink' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeLink.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeMarkdown' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeMarkdown.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeRender' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeRender.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeScript' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeScript.php',
@@ -778,6 +779,7 @@ class ComposerStaticInit06477c840c66b12aff1d5f954436bc32
         'Grav\\Common\\Twig\\Node\\TwigNodeThrow' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeThrow.php',
         'Grav\\Common\\Twig\\Node\\TwigNodeTryCatch' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/Node/TwigNodeTryCatch.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserCache' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserCache.php',
+        'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserLink' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserLink.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserMarkdown' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserMarkdown.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserRender' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserRender.php',
         'Grav\\Common\\Twig\\TokenParser\\TwigTokenParserScript' => __DIR__ . '/../..' . '/system/src/Grav/Common/Twig/TokenParser/TwigTokenParserScript.php',
@@ -2072,10 +2074,10 @@ class ComposerStaticInit06477c840c66b12aff1d5f954436bc32
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit06477c840c66b12aff1d5f954436bc32::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit06477c840c66b12aff1d5f954436bc32::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit06477c840c66b12aff1d5f954436bc32::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit06477c840c66b12aff1d5f954436bc32::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$classMap;
 
         }, null, ClassLoader::class);
     }
