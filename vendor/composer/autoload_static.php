@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc
+class ComposerStaticInitf85aebf7d4656c981165658c9e41b565
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -15,8 +15,8 @@ class ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc
         '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
-        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
+        'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
         '8ef9e3d3ddb4d123a4b13a2dd9c50970' => __DIR__ . '/../..' . '/system/src/DOMLettersIterator.php',
         'f4a9ce07f6028c83d803fa2e9b612d16' => __DIR__ . '/../..' . '/system/src/DOMWordsIterator.php',
@@ -562,6 +562,7 @@ class ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc
         'Doctrine\\Common\\Collections\\Selectable' => __DIR__ . '/..' . '/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php',
         'Grav\\Common\\Assets' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets.php',
         'Grav\\Common\\Assets\\BaseAsset' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets/BaseAsset.php',
+        'Grav\\Common\\Assets\\BlockAssets' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets/BlockAssets.php',
         'Grav\\Common\\Assets\\Css' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets/Css.php',
         'Grav\\Common\\Assets\\InlineCss' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets/InlineCss.php',
         'Grav\\Common\\Assets\\InlineJs' => __DIR__ . '/../..' . '/system/src/Grav/Common/Assets/InlineJs.php',
@@ -2074,10 +2075,10 @@ class ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit98dcb16bc3bbcaf309c0407e1615bdcc::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitf85aebf7d4656c981165658c9e41b565::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitf85aebf7d4656c981165658c9e41b565::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitf85aebf7d4656c981165658c9e41b565::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitf85aebf7d4656c981165658c9e41b565::$classMap;
 
         }, null, ClassLoader::class);
     }

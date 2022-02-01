@@ -207,6 +207,7 @@ return array(
     'Doctrine\\Common\\Collections\\Selectable' => $vendorDir . '/doctrine/collections/lib/Doctrine/Common/Collections/Selectable.php',
     'Grav\\Common\\Assets' => $baseDir . '/system/src/Grav/Common/Assets.php',
     'Grav\\Common\\Assets\\BaseAsset' => $baseDir . '/system/src/Grav/Common/Assets/BaseAsset.php',
+    'Grav\\Common\\Assets\\BlockAssets' => $baseDir . '/system/src/Grav/Common/Assets/BlockAssets.php',
     'Grav\\Common\\Assets\\Css' => $baseDir . '/system/src/Grav/Common/Assets/Css.php',
     'Grav\\Common\\Assets\\InlineCss' => $baseDir . '/system/src/Grav/Common/Assets/InlineCss.php',
     'Grav\\Common\\Assets\\InlineJs' => $baseDir . '/system/src/Grav/Common/Assets/InlineJs.php',
