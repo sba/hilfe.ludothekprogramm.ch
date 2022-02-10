@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '9556e47874619a8d0a6a37524434337c924191a1',
+        'reference' => '11013cbb57d2fe96d8ef1fc0c74759aa1c142ec9',
         'name' => 'getgrav/grav',
         'dev' => false,
     ),
@@ -106,7 +106,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '9556e47874619a8d0a6a37524434337c924191a1',
+            'reference' => '11013cbb57d2fe96d8ef1fc0c74759aa1c142ec9',
             'dev_requirement' => false,
         ),
         'getgrav/image' => array(
@@ -191,12 +191,12 @@
             'dev_requirement' => false,
         ),
         'nyholm/psr7' => array(
-            'pretty_version' => '1.4.1',
-            'version' => '1.4.1.0',
+            'pretty_version' => '1.5.0',
+            'version' => '1.5.0.0',
             'type' => 'library',
             'install_path' => __DIR__ . '/../nyholm/psr7',
             'aliases' => array(),
-            'reference' => '2212385b47153ea71b1c1b1374f8cb5e4f7892ec',
+            'reference' => '1461e07a0f2a975a52082ca3b769ca912b816226',
             'dev_requirement' => false,
         ),
         'nyholm/psr7-server' => array(
