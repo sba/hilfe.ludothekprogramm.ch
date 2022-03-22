@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
+class ComposerStaticInitc9e379c341a4abfde9832d44129f6989
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -12,9 +12,9 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         '320cde22f66dd4f5d3fd621d3e88b98f' => __DIR__ . '/..' . '/symfony/polyfill-ctype/bootstrap.php',
         '667aeda72477189d0494fecd327c3641' => __DIR__ . '/..' . '/symfony/var-dumper/Resources/functions/dump.php',
         '7b11c4dc42b3b3023073cb14e519683c' => __DIR__ . '/..' . '/ralouphie/getallheaders/src/getallheaders.php',
-        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'da5f6548f070d3d306f90eee42dd5de6' => __DIR__ . '/..' . '/donatj/phpuseragentparser/src/UserAgentParser.php',
         'a0edc8309cc5e1d60e3047b5df6b7052' => __DIR__ . '/..' . '/guzzlehttp/psr7/src/functions_include.php',
+        '23c18046f52bef3eea034657bafda50f' => __DIR__ . '/..' . '/symfony/polyfill-php81/bootstrap.php',
         'def43f6c87e4f8dfd0c9e1b1bab14fe8' => __DIR__ . '/..' . '/symfony/polyfill-iconv/bootstrap.php',
         'b686b8e46447868025a15ce5d0cb2634' => __DIR__ . '/..' . '/symfony/polyfill-php74/bootstrap.php',
         'a686abd6bcd0f7067184e090d1174003' => __DIR__ . '/../..' . '/system/defines.php',
@@ -395,6 +395,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'Clockwork\\Helpers\\StackTrace' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Helpers/StackTrace.php',
         'Clockwork\\Request\\IncomingRequest' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/IncomingRequest.php',
         'Clockwork\\Request\\Log' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/Log.php',
+        'Clockwork\\Request\\LogLevel' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/LogLevel.php',
         'Clockwork\\Request\\Request' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/Request.php',
         'Clockwork\\Request\\RequestType' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/RequestType.php',
         'Clockwork\\Request\\ShouldCollect' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Request/ShouldCollect.php',
@@ -465,6 +466,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'DebugBar\\Bridge\\CacheCacheCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/CacheCacheCollector.php',
         'DebugBar\\Bridge\\DoctrineCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/DoctrineCollector.php',
         'DebugBar\\Bridge\\MonologCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/MonologCollector.php',
+        'DebugBar\\Bridge\\NamespacedTwigProfileCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/NamespacedTwigProfileCollector.php',
         'DebugBar\\Bridge\\Propel2Collector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/Propel2Collector.php',
         'DebugBar\\Bridge\\PropelCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/PropelCollector.php',
         'DebugBar\\Bridge\\SlimCollector' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/Bridge/SlimCollector.php',
@@ -720,6 +722,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'Grav\\Common\\Page\\Medium\\StaticImageMedium' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Medium/StaticImageMedium.php',
         'Grav\\Common\\Page\\Medium\\StaticResizeTrait' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Medium/StaticResizeTrait.php',
         'Grav\\Common\\Page\\Medium\\ThumbnailImageMedium' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Medium/ThumbnailImageMedium.php',
+        'Grav\\Common\\Page\\Medium\\VectorImageMedium' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Medium/VectorImageMedium.php',
         'Grav\\Common\\Page\\Medium\\VideoMedium' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Medium/VideoMedium.php',
         'Grav\\Common\\Page\\Page' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Page.php',
         'Grav\\Common\\Page\\Pages' => __DIR__ . '/../..' . '/system/src/Grav/Common/Page/Pages.php',
@@ -1249,6 +1252,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'Monolog\\ResettableInterface' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/ResettableInterface.php',
         'Monolog\\SignalHandler' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/SignalHandler.php',
         'Monolog\\Utils' => __DIR__ . '/..' . '/monolog/monolog/src/Monolog/Utils.php',
+        'Multiavatar' => __DIR__ . '/..' . '/multiavatar/multiavatar-php/Multiavatar.php',
         'Negotiation\\AbstractNegotiator' => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation/AbstractNegotiator.php',
         'Negotiation\\Accept' => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation/Accept.php',
         'Negotiation\\AcceptCharset' => __DIR__ . '/..' . '/willdurand/negotiation/src/Negotiation/AcceptCharset.php',
@@ -1293,6 +1297,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'PHPExif\\Reader\\ReaderInterface' => __DIR__ . '/..' . '/miljar/php-exif/lib/PHPExif/Reader/ReaderInterface.php',
         'Parsedown' => __DIR__ . '/..' . '/erusev/parsedown/Parsedown.php',
         'ParsedownExtra' => __DIR__ . '/..' . '/erusev/parsedown-extra/ParsedownExtra.php',
+        'PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/Resources/stubs/PhpToken.php',
         'Pimple\\Container' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Container.php',
         'Pimple\\Exception\\ExpectedInvokableException' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Exception/ExpectedInvokableException.php',
         'Pimple\\Exception\\FrozenServiceException' => __DIR__ . '/..' . '/pimple/pimple/src/Pimple/Exception/FrozenServiceException.php',
@@ -1570,6 +1575,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'Symfony\\Component\\VarDumper\\Caster\\IntlCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/IntlCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\LinkStub' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/LinkStub.php',
         'Symfony\\Component\\VarDumper\\Caster\\MemcachedCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/MemcachedCaster.php',
+        'Symfony\\Component\\VarDumper\\Caster\\MysqliCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/MysqliCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\PdoCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/PdoCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\PgSqlCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/PgSqlCaster.php',
         'Symfony\\Component\\VarDumper\\Caster\\ProxyManagerCaster' => __DIR__ . '/..' . '/symfony/var-dumper/Caster/ProxyManagerCaster.php',
@@ -1659,6 +1665,7 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
         'Symfony\\Polyfill\\Mbstring\\Mbstring' => __DIR__ . '/..' . '/symfony/polyfill-mbstring/Mbstring.php',
         'Symfony\\Polyfill\\Php74\\Php74' => __DIR__ . '/..' . '/symfony/polyfill-php74/Php74.php',
         'Symfony\\Polyfill\\Php80\\Php80' => __DIR__ . '/..' . '/symfony/polyfill-php80/Php80.php',
+        'Symfony\\Polyfill\\Php80\\PhpToken' => __DIR__ . '/..' . '/symfony/polyfill-php80/PhpToken.php',
         'Symfony\\Polyfill\\Php81\\Php81' => __DIR__ . '/..' . '/symfony/polyfill-php81/Php81.php',
         'Twig\\Cache\\CacheInterface' => __DIR__ . '/..' . '/twig/twig/src/Cache/CacheInterface.php',
         'Twig\\Cache\\FilesystemCache' => __DIR__ . '/..' . '/twig/twig/src/Cache/FilesystemCache.php',
@@ -2075,10 +2082,10 @@ class ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit44cbd2dc334860846ef16ab7aa9532af::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitc9e379c341a4abfde9832d44129f6989::$classMap;
 
         }, null, ClassLoader::class);
     }
