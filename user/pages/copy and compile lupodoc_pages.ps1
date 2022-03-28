@@ -1,6 +1,6 @@
 ﻿#copy files
-$sourceDir = "D:\htdocs\hilfe.ludothekprogramm.ch\user\pages\"
-$targetDir = "D:\htdocs\hilfe.ludothekprogramm.ch_COMPILED_PAGES\"
+$sourceDir = "D:\htdocs\_lupo\hilfe.ludothekprogramm.ch\user\pages\"
+$targetDir = "D:\htdocs\_lupo\hilfe.ludothekprogramm.ch_COMPILED_PAGES\"
 
 Get-ChildItem -Path $targetDir -Recurse -exclude .git | Remove-Item -force -recurse
 Get-ChildItem -Path $sourceDir | Copy-Item -Destination $targetDir -Recurse -Container -force
