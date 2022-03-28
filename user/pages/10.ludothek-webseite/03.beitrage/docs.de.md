@@ -22,7 +22,7 @@ Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hau
 
 Ein Klick auf den Beitrag-Link öffnet die Seite zur Bearbeitung:
 
-![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
+![webseite_backend_beitraege](../../images/journal-beitrag-bearbeiten.png)
 
 Soll der Beitrag unter Aktuell aufgeführt werden, muss die Kategorie entsprechend gesetzt werden.
 
