@@ -757,17 +757,17 @@
         },
         {
             "name": "guzzlehttp/psr7",
-            "version": "1.8.3",
-            "version_normalized": "1.8.3.0",
+            "version": "1.8.5",
+            "version_normalized": "1.8.5.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/guzzle/psr7.git",
-                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85"
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/guzzle/psr7/zipball/1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
-                "reference": "1afdd860a2566ed3c2b0b4a3de6e23434a79ec85",
+                "url": "https://api.github.com/repos/guzzle/psr7/zipball/337e3ad8e5716c15f9657bd214d16cc5e69df268",
+                "reference": "337e3ad8e5716c15f9657bd214d16cc5e69df268",
                 "shasum": ""
             },
             "require": {
@@ -785,7 +785,7 @@
             "suggest": {
                 "laminas/laminas-httphandlerrunner": "Emit PSR-7 responses"
             },
-            "time": "2021-10-05T13:56:00+00:00",
+            "time": "2022-03-20T21:51:18+00:00",
             "type": "library",
             "extra": {
                 "branch-alias": {
@@ -850,7 +850,7 @@
             ],
             "support": {
                 "issues": "https://github.com/guzzle/psr7/issues",
-                "source": "https://github.com/guzzle/psr7/tree/1.8.3"
+                "source": "https://github.com/guzzle/psr7/tree/1.8.5"
             },
             "funding": [
                 {
@@ -1278,17 +1278,17 @@
         },
         {
             "name": "monolog/monolog",
-            "version": "1.26.1",
-            "version_normalized": "1.26.1.0",
+            "version": "1.27.0",
+            "version_normalized": "1.27.0.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/Seldaek/monolog.git",
-                "reference": "c6b00f05152ae2c9b04a448f99c7590beb6042f5"
+                "reference": "52ebd235c1f7e0d5e1b16464b695a28335f8e44a"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/c6b00f05152ae2c9b04a448f99c7590beb6042f5",
-                "reference": "c6b00f05152ae2c9b04a448f99c7590beb6042f5",
+                "url": "https://api.github.com/repos/Seldaek/monolog/zipball/52ebd235c1f7e0d5e1b16464b695a28335f8e44a",
+                "reference": "52ebd235c1f7e0d5e1b16464b695a28335f8e44a",
                 "shasum": ""
             },
             "require": {
@@ -1323,7 +1323,7 @@
                 "ruflin/elastica": "Allow sending log messages to an Elastic Search server",
                 "sentry/sentry": "Allow sending log messages to a Sentry server"
             },
-            "time": "2021-05-28T08:32:12+00:00",
+            "time": "2022-03-13T20:29:46+00:00",
             "type": "library",
             "installation-source": "dist",
             "autoload": {
@@ -1351,7 +1351,7 @@
             ],
             "support": {
                 "issues": "https://github.com/Seldaek/monolog/issues",
-                "source": "https://github.com/Seldaek/monolog/tree/1.26.1"
+                "source": "https://github.com/Seldaek/monolog/tree/1.27.0"
             },
             "funding": [
                 {
