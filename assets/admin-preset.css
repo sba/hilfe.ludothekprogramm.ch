@@ -1792,6 +1792,9 @@ span.range-append {
 .jqCron-container.disable .jqCron-selector-title {
   background: #ffffff !important;
 }
+.hint-icon {
+  color: #06A599;
+}
 #admin-main .admin-block .report-output .toast .btn {
   color: #ffffff;
   border: 1px solid #295;
