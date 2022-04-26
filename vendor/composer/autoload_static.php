@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186
+class ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -417,6 +417,7 @@ class ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186
         'Clockwork\\Support\\Laravel\\ClockworkServiceProvider' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/ClockworkServiceProvider.php',
         'Clockwork\\Support\\Laravel\\ClockworkSupport' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/ClockworkSupport.php',
         'Clockwork\\Support\\Laravel\\Console\\CapturingFormatter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Console/CapturingFormatter.php',
+        'Clockwork\\Support\\Laravel\\Console\\CapturingLegacyFormatter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Console/CapturingLegacyFormatter.php',
         'Clockwork\\Support\\Laravel\\Eloquent\\ResolveModelLegacyScope' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Eloquent/ResolveModelLegacyScope.php',
         'Clockwork\\Support\\Laravel\\Eloquent\\ResolveModelScope' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Eloquent/ResolveModelScope.php',
         'Clockwork\\Support\\Laravel\\Facade' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Laravel/Facade.php',
@@ -426,6 +427,8 @@ class ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186
         'Clockwork\\Support\\Lumen\\ClockworkSupport' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Lumen/ClockworkSupport.php',
         'Clockwork\\Support\\Lumen\\Controller' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Lumen/Controller.php',
         'Clockwork\\Support\\Monolog\\Handler\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Handler/ClockworkHandler.php',
+        'Clockwork\\Support\\Monolog\\Monolog2\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Monolog2/ClockworkHandler.php',
+        'Clockwork\\Support\\Monolog\\Monolog\\ClockworkHandler' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Monolog/Monolog/ClockworkHandler.php',
         'Clockwork\\Support\\Slim\\ClockworkMiddleware' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/ClockworkMiddleware.php',
         'Clockwork\\Support\\Slim\\Legacy\\ClockworkMiddleware' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/Legacy/ClockworkMiddleware.php',
         'Clockwork\\Support\\Slim\\Old\\ClockworkLogWriter' => __DIR__ . '/..' . '/itsgoingd/clockwork/Clockwork/Support/Slim/Old/ClockworkLogWriter.php',
@@ -2082,10 +2085,10 @@ class ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitd4d44980ef6b9179a8ea71daae4b5186::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit8f05b51358e61e3ec4cc7773b246d0cd::$classMap;
 
         }, null, ClassLoader::class);
     }
