@@ -15,7 +15,7 @@ Falls Microsoft Office 2010 vor der LUPO-Installation noch nie gestartet wurde e
 ##Daten einer alten LUPO Installation übernehmen
 
 LUPO {{LUPO_VERSION_YEAR}} kann nicht mit den Original-Daten einer Vorgängerversion arbeiten. Deshalb muss die Daten-Datei einmalig ins aktuelle Datenbank-Format (accdb-Datei) konvertiert werden.
-Starten Sie dazu das LUPO Update Programm ( -Taste drücken, dann nach LUPO Daten-Update suchen):
+Starten Sie dazu das LUPO Update Programm (Windows-Taste <kbd>⊞</kbd> drücken, dann nach LUPO Daten-Update suchen):
 
 ![daten-konvertieren](../../images/tabellen-konvertieren.png)
 
