@@ -6,9 +6,9 @@ Get-ChildItem -Path $targetDir -Recurse -exclude .git | Remove-Item -force -recu
 Get-ChildItem -Path $sourceDir | Copy-Item -Destination $targetDir -Recurse -Container -force
 
 #replace all placeholders with content
-cd $targetDir;
+Set-Location $targetDir;
 
-$version_year = "2021"
+$version_year = "2022"
 $version_short = "13"
 $sprache = "de"
 
