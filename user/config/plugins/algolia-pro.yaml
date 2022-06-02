@@ -1,3 +1,20 @@
+enabled: true
+production_mode: true
+smart_indexing: true
+admin_index_events: true
+site_index_events: true
+application_id: JBL5SVRQPU
+search_only_api_key: 841fcd703baf537eba9fc1ace7108465
+admin_api_key: e10907990f0aaf4e6549f160a24d226a
+base_index_name: grav
+user_agent: 'Grav Algolia Pro Plugin'
+controller_class: Grav\Plugin\AlgoliaPro\AlgoliaProController
+sync:
+  cron_enable: true
+  cron_at: '0 3 * * *'
+vue_env: production
+dev_host: localhost
+dev_port: 4050
 indexes:
   pages:
     enabled: true
