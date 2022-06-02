@@ -38,26 +38,26 @@ indexes:
         - 'summary:50'
         - 'content:50'
     interface:
-      css: true
-      debounce: false
-      accent: '#3B82F6'
-      appearance: system
+      css: '1'
+      debounce: '0'
+      accent: '#5b80c1'
+      appearance: light
       stats: true
       subtitle: true
       warm_connection: true
       lang:
-        placeholder: PLUGIN_ALGOLIA_PRO.INTERFACE_PLACEHOLDER
-        cancel: PLUGIN_ALGOLIA_PRO.INTERFACE_CANCEL
-        loading: PLUGIN_ALGOLIA_PRO.INTERFACE_LOADING
-        no_results: PLUGIN_ALGOLIA_PRO.INTERFACE_NO_RESULTS
+        placeholder: 'Beliebigen Suchbegriff hier eingeben...'
+        cancel: Abbrechen
+        loading: Laden...
+        no_results: 'Nichts gefunden'
       preview:
         enabled: true
         toc: true
       footer:
         enabled: true
         pagination: true
-        algolia_copy: true
-        algolia_pro_copy: true
+        algolia_copy: false
+        algolia_pro_copy: false
       advanced:
         expose_global: false
     content:
