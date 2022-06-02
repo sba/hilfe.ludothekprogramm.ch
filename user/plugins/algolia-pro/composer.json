@@ -1,0 +1,38 @@
+{
+  "name": "trilbymedia/algolia-pro",
+  "type": "grav-plugin",
+  "description": "Algolia Pro plugin for Grav CMS",
+  "keywords": ["algolia","search"],
+  "homepage": "https://github.com/trilbymedia/grav-plugin-algolia-pro",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Trilby Media, LLC",
+      "email": "hello@trilby.media",
+      "homepage": "https://trilby.media",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": ">=7.3.6",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-libxml": "*",
+    "ext-dom": "*",
+    "algolia/algoliasearch-client-php": "^3.0",
+    "symfony/dom-crawler": "^5.4",
+    "symfony/css-selector": "^5.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\AlgoliaPro\\": "classes/",
+      "Grav\\Plugin\\Console\\": "cli/"
+    },
+    "classmap":  ["algolia-pro.php"]
+  },
+  "config": {
+    "platform": {
+      "php": "7.3.6"
+    }
+  }
+}

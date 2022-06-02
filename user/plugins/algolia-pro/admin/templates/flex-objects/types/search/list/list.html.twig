@@ -1,0 +1,7 @@
+{% extends 'flex-objects/types/default/list/list.html.twig' %}
+
+{% block modals %}
+  <div class="remodal" data-remodal-id="modal" data-remodal-options="hashTracking: false, closeOnOutsideClick: false">
+    {% include 'partials/blueprints-new.html.twig' with { blueprints: directory.blueprint.init, data: obj_data, form_id: 'new-search' } %}
+  </div>
+{% endblock %}

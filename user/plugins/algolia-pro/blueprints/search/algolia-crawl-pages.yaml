@@ -1,0 +1,23 @@
+title: PLUGIN_ALGOLIA_PRO.CRAWL_PAGES_SEARCH
+
+form:
+  fields:
+    crawl_section:
+      ordering@: 4
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.CRAWL_OPTIONS
+      underline: true
+      fields:
+        body_selectors:
+          type: array
+          label: PLUGIN_ALGOLIA_PRO.BODY_SELECTORS
+          default: [ '#body-wrapper', '.magic-content' ]
+          value_only: true
+          validate:
+            required: true
+
+        common_section:
+          type: section
+          import@:
+            type: search/common-config
+            context: blueprints://

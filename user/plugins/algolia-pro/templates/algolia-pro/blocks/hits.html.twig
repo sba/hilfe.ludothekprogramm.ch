@@ -1,0 +1,22 @@
+{% use 'algolia-pro/blocks/hits_items.html.twig' %}
+{% use 'algolia-pro/blocks/hits_preview.html.twig' %}
+
+{% block hits %}
+  <div v-if="query" class="flex flex-grow border-t dark:border-gray-700  overflow-hidden">
+    <div class="flex-1 relative w-full overflow-y-auto scrollbar-thin scrollbar-thumb-rounded-full scrollbar-track-gray-100 scrollbar-thumb-gray-300 dark:scrollbar-track-gray-800 dark:scrollbar-thumb-gray-700">
+      <section aria-label="Search results" aria-busy="false" aria-live="polite" class="">
+        <div
+          class="flex items-center justify-between py-1 px-4 bg-gray-100 dark:bg-gray-700 dark:bg-opacity-25 text-[13px] text-gray-400">
+          <span class="uppercase font-semibold text-gray-500 dark:text-gray-400">Results</span>
+          {% if settings.interface.stats %}
+            <ais-stats></ais-stats>
+          {% endif %}
+        </div>
+        {{ block('hits_items') }}
+      </section>
+
+      <div class="bg-gradient-to-b from-transparent to-white dark:to-gray-800 w-full h-8 sticky bottom-0"></div>
+    </div>
+    {{ block('hits_preview') }}
+  </div>
+{% endblock %}

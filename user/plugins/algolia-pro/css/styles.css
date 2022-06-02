@@ -1,0 +1,8 @@
+@import "./custom/algolia-pro.css";
+
+[data-algolia-pro] {
+  @tailwind base;
+  @tailwind components;
+}
+
+@tailwind utilities;

@@ -1,0 +1,8 @@
+{% block configure %}
+  <ais-configure
+    {% for setting, value in settings.search %}
+      {% set prop = setting|hyphenize  %}
+      :{{ prop }}{{ '-' in prop ? '.camel' }}='{{ value|json_encode }}'
+    {% endfor %}
+  ></ais-configure>
+{% endblock %}

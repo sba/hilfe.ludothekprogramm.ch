@@ -1,0 +1,23 @@
+{% spaceless %}
+{% set table_rows = [] %}
+{% set counter = 0 %}
+
+{% for index_name, index in status %}
+    {% if index.status %}
+        {% set counter = counter + 1 %}
+        {% set table_rows = table_rows|merge([[counter, index_name, "<red>#{index.status}</red>", '', index.message]]) %}
+    {% else %}
+        {% for num,row in index  %}
+            {% set status_color = (row.status == 'success' ? 'green' : (row.status == 'error' ? 'red' : 'cyan')) %}
+            {% set counter = counter + 1 %}
+            {% set table_row = [counter,  index_name, "<#{status_color}>#{row.status}</#{status_color}>", row.url, row.msg] %}
+            {% set table_rows = table_rows|merge([table_row]) %}
+        {% endfor %}
+    {% endif %}
+{% endfor %}
+
+{% do table.setHeaders(['#', 'Config', 'Status', 'Url', 'Message']).setRows(table_rows) %}
+{% do table.setColumnMaxWidth(2, 50) %}
+{% endspaceless %}
+
+{{- table.render() -}}

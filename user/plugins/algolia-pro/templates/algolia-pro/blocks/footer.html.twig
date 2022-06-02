@@ -1,0 +1,38 @@
+{% use 'algolia-pro/blocks/pagination.html.twig' %}
+
+{% block footer %}
+  <footer
+    v-if="query"
+    class="flex justify-end md:justify-between items-center flex-none p-2 md:p-4 border-t border-gray-600 border-opacity-10"
+  >
+    {% if settings.interface.footer.enabled %}
+      <div class="hidden md:flex text-gray-600 text-xs font-mono">
+        {% if settings.interface.footer.pagination %}
+          {{ block('pagination') }}
+        {% endif %}
+      </div>
+      <div class="block h-4 py-1 flex items-center space-x-2">
+        {% if settings.interface.footer.algolia_copy %}
+        <ais-powered-by :theme="activeAppearance"></ais-powered-by>
+        {% endif %}
+
+        {% if settings.interface.footer.algolia_copy and settings.interface.footer.algolia_pro_copy %}
+        <span class="text-gray-500 text-xs">/</span>
+        {% endif %}
+
+        {% if settings.interface.footer.algolia_pro_copy %}
+        <a
+          href="https://getgrav.org/premium/algolia-pro"
+          rel="noopener noreferrer"
+          target="_blank"
+          class="flex items-center h-full"
+        >
+          <span class="text-gray-500 dark:text-gray-200 text-[13px]">
+            Powered by <span class="text-algolia-pro dark:text-white text-bold tracking-wide">Algolia Pro Plugin</span>
+          </span>
+        </a>
+        {% endif %}
+      </div>
+    {% endif %}
+  </footer>
+{% endblock %}

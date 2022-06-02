@@ -1,0 +1,110 @@
+PLUGIN_ALGOLIA_PRO:
+  SEARCH: "Search"
+  ALGOLIA_PRO: Algolia Pro
+  ALGOLIA_OPTIONS: Plugin Options
+  ALGOLIA_PRO_CONFIGURATION: Algolia Pro Configuration
+  ALGOLIA_PRO_ACTIONS: Algolia Pro Actions
+  REINDEX: Reindex Now
+  RESET_INDEXES: Reset Index
+  PROD_MODE: "Production Mode"
+  PROD_MODE_HELP: "Disable to stop Algolia API communication. Useful during development"
+  ADMIN_INDEX_EVENTS: "Admin Index Events"
+  ADMIN_INDEX_EVENTS_HELP: "Disables Grav page events that would normally trigger creating, reindexing or removing entries from Algolia Index.  It can still be done manually via Admin or CLI however."
+  SITE_INDEX_EVENTS: "Site Index Events"
+  INTERFACE_PLACEHOLDER: "Search for anything…"
+  INTERFACE_NO_RESULTS: "No results found"
+  INTERFACE_CANCEL: "Cancel"
+  INTERFACE_LOADING: "Loading"
+  APPLICATION_ID: Application ID
+  SEARCH_ONLY_API_KEY: Search only API Key
+  ADMIN_API_KEY: Admin API Key
+  INDEX_THIS_PAGE: Index Page
+  INDEX_THIS_PAGE_HELP: If a page should not be included in the Algolia search index, disable this
+  SEARCH_PARAMS: Search Parameters
+  INTERFACE: Interface
+  GRAV_PAGES_SEARCH: Grav Pages Search
+  CRAWL_PAGES_SEARCH: Crawl Pages Search
+  INDEX_NAME: Index Name
+  SMART_INDEXING: Smart Indexing
+  SMART_INDEXING_HELP: Our exclusive system to track index payloads, and only index what has changed. Faster and saves API usage!
+  CONFIGURE_SEARCH: Configure Search
+  PLUGIN_OPTIONS: Plugin Options
+  INDEX_TYPE: Index Type
+  CRAWL_OPTIONS: Crawl Options
+  BODY_SELECTORS: Body Selectors
+  GRAV_PAGE_OPTIONS: Grav Page Options
+  PAGE_FILTERS: Page Filters
+  COMMON_CONFIGURATION: Common Configuration
+  CORE_OPTIONS: Core Options
+  SEARCH_CLASS: Search Class
+  DISTINCT_FIELD: Distinct Field
+  SEARCHABLE_FIELDS: Searchable Fields
+  HITS_PER_PAGE: Hits Per Page
+  DISTINCT: Distinct
+  HITS: Hits
+  SNIPPET_ELLIPSIS_TEXT: Snippet Ellipsis Text
+  ATTR_TO_SNIPPET: Attributes to Snippet
+  CONTENT_PARAMS: Content Parameters
+  VALID_HEADERS: Valid Headers
+  CHUNK_SIZE: Chunk Size
+  CHARS: characters
+  UI_PARAMS: User Interface Parameters
+  CSS: Built-in CSS Style
+  CSS_DESC: Whether to load the built-in CSS style file
+  DEBOUNCE: Debounce Search
+  DEBOUNCE_DESC: Debounces the search when typing, by 250ms. This helps keeping the search operations.
+  ACCENT_COLOR: Accent Color
+  ACCENT_COLOR_DESC: The accent color for the UI. This affects elements such as cursor, highlighted text, selected row/pagination items.
+  RESULT_STATS: Results Statistics
+  RESULT_STATS_DESC: Whether to show or hide the search result statistics.
+  SUBTITLE: Display Subtitle (TOC Anchor)
+  SUBTITLE_DESC: Whether to display the anchor's title (`item.subtitle`), in parenthesis, next to the title. Available when Page TOC plugin installed.
+  APPEARANCE: Appearance
+  APPEARANCE_DESC: The appearance style for the entire UI. Can be Light, Dark or System. System will follow the OS settings of the user.
+  SYSTEM_DEFAULT: System Default
+  LIGHT_STYLE: Light Style
+  DARK_STYLE: Dark Style
+  WARM_CONNECTION: Warm Connection
+  WARM_CONNECTION_DESC: When enabled it performs a search request in the background to optimize subsequential requests. It is recommended enabled to ensure DNS resolutions, prefetches, ssl handshakes, etc, all happen before the user performs any search request.
+  LANG_STRINGS: Language Strings
+  LANG_STRINGS_DESC: Customizable language strings for the twig templates. Can be referenced as `{{ settings.interface.lang.placeholder|t }}`
+  PREVIEW_OPTIONS: Preview Options
+  PREVIEW_ENABLED: Preview Results
+  PREVIEW_ENABLED_DESC: Display a preview of the selected item from the results which includes title, summary and "On This Page"
+  TOC_ENABLED: '"On This Page" list'
+  TOC_ENABLED_DESC: Appends at the end of the previews list a list of header titles found in the page.
+  FOOTER_OPTIONS: Footer Options
+  FOOTER_ENABLED: Display Footer
+  FOOTER_ENABLED_DESC: Whether to display or not the footer
+  ADVANCED_OPTIONS: Advanced Options
+  EXPOSE_GLOBAL_JS: Expose Global JS Object
+  EXPOSE_GLOBAL_JS_DESC: Exposes the window global object `window.AlgoliaPro`
+  PAGINATION: Pagination
+  PAGINATION_DESC: Displays or hides the Pagination in the footer
+  ALGOLIA_COPY: Algolia Copyrights
+  ALGOLIA_COPY_DESC: Displays or hides the Algolia Copyrights in the footer
+  ALGOLIA_PRO_COPY: Powered by Algolia Pro
+  ALGOLIA_PRO_COPY_DESC: Displays or hide the "Powered by Algolia Pro" link in the footer
+  MISSING_SEARCH: Missing Search
+  INDEX_CHILD_PAGES: Index Child Pages
+  INDEX_CHILD_PAGES_HELP: Index the pages that are below (children of) this page
+  ALGOLIA_API: Algolia API
+  CORE_CONFIG: Core Options
+  BASE_INDEX_NAME: Base Index Name
+  USER_AGENT: User Agent
+  CONTROLLER_CLASS: Controller Class
+  INDEXING_SECTION: Indexing Schedule
+  SCHEDULER: Add AlgoliaPro to Scheduler
+  SCHEDULER_DESC: Adds GitSync Job to the Scheduler so it can automatically perform synchronization at the given time
+  SCHEDULER_CRON_AT: Run Indexing at
+  SCHEDULER_CRON_AT_DESC: When should the Scheduler run the automatic Algolia Pro indexing job
+  ADVANCED_SECTION: Advanced Features
+  VUE_ENV: Vue Environment
+  DEV_HOST: Development Host
+  DEV_PORT: Development Port
+  PLUGIN_NOTE: "**NOTE** To configure this plugin please click the [Algolia Pro](/admin/algolia-pro/configure) menu item in the sidebar"
+  CONFIRM_RESET:
+    TITLE: Reset Indexes
+    CONTENT: You are about to reset the local data for every enabled index, and perform a flushed reindex again. Do you want to proceed?
+  ERROR:
+    LAYOUT_NOT_FOUND: "Layout Not Found"

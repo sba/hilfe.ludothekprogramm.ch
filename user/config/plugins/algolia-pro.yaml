@@ -1,0 +1,111 @@
+indexes:
+  pages:
+    enabled: true
+    type: algolia-grav-pages
+    distinct_field: url
+    searchable_fields:
+      - title
+      - subtitle
+      - url
+      - taxonomy
+      - headers.h1
+      - headers.h2
+      - headers.h3
+      - headers.h4
+      - content
+    search_params:
+      hitsPerPage: 20
+      distinct: true
+      snippetEllipsisText: …
+      attributesToSnippet:
+        - 'summary:50'
+        - 'content:50'
+    interface:
+      css: true
+      debounce: false
+      accent: '#3B82F6'
+      appearance: system
+      stats: true
+      subtitle: true
+      warm_connection: true
+      lang:
+        placeholder: PLUGIN_ALGOLIA_PRO.INTERFACE_PLACEHOLDER
+        cancel: PLUGIN_ALGOLIA_PRO.INTERFACE_CANCEL
+        loading: PLUGIN_ALGOLIA_PRO.INTERFACE_LOADING
+        no_results: PLUGIN_ALGOLIA_PRO.INTERFACE_NO_RESULTS
+      preview:
+        enabled: true
+        toc: true
+      footer:
+        enabled: true
+        pagination: true
+        algolia_copy: true
+        algolia_pro_copy: true
+      advanced:
+        expose_global: false
+    content:
+      valid_headers:
+        - h1
+        - h2
+        - h3
+        - h4
+      split_length: 1000
+    search_class: Grav\Plugin\AlgoliaPro\GravPageSearch
+    filters:
+      items:
+        - root@.descendants
+  crawl:
+    enabled: false
+    type: algolia-crawl-pages
+    distinct_field: url
+    searchable_fields:
+      - title
+      - subtitle
+      - url
+      - taxonomy
+      - headers.h1
+      - headers.h2
+      - headers.h3
+      - headers.h4
+      - content
+    search_params:
+      hitsPerPage: 20
+      distinct: true
+      snippetEllipsisText: …
+      attributesToSnippet:
+        - 'summary:50'
+        - 'content:50'
+    interface:
+      css: true
+      debounce: false
+      accent: '#3B82F6'
+      appearance: system
+      stats: true
+      subtitle: true
+      warm_connection: true
+      lang:
+        placeholder: PLUGIN_ALGOLIA_PRO.INTERFACE_PLACEHOLDER
+        cancel: PLUGIN_ALGOLIA_PRO.INTERFACE_CANCEL
+        loading: PLUGIN_ALGOLIA_PRO.INTERFACE_LOADING
+        no_results: PLUGIN_ALGOLIA_PRO.INTERFACE_NO_RESULTS
+      preview:
+        enabled: true
+        toc: true
+      footer:
+        enabled: true
+        pagination: true
+        algolia_copy: true
+        algolia_pro_copy: true
+      advanced:
+        expose_global: false
+    content:
+      valid_headers:
+        - h1
+        - h2
+        - h3
+        - h4
+      split_length: 1000
+    search_class: Grav\Plugin\AlgoliaPro\CrawlPageSearch
+    body_selectors:
+      - '#body-wrapper'
+      - .magic-content

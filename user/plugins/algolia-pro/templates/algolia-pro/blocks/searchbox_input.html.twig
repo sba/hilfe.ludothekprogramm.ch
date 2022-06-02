@@ -1,0 +1,54 @@
+{% block searchbox_input %}
+  <form
+    class="flex items-center w-full h-full outline-none rounded-tl-lg"
+    action=""
+    novalidate=""
+    role="search"
+  >
+    <label
+      for="algolia-instantsearch-input"
+      class="h-full px-4 flex items-center justify-center transition-colors duration-200 ease-in-out text-gray-200"
+    >
+      <svg viewBox="0 0 20 20" fill="currentColor" class="flex-none h-6 py-1">
+        <path
+          d="M19.71,18.29,16,14.61A9,9,0,1,0,14.61,16l3.68,3.68a1,1,0,0,0,1.42,0A1,1,0,0,0,19.71,18.29ZM2,9a7,7,0,1,1,12,4.93h0s0,0,0,0A7,7,0,0,1,2,9Z"></path>
+      </svg>
+    </label>
+    <ais-search-box class="relative flex flex-1 items-center">
+      <template
+        slot-scope="{ currentRefinement, isSearchStalled, refine }"
+      >
+        <input
+          class="flex flex-1 h-full bg-transparent focus:text-gray-900 dark:focus:text-gray-300 text-gray-500 placeholder-gray-300 dark:placeholder-gray-600 shadow-none outline-none truncate text-lg sm:text-2xl caret-algolia-pro leading-normalized w-full !appearance-none rounded-none transition-colors duration-200 ease-in-out"
+          id="algolia-instantsearch-input"
+          ref="searchbox"
+          type="search"
+          :value="query"
+          @input="refineWrapper(refine, $event.currentTarget.value)"
+          aria-autocomplete="both"
+          aria-labelledby="search-label"
+          placeholder="{{ settings.interface.lang.placeholder|t }}"
+          maxlength="512"
+          enterkeyhint="go"
+          autocomplete="off"
+          autocorrect="off"
+          autocapitalize="off"
+          spellcheck="false"
+        />
+        <span :hidden="!isSearchStalled">{{ settings.interface.lang.loading|t }}</span>
+        <button
+          v-if="query"
+          aria-label="Clear"
+          type="reset"
+          @click.prevent="refine(query = null);"
+          class="flex items-center justify-center h-full px-4 py-6 text-gray-500 hover:text-gray-800 dark:text-gray-400 dark:hover:text-gray-300 opacity-75 fill-current cursor-pointer transition-fast-out"
+        >
+          <svg viewBox="0 0 14 14" class="w-2 h-2">
+            <path
+              d="M8.41,7l5.3-5.29A1,1,0,1,0,12.29.29L7,5.59,1.71.29A1,1,0,0,0,.29,1.71L5.59,7,.29,12.29a1,1,0,0,0,0,1.42,1,1,0,0,0,1.42,0L7,8.41l5.29,5.3a1,1,0,0,0,1.42,0,1,1,0,0,0,0-1.42Z"></path>
+          </svg>
+        </button>
+      </template>
+    </ais-search-box>
+  </form>
+{% endblock %}

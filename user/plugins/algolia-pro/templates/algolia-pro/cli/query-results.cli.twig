@@ -1,0 +1,32 @@
+{% spaceless %}
+
+    {% import _self as macro -%}
+
+    {% macro cliHilight(text, color='yellow') %}
+        {{- text|replace({"<em>":"<#{color}>", "</em>":"</>", "\n": " "})|raw -}}
+    {%- endmacro %}
+
+
+    {% for name,index_results in results %}
+        {{- io.success("Index: #{name} - Displaying #{index_results.hits|length}/#{index_results.nbHits} results for '#{query}'") -}}
+        {% for result in index_results.hits %}
+          {% set data = result._highlightResult %}
+          {% set snippet = result._snippetResult %}
+          {% set subtitle = result.subtitle ? "(#{result.subtitle})" : "" %}
+          {{- io.writeln("<magenta>#{result.title}</> #{subtitle}"|raw) -}}
+          {% if result.breadcrumbs and result.breadcrumbs|count > 1 %}
+            {% for crumb in result.breadcrumbs %}
+              {% if loop.index != 1 %}{{- io.write("→ ") -}}{% endif %}
+              {{- io.write("<green>#{crumb.name}</> ") -}}
+            {% endfor %}
+            {{- io.write("\n") -}}
+          {% endif %}
+          {{- io.writeln("<cyan>#{macro.cliHilight(data.url.value)}</>"|raw) -}}
+          {% if snippet.content %}
+          {{- io.writeln(macro.cliHilight(snippet.content.value)) -}}
+          {% endif %}
+          {{- io.newLine() -}}
+        {% endfor %}
+    {% endfor %}
+
+{% endspaceless %}
