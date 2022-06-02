@@ -23,7 +23,7 @@ Schreiben Sie am Anfang des Memos ein ! (Ausrufezeichen), um das Memo beim Aufru
 
 Der Knopf <span class="btn-lupo"> Kundengeschichte</span> zeigt alle Adressdetails und alle jemals vom Kunden ausgeliehenen Spiele an.
 
-Mit <span class="btn-lupo"> Bon Drucken </span> wird ein Bon auf den Kassendrucker ausgegeben. Normalerweise muss dieser Knopf nicht gedrückt werden da der Bon automatisch beim Bezahlen ausgedruckt wird.
+Mit <span class="btn-lupo">Bon Drucken</span> wird ein Bon auf den Kassendrucker ausgegeben. Normalerweise muss dieser Knopf nicht gedrückt werden da der Bon automatisch beim Bezahlen ausgedruckt wird.
 
 #### Brief drucken
 
