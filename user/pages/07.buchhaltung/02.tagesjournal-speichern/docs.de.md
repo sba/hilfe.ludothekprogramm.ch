@@ -6,7 +6,7 @@ taxonomy:
 visible: true
 ---
 
-Das Fenster zum Speichern und Drucken des Tagesjournals kann vom Beenden Assistent her, mit der Übersicht oder der Symbolleiste geöffnet werden.
+Das Fenster zum Speichern und Drucken des Tagesjournals kann vom **[Beenden Assistent](/start/beenden)** her, mit der Übersicht oder der Symbolleiste geöffnet werden.
 
 ![tagesjournal](../../images/tagesjournal.png)
 
