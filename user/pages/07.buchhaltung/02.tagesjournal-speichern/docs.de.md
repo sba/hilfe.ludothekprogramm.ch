@@ -8,7 +8,7 @@ visible: true
 
 Das Fenster zum Speichern und Drucken des Tagesjournals kann vom **[Beenden Assistent](/start/beenden)** her, mit der Übersicht oder der Symbolleiste geöffnet werden.
 
-![tagesjournal](../../images/tagesjournal.png)
+![tagesjournal](../../images/tagesjournal_2022.2.2.png)
 
 Nach jedem Ausleihtag sollten Sie den Tag abschliessen. Das Tagesjournal enthält Informationen über den Tageskasseninhalt, Mitarbeiterleistungen und Statistiken.
 
@@ -20,11 +20,7 @@ In dieser Liste werden alle gespeicherten Tagesjournale angezeigt. Die Felder Vo
 
 #### Journal Zusammenfassung (Liste rechts)
 
-In dieser Liste werden alle Buchungen des gespeicherten Tagesjournals gruppiert nach Buchungssatz angezeigt.
-
-Durch einen Doppelklick auf eine Tabellenzelle wird ein Fenster mit allen Buchungen angezeigt:
-
-![tagesabschluss-buchungsdetails.png](../../images/tagesabschluss-buchungsdetails.png)
+In dieser Liste werden alle Buchungen des gespeicherten Tagesjournals angezeigt. Die neuste Buchung wird zuoberst angezeigt.
 
 #### Journal Anzeigen / Drucken
 
