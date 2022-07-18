@@ -37,8 +37,8 @@ Mit einem Klick auf das Symbol ganz links (Add New Device) öffnet sich folgende
 
 ![Druckmodell_hinzufuegen](../../images/Druckmodell_hinzufuegen.png)
 
-1. **Ihr Druckermodell auswählen:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
-2. **Ihr Druckermodell schreiben:** TM-U220D TM-T88III TM-T88IV TM-T20 TM-T20II TM-T20III
+1. **Ihr Druckermodell auswählen:** TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III
+2. **Ihr Druckermodell schreiben:** TM-U220D / TM-T88III / TM-T88IV / TM-T20 / TM-T20II / TM-T20III
 3. **Weiter mit Next**
 
 ![druckmodell_testen](../../images/druckmodell_testen.png)
@@ -52,7 +52,7 @@ Mit einem Klick auf das Symbol ganz links (Add New Device) öffnet sich folgende
 
 #### LUPO konfigurieren
 
-Nach der Installation und Konfiguration des Druckertreibers muss im LUPO bei den [Bondrucker-Programmeinstellungen](../../../../index.phpgen/allgemeine-einstellungen/bondrucker) noch das Druckermodell bestimmt werden. Wählen Sie dazu im Auswahlfeld POS-Printer Ihr Bondruckermodell (TM-U220D, TM-T88III, TM-T88IV, TM-T20, TM-T20II oder TM-T20III) aus.
+Nach der Installation und Konfiguration des Druckertreibers muss im LUPO bei den [Bondrucker-Programmeinstellungen](../../einstellungen/allgemeine-einstellungen/bondrucker) noch das Druckermodell bestimmt werden. Wählen Sie dazu im Auswahlfeld POS-Printer Ihr Bondruckermodell (TM-U220D, TM-T88III, TM-T88IV, TM-T20, TM-T20II oder TM-T20III) aus.
 
 ![lupo_drucker_konfigurieren](../../images/bondrucker.png)
 
