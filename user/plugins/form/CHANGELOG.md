@@ -1,3 +1,15 @@
+# v7.0.1
+## 09/20/2022
+
+1. [](#improved)
+   * Provided some basic CSS styling for new captcha field
+
+# v7.0.0
+## 09/20/2022
+
+1. [](#new)
+   * Added a new custom `basic-captcha` option with **character** and **math** puzzles.  No 3rd-part service required.
+
 # v6.0.4
 ## 08/08/2022
 
