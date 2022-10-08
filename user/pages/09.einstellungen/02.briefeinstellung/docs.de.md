@@ -61,8 +61,9 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 {{LUDOSTRASSE}}
 {{LUDOPLZ}}
 {{LUDOORT}}
-{{LUDOEMAIL}}
 {{LUDOTEL}}
+{{LUDOEMAIL}}
+{{LUDOWEBSITE}}
 ```
 
 !! ACHTUNG: Einige Platzhalter werden nicht überall unterstützt
