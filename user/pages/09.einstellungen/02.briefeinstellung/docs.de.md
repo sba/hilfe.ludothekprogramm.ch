@@ -54,6 +54,8 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 {{ORT}}
 {{TELEFON}}
 {{EMAIL}}
+{{ABOENDE}}
+{{ABONAME}}
 {{LOGINLINK}}
 {{SPIELE}}
 {{SPIELE_RES}}
