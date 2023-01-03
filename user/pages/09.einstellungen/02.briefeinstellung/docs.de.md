@@ -42,7 +42,7 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 
 ![briefeinstellung](../../images/platzhalter.png)
 
-**Folgende Platzhalter stehen zu Verfügung:**
+**Folgende Platzhalter stehen zur Verfügung:**
 
 ```
 {{ADRNR}}
