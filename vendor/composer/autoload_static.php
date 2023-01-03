@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInitc13398b9420f544e4d87a9acbb33842b
+class ComposerStaticInit4f32c98099166bb37625a171fd302f37
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -854,6 +854,7 @@ class ComposerStaticInitc13398b9420f544e4d87a9acbb33842b
         'Grav\\Console\\GravCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/GravCommand.php',
         'Grav\\Console\\Plugin\\PluginListCommand' => __DIR__ . '/../..' . '/system/src/Grav/Console/Plugin/PluginListCommand.php',
         'Grav\\Console\\TerminalObjects\\Table' => __DIR__ . '/../..' . '/system/src/Grav/Console/TerminalObjects/Table.php',
+        'Grav\\Events\\BeforeSessionStartEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/BeforeSessionStartEvent.php',
         'Grav\\Events\\FlexRegisterEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/FlexRegisterEvent.php',
         'Grav\\Events\\PermissionsRegisterEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/PermissionsRegisterEvent.php',
         'Grav\\Events\\PluginsLoadedEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/PluginsLoadedEvent.php',
@@ -2112,10 +2113,10 @@ class ComposerStaticInitc13398b9420f544e4d87a9acbb33842b
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInitc13398b9420f544e4d87a9acbb33842b::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInitc13398b9420f544e4d87a9acbb33842b::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInitc13398b9420f544e4d87a9acbb33842b::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInitc13398b9420f544e4d87a9acbb33842b::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$classMap;
 
         }, null, ClassLoader::class);
     }

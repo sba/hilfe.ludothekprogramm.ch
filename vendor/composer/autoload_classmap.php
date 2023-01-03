@@ -494,6 +494,7 @@ return array(
     'Grav\\Console\\GravCommand' => $baseDir . '/system/src/Grav/Console/GravCommand.php',
     'Grav\\Console\\Plugin\\PluginListCommand' => $baseDir . '/system/src/Grav/Console/Plugin/PluginListCommand.php',
     'Grav\\Console\\TerminalObjects\\Table' => $baseDir . '/system/src/Grav/Console/TerminalObjects/Table.php',
+    'Grav\\Events\\BeforeSessionStartEvent' => $baseDir . '/system/src/Grav/Events/BeforeSessionStartEvent.php',
     'Grav\\Events\\FlexRegisterEvent' => $baseDir . '/system/src/Grav/Events/FlexRegisterEvent.php',
     'Grav\\Events\\PermissionsRegisterEvent' => $baseDir . '/system/src/Grav/Events/PermissionsRegisterEvent.php',
     'Grav\\Events\\PluginsLoadedEvent' => $baseDir . '/system/src/Grav/Events/PluginsLoadedEvent.php',
