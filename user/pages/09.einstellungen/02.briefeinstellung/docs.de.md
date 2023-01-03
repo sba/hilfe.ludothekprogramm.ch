@@ -59,7 +59,7 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 {{LOGINLINK}}
 {{SPIELE}}
 {{SPIELE_RES}}
-{{LUDOTHEK}} 
+{{LUDOTHEK}}
 {{LUDOSTRASSE}}
 {{LUDOPLZ}}
 {{LUDOORT}}
