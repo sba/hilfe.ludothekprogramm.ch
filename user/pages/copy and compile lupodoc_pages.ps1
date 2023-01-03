@@ -8,7 +8,7 @@ Get-ChildItem -Path $sourceDir | Copy-Item -Destination $targetDir -Recurse -Con
 #replace all placeholders with content
 Set-Location $targetDir;
 
-$version_year = "2022"
+$version_year = "2023"
 $version_short = "13"
 $sprache = "de"
 
