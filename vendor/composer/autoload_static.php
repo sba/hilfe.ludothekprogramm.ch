@@ -4,7 +4,7 @@
 
 namespace Composer\Autoload;
 
-class ComposerStaticInit4f32c98099166bb37625a171fd302f37
+class ComposerStaticInitcfebf5f571a9527ca52f6aee4002c18d
 {
     public static $files = array (
         'a4a119a56e50fbb293281d9a48007e0e' => __DIR__ . '/..' . '/symfony/polyfill-php80/bootstrap.php',
@@ -507,7 +507,6 @@ class ComposerStaticInit4f32c98099166bb37625a171fd302f37
         'DebugBar\\DataFormatter\\DataFormatterInterface' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DataFormatter/DataFormatterInterface.php',
         'DebugBar\\DataFormatter\\DebugBarVarDumper' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DataFormatter/DebugBarVarDumper.php',
         'DebugBar\\DataFormatter\\VarDumper\\DebugBarHtmlDumper' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DataFormatter/VarDumper/DebugBarHtmlDumper.php',
-        'DebugBar\\DataFormatter\\VarDumper\\SeekingData' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DataFormatter/VarDumper/SeekingData.php',
         'DebugBar\\DebugBar' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DebugBar.php',
         'DebugBar\\DebugBarException' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/DebugBarException.php',
         'DebugBar\\HttpDriverInterface' => __DIR__ . '/..' . '/maximebf/debugbar/src/DebugBar/HttpDriverInterface.php',
@@ -856,9 +855,11 @@ class ComposerStaticInit4f32c98099166bb37625a171fd302f37
         'Grav\\Console\\TerminalObjects\\Table' => __DIR__ . '/../..' . '/system/src/Grav/Console/TerminalObjects/Table.php',
         'Grav\\Events\\BeforeSessionStartEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/BeforeSessionStartEvent.php',
         'Grav\\Events\\FlexRegisterEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/FlexRegisterEvent.php',
+        'Grav\\Events\\PageEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/PageEvent.php',
         'Grav\\Events\\PermissionsRegisterEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/PermissionsRegisterEvent.php',
         'Grav\\Events\\PluginsLoadedEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/PluginsLoadedEvent.php',
         'Grav\\Events\\SessionStartEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/SessionStartEvent.php',
+        'Grav\\Events\\TypesEvent' => __DIR__ . '/../..' . '/system/src/Grav/Events/TypesEvent.php',
         'Grav\\Framework\\Acl\\Access' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Acl/Access.php',
         'Grav\\Framework\\Acl\\Action' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Acl/Action.php',
         'Grav\\Framework\\Acl\\Permissions' => __DIR__ . '/../..' . '/system/src/Grav/Framework/Acl/Permissions.php',
@@ -2113,10 +2114,10 @@ class ComposerStaticInit4f32c98099166bb37625a171fd302f37
     public static function getInitializer(ClassLoader $loader)
     {
         return \Closure::bind(function () use ($loader) {
-            $loader->prefixLengthsPsr4 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixLengthsPsr4;
-            $loader->prefixDirsPsr4 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixDirsPsr4;
-            $loader->prefixesPsr0 = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$prefixesPsr0;
-            $loader->classMap = ComposerStaticInit4f32c98099166bb37625a171fd302f37::$classMap;
+            $loader->prefixLengthsPsr4 = ComposerStaticInitcfebf5f571a9527ca52f6aee4002c18d::$prefixLengthsPsr4;
+            $loader->prefixDirsPsr4 = ComposerStaticInitcfebf5f571a9527ca52f6aee4002c18d::$prefixDirsPsr4;
+            $loader->prefixesPsr0 = ComposerStaticInitcfebf5f571a9527ca52f6aee4002c18d::$prefixesPsr0;
+            $loader->classMap = ComposerStaticInitcfebf5f571a9527ca52f6aee4002c18d::$classMap;
 
         }, null, ClassLoader::class);
     }
