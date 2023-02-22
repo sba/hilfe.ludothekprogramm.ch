@@ -107,9 +107,11 @@ class BaseSearch
         $index_options = $this->index_configuration;
 
         $settings = [
-            'searchableAttributes' => $index_options->searchable_fields,
-            'distinct' => isset($index_options->distinct_field),
-            'attributeForDistinct' => $index_options->distinct_field ?? null,
+            'searchableAttributes' => $index_options->get('searchable_fields'),
+            'attributeForDistinct' => $index_options->get('distinct_field'),
+            'distinct' => $index_options->get('search_params.distinct'),
+            'attributesToSnippet' => $index_options->get('search_params.attributesToSnippet'),
+            'snippetEllipsisText' => $index_options->get('search_params.snippetEllipsisText'),
         ];
 
         $search_index = $this->search_client->initIndex($index_name);
@@ -341,7 +343,9 @@ class BaseSearch
         if ($this->plugin_configuration['smart_indexing']) {
             foreach ($records as $key => $record) {
                 $id = md5($record['objectID']) ?? null;
-                $md5 = md5(json_encode($record));
+                $encoded = json_encode($record, JSON_INVALID_UTF8_SUBSTITUTE);
+                $md5 = md5($encoded);
+
                 $stored_md5 = file_get_contents($this->getRecordFilename($id)) ?: null;
                 $needs_updating = $stored_md5 !== $md5;
                 if ($needs_updating) {
@@ -352,7 +356,7 @@ class BaseSearch
             }
         }
 
-        return $records;
+        return json_decode(json_encode($records, JSON_INVALID_UTF8_SUBSTITUTE), true);
     }
 
     /**
@@ -363,5 +367,24 @@ class BaseSearch
     {
         return $this->local_storage . '/' . $id;
     }
+
+    private function safe_json_encode($value, $options = 0, $depth = 512) {
+        $encoded = json_encode($value, $options, $depth);
+        if ($encoded === false && $value && json_last_error() == JSON_ERROR_UTF8) {
+            $encoded = json_encode($this->utf8ize($value), $options, $depth);
+        }
+        return $encoded;
+    }
+
+     private function utf8ize($mixed) {
+        if (is_array($mixed)) {
+            foreach ($mixed as $key => $value) {
+                $mixed[$key] = $this->utf8ize($value);
+            }
+        } elseif (is_string($mixed)) {
+            return mb_convert_encoding($mixed, "UTF-8", "UTF-8");
+        }
+        return $mixed;
+     }
 
 }

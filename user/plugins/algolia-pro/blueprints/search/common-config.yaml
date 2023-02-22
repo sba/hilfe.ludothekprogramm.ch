@@ -93,6 +93,16 @@ form:
           append: PLUGIN_ALGOLIA_PRO.CHARS
           validate:
             required: true
+        content.skip_empty:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.SKIP_EMPTY_CONTENT
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
 
     interface_section:
       type: section

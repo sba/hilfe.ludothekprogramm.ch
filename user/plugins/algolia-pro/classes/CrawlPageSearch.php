@@ -366,13 +366,13 @@ class CrawlPageSearch extends GravPageSearch
         }
 
         if (empty(trim($body))) {
-            throw new \RuntimeException('Crawlwer was not able to find any content with provided selector: ' . json_encode($selectors, JSON_THROW_ON_ERROR));
+            throw new \RuntimeException('Crawlwer was not able to find any content with provided selector: ' . json_encode($selectors, JSON_INVALID_UTF8_SUBSTITUTE));
         }
 
         $converted_body = mb_convert_encoding(static::cleanHtml($body), 'HTML-ENTITIES', 'UTF-8');
 
         if (empty(trim($converted_body))) {
-            throw new \RuntimeException('Crawlwer was not able to find any content with provided selector: ' . json_encode($selectors, JSON_THROW_ON_ERROR));
+            throw new \RuntimeException('Crawlwer was not able to find any content with provided selector: ' . json_encode($selectors, JSON_INVALID_UTF8_SUBSTITUTE));
         }
 
         return $converted_body;

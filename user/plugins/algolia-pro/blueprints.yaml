@@ -1,7 +1,7 @@
 name: Algolia Pro
 type: plugin
 slug: algolia-pro
-version: 1.0.6
+version: 1.0.8
 premium: true
 description: Algolia Pro takes searching your Grav site to the next level by **seamlessly integrating** your Grav content with the **leading-edge AI-powered search engine service**. [Agolia](https://www.algolia.com/?target_blank=1) is used by over 10,000 businesses to power their search and there's nothing that beats the flexibility and speed, all at a reasonable price.
 icon: clock-o

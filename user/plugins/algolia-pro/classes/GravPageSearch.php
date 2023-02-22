@@ -96,12 +96,14 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
         }
 
         if ($language->enabled()) {
-            unset($languages[array_search($default_lang, $languages, true)]);
-            array_unshift($languages, $default_lang);
+            if (count($languages) > 1 && in_array($default_lang, $languages)) {
+                unset($languages[array_search($default_lang, $languages, true)]);
+                array_unshift($languages, $default_lang);
+            }
 
             foreach ($languages as $lang) {
                 $options['lang'] = $lang;
-                if ($lang !== $default_lang) {
+                if ($lang !== $default_lang ) {
                     $language->init();
                     $language->setActive($lang);
                     if ($hasReset) {
@@ -295,8 +297,19 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
             }
 
             try {
+                $skip_event = Grav::instance()->fireEvent('onAlgoliaProPageSkip',
+                    new Event(['name' => $this->name, 'config' => $this->index_configuration, 'object' => $page]));
+                if (isset($skip_event['status'])) {
+                    $status[] = $skip_event['status'];
+                    if ($callback = $this->getProgressCallback()) {
+                        $callback(-1);
+                    }
+                    continue;
+                }
+
                 $content = trim($page->content());
-                if (empty($content)) {
+                $skip_empty_content = $this->index_configuration->get('content.skip_empty', true);
+                if ($skip_empty_content && empty($content)) {
                     $status[] = [
                         'status' => 'info',
                         'msg' => 'Page has no content, skipping',
@@ -307,6 +320,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
                     }
                     continue;
                 }
+
                 $page_records = $this->getPageData($content, $page);
                 $updatable_records = $this->recordsNeedUpdating($page_records);
                 $records = array_merge($records, $updatable_records);
@@ -380,6 +394,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
         foreach ($blocks as $block) {
             $block_data = [];
             $block_content = $block['content'] ?? '';
+
             if (isset($block['tag'], $block['header'])) {
                 $block_data['objectType'] = 'header';
                 $block_data['headers'][$block['tag']][] = $block['header'];
@@ -399,6 +414,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
                 $page_chunks[] = array_merge($page_data, $block_data);
             }
         }
+
         return $page_chunks;
     }
 

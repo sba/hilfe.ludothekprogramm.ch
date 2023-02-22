@@ -252,7 +252,7 @@ class AlgoliaProPlugin extends Plugin
                     'message' => '<i class="fa fa-warning"></i> Index not created',
                     'details' => 'Insufficient permissions to reindex Algolia Pro.'
                 ];
-                echo json_encode($json_response, JSON_THROW_ON_ERROR);
+                echo json_encode($json_response, JSON_INVALID_UTF8_SUBSTITUTE);
                 exit;
             }
 
@@ -270,7 +270,7 @@ class AlgoliaProPlugin extends Plugin
                 'message' => 'Indexed just fine...'
             ];
 
-            echo json_encode($json_response, JSON_THROW_ON_ERROR);
+            echo json_encode($json_response, JSON_INVALID_UTF8_SUBSTITUTE);
             exit;
 
         }

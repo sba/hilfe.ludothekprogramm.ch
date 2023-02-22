@@ -1,3 +1,20 @@
+# v1.0.8
+## 01/13/2023
+
+1. [](#improved)
+   * Algolia-pro now initiates `attributesToSnippet` during indexing
+
+# v1.0.7
+## 01/11/2023
+
+1. [](#improved)
+   * Fix for languages reordering when specifying a single language 
+   * Added custom `onAlgoliaProPageSkip()` event to allow custom logic for skipping
+   * Added `content.skip_empty` configuration option
+   * Vendor library updates
+2. [](#bugfix)
+   * Support for bad UTF-8 characters in search record
+
 # v1.0.6
 ## 05/11/2022
 

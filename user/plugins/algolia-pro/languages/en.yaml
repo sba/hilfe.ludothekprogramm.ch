@@ -108,3 +108,4 @@ PLUGIN_ALGOLIA_PRO:
     CONTENT: You are about to reset the local data for every enabled index, and perform a flushed reindex again. Do you want to proceed?
   ERROR:
     LAYOUT_NOT_FOUND: "Layout Not Found"
+  SKIP_EMPTY_CONTENT: Skip Empty Content

@@ -123,8 +123,8 @@ class AlgoliaIndexerCommand extends ConsoleCommand
                     if ($steps > 1) {
                         $io->newLine();
                         $progress->clear();
-                        $progress->start();
                         $progress->setMaxSteps($steps);
+                        $progress->start();
                     } else {
                         $current_max = $progress->getMaxSteps();
                         $progress->setMaxSteps($current_max + $steps);
