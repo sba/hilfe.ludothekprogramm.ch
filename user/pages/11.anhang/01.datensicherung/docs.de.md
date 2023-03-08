@@ -10,6 +10,8 @@ visible: true
 
 Standardmässig speichert LUPO alle Benutzer-Daten im Ordner **C:\\Lupo_Daten**. In diesem Verzeichnis sind die Datenbank **{{LupoXX_Daten.accdb}}**, die Logo-Dateien, Spiel-Fotos und Spielanleitungen abgelegt. Die Datensicherung, welche beim entsprechenden Punkt im Beenden-Assistent durchgeführt wird, enthält aber nur die Daten-Datei. Eine Sicherung mit allen Benutzer-Daten kann manuell erstellt werden. Klicken Sie dazu im Menüband auf den Knopf Datensicherung:
 
+![datensicherung](../../images/ribbon_sicherung.png)
+
 ![datensicherung](../../images/datensicherung.png)
 
 Die ausgewählten Dateien werden komprimiert in einem RAR-Archiv gespeichert. Um den Inhalt von RAR-Dateien zu extrahieren kann die kostenlose Software [WinRAR](https://www.rarlab.com/) (Shareware) verwendet werden.
