@@ -31,7 +31,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
                 $lang = $options['lang'];
                 unset($options['lang']);
             }
-            $name = $lang ?? $language->getActive() ?? $language->getDefault();
+            $name = $lang ?? $language->getLanguage();
         }
 
         $index = $this->getIndexer($name);
@@ -193,7 +193,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
             $lang = null;
 
             if ($language->enabled()) {
-                $lang = $object->language() ?? $language->getDefault();
+                $lang = $object->language() ?? $language->getLanguage();
             }
 
             $index = $this->getIndexer($lang);

@@ -156,7 +156,7 @@ class CrawlPageSearch extends GravPageSearch
             $client = $this->getHttpClient();
 
             // if a sitemap, load that, and get the list of loc URLs
-            if ($headers['content-type'][0] === 'application/json') {
+            if (Utils::contains($headers['content-type'][0], 'application/json')) {
                 $sitemap = $url_response->toArray();
 
                 foreach ($sitemap as $lang => $entries) {

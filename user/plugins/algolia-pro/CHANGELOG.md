@@ -1,3 +1,17 @@
+# v1.0.10
+## 04/28/2023
+
+2. [](#bugfix)
+    * Fixed a bug that caused old records not to be removed when updating an entry
+
+# v1.0.9
+## 04/20/2023
+
+1. [](#improved)
+   * Better check for `application/json` that works when gzipped [#351](https://github.com/getgrav/grav-premium-issues/issues/351)
+2. [](#bugfix)
+   * Fixed an issue with controller configuration based on `lang` [#350](https://github.com/getgrav/grav-premium-issues/issues/350)
+
 # v1.0.8
 ## 01/13/2023
 
@@ -8,7 +22,7 @@
 ## 01/11/2023
 
 1. [](#improved)
-   * Fix for languages reordering when specifying a single language 
+   * Fix for languages reordering when specifying a single language
    * Added custom `onAlgoliaProPageSkip()` event to allow custom logic for skipping
    * Added `content.skip_empty` configuration option
    * Vendor library updates

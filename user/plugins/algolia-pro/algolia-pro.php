@@ -478,8 +478,14 @@ class AlgoliaProPlugin extends Plugin
      */
     public function getIndexConfiguration($index = null): array
     {
+        $options = [];
+        $language = $this->grav ['language'];
+        if ($language->enabled()) {
+            $options['lang'] = $language->getLanguage();
+        }
+
         $controller = new AlgoliaProController();
-        $configuration = $controller->configuration();
+        $configuration = $controller->configuration($options);
 
         return $index ? $configuration[$index] : $configuration;
     }

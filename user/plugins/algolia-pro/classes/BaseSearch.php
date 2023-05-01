@@ -146,13 +146,9 @@ class BaseSearch
 
         $index->setSettings($backup_settings);
 
-        $base_object_id = trim($attribute, '/');
-
         if ($results['nbHits'] > 0) {
             foreach ($results['hits'] as $hit) {
-                if (Utils::startsWith($hit['objectID'], $base_object_id)) {
-                    $objectIDs[] = $hit['objectID'];
-                }
+                $objectIDs[] = $hit['objectID'];
             }
         }
 
