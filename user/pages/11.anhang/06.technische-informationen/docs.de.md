@@ -8,21 +8,21 @@ visible: true
 
 #### Computeranforderungen
 
-LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem Windows 10 PC.
+LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem PC mit Windows 10 oder höher.
 
 Ihr Computer muss mindestens folgenden Anforderungen entsprechen:
 
-- Windows 10 (Build 1909) 
-- Pentium 4 1GHz 
-- 1 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher 
+- Windows 10 (Version 22H2) 
+- Core i3 7th Gen
+- 4 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher 
 - 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) 
 - Bildschirmauflösung min. 1280 x 768 Pixel
 
 Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leistungsmerkmale aufweisen:
 
-- Windows 10 oder Windows 11
-- Core i3 8th Gen 
-- 4 GB Arbeitsspeicher 
+- Windows 11
+- Core i3 10th Gen 
+- 8 GB Arbeitsspeicher 
 - 128 GB Festplatte oder SSD 
 - 6 x USB 2.0 Anschluss, 2 x USB 3.0 
 - Bildschirmauflösung 1920 x 1080 Pixel
@@ -86,15 +86,15 @@ Sie sollten über einen Tintenstrahl- oder Laserdrucker verfügen. Die [Abokarte
 Für Barcodeetiketten kann ein [DYMO LabelWriter](https://www.ludothekprogramm.ch/shop/category/etikettendrucker) eingesetzt werden, für die Kundenquittung ein [EPSON Bondrucker](https://www.ludothekprogramm.ch/shop/category/bondrucker-2).
 
 
-#### Windows 8.1 / 10
+#### Windows 10 / 11
 
-LUPO kann auf jeder Windows-Version ab Windows 8.1 problemlos installiert werden. Je nach Benutzerkonten-Einstellung und -Rechten muss das Programm mit Administrator-Rechten installiert werden.
+LUPO kann auf jeder Windows-Version ab Windows 10 problemlos installiert werden. Je nach Benutzerkonten-Einstellung und -Rechten muss das Programm mit Administrator-Rechten installiert werden.
 
-#### Windows 7 / 8.1
+#### Windows 8 / 8.1
 
 Diese OS-Versionen sind zwar schon ziemlich veraltet, aber unsere Tests zeigten, dass die Software trotzdem stabil läuft. 
 
-#### Windows XP / Vista
+#### Windows XP / Vista / 7
 
 Dies sind definitiv zu alte Windows-Versionen. Sie benötigen einen neueren PC!
 
