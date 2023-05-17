@@ -407,7 +407,7 @@ class AlgoliaProPlugin extends Plugin
         /** @var object|null $obj */
         $obj = $event['object'] ?: $event['page'];
         try {
-            if ($obj) {
+            if ($obj && Utils::contains($obj->name, ".{$obj->lang}.")) {
                 $this->algolia->update($obj);
             }
         } catch (\Exception $e) {

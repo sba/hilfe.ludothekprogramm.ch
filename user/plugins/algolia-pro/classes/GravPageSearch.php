@@ -89,10 +89,19 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
         $default_lang = $language->getDefault();
         $hasReset = method_exists($pages, 'reset');
 
+
         // Flush index + record states if required
         if ($options['flush'] ?? false) {
-            $this->clearObjects($options);
+            if ($language->enabled()) {
+                foreach ($languages as $lang) {
+                    $options['lang'] = $lang;
+                    $this->clearObjects($options);
+                }
+            } else {
+                $this->clearObjects($options);
+            }
             $this->clearRecordStorage();
+
         }
 
         if ($language->enabled()) {
@@ -103,12 +112,11 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
 
             foreach ($languages as $lang) {
                 $options['lang'] = $lang;
-                if ($lang !== $default_lang ) {
-                    $language->init();
-                    $language->setActive($lang);
-                    if ($hasReset) {
-                        $pages->reset();
-                    }
+
+                $language->init();
+                $language->setActive($lang);
+                if ($hasReset) {
+                    $pages->reset();
                 }
 
                 $status = array_merge($status, $this->indexPages($options));

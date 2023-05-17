@@ -1,3 +1,16 @@
+# v1.0.12
+## 05/10/2023
+
+2. [](#bugfix)
+   * Fix issue when indexing via Admin and the browser's language is not set to the default language of the Grav site causing wrong pages in browser language to be indexed into the default language algolia index. 
+
+# v1.0.11
+## 05/03/2023
+
+2. [](#bugfix)
+    * Fixed a bug where reindexing multi-language setup with `flush = true` was not clearing language-based indexes
+    * Only index page when it's a regular page `save`, not on `copy` where the page language is not fully resolved which resulted in pages being indexed in wrong language index.
+
 # v1.0.10
 ## 04/28/2023
 
