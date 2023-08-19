@@ -407,9 +407,17 @@ class AlgoliaProPlugin extends Plugin
         /** @var object|null $obj */
         $obj = $event['object'] ?: $event['page'];
         try {
-            if ($obj && Utils::contains($obj->name, ".{$obj->lang}.")) {
-                $this->algolia->update($obj);
-            }
+
+           if ($obj instanceof PageInterface) {
+               if ($obj->published() === false) {
+                   $this->algolia->delete($obj);
+                   return true;
+               }
+           }
+
+           if ($obj && Utils::contains($obj->name, ".{$obj->lang}.")) {
+               $this->algolia->update($obj);
+           }
         } catch (\Exception $e) {
             Grav::instance()['log']->error("Algolia-Pro: {$e->getMessage()}");
         }

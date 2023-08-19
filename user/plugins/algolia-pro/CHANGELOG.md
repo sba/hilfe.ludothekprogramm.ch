@@ -1,3 +1,16 @@
+# v1.0.14
+## 08/02/2023
+
+2. [](#bugfix)
+   * Removed errant `onAlgoliaProPageSkip` listener
+
+
+# v1.0.13
+## 08/01/2023
+
+2. [](#bugfix)
+   * Fixed an issue with an unpublished page getting indexed
+   
 # v1.0.12
 ## 05/10/2023
 
