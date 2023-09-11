@@ -43,6 +43,7 @@ Nach Eingabe eines passenden Verzeichnisnamens kann das Verzeichnis umbenennt we
 ![webseite_backend_medien_verzeichnis_umbenennen](../../images/webseite_backend_medien_verzeichnis_umbenennen_j4.png)
 
 ###Verzeichnis löschen
+Um ein Verzeichnis zu löschen ist ein Klick auf **Löschen** und danach nochmal auf **Löschen** benötigt.
 ![webseite_backend_medien_verzeichnis_loeschen](../../images/webseite_backend_medien_verzeichnis_loeschen_j4.png)
 ![webseite_backend_medien_verzeichnis_loeschen_bestaetigung](../../images/webseite_backend_medien_verzeichnis_loeschen_bestaetigung_j4.png)
 
@@ -70,6 +71,6 @@ Nach Eingabe eines passenden Mediums kann das Verzeichnis umbenennt werden.
 ![webseite_backend_medien_medium_umbenennen](../../images/webseite_backend_medien_medium_umbenennen_j4.png)
 
 ###Medium löschen
-
+Um ein Medium zu löschen ist ein Klick auf **Löschen** und danach nochmal auf **Löschen** benötigt.
 ![webseite_backend_medien_medium_loeschen_knopf](../../images/webseite_backend_medien_medium_loeschen_knopf_j4.png)
 ![webseite_backend_medien_verzeichnis_loeschen_bestaetigung](../../images/webseite_backend_medien_medium_loeschen_knopf_bestaetigung_j4.png)
