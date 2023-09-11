@@ -8,7 +8,7 @@ visible: true
 
 Mit einem Content-Plugins kann ein Platzhalter in einem Beitrag oder Modul automatisch mit berechnetem Inhalt ersetzt werden.
 
-Es stehen zwei LUPO Inhalt-Plugins, **Anzahl Spiele** und **Zufälliges Zitat**, zur Verfügung:
+Es stehen 3 LUPO Inhalt-Plugins, **Anzahl Spiele**, **Zufälliges Zitat** und **Spiel** zur Verfügung:
 
 ![Plugins](../../images/content-plugins_j4.png)
 
@@ -20,7 +20,7 @@ Damit kann die Anzahl der in der Spieldatenbank gespeicherten Spiele im Text ein
 
 Im Editor wird dazu der Platzhalter **[totalspiele]** gesetzt:
 
-![plugin-totalspiele-editor.png](../../images/plugin-totalspiele-editor.png)
+![plugin-totalspiele-editor](../../images/plugin-totalspiele-editor.png)
 
 
 ##Inhalt - LUPO Zufälliges Zitat
@@ -31,7 +31,7 @@ Mit diesem Plugin ist es möglich, ein zufälliges Zitat gemäss dem definiertem
 
 Die zur Auswahl stehenden Zitate sind unter **Erweiterungen → Plugins** bei den Plugin-Optionen definiert:
 
-![plugin-zitat-settings.png](../../images/plugin-zitat-settings_j4.png)
+![plugin-zitat-settings](../../images/plugin-zitat-settings_j4.png)
 
 Im Textefeld **Zitate** sind alle zur Auswahl stehenden Zitate definiert. Das Plugin wird mit einer Auswahl an vordefinierten Zitaten ausgeliefert. Sie können nicht erwünschte Zitate löschen oder weitere hinzufügen. Ein einzelnes Zitat muss aus einer Zeile stehen und der Urheber des Zitates mit einem Semikolon getrennt werden. 
 
@@ -44,4 +44,17 @@ Anstelle des vorgegebenen Templates könnte z.B. auch folgendes Layout verwendet
 !! **Platzhalter in eigenen Modulen**  
 !! Beachten Sie, dass Platzhalter in einem eigenen Modul nur verarbeitet werden, wenn unter **Optionen** bei **Inhalte vorbereiten** der Wert **Ja** gespeichert ist.
 
-![module-inhalte-vorbereiten.png](../../images/module-inhalte-vorbereiten_j4.png)
+![module-inhalte-vorbereiten](../../images/module-inhalte-vorbereiten_j4.png)
+
+##Inhalt - LUPO Spiel
+
+Damit kann man ein Spiel der in der Spieldatenbank gespeicherten Spiele im Text eingefügt werden.
+
+![plugin-spiel-output](../../images/plugin-spiel-output.png)
+
+Im Editor wird dazu der Platzhalter **[spiel SPIELNUMMER]** gesetzt:
+
+![plugin-spiel-editor](../../images/plugin-spiel-editor.png)
+
+
+
