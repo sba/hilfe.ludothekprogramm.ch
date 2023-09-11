@@ -16,7 +16,7 @@ Die Ordner sind benannt nach den Menüpunkten. Es ist ratsam, Medien in die jewe
 
 ##Verzeichnis erstellen
 
-Ein neues Verzeichnis kann durch ein Klick auf <span class="btn-lupo">Neues Verzeichnis anlegen</span> erstellt werden.
+Ein neues Verzeichnis kann durch einen Klick auf <span class="btn-lupo">Neues Verzeichnis anlegen</span> erstellt werden.
 
 ![webseite_backend_medien_neues_verzeichnis_anlegen](../../images/webseite_backend_medien_neues_verzeichnis_anlegen_j4.png)
 
