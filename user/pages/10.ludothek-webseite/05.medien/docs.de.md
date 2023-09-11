@@ -71,7 +71,5 @@ Nach Eingabe eines passenden Mediums kann das Verzeichnis umbenennt werden.
 
 ###Medium löschen
 
-Um ein Medium zu löschen ist ein Klick auf
-
 ![webseite_backend_medien_medium_loeschen_knopf](../../images/webseite_backend_medien_medium_loeschen_knopf_j4.png)
 ![webseite_backend_medien_verzeichnis_loeschen_bestaetigung](../../images/webseite_backend_medien_medium_loeschen_knopf_bestaetigung_j4.png)
