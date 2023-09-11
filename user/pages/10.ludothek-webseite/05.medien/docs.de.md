@@ -3,7 +3,7 @@ title: 'Medien'
 taxonomy:
     category:
         - docs
-visible: false
+visible: true
 ---
 
 Mit dem Medien-Manager können Medien hochgeladen werden.
