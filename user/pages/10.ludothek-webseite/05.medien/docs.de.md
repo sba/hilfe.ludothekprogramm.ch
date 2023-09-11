@@ -32,12 +32,12 @@ Mithilfe eines Doppelklicks auf das Verzeichnis gelangt man in das Verzeichnis.
 
 Ein Verzeichnis kann durch einen Klick auf die 3 Punkte umbenennt oder gelöscht werden.
 
-![webseite_backend_medien_verzeichnis_punkte](../../images/webseite_backend_medien_verzeichnis_punkte_j4.png)
+![webseite_backend_medien_verzeichnis_punkte](../../images/webseite_backend_medien_verzeichnis_punkte_j4.png)Verzeichnisnamens
 
 
 ###Verzeichnis umbenennen
 
-Nach Eingabe eines passenden Verzeichnisnamens kann das Verzeichnis umbenennt werden.
+Nach Eingabe eines passenden Namen kann das Verzeichnis umbenennt werden.
 
 ![webseite_backend_medien_verzeichnis_umbenennen_knopf](../../images/webseite_backend_medien_verzeichnis_umbenennen_knopf_j4.png)
 ![webseite_backend_medien_verzeichnis_umbenennen](../../images/webseite_backend_medien_verzeichnis_umbenennen_j4.png)
@@ -53,7 +53,7 @@ Das Hochladen von Medien wird durch das Betätigen der Schaltfläche <span class
 
 ![webseite_backend_medien_hochladen](../../images/webseite_backend_medien_hochladen_j4.png)
 
-Nachher kann ein Bild freier Wahl ausgewählt und hochgeladen werden.
+Nachher kann ein Medium freier Wahl ausgewählt und hochgeladen werden.
 
 ![webseite_backend_medien_medium_hochgeladen](../../images/webseite_backend_medien_medium_hochgeladen_j4.png)
 

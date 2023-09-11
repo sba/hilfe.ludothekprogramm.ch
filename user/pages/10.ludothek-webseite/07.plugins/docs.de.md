@@ -40,7 +40,7 @@ In die bei der Option **HTML-Template** definierte Design-Vorlage wird das Zitat
 Anstelle des vorgegebenen Templates könnte z.B. auch folgendes Layout verwendet werden:
 
 `<p>[quote] <em>[name]</em></p>`
-
+i actually liked so
 !! **Platzhalter in eigenen Modulen**  
 !! Beachten Sie, dass Platzhalter in einem eigenen Modul nur verarbeitet werden, wenn unter **Optionen** bei **Inhalte vorbereiten** der Wert **Ja** gespeichert ist.
 
@@ -48,7 +48,7 @@ Anstelle des vorgegebenen Templates könnte z.B. auch folgendes Layout verwendet
 
 ##Inhalt - LUPO Spiel
 
-Damit kann man ein Spiel der in der Spieldatenbank im Text eingefügt werden.
+Damit kann man ein Spiel der aus der Spieldatenbank im Text eingefügen.
 
 ![plugin-spiel-output](../../images/plugin-spiel-output.png)
 
