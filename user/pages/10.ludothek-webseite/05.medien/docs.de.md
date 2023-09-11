@@ -8,7 +8,7 @@ visible: true
 
 Mit dem Medien-Manager können Medien hochgeladen werden.
 
-Um neue Medien hochzuladen oder bestehende zu löschen ist im Administrator unter **Inhalt → Medien** folgendes Fesnter zu öffnen:
+Um neue Medien hochzuladen oder bestehende zu löschen ist im Administrator unter **Inhalt → Medien** folgendes Fester zu öffnen:
 
 ![webseite_backend_medien](../../images/webseite_backend_medien_j4.png)
 
