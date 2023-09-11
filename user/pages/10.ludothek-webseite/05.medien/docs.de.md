@@ -57,7 +57,7 @@ Nachher kann ein Bild freier Wahl ausgewählt und hochgeladen werden.
 ![webseite_backend_medien_medium_hochgeladen](../../images/webseite_backend_medien_medium_hochgeladen_j4.png)
 
 
-##Medien umbenennen / löschen
+##Medium umbenennen / löschen
 
 Ein Medium kann durch einen Klick auf die 3 Punkte umbenennt oder gelöscht werden.
 
