@@ -8,13 +8,13 @@ visible: true
 
 Ein Klick auf den Menüpunkt **Inhalt → Beiträge** öffnet die Seite zum Bearbeiten oder Erstellen von Beiträgen:
 
-![webseite_backend_beitraege](../../images/webseite_backend_beitraege.png)
+![webseite_backend_beitraege](../../images/webseite_backend_beitraege_j4.png)
 
 Es existieren standardmässig drei Beitrags-Kategorien: Ohne Kategorie, Aktuell und Agenda. Beiträge der Kategorie **Aktuell** werden auf der Webseite beim Menüpunkt Aktuell aufgeführt, die mit Agenda unter dem entsprechenden Menülink.
 
 #### Hauptbeiträge
 
-![webseite_backend_hauptbeitraege](../../images/webseite_backend_hauptbeitraege.png)
+![webseite_backend_hauptbeitraege](../../images/webseite_backend_hauptbeitraege_j4.png)
 
 Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren, muss unter Status der Stern gesetzt werden.
 
@@ -22,7 +22,7 @@ Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hau
 
 Ein Klick auf den Beitrag-Link öffnet die Seite zur Bearbeitung:
 
-![webseite_backend_beitraege](../../images/journal-beitrag-bearbeiten.png)
+![webseite_backend_beitraege](../../images/journal-beitrag-bearbeiten_j4.png)
 
 Soll der Beitrag unter Aktuell aufgeführt werden, muss die Kategorie entsprechend gesetzt werden.
 
@@ -36,23 +36,23 @@ Wenn formatierter Text, z.B. aus einem Word-Dokument, kopiert wurde sollte der T
 
 Bei Beiträgen in der Kategorie Aktuell wird das Datum angezeigt, welches unter Erstellungsdatum gespeichert ist. Der Zeitraum, in welchem der Artikel auf der Website angezeigt wird, kann mit den beiden Daten Veröffentlichung starten und Veröffentlichung beenden definiert werden.
 
-![webseite_backend_beitrag_aktuell](../../images/webseite_backend_beitrag_aktuell.png)
+![webseite_backend_beitrag_aktuell](../../images/webseite_backend_beitrag_aktuell_j4.png)
 
 #### Beiträge unter "Agenda"
 
 Agenda-Einträge werden sortiert nach dem Veranstaltungsdatum (=Erstellungsdatum) angezeigt. Im Menüpunkt **Agenda** werden alle Beträge der Kategorie aufgelistet und zusätzlich können auf der Startseite die aktuellsten Anlässe durch ein Modul angezeigt werden. In den Modul-Einstellungen kann die Anzahl der Veranstaltungen definiert werden.
 
-![webseite_backend_beitrag_agenda](../../images/webseite_backend_beitrag_agenda.png)
+![webseite_backend_beitrag_agenda](../../images/webseite_backend_beitrag_agenda_j4.png)
 
 Die Daten **Veröffentlichung starten** und **Veröffentlichung beenden** steuern die Sichtbarkeit der Veranstaltung.
 
 Das **Erstellungsdatum** muss auf das Veranstaltungsdatum gesetzt werden und wird auf der Webseite angezeigt:
 
-![webseite_beitrag_klein](../../images/webseite_beitrag_klein.png)
+![webseite_beitrag_klein](../../images/webseite_beitrag_klein_j4.png)
 
 Unter **Bilder und Links** kann ein Einleitungsbild und eine Beitragsbild definiert werden:
 
-![webseite_backend_beitrag_bilderundlinks](../../images/webseite_backend_beitrag_bilderundlinks.png)
+![webseite_backend_beitrag_bilderundlinks](../../images/webseite_backend_beitrag_bilderundlinks_j4.png)
 
 Für eine optisch anspruchsvolle Liste sollten alle Einleitungsbilder ein etwa gleiches Seitenverhältnis haben. Weiter ist zu empfehlen die Einleitungsbilder vor dem Hochladen in einem Grafikprogramm zu verkleinern. Empfehlenswert ist eine Grösse von maximal 800 x 600 Pixel und unter 100 KB.
 
@@ -62,7 +62,7 @@ Bilder und Dateien können auch direkt im Artikel-Text eingefügt werden. Mit fo
 
 ![webseite_backend_beitrag_bilder_hochladen](../../images/webseite_backend_beitrag_bilder_hochladen.png)
 
-![webseite_backend_beitrag_bildermanager](../../images/webseite_backend_beitrag_bildermanager.png)
+![webseite_backend_beitrag_bildermanager](../../images/webseite_backend_beitrag_bildermanager_j4.png)
 
 Klicken Sie auf das Icon <img src="../../images/webseite_backend_upload_bild.png" class="img-inline"> um ein neues Bild hochzuladen. Folgendes Fenster öffnet sich:
 

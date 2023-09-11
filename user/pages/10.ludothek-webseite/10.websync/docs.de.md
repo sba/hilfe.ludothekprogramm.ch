@@ -73,7 +73,7 @@ Falls bei Quarantäne-Tage eine Zahl eingetragen ist gelten zurückgebrachte Spi
 
 Im Joomla-Administrator bei der LUPO-Komponente unter <span class="btn-lupo">Optionen</span> kann im Reiter **Online-Dienste** folgendes definiert werden:
 
-![websync-online](../../images/websync-online.png)
+![websync-online](../../images/websync-online_j4.png)
 
 Der Auth-Code muss mit dem im LUPO eingetragenen Wert korrespondieren. 
 

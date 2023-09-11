@@ -22,7 +22,7 @@ Mit dem Knopf <span class="btn-lupo">Export-Datei erstellen</span> wird eine zip
 
 Das aus dem LUPO erstellte zip mit den Spielen kann im **Joomla-Administrator** hochgeladen werden. Das Fenster kann mit dem Menübefehl **Komponenten → LUPO Spielliste** oder mit dem Link **Spiele aktualisieren** im Dashboard. 
 
-![spielliste_joomla_importieren](../../images/spielliste_joomla_importieren.png)
+![spielliste_joomla_importieren](../../images/spielliste_joomla_importieren_j4.png)
 
 Um die zuvor exportierte Spieleliste ins Joomla zu importieren, die <span class="btn-lupo">LUPO Zip-Datei auswählen</span> und dann mit dem Knopf <span class="btn-lupo">Datei hochladen</span> auf dem Server speichern. Danach können mit der Funktion <span class="btn-lupo">Hochgeladene Daten verarbeiten</span> die Spiele eingelesen werden.
 
