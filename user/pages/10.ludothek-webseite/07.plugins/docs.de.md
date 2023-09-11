@@ -48,7 +48,7 @@ Anstelle des vorgegebenen Templates könnte z.B. auch folgendes Layout verwendet
 
 ##Inhalt - LUPO Spiel
 
-Damit kann man ein Spiel der in der Spieldatenbank gespeicherten Spiele im Text eingefügt werden.
+Damit kann man ein Spiel der in der Spieldatenbank im Text eingefügt werden.
 
 ![plugin-spiel-output](../../images/plugin-spiel-output.png)
 
@@ -56,5 +56,8 @@ Im Editor wird dazu der Platzhalter **[spiel SPIELNUMMER]** gesetzt:
 
 ![plugin-spiel-editor](../../images/plugin-spiel-editor.png)
 
+Um mehrere Spiele anzuzeigen, wird der Platzhalter **[spiel SPIELNUMMER_1;SPIELNUMMER_2; ...]** gesetzt:
+
+![plugin-spiel-editor](../../images/plugin-spiel-multiple-editor.png)
 
 
