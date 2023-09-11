@@ -20,7 +20,7 @@ Um die Position eines Menü-Eintrags zu ändern muss die Sortierung nach Sortier
 ![menue](../../images/menu-reihenfolge_j4.png)
 
 #### Menüpunkt aktivieren / deaktivieren
-Die Häckchen unter Status zeigen an, ob der Menüpunkt sichtbar ist oder nicht. Ist im Kästchen ein **grünes Häckchen**, so ist der Menü-Eintrag sichtbar. Ist im Kästchen ein **rotes Kreuz** heisst das, dass der Menü-Eintrag nicht sichtbar ist.
+Die Häckchen unter Status zeigen an, ob der Menüpunkt sichtbar ist oder nicht. Ist im Kreis ein **grünes Häckchen**, so ist der Menü-Eintrag sichtbar. Ist im Kreis ein **graues Kreuz** heisst das, dass der Menü-Eintrag nicht sichtbar ist.
 
 ![menue](../../images/menue-haeckchen_j4.png)
 

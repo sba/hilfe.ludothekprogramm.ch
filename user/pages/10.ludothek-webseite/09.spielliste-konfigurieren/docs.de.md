@@ -51,7 +51,7 @@ Dieses Modul zeigt eine Navigation mit Spielkategorien und Genres an:
 
 ![modul-spielangebot](../../images/modul-spielangebot.png)
 
-Im Joomla-Administrator kann unter **Erweiterungen → Module** das Modul geöffnet und konfiguriert werden:
+Im Joomla-Administrator kann unter **System → Site Module** das Modul geöffnet und konfiguriert werden:
 
 ![](../../images/modul-spielkategorien-optionen_j4.png)
 

@@ -71,7 +71,7 @@ Falls bei Quarantäne-Tage eine Zahl eingetragen ist gelten zurückgebrachte Spi
 
 ##Einstellungen in Joomla  
 
-Im Joomla-Administrator bei der LUPO-Komponente unter <span class="btn-lupo">Optionen</span> kann im Reiter **Online-Dienste** folgendes definiert werden:
+Im Joomla-Administrator kann unter **System → Konfiguration → LUPO Spielliste** im Reiter **Online-Dienste** folgendes definiert werden:
 
 ![websync-online](../../images/websync-online_j4.png)
 

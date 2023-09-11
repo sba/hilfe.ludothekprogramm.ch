@@ -16,7 +16,7 @@ Es existieren standardmässig drei Beitrags-Kategorien: Ohne Kategorie, Aktuell 
 
 ![webseite_backend_hauptbeitraege](../../images/webseite_backend_hauptbeitraege_j4.png)
 
-Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren, muss unter Status der Stern gesetzt werden.
+Hauptbeiträge werden auf der **Startseite** angezeigt. Um einen Beitrag als Hauptbeitrag zu definieren, muss unter Haupteintrag der Stern gesetzt werden.
 
 #### Beitrag bearbeiten
 
