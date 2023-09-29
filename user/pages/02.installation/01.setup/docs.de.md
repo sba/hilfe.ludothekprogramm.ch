@@ -12,7 +12,7 @@ Starten Sie die Datei **{{Setup_LupoXXXX_YY.exe}}** um mit der Installation zu b
 
 ![Install](../../images/install-welcome.png)
 
-Klicken Sie auf **Weiter** ⭢ bis folgendes Fenster angezeigt wird:
+Klicken Sie auf <span class="btn-lupo">Weiter ></span> bis folgendes Fenster angezeigt wird:
 
 ![Install](../../images/install-components.png)
 
