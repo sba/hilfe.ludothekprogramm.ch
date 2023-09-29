@@ -28,7 +28,7 @@ Unter dem Reiter Einfügen können Sie frei Texte und Bilder dem Etikett hinzuf�
 
 #### Etiketten einrichten
 
-Damit Lupo den Barcode oder Spielnamen mit Inhalt füllen kann müssen die Objekte mit dem korrekten Objektnamen versehen werden. Klicken Sie dazu im **Einfügen-Modus** mit der rechten Maustaste auf ein Objekt, dann wählen Sie **Eigenschaften**.
+Damit LUPO den Barcode oder Spielnamen mit Inhalt füllen kann müssen die Objekte mit dem korrekten Objektnamen versehen werden. Klicken Sie dazu im **Einfügen-Modus** mit der rechten Maustaste auf ein Objekt, dann wählen Sie **Eigenschaften**.
 
 ![dymo_etiketten](../../images/dymo_etiketten.png)
 
