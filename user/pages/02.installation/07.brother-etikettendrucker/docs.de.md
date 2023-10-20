@@ -8,10 +8,17 @@ visible: true
 
 #### Druckertreiber und «P-touch Editor»-Software installieren
 
-Installieren Sie als erstes die Etikettendrucker-Software, welche den Druckertreiber und den P-touch Editor enthält.
+Installieren Sie als Erstes die Etikettendrucker-Software, welche den Druckertreiber und den P-touch Editor enthält.
 Die Setupdatei kann von unserer Webseite heruntergeladen werden:
 
 [Download Brother Druckertreiber und P-touch](https://www.ludothekprogramm.ch/brother)
+
+#### Software b-PAC
+
+Um den Drucker aus LUPO anzusteuern wird neben dem Druckertreiber auch noch die b-PAC Software benötigt.
+Diese kann zusammen mit dem LUPO-Setup installiert werden. Oder einzeln heruntergeladen und installiert werden:
+
+[Download Brother b-PAC](https://www.ludothekprogramm.ch/download/item/brother-b-pac)
 
 #### Software P-touch Editor
 
@@ -61,7 +68,7 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 * KAUFPREIS
 * KATALOGPREIS
 * BESCHREIBUNG
-* BESCHREIBUNG_TITEL
+* BESCHREIBUNG-TITEL
 
 **Kunden-Barcode**
 * LUDOTHEK
@@ -69,7 +76,7 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 * ADRNR
 * VORNAME
 * NACHNAME
-* VORNAME_NACHNAME
+* VORNAME-NACHNAME
 * GRUPPE
 * STRASSE
 * PLZ
