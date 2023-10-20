@@ -16,7 +16,7 @@ Die Setupdatei kann von unserer Webseite heruntergeladen werden:
 #### Software b-PAC
 
 Um den Drucker aus LUPO anzusteuern wird neben dem Druckertreiber auch noch die b-PAC Software benötigt.
-Diese kann zusammen mit dem LUPO-Setup installiert werden. Oder einzeln heruntergeladen und installiert werden:
+Diese kann zusammen mit dem LUPO-Setup installiert oder einzeln heruntergeladen und installiert werden:
 
 [Download Brother b-PAC](https://www.ludothekprogramm.ch/download/item/brother-b-pac)
 
