@@ -86,6 +86,8 @@ This is handled automatically based on your Grav multi-language System configura
 
 New in version 4.0 of the plugin is support for Google's [**News Sitemap Extension**](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap) that uses a specific tags under a `<news:news></news:news>` tag to provide Google News specific data.  When enabled, the news extensions will be enabled when an item is in one of the configured news paths (`/` by default, so all), and if the published date is not older than the configured `max age` (default of 2 per Googles recommendations).
 
+
+=======
 The output of the news tags is controlled by an overridable `sitemap-extensions/news.html.twig` template.
 
 The default behavior when **Include News Tags** is enabled, is to  include the news tags directly in the primary `sitemap.xml` file.  However, if you enabled the **Standalone News URLs** option, news tags will not be added to the primary `sitemap.xml`, rather, they will be available in standalone paths that contain only the pages in the designated news paths.
@@ -97,6 +99,7 @@ https://yoursite.com/blog/sitemap-news.xml
 ```
 
 You can change the "News Path" to be something other than `sitemap-news.xml` if you wish.
+
 
 ## Images
 

@@ -117,6 +117,51 @@ form:
       value_only: true
       placeholder_value: '/ignore-this-route'
 
+    include_news_tags:
+      type: toggle
+      label: PLUGIN_SITEMAP.INCLUDE_NEWS_TAGS
+      help: PLUGIN_SITEMAP.INCLUDE_NEWS_TAGS_HELP
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
+    urlnewsset:
+      type: text
+      default: 'http://www.google.com/schemas/sitemap-news/0.9'
+      label: PLUGIN_SITEMAP.URLNEWSSET
+      help: PLUGIN_SITEMAP.URLNEWSSET_HELP
+
+    news_max_age_days:
+      type: number
+      default: 2
+      size: x-small
+      label: PLUGIN_SITEMAP.NEWS_MAX_AGE_DAYS
+      append: Days
+      validate:
+        type: int
+
+    news_enabled_paths:
+      type: array
+      label: PLUGIN_SITEMAP.NEWS_TAG_PATHS
+      value_only: true
+      placeholder_value: '/news'
+
+    short_date_format:
+      type: toggle
+      label: PLUGIN_ADMIN.SHORT_DATE_FORMAT
+      help: PLUGIN_ADMIN.SHORT_DATE_FORMAT_HELP
+      highlight: 1
+      default: 0
+      options:
+        1: PLUGIN_ADMIN.ENABLED
+        0: PLUGIN_ADMIN.DISABLED
+      validate:
+        type: bool
+
     news_section:
       type: section
       title: Sitemap News

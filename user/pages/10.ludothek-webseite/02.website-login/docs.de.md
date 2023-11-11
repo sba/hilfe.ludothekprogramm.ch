@@ -28,4 +28,4 @@ Sämtliche Inhalte der Website können über den Administrator kontrolliert werd
 
 Nach erfolgter Anmeldung im Administrator wird das Kontrollzentrum angezeigt:
 
-![webseite_administrator_dashboard](../../images/webseite_administrator_dashboard.png)
+![webseite_administrator_dashboard_j4](../../images/webseite_administrator_dashboard_j4.png)
