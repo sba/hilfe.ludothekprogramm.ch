@@ -56,7 +56,7 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 * KAUFPREIS
 * KATALOGPREIS
 * BESCHREIBUNG
-* BESCHREIBUNG_TITEL
+* BESCHREIBUNG-TITEL
 
 **Kunden-Barcode**
 * LUDOTHEK
@@ -64,7 +64,7 @@ Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 * ADRNR
 * VORNAME
 * NACHNAME
-* VORNAME_NACHNAME
+* VORNAME-NACHNAME
 * GRUPPE
 * STRASSE
 * PLZ
