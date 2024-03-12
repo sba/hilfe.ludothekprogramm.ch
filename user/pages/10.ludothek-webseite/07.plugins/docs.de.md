@@ -31,7 +31,7 @@ Mit diesem Plugin ist es möglich, ein zufälliges Zitat gemäss dem definiertem
 
 Die zur Auswahl stehenden Zitate sind unter **Erweiterungen → Plugins** bei den Plugin-Optionen definiert:
 
-![plugin-zitat-settings](../../images/plugin-zitat-settings_j4.png)
+![plugin-zitat-settings](../../images/plugin-zitat-settings.png)
 
 Im Textefeld **Zitate** sind alle zur Auswahl stehenden Zitate definiert. Das Plugin wird mit einer Auswahl an vordefinierten Zitaten ausgeliefert. Sie können nicht erwünschte Zitate löschen oder weitere hinzufügen. Ein einzelnes Zitat muss aus einer Zeile stehen und der Urheber des Zitates mit einem Semikolon getrennt werden. 
 
@@ -60,4 +60,9 @@ Um mehrere Spiele anzuzeigen, wird der Platzhalter **[spiel SPIELNUMMER_1;SPIELN
 
 ![plugin-spiel-editor](../../images/plugin-spiel-multiple-editor.png)
 
+##Inhalt - LUPO Datenschutzerklärung
+
+Mit diesem Plugin kann die Datenschutzerklärung im Text eingefügt werden.
+
+Bei den Plugin-Optionen kann definiert werden, welche Abschnitte der Datenschutzerklärung angezeigt werden sollen.
 
