@@ -8,6 +8,8 @@ visible: true
 
 Unter **System** → **Konfiguration** → **LUPO Spielliste** befindet sich diese Kategorie. Mithilfe der Kategorie **LUPO Spielliste** kann die Seitenansicht bearbeitet werden.
 
+Oder über den Optionen-Button in der LUPO-Komponente:
+![lupo-spielliste](../../images/com_lupo_options_start.png)
 
 ##Kategorien
 ![lupo-spielliste](../../images/com_lupo_options_categories_j4.png)
