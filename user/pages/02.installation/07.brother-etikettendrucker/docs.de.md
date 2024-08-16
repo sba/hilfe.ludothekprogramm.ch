@@ -8,9 +8,7 @@ visible: true
 
 #### Druckertreiber und «P-touch Editor»-Software installieren
 
-Installieren Sie als erstes die Etikettendrucker-Software, welche den Druckertreiber und den P-touch Editor enthält.
-=======
-Installieren Sie als Erstes die Etikettendrucker-Software, welche den Druckertreiber und den P-touch Editor enthält.
+!! Installieren Sie als Erstes die Etikettendrucker-Software, welche den Druckertreiber und den P-touch Editor enthält.
 
 Die Setupdatei kann von unserer Webseite heruntergeladen werden:
 [Download Brother Druckertreiber und P-touch](https://www.ludothekprogramm.ch/brother)
@@ -26,7 +24,7 @@ Diese kann zusammen mit dem LUPO-Setup installiert oder einzeln heruntergeladen 
 
 LUPO nutzt zum Drucken Etiketten, welche in der «P-touch Editor»-Software gestaltet wurden. Damit haben Sie maximale Freiheit bei Layout der Barcode-Etikette. Beispielsweise kann eine eigene Schriftart verwendet werden oder Sie können Ihr Logo auf dem Etikett platzieren.
 
-Bei der Installation von LUPO werden folgende Etiketten-Vorlagedateien in den Ordner C:\Lupo_daten kopiert:
+Bei der Installation von LUPO werden folgende Etiketten-Vorlagedateien in den Ordner `C:\Lupo_daten` kopiert:
 
 ![brother-lbx-dateien](../../images/brother-lbx-dateien.png)
 
@@ -49,44 +47,46 @@ Damit LUPO den Barcode oder Spielnamen mit Inhalt füllen kann müssen die Objek
 Gültige Objektnamen, welche von LUPO mit Inhalt gefüllt werden können
 
 **Spiel-Barcode**
-
-* LUDOTHEK
-* BARCODE
-* SPNR
-* GEBÜHR
-* SPIELNAME
-* AUSFÜHRUNG
-* SPIELNAME-AUSFÜHRUNG
-* ART
-* ARTKURZ
-* ALTER
-* LAGERORT
-* INHALT
-* LIEFERANT
-* HERSTELLER
-* AZSPIELER
-* SPIELDAUER
-* AUSLEIHTAGE
-* KAUFPREIS
-* KATALOGPREIS
-* BESCHREIBUNG
-* BESCHREIBUNG_TITEL
-* BESCHREIBUNG-TITEL
-
+```
+LUDOTHEK
+BARCODE
+SPNR
+GEBÜHR
+SPIELNAME
+AUSFÜHRUNG
+SPIELNAME-AUSFÜHRUNG
+ART
+ARTKURZ
+ALTER
+LAGERORT
+INHALT
+LIEFERANT
+HERSTELLER
+AZSPIELER
+SPIELDAUER
+AUSLEIHTAGE
+KAUFPREIS
+KATALOGPREIS
+BESCHREIBUNG
+BESCHREIBUNG_TITEL
+BESCHREIBUNG-TITEL
+```
 **Kunden-Barcode**
-* LUDOTHEK
-* BARCODE
-* ADRNR
-* VORNAME
-* NACHNAME
-* VORNAME_NACHNAME
-* VORNAME-NACHNAME
-* GRUPPE
-* STRASSE
-* PLZ
-* ORT
-* PLZ-ORT
-* ABOENDDAT
+```
+LUDOTHEK
+BARCODE
+ADRNR
+VORNAME
+NACHNAME
+VORNAME_NACHNAME
+VORNAME-NACHNAME
+GRUPPE
+STRASSE
+PLZ
+ORT
+PLZ-ORT
+ABOENDDAT
+```
 
 #### LUPO-Einstellungen
 
