@@ -47,6 +47,7 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 ```
 {{ADRNR}}
 {{PASSWORT}}
+{{ANREDE}}
 {{NACHNAME}}
 {{VORNAME}}
 {{STRASSE}}
