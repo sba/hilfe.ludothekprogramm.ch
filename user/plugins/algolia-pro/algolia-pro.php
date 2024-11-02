@@ -5,6 +5,7 @@ use Composer\Autoload\ClassLoader;
 use Grav\Common\Data\Blueprint;
 use Grav\Common\Data\Blueprints;
 use Grav\Common\Data\Data;
+use Grav\Common\Filesystem\Folder;
 use Grav\Common\Grav;
 use Grav\Common\Language\Language;
 use Grav\Common\Page\Interfaces\PageInterface;
@@ -91,11 +92,15 @@ class AlgoliaProPlugin extends Plugin
      */
     public function onRegisterFlex(FlexRegisterEvent $event): void
     {
+        /** @var UniformResourceLocator $locator */
+        $locator = $this->grav['locator'];
+
         $configFile = 'algolia-pro.yaml';
-        if (!file_exists("config://plugins/{$configFile}")) {
-            /** @var UniformResourceLocator $locator */
-            $locator = $this->grav['locator'];
-            $file = YamlFile::instance($locator->findResource('config://plugins/') . '/' . $configFile);
+        $pluginsConfigPath = $locator->findResource("config://", true, false) . '/plugins';
+        $configFilePath = "{$pluginsConfigPath}/{$configFile}";
+
+        if (!file_exists($configFilePath)) {
+            $file = YamlFile::instance($configFilePath);
             $file->save(['indexes' => $this->config()['indexes'] ?? null]);
             $file->free();
         }

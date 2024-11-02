@@ -113,7 +113,7 @@ Die **SetupPOS** Software für einen EPSON oder Bixolon Bondrucker kann durch Dr
 #### Datensicherung
 Die Datensicherungsdatei (LupoSave2014-08-11_10-41.rar), welche am eingestellten Ort (z.B. der Laufwerksbuchstabe des USB-Sticks) gespeichert wird, ist stets eine Kopie der zuvor im Backup-Arbeitsverzeichnis erstellten Sicherung.
 
-Ohne einen eingetragenen Wert wird der Ordner C:\\Lupo{{LUPO_VERSION_SHORT}}\backup verwendet. Es kann ein beliebiger verfügbarer Pfad eingetragen werden, z.B. ein Dropbox- oder OneDrive Ordner, um so die Sicherungs-Dateien automatisch neben der USB-Stick Sicherung noch Ihrem Cloud-Storage Account hinzuzufügen.
+Ohne einen eingetragenen Wert wird der Ordner C:\\Lupo13\backup verwendet. Es kann ein beliebiger verfügbarer Pfad eingetragen werden, z.B. ein Dropbox- oder OneDrive Ordner, um so die Sicherungs-Dateien automatisch neben der USB-Stick Sicherung noch Ihrem Cloud-Storage Account hinzuzufügen.
 
 Unter Run Shell Command kann ein benutzerdefiniertes Script, z. B. ein Batch (.bat) oder eine VBScript-Datei (.vbs) definiert werden. Ist ein Pfad zu einer Datei eingetragen so wird dieser Befehl beim Sichern ausgeführt anstelle der LUPO Sicherung per WinRAR.
 

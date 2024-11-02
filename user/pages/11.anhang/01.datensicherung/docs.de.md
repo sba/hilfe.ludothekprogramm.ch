@@ -8,7 +8,7 @@ visible: true
 
 ##Backup erstellen
 
-Standardmässig speichert LUPO alle Benutzer-Daten im Ordner **C:\\Lupo_Daten**. In diesem Verzeichnis sind die Datenbank **{{LupoXX_Daten.accdb}}**, die Logo-Dateien, Spiel-Fotos und Spielanleitungen abgelegt. Die Datensicherung, welche beim entsprechenden Punkt im Beenden-Assistent durchgeführt wird, enthält aber nur die Daten-Datei. Eine Sicherung mit allen Benutzer-Daten kann manuell erstellt werden. Klicken Sie dazu im Menüband auf den Knopf Datensicherung:
+Standardmässig speichert LUPO alle Benutzer-Daten im Ordner **C:\\Lupo_Daten**. In diesem Verzeichnis sind die Datenbank **Lupo13_Daten.accdb**, die Logo-Dateien, Spiel-Fotos und Spielanleitungen abgelegt. Die Datensicherung, welche beim entsprechenden Punkt im Beenden-Assistent durchgeführt wird, enthält aber nur die Daten-Datei. Eine Sicherung mit allen Benutzer-Daten kann manuell erstellt werden. Klicken Sie dazu im Menüband auf den Knopf Datensicherung:
 
 ![datensicherung](../../images/ribbon_sicherung.png)
 
@@ -35,7 +35,7 @@ Falls die LUPO-Einstellung Jeder Sicherung einen anderen Namen geben aktiviert i
 
 Der erste Button (USB-Stick) öffnet den im LUPO als externes Speichermedium definierter Pfad.
 
-Der zweite Knopf (Smiley) öffnet das lokale Standard-Backupverzeichnis **C:\\Lupo{{LUPO_VERSION_SHORT}}\Backup**.
+Der zweite Knopf (Smiley) öffnet das lokale Standard-Backupverzeichnis **C:\\Lupo13\Backup**.
 
 Mit dem dritten Knopf (Ordner) wird das Fenster zur Auswahl eines Ordners angezeigt. Wählen Sie z.B. unter „Arbeitsplatz" den USB-Speicherstick mit Ihren Sicherungen.
 

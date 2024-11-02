@@ -76,6 +76,17 @@ sitemap:
     ignore: true
 ```
 
+## Overrides
+
+You can override several elements of the sitemap entry for the page in the page's header. For example, as well as `ignore` mentioned above, these are available:
+
+```yaml
+sitemap:
+  lastmod:      # e.g. '2024-04-17'
+  changefreq:   # always| hourly | daily:  | weekly | monthly | yearly | never
+  priority:     # 0.1 -> 1.0
+```
+
 ## Multi-Language Support
 
 The latest Sitemap `v3.0` includes all new multi-language support utilizing the latest [Google Search SEO Recomendations](https://developers.google.com/search/docs/advanced/crawling/localized-versions?hl=en&visit_id=637468720624267418-280936473&rd=2) which creates bi-directional `hreflang` entries for each language available.
@@ -86,8 +97,6 @@ This is handled automatically based on your Grav multi-language System configura
 
 New in version 4.0 of the plugin is support for Google's [**News Sitemap Extension**](https://developers.google.com/search/docs/crawling-indexing/sitemaps/news-sitemap) that uses a specific tags under a `<news:news></news:news>` tag to provide Google News specific data.  When enabled, the news extensions will be enabled when an item is in one of the configured news paths (`/` by default, so all), and if the published date is not older than the configured `max age` (default of 2 per Googles recommendations).
 
-
-=======
 The output of the news tags is controlled by an overridable `sitemap-extensions/news.html.twig` template.
 
 The default behavior when **Include News Tags** is enabled, is to  include the news tags directly in the primary `sitemap.xml` file.  However, if you enabled the **Standalone News URLs** option, news tags will not be added to the primary `sitemap.xml`, rather, they will be available in standalone paths that contain only the pages in the designated news paths.

@@ -1,3 +1,10 @@
+# v1.0.15
+## 02/03/2024
+
+2. [](#bugfix)
+   * Fixed a long-standing bug when not having a `user/plugins/` already existing [getgrav/grav-plugin-admin#2395](https://github.com/getgrav/grav-plugin-admin/issues/2395)
+
+
 # v1.0.14
 ## 08/02/2023
 
