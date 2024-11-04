@@ -24,7 +24,7 @@ Diese kann zusammen mit dem LUPO-Setup installiert oder einzeln heruntergeladen 
 
 LUPO nutzt zum Drucken Etiketten, welche in der «P-touch Editor»-Software gestaltet wurden. Damit haben Sie maximale Freiheit bei Layout der Barcode-Etikette. Beispielsweise kann eine eigene Schriftart verwendet werden oder Sie können Ihr Logo auf dem Etikett platzieren.
 
-Bei der Installation von LUPO werden folgende Etiketten-Vorlagedateien in den Ordner `C:\Lupo_daten` kopiert:
+Bei der Installation von LUPO werden folgende Etiketten-Vorlagedateien in den Ordner `C:\Lupo_Daten` kopiert:
 
 ![brother-lbx-dateien](../../images/brother-lbx-dateien.png)
 
@@ -40,7 +40,8 @@ Unter dem Reiter Einfügen können Sie frei Texte und Bilder dem Etikett hinzuf�
 
 #### Etiketten einrichten
 
-Damit LUPO den Barcode oder Spielnamen mit Inhalt füllen kann müssen die Objekte mit dem korrekten Objektnamen versehen werden. Klicken Sie dazu im **Einfügen-Modus** mit der rechten Maustaste auf ein Objekt, dann wählen Sie **Eigenschaften**.
+Damit LUPO den Barcode oder Spielnamen mit Inhalt füllen kann, müssen die Objekte mit dem korrekten Objektnamen versehen werden. 
+Klicken Sie dazu im **Einfügen-Modus** mit der rechten Maustaste auf ein Objekt, dann wählen Sie **Eigenschaften**.
 
 ![p-touch-editor-eigenschaften](../../images/brother-p-touch-editor-eigenschaften.png)
 
@@ -110,4 +111,6 @@ Ebenfalls kann im Fenster **Neue Adresse** direkt nach dem Eintippen der Adresse
 
 ![neue_adresse_erfassen](../../images/neue_adresse_erfassen.png)
 
-!! Der QL-800 Etikettendrucker druckt mit dem Thermodirekt-Verfahren. Ein Nachteil von Thermopapier ist, dass die Etiketten mit der Zeit etwas verblassen. Hitze, direktes Sonnenlicht aber auch die Kunststoffausdunstung von Plastikfolien können diesen Prozess noch beschleunigen. Deshalb sollten die Etiketten nicht mit einer Schutzfolie überklebt werden.
+!! Der QL-800 Etikettendrucker druckt mit dem Thermodirekt-Verfahren. 
+Ein Nachteil von Thermopapier ist, dass die Etiketten mit der Zeit etwas verblassen. Hitze, direktes Sonnenlicht aber auch die Kunststoffausdünstung von Plastikfolien können diesen Prozess noch beschleunigen. 
+Deshalb sollten die Etiketten nicht mit einer Schutzfolie überklebt werden.
