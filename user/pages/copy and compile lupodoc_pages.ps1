@@ -15,8 +15,8 @@ $sprache = "de"
 $placeholders = @{
     '{{LUPO_VERSION_YEAR}}' = $version_year
     '{{LUPO_VERSION_SHORT}}' = $version_short
-    '{{Setup_LupoXXXX_YY.exe}}' = 'Setup_Lupo'+$version_year+'_'+$sprache+'.exe'
-    '{{Update_LupoXXXX_YY.exe}}' = 'Update_Lupo'+$version_year+'_'+$sprache+'.exe'
+    '{{Setup_Lupo_LANG.exe}}' = 'Setup_Lupo'+'_'+$sprache+'.exe'
+    '{{Update_Lupo_LANG.exe}}' = 'Update_Lupo'+'_'+$sprache+'.exe'
     '{{LupoXX_Daten.accdb}}' = 'Lupo'+$version_short+'_Daten.accdb'
 }
 

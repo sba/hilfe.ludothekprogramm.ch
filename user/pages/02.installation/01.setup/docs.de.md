@@ -8,7 +8,7 @@ visible: true
 
 !!! Der Windows-Benutzer, mit welchem LUPO später verwendet wird, muss während der Installation über Administrator-Rechte verfügen.
 
-Starten Sie die Datei **{{Setup_LupoXXXX_YY.exe}}** um mit der Installation zu beginnen. Falls die Windows Benutzerkontensteuerung nachfragt, ob die Software installiert werden soll, beantworten Sie dies mit Ja. Folgen Sie nun den Anweisungen des Setup-Assistenten, welcher sie durch die Installation führen wird.
+Starten Sie die Datei **{{Setup_Lupo_LANG.exe}}** um mit der Installation zu beginnen. Falls die Windows Benutzerkontensteuerung nachfragt, ob die Software installiert werden soll, beantworten Sie dies mit Ja. Folgen Sie nun den Anweisungen des Setup-Assistenten, welcher sie durch die Installation führen wird.
 
 ![Install](../../images/install-welcome.png)
 
