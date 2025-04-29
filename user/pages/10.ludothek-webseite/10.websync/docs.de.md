@@ -9,9 +9,14 @@ visible: true
 Auf der Webseite kann der Ausleihhstatus (verfügbar/reserviert/ausgeliehen) des Spiels angezeigt werden:
 ![ausleihstatus-website](../../images/ausleihstatus-website.png)
 
+- grün = Spiel ist verfügbar
+- rot = Spiel ist ausgeliehen
+- orange = Spiel ist reserviert
+
+
 Neben dem Ausleihstatus ist das WebSync Programm auch zuständig zur Übermittlung der vom Kunden ausgeliehenen Spiele (für Kundenlogin auf der Webseite) sowie zum Einlesen der durch den Kunden online getätigten Verlängerungen.
 
-##WebSync einrichten
+## WebSync einrichten
 
 Das WebSync-Programm kann im Fenster **Joomla / Internetexport** konfiguriert und gestartet werden.
 
@@ -69,7 +74,7 @@ Derselbe Wert muss im Joomla-Administrator bei den LUPO-Optionen gespeichert wer
 Falls bei Quarantäne-Tage eine Zahl eingetragen ist gelten zurückgebrachte Spiele für die Anzahl eingetragenen Tages über das Rückgabedatum hinaus als ausgeliehen.
 
 
-##Einstellungen in Joomla  
+## Einstellungen in Joomla  
 
 Im Joomla-Administrator kann unter **System → Konfiguration → LUPO Spielliste** im Reiter **Online-Dienste** folgendes definiert werden:
 
