@@ -12,7 +12,7 @@ visible: true
 
 Falls Microsoft Office 2010 vor der LUPO-Installation noch nie gestartet wurde erscheint beim ersten Start von LUPO ein Fenster Microsoft Office schützen und verbessern. Wählen Sie Empfohlene Einstellungen verwenden oder Nur Updates installieren.
 
-##Daten einer alten LUPO Installation übernehmen
+## Daten einer alten LUPO Installation übernehmen
 
 LUPO {{LUPO_VERSION_YEAR}} kann nicht mit den Original-Daten einer Vorgängerversion arbeiten. Deshalb muss die Daten-Datei einmalig ins aktuelle Datenbank-Format (accdb-Datei) konvertiert werden.
 Starten Sie dazu das LUPO Update Programm (Windows-Taste <kbd>⊞</kbd> drücken, dann nach LUPO Daten-Update suchen):
