@@ -101,11 +101,14 @@ Dies sind definitiv zu alte Windows-Versionen. Sie benötigen einen neueren PC!
 #### Microsoft-Access 2010 Runtime (32 Bit)
 
 Mit dem Softwarepaket LUPO wird eine Access-Runtime Version mitgeliefert. Sie benötigen also keine installierte Access-Vollversion damit LUPO auf Ihrem Computer läuft.
+Die Access-Runtime ist eine abgespeckte Version von Microsoft Access, die es ermöglicht, Access-Datenbanken auszuführen, ohne dass die vollständige Access-Anwendung installiert sein muss.
+Die Access-Runtime 2010 ist im Setup enthalten. Sie können aber auch die aktuelle Access Runtime von Microsoft herunterladen und installieren. Diese muss jedoch zwingend in der 32-Bit Version installiert werden, da LUPO eine 32-Bit Anwendung ist.
 
 #### Microsoft Office 64 Bit
 
-Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer 32-Bit Office-Umgebung. Das Betriebssystem hingegen darf 64 Bit sein. Das Problem an 64-Bit ist, dass das für den Bondrucker notwendige ocx nicht in einer 64-Bit Version angeboten wird.
+Es darf kein 64-Bit Office installiert sein, LUPO läuft NUR in einer 32-Bit Office-Umgebung. Die Microsoft-Access 2010 Runtime (32 Bit) kann parallel zu einem neuern 64-Bit Office installiert werden. 
+Das Problem an 64-Bit ist, dass das für den Bondrucker notwendige ocx von EPSON nicht in einer 64-Bit Version angeboten wird.
 
-#### Microsoft Office 2013 / 2016 / 2019 / 2021
+#### Microsoft Office 2013 / 2016 / 2019 / 2021 / 2024
 
-Auch wenn eine neuere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls ein Access installiert ist, dann kann das LUPO auch mit der neueren Access-Version geöffnet werden. Wichtig ist dabei, dass es eine 32-Bit Installation ist. 
+Auch wenn eine neuere Office-Version als 2010 installiert ist, funktioniert LUPO einwandfrei. Falls ein Access installiert ist, kann das LUPO auch mit der neueren Access-Version geöffnet werden. Wichtig ist dabei, dass es eine 32-Bit Installation ist. 
