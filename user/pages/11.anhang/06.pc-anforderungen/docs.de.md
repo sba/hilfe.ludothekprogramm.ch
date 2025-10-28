@@ -1,5 +1,5 @@
 ---
-title: 'Technische Informationen'
+title: 'PC-Anforderungen und Peripherie'
 taxonomy:
     category:
         - docs
@@ -8,17 +8,9 @@ visible: true
 
 #### Computeranforderungen
 
-LUPO ist eine MS-Access 2010 Datenbank und läuft auf jedem PC mit Windows 10 oder höher.
+LUPO ist eine Microsoft Access Datenbank und läuft auf jedem PC mit Windows 10 oder höher.
 
-Ihr Computer muss mindestens folgenden Anforderungen entsprechen:
-
-- Windows 10 (Version 22H2) 
-- Core i3 7th Gen
-- 4 GB Arbeitsspeicher / 500 MB freier Festplattenspeicher 
-- 4 x USB-Anschluss (für Datensicherung auf USB-Stick / Drucker / Bondrucker / Barcodescanner) 
-- Bildschirmauflösung min. 1280 x 768 Pixel
-
-Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leistungsmerkmale aufweisen:
+Ihr Computer sollte die folgenden minimalen Leistungsmerkmale aufweisen:
 
 - Windows 11
 - Core i3 10th Gen 
@@ -26,6 +18,10 @@ Falls Sie sich einen neuen Computer anschaffen, sollte er folgende minimale Leis
 - 128 GB Festplatte oder SSD 
 - 6 x USB 2.0 Anschluss, 2 x USB 3.0 
 - Bildschirmauflösung 1920 x 1080 Pixel
+
+### Microsoft 365 Access Runtime
+
+Microsoft 365 Access Runtime ist eine kostenlose Software, die es ermöglicht, Microsoft Access-Datenbanken auf einem Computer ohne Microsoft Office zu öffnen und zu bearbeiten. Sie ist für die Nutzung von LUPO erforderlich, da LUPO eine Microsoft Access-Datenbank ist. Es muss die 32-Bit-Version von Microsoft 365 Access Runtime installiert sein.
 
 #### Bondrucker
 
