@@ -58,6 +58,7 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 {{ABOENDE}}
 {{ABONAME}}
 {{LOGINLINK}}
+{{MAXJOURID}}
 {{SPIELE}}
 {{SPIELE_RES}}
 {{LUDOTHEK}}
@@ -71,6 +72,8 @@ Es können Platzhalter im Stil von {{ADRNR}} in die Brieftexte E-Mailbetreff und
 {{MITARBEITERIN}}
 {{HEUTE}}
 {{HEUTE_LANG}}
+{{JAHR}}
+
 ```
 
 !! ACHTUNG: Einige Platzhalter werden nicht überall unterstützt
