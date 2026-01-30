@@ -60,6 +60,15 @@ Um mehrere Spiele anzuzeigen, wird der Platzhalter **[spiel SPIELNUMMER_1;SPIELN
 
 ![plugin-spiel-editor](../../images/plugin-spiel-multiple-editor.png)
 
+Es kann im Shorttag 'tabelle' angegeben werden:
+
+![plugin-spiel-editor](../../images/plugin-spiel-editor-tabelle.png)
+
+Dann werden die Spiel-Informationen in einer Tabelle dargestellt:
+
+![plugin-spiel-editor](../../images/plugin-spiel-tabelle.png)
+
+
 ##Inhalt - LUPO Datenschutzerklärung
 
 Mit diesem Plugin kann die Datenschutzerklärung im Text eingefügt werden.
