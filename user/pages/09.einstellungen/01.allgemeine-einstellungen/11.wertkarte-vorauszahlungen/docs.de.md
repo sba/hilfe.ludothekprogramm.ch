@@ -1,5 +1,5 @@
 ---
-title: 'Wertkarte / Vorauszahlungen'
+title: 'Ausleihkonto'
 taxonomy:
     category:
         - docs
@@ -10,11 +10,11 @@ Gutschriftenkarten können verwendet werden, wenn auf im Voraus bezahlte Ausleih
 
 ![vorauszahlungen](../../../images/vorauszahlungen.png)
 
-#### Gutschriftenkarte
+#### Ausleihkonto
 
-Jeder Kunde hat sein 'normales' Konto und ein Gutschriften-Konto für Ausleihgebühren. Das Gutschriften-Konto wird solange mit den Ausleihgebühren belastet bis es aufgebraucht (0) ist. Kauft ein Kunde eine Gutschriftenkarte, so leistet er eine Vorauszahlung für die Ausleihgebühren. Eine Gutschriftenkarte ist unpersönlich solange sie nicht eingelöst wurde.
+Jeder Kunde hat sein 'normales' Konto (Bargeld) und ein Ausleihkonto-Konto für Vorauszahlungen, in erster Linie um Ausleihgebühren zu bezahlen. Das Gutschriften-Konto wird so lange mit den Ausleihgebühren belastet, bis es aufgebraucht (0) ist. Kauft ein Kunde eine Gutschriftenkarte, so leistet er eine Vorauszahlung für die Ausleihgebühren. Eine Gutschriftenkarte ist unpersönlich, solange sie nicht eingelöst wurde.
 
-Ist das Häkchen bei Die Ludothek verwendet das Gutschriftenkarten-System. (Anzeigen der GS-Elemente) nicht gesetzt, so sind die Knöpfe zum Verkauf und Einlösen von Gutschriften im Ausleihen-Fenster nicht sichtbar.
+Ist das Häkchen bei 'Die Ludothek verwendet das Gutschriftenkarten-System. (Anzeigen der GS-Elemente)' nicht gesetzt, so sind die Knöpfe zum Verkauf und Einlösen von Gutschriften im Ausleihen-Fenster nicht sichtbar.
 
 #### Meldung "Negativer Bar-Kontostand"
 
@@ -24,6 +24,6 @@ Ist das Kontrollkästchen abgewählt, erscheint im Ausleihen-Fenster beim Kunden
 
 #### Meldung "Gutschriftenkonto aufgebraucht"
 
-Ist das Kontrollkästchen Eine Meldung beim Ausleihen anzeigen wenn das Ausleihkonto aufgebraucht ist angekreuzt, stoppt das Programm die Ausleihe und fragt, ob noch eine Gutschriftenkate verkauft werden soll:
+Ist das Kontrollkästchen 'Eine Meldung beim Ausleihen anzeigen, wenn das Ausleihkonto aufgebraucht ist', angekreuzt, stoppt das Programm die Ausleihe und fragt, ob noch eine Gutschriftenkate verkauft werden soll:
 
 ![meldung-konto-aufgebraucht](../../../images/meldung-konto-aufgebraucht.png)
