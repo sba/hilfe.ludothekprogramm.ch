@@ -34,8 +34,8 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
             $name = $lang ?? $language->getLanguage();
         }
 
-        $index = $this->getIndexer($name);
-        $conf->set('name', $index->getIndexName());
+        $index_name = $this->getIndexer($name);
+        $conf->set('name', $index_name);
 
         return $conf->toArray();
     }
@@ -62,11 +62,12 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
 
         unset($options['indexes']);
 
-        $index = $this->getIndexer($name);
+        $index_name = $this->getIndexer($name);
 
-        $index->setSettings($this->index_configuration->get('search_params'));
+        $this->search_client->setSettings($index_name, $this->index_configuration->get('search_params'));
 
-        return $index->search($query, $options);
+        $search_params = array_merge(['query' => $query], $options);
+        return $this->search_client->searchSingleIndex($index_name, $search_params);
     }
 
     /**
@@ -136,8 +137,8 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
     {
         if ($this->production_mode) {
             $name = $options['lang'] ?? $this->name;
-            $index = $this->getIndexer($name);
-            $index->clearObjects();
+            $index_name = $this->getIndexer($name);
+            $this->search_client->clearObjects($index_name);
         }
         return [];
     }
@@ -204,17 +205,17 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
                 $lang = $object->language() ?? $language->getLanguage();
             }
 
-            $index = $this->getIndexer($lang);
-            $objectIDs = $this->getObjectsByDistinct($records[0], $index);
+            $index_name = $this->getIndexer($lang);
+            $objectIDs = $this->getObjectsByDistinct($records[0], $index_name);
 
             if ($this->production_mode) {
                if (!empty($objectIDs)) {
-                    $index->deleteObjects($objectIDs);
+                    $this->search_client->deleteObjects($index_name, $objectIDs);
                }
 
                if ($update) {
                    try {
-                       $index->saveObjects($records);
+                       $this->search_client->saveObjects($index_name, $records);
                    } catch (MissingObjectId $e) {
                        return ['status' => 'error', 'message' => $e->getMessage()];
                    }
@@ -248,7 +249,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
 
         $lang = $options['lang'] ?? null;
         $route = $options['route'] ?? null;
-        $index = $this->getIndexer($lang);
+        $index_name = $this->getIndexer($lang);
         $collection = [];
 
         if ($route) {
@@ -269,7 +270,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
         $steps = count($collection);
 
         if ($callback = $this->getProgressCallback()) {
-            $callback($steps, 'Index Config: <yellow>' . $this->name . '</yellow> | Algolia Index: <yellow>' . $index->getIndexName() . '</yellow>');
+            $callback($steps, 'Index Config: <yellow>' . $this->name . '</yellow> | Algolia Index: <yellow>' . $index_name . '</yellow>');
         }
 
         foreach ($collection as $page) {
@@ -360,9 +361,7 @@ class GravPageSearch extends BaseSearch implements AlgoliaProClassInterface
         }
 
         if ($this->production_mode && !empty($records)) {
-            $index->partialUpdateObjects($records, [
-                'createIfNotExists' => true
-            ]);
+            $this->search_client->partialUpdateObjects($index_name, $records, true);
         }
 
         return $status;

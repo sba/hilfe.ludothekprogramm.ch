@@ -109,3 +109,5 @@ PLUGIN_ALGOLIA_PRO:
   ERROR:
     LAYOUT_NOT_FOUND: "Layout Not Found"
   SKIP_EMPTY_CONTENT: Skip Empty Content
+  INDEXES: Indexes
+  INDEXES_HELP: "Add, edit, and remove the Algolia indexes the plugin will populate. Each index maps to a search class with its own type-specific configuration."

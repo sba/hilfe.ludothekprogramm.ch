@@ -212,13 +212,13 @@ class CrawlPageSearch extends GravPageSearch
         /** @var Pages $pages */
         $pages = $grav['pages'];
 
-        $index = $this->getIndexer($lang);
+        $index_name = $this->getIndexer($lang);
         $status = [];
         $records = [];
         $steps = count($responses);
 
         if ($callback = $this->getProgressCallback()) {
-            $callback($steps, 'Index Config: <yellow>' . $this->name . '</yellow> | Algolia Index: <yellow>' . $index->getIndexName() . '</yellow>');
+            $callback($steps, 'Index Config: <yellow>' . $this->name . '</yellow> | Algolia Index: <yellow>' . $index_name . '</yellow>');
         }
 
         foreach ($responses as $response) {
@@ -250,9 +250,7 @@ class CrawlPageSearch extends GravPageSearch
 
 
         if ($this->production_mode !== false && !empty($records)) {
-            $index->partialUpdateObjects($records, [
-                'createIfNotExists' => true
-            ]);
+            $this->search_client->partialUpdateObjects($index_name, $records, true);
         }
 
         return $status;

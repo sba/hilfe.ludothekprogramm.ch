@@ -1,3 +1,26 @@
+# v1.2.0
+## 05/04/2026
+
+1. [](#new)
+   * Added Grav 2.0 compatibility 
+   * Added Admin2 + API compatibility
+
+# v1.1.1
+## 02/24/2026
+
+2. [](#bugfix)
+   * Fixed missing `Algolia\AlgoliaSearch\Log\DebugLogger` class due to `Log/` directory being excluded from the repository by a global gitignore rule
+
+# v1.1.0
+## 02/24/2026
+
+1. [](#improved)
+   * Upgraded Algolia PHP client library from `v3` to `v4` with updated API usage across all search classes
+   * Updated Twig templates to use `{% apply spaceless %}` for Twig 3 compatibility
+   * Bumped minimum PHP requirement to `8.1`
+   * Replaced `SearchIndex` object usage with direct `SearchClient` method calls (`searchSingleIndex`, `saveObjects`, `deleteObjects`, `partialUpdateObjects`, `clearObjects`, `setSettings`, `getSettings`)
+   * Cleaned up `composer.json` dependencies and added `replace` entries for packages already provided by Grav core
+
 # v1.0.15
 ## 02/03/2024
 

@@ -550,6 +550,10 @@ class Form implements FormInterface, ArrayAccess
         $url = $uri->url;
         $post = $uri->post();
 
+        if (!empty($post['__unique_form_id__'])) {
+            $this->setUniqueId($post['__unique_form_id__']);
+        }
+
         $name = $post['name'] ?? null;
         $task = $post['task'] ?? null;
 
@@ -576,7 +580,11 @@ class Form implements FormInterface, ArrayAccess
         $grav->fireEvent('onFormUploadSettings', new Event(['settings' => &$settings, 'post' => $post]));
 
         $upload = json_decode(json_encode($this->normalizeFiles($_FILES['data'], $settings->name)), true);
-        $filename = $post['filename'] ?? $upload['file']['name'];
+        // Strip any path component from the POST-supplied filename. The admin
+        // controllers already do this; the public form path historically did
+        // not, which let an attacker collide the upload with files outside
+        // the intended destination.
+        $filename = Utils::basename((string) ($post['filename'] ?? $upload['file']['name']));
         $field = $upload['field'];
 
         // Handle errors and breaks without proceeding further
@@ -598,6 +606,21 @@ class Form implements FormInterface, ArrayAccess
                 'status'  => 'error',
                 'message' => sprintf($language->translate('PLUGIN_FORM.FILEUPLOAD_UNABLE_TO_UPLOAD', null),
                     $filename, 'Bad filename')
+            ];
+        }
+
+        // Hard-block page-content extensions regardless of the configurable
+        // dangerous-extensions list. With destination: self@ (the default),
+        // an upload lands in the page directory, and a permissive accept
+        // policy would otherwise let an unauthenticated user overwrite the
+        // page's own .md/.yaml — turning a file upload into arbitrary
+        // page-content takeover (GHSA-w4rc-p66m-x6qq).
+        $extension = strtolower((string) pathinfo($filename, PATHINFO_EXTENSION));
+        if (in_array($extension, ['md', 'yaml', 'yml', 'json', 'twig', 'ini'], true)) {
+            return [
+                'status'  => 'error',
+                'message' => sprintf($language->translate('PLUGIN_FORM.FILEUPLOAD_UNABLE_TO_UPLOAD', null),
+                    $filename, 'File type not allowed')
             ];
         }
 
@@ -661,6 +684,7 @@ class Form implements FormInterface, ArrayAccess
         // Handle file size limits
         $settings->filesize *= self::BYTES_TO_MB; // 1024 * 1024 [MB in Bytes]
         if ($settings->filesize > 0 && $upload['file']['size'] > $settings->filesize) {
+            $grav['log']->warning(sprintf('Form upload rejected: %s (%d bytes) exceeds limit %d bytes', $filename, $upload['file']['size'], $settings->filesize));
             // json_response
             return [
                 'status'  => 'error',
@@ -890,6 +914,16 @@ class Form implements FormInterface, ArrayAccess
             }
 
             $this->data->merge($data);
+        }
+
+        if (!empty($post['__unique_form_id__'])) {
+            $this->setUniqueId($post['__unique_form_id__']);
+        }
+
+        // Ensure file field values are populated from the flash storage before validation.
+        $flash = $this->getFlash();
+        if ($flash->exists()) {
+            $this->setAllFiles($flash);
         }
 
         // Validate and filter data
@@ -1255,6 +1289,10 @@ class Form implements FormInterface, ArrayAccess
         // Get POST data and decode JSON fields into arrays
         $post = $uri->post();
         $post['data'] = $this->decodeData($post['data'] ?? []);
+
+        if (!empty($post['__unique_form_id__'])) {
+            $this->setUniqueId($post['__unique_form_id__']);
+        }
 
         if (empty($post['form-nonce']) || !Utils::verifyNonce($post['form-nonce'], 'form')) {
             throw new RuntimeException('Bad Request: Nonce is missing or invalid', 400);

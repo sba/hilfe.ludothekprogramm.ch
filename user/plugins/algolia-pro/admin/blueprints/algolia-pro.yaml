@@ -1,0 +1,159 @@
+title: PLUGIN_ALGOLIA_PRO.ALGOLIA_PRO_CONFIGURATION
+
+form:
+  validation: loose
+  fields:
+    tabs:
+      type: tabs
+      active: 1
+      fields:
+        plugin_options:
+          type: tab
+          title: PLUGIN_ALGOLIA_PRO.ALGOLIA_OPTIONS
+
+          fields:
+            enabled:
+              type: toggle
+              label: PLUGIN_ADMIN.PLUGIN_STATUS
+              highlight: 1
+              default: 0
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            production_mode:
+              type: toggle
+              label: PLUGIN_ALGOLIA_PRO.PROD_MODE
+              help: PLUGIN_ALGOLIA_PRO.PROD_MODE_HELP
+              highlight: 1
+              default: 0
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            smart_indexing:
+              type: toggle
+              label: PLUGIN_ALGOLIA_PRO.SMART_INDEXING
+              help: PLUGIN_ALGOLIA_PRO.SMART_INDEXING_HELP
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            admin_index_events:
+              type: toggle
+              label: PLUGIN_ALGOLIA_PRO.ADMIN_INDEX_EVENTS
+              help: PLUGIN_ALGOLIA_PRO.ADMIN_INDEX_EVENTS_HELP
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            site_index_events:
+              type: toggle
+              label: PLUGIN_ALGOLIA_PRO.SITE_INDEX_EVENTS
+              highlight: 1
+              default: 1
+              options:
+                1: PLUGIN_ADMIN.ENABLED
+                0: PLUGIN_ADMIN.DISABLED
+              validate:
+                type: bool
+
+            algolia_api_section:
+              type: section
+              title: PLUGIN_ALGOLIA_PRO.ALGOLIA_API
+              underline: true
+
+              fields:
+                application_id:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.APPLICATION_ID
+                  size: medium
+                  validate:
+                    required: true
+                search_only_api_key:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.SEARCH_ONLY_API_KEY
+                  size: medium
+                  validate:
+                    required: true
+                admin_api_key:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.ADMIN_API_KEY
+                  size: medium
+                  validate:
+                    required: true
+
+            core_config_section:
+              type: section
+              title: PLUGIN_ALGOLIA_PRO.CORE_CONFIG
+              underline: true
+
+              fields:
+                base_index_name:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.BASE_INDEX_NAME
+                  size: medium
+                  default: grav
+                  validate:
+                    required: true
+
+                user_agent:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.USER_AGENT
+                  size: medium
+                  default: Grav Algolia Pro Plugin
+                  validate:
+                    required: true
+
+                controller_class:
+                  type: text
+                  label: PLUGIN_ALGOLIA_PRO.CONTROLLER_CLASS
+                  default: Grav\Plugin\AlgoliaPro\AlgoliaProController
+                  validate:
+                    required: true
+
+            indexing_section:
+              type: section
+              title: PLUGIN_ALGOLIA_PRO.INDEXING_SECTION
+              underline: true
+
+              fields:
+                sync.cron_enable:
+                  type: toggle
+                  label: PLUGIN_ALGOLIA_PRO.SCHEDULER
+                  help: PLUGIN_ALGOLIA_PRO.SCHEDULER_DESC
+                  default: 0
+                  highlight: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+
+                sync.cron_at:
+                  type: cron
+                  label: PLUGIN_ALGOLIA_PRO.SCHEDULER_CRON_AT
+                  help: PLUGIN_ALGOLIA_PRO.SCHEDULER_CRON_AT_DESC
+                  default: '0 03 * * *'
+
+        indexes_tab:
+          type: tab
+          title: PLUGIN_ALGOLIA_PRO.INDEXES
+
+          fields:
+            indexes:
+              type: algolia-pro-indexes
+              label: PLUGIN_ALGOLIA_PRO.INDEXES
+              help: PLUGIN_ALGOLIA_PRO.INDEXES_HELP

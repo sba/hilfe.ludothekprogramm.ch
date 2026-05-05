@@ -1,8 +1,20 @@
+# v3.0.0
+## 04/17/2026
+
+1. [](#new)
+    * Added Grav 2.0 / Admin 2.0 support
+
+# v2.2.3
+## 10/29/2025
+
+1. [](#improved)
+   * `intl` php package is no longer required to install Grav
+
 # v2.2.2
 ## 03/21/2025
 
 1. [](#bugfix)
-    * Fix permission warning on Windows [#46](https://github.com/getgrav/grav-plugin-problems/pull/46
+    * Fix permission warning on Windows [#46](https://github.com/getgrav/grav-plugin-problems/pull/46)
 
 # v2.2.1
 ## 03/21/2025

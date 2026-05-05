@@ -19,10 +19,11 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
      */
     public function searchObjects(string $query, array $options = []): array
     {
-        $index = $this->getIndexer($this->getIndexName());
-        $index->setSettings($this->index_configuration->get('search_params'));
+        $index_name = $this->getIndexer($this->getIndexName());
+        $this->search_client->setSettings($index_name, $this->index_configuration->get('search_params'));
 
-        return $index->search($query, $options);
+        $search_params = array_merge(['query' => $query], $options);
+        return $this->search_client->searchSingleIndex($index_name, $search_params);
     }
 
     /**
@@ -38,12 +39,12 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
         $collection = $this->getFilteredCollection();
 
         $steps = count($collection);
-        $index = $this->getIndexer($this->getIndexName());
+        $index_name = $this->getIndexer($this->getIndexName());
         $records = [];
         $status = [];
 
         if ($callback = $this->getProgressCallback()) {
-            $callback($steps, $index->getIndexName() . ' Index');
+            $callback($steps, $index_name . ' Index');
         }
 
         foreach ($collection as $object) {
@@ -76,7 +77,7 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
         }
 
         if ($this->plugin_configuration->get('production_mode') !== false && !empty($records)) {
-            $index->partialUpdateObjects($records, ['createIfNotExists' => true]);
+            $this->search_client->partialUpdateObjects($index_name, $records, true);
         }
 
         return $status;
@@ -88,8 +89,8 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
      */
     public function clearObjects(array $options = []): array
     {
-        $index = $this->getIndexer($this->getIndexName());
-        $index->clearObjects();
+        $index_name = $this->getIndexer($this->getIndexName());
+        $this->search_client->clearObjects($index_name);
 
         return [];
     }
@@ -144,15 +145,15 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
     protected function updateRecord(array $records, FlexObjectInterface $object, bool $update): array
     {
         if (isset($records[0])) {
-            $index = $this->getIndexer($this->getIndexName());
-            $objectIDs = $this->getObjectsByDistinct($records[0], $index);
+            $index_name = $this->getIndexer($this->getIndexName());
+            $objectIDs = $this->getObjectsByDistinct($records[0], $index_name);
             if (!empty($objectIDs)) {
-                $index->deleteObjects($objectIDs);
+                $this->search_client->deleteObjects($index_name, $objectIDs);
             }
 
             if ($update) {
                 try {
-                    $index->saveObjects($records);
+                    $this->search_client->saveObjects($index_name, $records);
                 } catch (MissingObjectId $e) {
                     return ['status' => 'error', 'message' => $e->getMessage()];
                 }

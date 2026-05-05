@@ -4,8 +4,7 @@ declare(strict_types=1);
 
 namespace Grav\Plugin\AlgoliaPro;
 
-use Algolia\AlgoliaSearch\SearchClient;
-use Algolia\AlgoliaSearch\SearchIndex;
+use Algolia\AlgoliaSearch\Api\SearchClient;
 use Grav\Common\Config\Config;
 use Grav\Common\Data\Data;
 use Grav\Common\Filesystem\Folder;
@@ -99,9 +98,9 @@ class BaseSearch
 
     /**
      * @param string|null $index
-     * @return SearchIndex
+     * @return string The Algolia index name
      */
-    protected function getIndexer(?string $index): SearchIndex
+    protected function getIndexer(?string $index): string
     {
         $index_name = $this->getIndexName($index);
         $index_options = $this->index_configuration;
@@ -114,37 +113,38 @@ class BaseSearch
             'snippetEllipsisText' => $index_options->get('search_params.snippetEllipsisText'),
         ];
 
-        $search_index = $this->search_client->initIndex($index_name);
         if ($this->production_mode === true) {
-            $search_index->setSettings($settings);
+            $this->search_client->setSettings($index_name, $settings);
         }
 
-        return $search_index;
+        return $index_name;
     }
 
     /**
      * @param array $record
-     * @param SearchIndex $index
+     * @param string $index_name
      * @return array
      */
-    protected function getObjectsByDistinct(array $record, SearchIndex $index): array
+    protected function getObjectsByDistinct(array $record, string $index_name): array
     {
         $objectIDs = [];
 
         $distinct_field = $this->index_configuration->distinct_field;
         $attribute = $record[$distinct_field] ?? null;
 
-        $backup_settings = $delete_settings = $index->getSettings();
+        $backup_settings = $this->search_client->getSettings($index_name);
+        $delete_settings = $backup_settings;
         $delete_settings['searchableAttributes'] = [$distinct_field];
-        $index->setSettings($delete_settings);
+        $this->search_client->setSettings($index_name, $delete_settings);
 
-        $results = $index->search($attribute, [
+        $results = $this->search_client->searchSingleIndex($index_name, [
+            'query' => $attribute,
             'attributesToRetrieve' => ['objectID'],
             'distinct' => 0,
             'attributesToHighlight' => [],
         ]);
 
-        $index->setSettings($backup_settings);
+        $this->search_client->setSettings($index_name, $backup_settings);
 
         if ($results['nbHits'] > 0) {
             foreach ($results['hits'] as $hit) {

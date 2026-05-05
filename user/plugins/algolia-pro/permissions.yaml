@@ -6,7 +6,25 @@ actions:
     type: default
     label: Search Configuration
 
+  api.algolia-pro:
+    type: algolia-pro-access
+    label: Algolia Pro
+
 types:
+  algolia-pro-access:
+    type: compact
+    letters:
+      r:
+        action: read
+        label: Read
+      w:
+        action: write
+        label: Write
+      a:
+        action: admin
+        label: Admin
+
+
   crudl:
     type: crud
     letters:

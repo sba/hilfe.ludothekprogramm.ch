@@ -73,8 +73,105 @@ class AlgoliaProPlugin extends Plugin
             'onAlgoliaProIndexData'        => ['onAlgoliaProIndexData', 0],
             'onAlgoliaProRegisterSearch'   => ['onAlgoliaProRegisterSearch', 0],
             'onSchedulerInitialized'       => ['onSchedulerInitialized', 0],
+
+            // Page-blueprint extension — registered globally (not gated on
+            // isAdmin) so the API plugin's blueprint resolver also picks up
+            // the per-page Algolia tab when admin-next requests page
+            // blueprints. Harmless on the frontend.
+            'onBlueprintCreated'           => ['onBlueprintCreated', 0],
+
+            // Admin-Next (API plugin) integration
+            'onApiRegisterRoutes'          => ['onApiRegisterRoutes', 0],
+            'onApiSidebarItems'            => ['onApiSidebarItems', 0],
+            'onApiPluginPageInfo'          => ['onApiPluginPageInfo', 0],
         ];
     }
+
+    /**
+     * Register Algolia Pro API routes for admin-next.
+     */
+    public function onApiRegisterRoutes(Event $event): void
+    {
+        $routes = $event['routes'];
+        $controller = \Grav\Plugin\AlgoliaPro\Api\AlgoliaProApiController::class;
+
+        $routes->group('/algolia-pro', function ($group) use ($controller) {
+            $group->get('/data', [$controller, 'data']);
+            $group->patch('/data', [$controller, 'save']);
+            $group->post('/reindex', [$controller, 'reindex']);
+            $group->post('/reset', [$controller, 'reset']);
+            $group->get('/search-types', [$controller, 'searchTypes']);
+        });
+    }
+
+    /**
+     * Add the Algolia Pro entry to the admin-next sidebar.
+     */
+    public function onApiSidebarItems(Event $event): void
+    {
+        if (!$this->config->get('plugins.algolia-pro.enabled', false)) {
+            return;
+        }
+
+        $items = $event['items'] ?? [];
+        $items[] = [
+            'id'       => 'algolia-pro',
+            'plugin'   => 'algolia-pro',
+            'label'    => 'Algolia Pro',
+            'icon'     => 'fa-magnifying-glass',
+            'route'    => '/plugin/algolia-pro',
+            'priority' => 5,
+        ];
+        $event['items'] = $items;
+    }
+
+    /**
+     * Provide the admin-next plugin page definition.
+     *
+     * Blueprint mode renders admin/blueprints/algolia-pro.yaml as the form.
+     * The Reindex / Reset header actions hit the API controller directly with
+     * a confirmation dialog; Save is the primary action.
+     */
+    public function onApiPluginPageInfo(Event $event): void
+    {
+        if ($event['plugin'] !== 'algolia-pro') {
+            return;
+        }
+
+        $event['definition'] = [
+            'id'            => 'algolia-pro',
+            'plugin'        => 'algolia-pro',
+            'title'         => 'Algolia Pro',
+            'icon'          => 'fa-magnifying-glass',
+            'page_type'     => 'blueprint',
+            'blueprint'     => 'algolia-pro',
+            'data_endpoint' => '/algolia-pro/data',
+            'save_endpoint' => '/algolia-pro/data',
+            'actions'       => [
+                [
+                    'id'       => 'reindex',
+                    'label'    => 'Reindex',
+                    'icon'     => 'fa-rotate',
+                    'endpoint' => '/algolia-pro/reindex',
+                    'confirm'  => 'Reindex every enabled Algolia index now? Large sites may take a while.',
+                ],
+                [
+                    'id'       => 'reset',
+                    'label'    => 'Reset Indexes',
+                    'icon'     => 'fa-trash',
+                    'endpoint' => '/algolia-pro/reset',
+                    'confirm'  => 'Clear and rebuild every enabled index from scratch? Existing index data will be discarded.',
+                ],
+                [
+                    'id'      => 'save',
+                    'label'   => 'Save',
+                    'icon'    => 'fa-check',
+                    'primary' => true,
+                ],
+            ],
+        ];
+    }
+
 
     /**
      * [onPluginsInitialized:100000] Composer autoload.
@@ -310,7 +407,6 @@ class AlgoliaProPlugin extends Plugin
             $this->enable([
                 'onAdminMenu'               => ['onAdminMenu', 0],
                 'onAdminTaskExecute'        => ['onAdminTaskExecute', 0],
-                'onBlueprintCreated'        => ['onBlueprintCreated', 0],
             ]);
 
             $this->grav['assets']->addCss('plugin://algolia-pro/assets/admin/algolia-pro.css');
@@ -333,17 +429,29 @@ class AlgoliaProPlugin extends Plugin
 
     public function onSchedulerInitialized(Event $event): void
     {
-        $config = Grav::instance()['config'];
-        $cronEnabled = $config->get('plugins.algolia-pro.sync.cron_enable', false);
-
-        if ($cronEnabled) {
-            $cronAt = $config->get('plugins.algolia-pro.sync.cron_at', '0 03 * * *');
-            /** @var Scheduler $scheduler */
-            $scheduler = $event['scheduler'];
-
-            $job = $scheduler->addFunction('Grav\Plugin\AlgoliaPro\AlgoliaProFactory::index', [], 'AlgoliaPro');
-            $job->at($cronAt);
+        /** @var Scheduler $scheduler */
+        $scheduler = $event['scheduler'] ?? null;
+        if (!$scheduler instanceof Scheduler) {
+            return;
         }
+
+        $config = Grav::instance()['config'];
+        $cronAt = (string) $config->get('plugins.algolia-pro.sync.cron_at', '0 03 * * *');
+
+        // Always register the job so it's visible in the Scheduler admin UI;
+        // gate execution via when() so it only actually runs when the user
+        // has enabled cron-driven indexing in the plugin settings.
+        $job = $scheduler->addFunction(
+            'Grav\\Plugin\\AlgoliaPro\\AlgoliaProFactory::index',
+            [],
+            'algolia-pro-reindex'
+        );
+
+        $job->at($cronAt);
+        $job->onlyOne();
+        $job->output('logs/algolia-pro-reindex.log', true);
+        $job->backlink('algolia-pro');
+        $job->when(static fn() => (bool) Grav::instance()['config']->get('plugins.algolia-pro.sync.cron_enable', false));
     }
 
     // Access plugin events in this class
