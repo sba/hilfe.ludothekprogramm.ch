@@ -49,3 +49,4 @@ try {
     $grav->fireEvent('onFatalException', new Event(array('exception' => $e)));
     throw $e;
 }
+
