@@ -137,7 +137,7 @@ class CrawlPageSearch extends GravPageSearch
      * @throws ServerExceptionInterface
      * @throws TransportExceptionInterface
      */
-    protected function getSiteMapEntries(string $sitemap_url = null, array $languages = []): array
+    protected function getSiteMapEntries(?string $sitemap_url = null, array $languages = []): array
     {
         if (null === $sitemap_url) {
             /** @var Config $config */
@@ -420,7 +420,7 @@ class CrawlPageSearch extends GravPageSearch
      * @param array|null $whitelist
      * @return string
      */
-    public static function cleanHtml(string $html, array $whitelist = null): string
+    public static function cleanHtml(string $html, ?array $whitelist = null): string
     {
         if (libxml_use_internal_errors(true)) {
             libxml_clear_errors();
@@ -475,7 +475,7 @@ class CrawlPageSearch extends GravPageSearch
             }
         }
     }
-    protected function getIndexName(string $index = null): string
+    protected function getIndexName(?string $index = null): string
     {
         if (is_null($index)) {
             $index = 'en';

@@ -12,11 +12,27 @@ namespace Grav;
 \define('GRAV_REQUEST_TIME', microtime(true));
 \define('GRAV_PHP_MIN', '7.3.6');
 
+// Disable deprecation warnings for PHP 8.4+ compatibility
+error_reporting(E_ALL & ~E_DEPRECATED & ~E_USER_DEPRECATED);
+
 if (PHP_SAPI === 'cli-server') {
     $symfony_server = stripos(getenv('_'), 'symfony') !== false || stripos($_SERVER['SERVER_SOFTWARE'] ?? '', 'symfony') !== false || stripos($_ENV['SERVER_SOFTWARE'] ?? '', 'symfony') !== false;
 
     if (!isset($_SERVER['PHP_CLI_ROUTER']) && !$symfony_server) {
         die("PHP webserver requires a router to run Grav, please use: <pre>php -S {$_SERVER['SERVER_NAME']}:{$_SERVER['SERVER_PORT']} system/router.php</pre>");
+    }
+}
+
+// Maintenance mode during core upgrade
+if (file_exists(__DIR__ . '/.upgrading')) {
+    if (time() - filemtime(__DIR__ . '/.upgrading') > 300) {
+        @unlink(__DIR__ . '/.upgrading'); // Stale flag (>5 min), remove it
+    } else {
+        http_response_code(503);
+        header('Retry-After: 60');
+        echo '<!DOCTYPE html><html><head><title>Upgrading</title></head>';
+        echo '<body><h1>Site Upgrading</h1><p>Please try again in a moment.</p></body></html>';
+        exit;
     }
 }
 
@@ -49,4 +65,3 @@ try {
     $grav->fireEvent('onFatalException', new Event(array('exception' => $e)));
     throw $e;
 }
-

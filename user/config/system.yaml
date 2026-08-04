@@ -132,7 +132,7 @@ assets:
   collections:
     jquery: 'system://assets/jquery/jquery-2.x.min.js'
 errors:
-  display: true
+  display: 0
   log: true
 log:
   handler: file

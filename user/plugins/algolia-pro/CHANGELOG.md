@@ -1,8 +1,26 @@
+# v1.2.3
+## 06/19/2026
+
+1. [](#bugfix)
+   * Fixed PHP 8.4 deprecation warnings from implicitly nullable function parameters.
+
+# v1.2.2
+## 05/29/2026
+
+1. [](#bugfix)
+   * The Algolia Pro sidebar entry is now hidden from users who don't have any Algolia Pro permission. Requires grav-plugin-api ≥ 1.0.0-rc.11.
+
+# v1.2.1
+## 05/05/2026
+
+1. [](#bugfix)
+   * Algolia Pro no longer shows a duplicate untranslated `PLUGIN_ALGOLIA_PRO.ALGOLIA_PRO` row at the bottom of the admin-next sidebar. The plugin already registers its own dedicated entry, and the redundant auto-registered flex menu row is now suppressed via the new `hidden_in_admin_next` flag (requires flex-objects ≥ 1.4.0-rc.2).
+
 # v1.2.0
 ## 05/04/2026
 
 1. [](#new)
-   * Added Grav 2.0 compatibility 
+   * Added Grav 2.0 compatibility
    * Added Admin2 + API compatibility
 
 # v1.1.1
@@ -40,12 +58,12 @@
 
 2. [](#bugfix)
    * Fixed an issue with an unpublished page getting indexed
-   
+
 # v1.0.12
 ## 05/10/2023
 
 2. [](#bugfix)
-   * Fix issue when indexing via Admin and the browser's language is not set to the default language of the Grav site causing wrong pages in browser language to be indexed into the default language algolia index. 
+   * Fix issue when indexing via Admin and the browser's language is not set to the default language of the Grav site causing wrong pages in browser language to be indexed into the default language algolia index.
 
 # v1.0.11
 ## 05/03/2023

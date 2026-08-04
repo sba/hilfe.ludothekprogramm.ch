@@ -37,6 +37,10 @@ config:
         icon: fa-clock-o
         authorize: ['admin.search.list', 'admin.super']
         priority: 1
+        # admin-next has its own dedicated Algolia Pro entry registered via
+        # algolia-pro.php's onApiSidebarItems — suppress the generic flex
+        # auto-registration to avoid a duplicate row.
+        hidden_in_admin_next: true
 
     # Admin template type (folder)
     template: search

@@ -171,7 +171,7 @@ abstract class FlexSearch extends BaseSearch implements AlgoliaProClassInterface
      * @param string|null $index
      * @return string
      */
-    protected function getIndexName(string $index = null): string
+    protected function getIndexName(?string $index = null): string
     {
         $index_name = $this->plugin_configuration->get('base_index_name');
         if (!is_string($index_name)) {

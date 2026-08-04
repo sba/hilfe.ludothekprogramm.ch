@@ -37,7 +37,7 @@ class BaseSearch
      * @param Data $index_config
      * @param callable|null $progress_callback
      */
-    public function __construct(string $name, Data $index_config, callable $progress_callback = null)
+    public function __construct(string $name, Data $index_config, ?callable $progress_callback = null)
     {
         /** @var Config $config */
         $config = Grav::instance()['config'];

@@ -115,12 +115,13 @@ class AlgoliaProPlugin extends Plugin
 
         $items = $event['items'] ?? [];
         $items[] = [
-            'id'       => 'algolia-pro',
-            'plugin'   => 'algolia-pro',
-            'label'    => 'Algolia Pro',
-            'icon'     => 'fa-magnifying-glass',
-            'route'    => '/plugin/algolia-pro',
-            'priority' => 5,
+            'id'        => 'algolia-pro',
+            'plugin'    => 'algolia-pro',
+            'label'     => 'Algolia Pro',
+            'icon'      => 'fa-magnifying-glass',
+            'route'     => '/plugin/algolia-pro',
+            'priority'  => 5,
+            'authorize' => ['api.algolia-pro', 'api.algolia-pro.read', 'api.algolia-pro.write', 'api.algolia-pro.admin'],
         ];
         $event['items'] = $items;
     }
