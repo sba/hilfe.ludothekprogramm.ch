@@ -1,0 +1,36 @@
+:root {
+    --algolia-pro-accent: #76429c;
+}
+
+[data-algolia-pro] {
+    ul, li {
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+
+    .caret-algolia-pro {
+        caret-color: var(--algolia-pro-accent);
+    }
+
+    .text-algolia-pro {
+        color: var(--algolia-pro-accent);
+    }
+
+    .bg-algolia-pro {
+        background-color: var(--algolia-pro-accent);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        @apply rounded-md;
+    }
+
+    input[type="search"] {
+        &::-webkit-search-decoration,
+        &::-webkit-search-cancel-button,
+        &::-webkit-search-results-button,
+        &::-webkit-search-results-decoration {
+            display: none;
+        }
+    }
+}

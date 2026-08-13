@@ -1,0 +1,273 @@
+title: PLUGIN_ALGOLIA_PRO.COMMON_CONFIGURATION
+
+form:
+  fields:
+    core_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.CORE_OPTIONS
+      underline: true
+      fields:
+        search_class:
+          type: text
+          label: PLUGIN_ALGOLIA_PRO.SEARCH_CLASS
+          default: Grav\Plugin\AlgoliaPro\CustomSearchClass
+          validate:
+            required: true
+        distinct_field:
+          type: text
+          label: PLUGIN_ALGOLIA_PRO.DISTINCT_FIELD
+          placeholder: url
+          default: url
+          size: medium
+          validate:
+            required: true
+        searchable_fields:
+          type: array
+          label: PLUGIN_ALGOLIA_PRO.SEARCHABLE_FIELDS
+          value_only: true
+          default: [ title, url, content ]
+          validate:
+            required: true
+
+    search_params_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.SEARCH_PARAMS
+      underline: true
+      fields:
+        search_params.hitsPerPage:
+          type: number
+          label: PLUGIN_ALGOLIA_PRO.HITS_PER_PAGE
+          min: 5
+          max: 100
+          default: 20
+          append: PLUGIN_ALGOLIA_PRO.HITS
+          size: medium
+          validate:
+            required: true
+
+        search_params.distinct:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.DISTINCT
+          highlight: 1
+          default: 0
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+
+        search_params.snippetEllipsisText:
+          type: text
+          label: PLUGIN_ALGOLIA_PRO.SNIPPET_ELLIPSIS_TEXT
+          default: '…'
+          size: medium
+          validate:
+            required: true
+
+        search_params.attributesToSnippet:
+          type: array
+          label: PLUGIN_ALGOLIA_PRO.ATTR_TO_SNIPPET
+          default: [ 'content:50' ]
+          value_only: true
+          validate:
+            required: true
+
+    content_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.CONTENT_PARAMS
+      underline: true
+      fields:
+        content.valid_headers:
+          type: array
+          label: PLUGIN_ALGOLIA_PRO.VALID_HEADERS
+          default: [ h1, h2, h3, h4 ]
+          value_only: true
+          validate:
+            required: true
+
+        content.split_length:
+          type: number
+          size: medium
+          label: PLUGIN_ALGOLIA_PRO.CHUNK_SIZE
+          default: 1000
+          append: PLUGIN_ALGOLIA_PRO.CHARS
+          validate:
+            required: true
+        content.skip_empty:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.SKIP_EMPTY_CONTENT
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+
+    interface_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.UI_PARAMS
+      underline: true
+      fields:
+        interface.css:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.CSS
+          help: PLUGIN_ALGOLIA_PRO.CSS_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        interface.debounce:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.DEBOUNCE
+          help: PLUGIN_ALGOLIA_PRO.DEBOUNCE_DESC
+          highlight: 0
+          default: 0
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+        interface.accent:
+          type: colorpicker
+          label: PLUGIN_ALGOLIA_PRO.ACCENT_COLOR
+          help: PLUGIN_ALGOLIA_PRO.ACCENT_COLOR_DESC
+          default: '#3B82F6'
+        interface.appearance:
+          type: select
+          label: PLUGIN_ALGOLIA_PRO.APPEARANCE
+          help: PLUGIN_ALGOLIA_PRO.APPEARANCE_DESC
+          size: medium
+          default: system
+          options:
+            system: PLUGIN_ALGOLIA_PRO.SYSTEM_DEFAULT
+            light: PLUGIN_ALGOLIA_PRO.LIGHT_STYLE
+            dark: PLUGIN_ALGOLIA_PRO.DARK_STYLE
+        interface.stats:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.RESULT_STATS
+          help: PLUGIN_ALGOLIA_PRO.RESULT_STATS_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.subtitle:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.SUBTITLE
+          help: PLUGIN_ALGOLIA_PRO.SUBTITLE_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.warm_connection:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.WARM_CONNECTION
+          help: PLUGIN_ALGOLIA_PRO.WARM_CONNECTION_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.lang:
+          type: array
+          label: PLUGIN_ALGOLIA_PRO.LANG_STRINGS
+          help: PLUGIN_ALGOLIA_PRO.LANG_STRINGS_DESC
+    preview_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.PREVIEW_OPTIONS
+      underline: false
+      fields:
+        interface.preview.enabled:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.PREVIEW_ENABLED
+          help: PLUGIN_ALGOLIA_PRO.PREVIEW_ENABLED_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.preview.toc:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.TOC_ENABLED
+          help: PLUGIN_ALGOLIA_PRO.TOC_ENABLED_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+    footer_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.FOOTER_OPTIONS
+      underline: false
+      fields:
+        interface.footer.enabled:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.FOOTER_ENABLED
+          help: PLUGIN_ALGOLIA_PRO.FOOTER_ENABLED_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.footer.pagination:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.PAGINATION
+          help: PLUGIN_ALGOLIA_PRO.PAGINATION_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.footer.algolia_copy:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.ALGOLIA_COPY
+          help: PLUGIN_ALGOLIA_PRO.ALGOLIA_COPY_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+        interface.footer.algolia_pro_copy:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.ALGOLIA_PRO_COPY
+          help: PLUGIN_ALGOLIA_PRO.ALGOLIA_PRO_COPY_DESC
+          highlight: 1
+          default: 1
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool
+    advanced_section:
+      type: section
+      title: PLUGIN_ALGOLIA_PRO.ADVANCED_OPTIONS
+      underline: false
+      fields:
+        interface.advanced.expose_global:
+          type: toggle
+          label: PLUGIN_ALGOLIA_PRO.EXPOSE_GLOBAL_JS
+          help: PLUGIN_ALGOLIA_PRO.EXPOSE_GLOBAL_JS_DESC
+          highlight: 0
+          default: 0
+          options:
+            1: PLUGIN_ADMIN.ENABLED
+            0: PLUGIN_ADMIN.DISABLED
+          validate:
+            type: bool

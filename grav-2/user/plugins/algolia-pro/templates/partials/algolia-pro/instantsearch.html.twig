@@ -1,0 +1,35 @@
+{% if index %}
+
+  {% set settings = algolia_pro_settings(index) %}
+
+
+  {% if settings %}
+    {% use 'algolia-pro/blocks/assets.html.twig' %}
+    {{ block('assets') }}
+
+    <div
+      data-algolia-pro="{{ { app_id: settings.plugin.application_id, api_key: settings.plugin.search_only_api_key, rootUrl: uri.rootUrl, appearance: settings.interface.appearance, warmConnection: settings.interface.warm_connection, debounce: settings.interface.debounce ? 250 : 0, expose: settings.interface.advanced.expose_global }|json_encode|base64_encode }}"
+      :class="algoliaProAppearance"
+      v-show="isOpen"
+    >
+      <ais-instant-search
+        index-name="{{ settings.index_key }}"
+        :search-client="searchClient"
+        :class-names="{
+          'ais-InstantSearch': 'search fixed inset-0 flex justify-center items-start bg-gray-400 bg-opacity-50 z-500 overflow-hidden md:p-8',
+        }"
+      >
+        <div
+          class="md:max-w-4xl w-full flex flex-col justify-between bg-white dark:bg-gray-800 shadow-md md:rounded-lg max-h-screen md:max-h-[min(36rem,calc(100vh-4rem))]"
+          :aria-expanded="isOpen"
+          aria-haspopup="listbox"
+          aria-labelledby="search-label"
+        >
+          {% include 'partials/algolia-pro/instantsearch-scopes.html.twig' %}
+        </div>
+      </ais-instant-search>
+    </div>
+  {% endif %}
+{% else %}
+  <pre>Index is required but missing</pre>
+{% endif %}

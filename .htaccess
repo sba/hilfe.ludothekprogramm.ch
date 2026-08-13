@@ -56,6 +56,8 @@ RewriteCond %{REQUEST_FILENAME} !-f
 # and the requested path and file doesn't directly match a physical folder
 RewriteCond %{REQUEST_FILENAME} !-d
 # internally rewrite the request to the index.php script
+    # migrate-grav stage exclusion
+    RewriteCond %{REQUEST_URI} !/grav-2/
 RewriteRule .* index.php [L]
 ## End - Index
 

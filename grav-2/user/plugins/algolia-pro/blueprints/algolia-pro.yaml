@@ -1,0 +1,48 @@
+form:
+  fields:
+    tabs:
+      fields:
+        advanced:
+          type: tab
+
+          fields:
+            header.algolia-pro-section:
+              type: section
+              title: PLUGIN_ALGOLIA_PRO.ALGOLIA_PRO
+              underline: true
+
+              fields:
+                header.algolia-pro.process:
+                  toggleable: true
+                  type: toggle
+                  label: PLUGIN_ALGOLIA_PRO.INDEX_THIS_PAGE
+                  help: PLUGIN_ALGOLIA_PRO.INDEX_THIS_PAGE_HELP
+                  default: 1
+                  highlight: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                header.algolia-pro.process_children:
+                  toggleable: true
+                  type: toggle
+                  label: PLUGIN_ALGOLIA_PRO.INDEX_CHILD_PAGES
+                  help: PLUGIN_ALGOLIA_PRO.INDEX_CHILD_PAGES_HELP
+                  default: 1
+                  highlight: 1
+                  options:
+                    1: PLUGIN_ADMIN.YES
+                    0: PLUGIN_ADMIN.NO
+                  validate:
+                    type: bool
+                header.algolia-pro.search_params:
+                  toggleable: true
+                  type: array
+                  value_only: true
+                  label: PLUGIN_ALGOLIA_PRO.SEARCH_PARAMS
+                header.algolia-pro.interface:
+                  toggleable: true
+                  type: array
+                  value_only: true
+                  label: PLUGIN_ALGOLIA_PRO.INTERFACE

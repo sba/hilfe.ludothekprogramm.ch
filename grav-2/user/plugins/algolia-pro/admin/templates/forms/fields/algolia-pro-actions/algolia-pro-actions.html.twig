@@ -1,0 +1,8 @@
+{% extends "forms/fields/text/text.html.twig" %}
+
+{% block group %}
+  <span><a href="#" class="button algolia-reindex"><i class="fa fa-fw fa-clock-o"></i> {{ 'PLUGIN_ALGOLIA_PRO.REINDEX'|tu }}</a></span>
+  <span><a href="#" data-remodal-target="reset-indexes" class="button danger algolia-reset"><i class="fa fa-fw fa-trash"></i> {{ 'PLUGIN_ALGOLIA_PRO.RESET_INDEXES'|tu }}</a></span>
+
+  {% include 'partials/reset-modal.html.twig' %}
+{% endblock %}

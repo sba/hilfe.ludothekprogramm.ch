@@ -1,0 +1,13 @@
+{% block assets %}
+    {% if settings.interface.css %}
+        {% do assets.addCss('plugin://algolia-pro/build/css/algolia-pro.css', { priority: 100 }) %}
+    {% endif %}
+    {% do assets.addInlineCss(':root { --algolia-pro-accent: ' ~ settings.interface.accent ~ '; }') %}
+
+    {% if settings.plugin.vue_env != 'development' %}
+        {% do assets.addLink('plugin://algolia-pro/build/js/vendor.js', { rel: 'modulepreload' }) %}
+        {% do assets.addJsModule('plugin://algolia-pro/build/js/algolia-pro.js', { group: 'bottom' }) %}
+    {% else %}
+        {% do assets.addJs('http://' ~ settings.plugin.dev_host ~ ':' ~ settings.plugin.dev_port ~ '/src/main.js', { group: 'bottom', type: 'module'}) %}
+    {% endif %}
+{% endblock %}

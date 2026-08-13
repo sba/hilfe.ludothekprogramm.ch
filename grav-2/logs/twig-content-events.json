@@ -1,0 +1,90 @@
+[
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786608912
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607987
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607958
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607929
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607851
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607834
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607583
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607444
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786607390
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786606729
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786606188
+    }
+]

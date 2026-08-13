@@ -1,0 +1,56 @@
+{
+  "name": "trilbymedia/algolia-pro",
+  "type": "grav-plugin",
+  "description": "Algolia Pro plugin for Grav CMS",
+  "keywords": [
+    "algolia",
+    "search"
+  ],
+  "homepage": "https://github.com/trilbymedia/grav-plugin-algolia-pro",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Trilby Media, LLC",
+      "email": "hello@trilby.media",
+      "homepage": "https://trilby.media",
+      "role": "Developer"
+    }
+  ],
+  "require": {
+    "php": "^8.1",
+    "ext-json": "*",
+    "ext-simplexml": "*",
+    "ext-libxml": "*",
+    "ext-dom": "*",
+    "algolia/algoliasearch-client-php": "^4.0"
+  },
+  "replace": {
+    "psr/http-message": "*",
+    "psr/http-factory": "*",
+    "psr/simple-cache": "*",
+    "psr/log": "*",
+    "guzzlehttp/psr7": "*",
+    "symfony/dom-crawler": "*",
+    "symfony/css-selector": "*",
+    "symfony/polyfill-mbstring": "*",
+    "symfony/polyfill-ctype": "*",
+    "symfony/polyfill-php80": "*",
+    "symfony/polyfill-php81": "*",
+    "symfony/polyfill-php83": "*",
+    "symfony/deprecation-contracts": "*"
+  },
+  "autoload": {
+    "psr-4": {
+      "Grav\\Plugin\\AlgoliaPro\\": "classes/",
+      "Grav\\Plugin\\Console\\": "cli/"
+    },
+    "classmap": [
+      "algolia-pro.php"
+    ]
+  },
+  "config": {
+    "platform": {
+      "php": "8.1"
+    }
+  }
+}
