@@ -3,7 +3,7 @@ return [
     '@class' => 'Grav\\Common\\Service\\ConfigServiceProvider',
     'type' => 'blueprints',
     'environment' => 'localhost',
-    'timestamp' => 1786611815,
+    'timestamp' => 1786623281,
     'check_interval' => 2,
     'directories' => [
         'D:/htdocs/hilfe2.ludothekprogramm.ch/system/blueprints/config' => 1786611372,

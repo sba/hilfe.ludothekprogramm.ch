@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1786612913,
-    'checksum' => 'd396858a5a38264798a747e2d1387571',
+    'timestamp' => 1786623282,
+    'checksum' => 'f1c8a061e4f9b1d61adc9c190fbbf816',
     'files' => [
         'user/config' => [
             'backups' => [
@@ -59,7 +59,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1786612899
+                'modified' => 1786623280
             ],
             'themes/learn4' => [
                 'file' => 'user/config/themes/learn4.yaml',

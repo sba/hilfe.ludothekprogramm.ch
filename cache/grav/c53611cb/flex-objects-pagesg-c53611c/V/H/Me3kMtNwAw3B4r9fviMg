@@ -1,3 +1,0 @@
-1786612449
-02.installation
-O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:12:"installation";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:0:{}s:11:"frontmatter";s:0:"";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:12:"installation";s:11:"storage_key";s:15:"02.installation";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1786611408;s:8:"markdown";a:1:{s:2:"de";a:1:{s:7:"chapter";i:1786611408;}}s:8:"children";a:8:{s:8:"01.setup";b:0;s:15:"02.daten-update";b:0;s:18:"03.update-anzeigen";b:0;s:22:"04.stammdaten-erfassen";b:0;s:23:"05.stammdaten-beispiele";b:0;s:19:"06.dymo-labelwriter";b:0;s:27:"07.brother-etikettendrucker";b:0;s:19:"08.epson-bondrucker";b:0;}s:8:"checksum";s:32:"82a7b372aae34eed82806ac6ef44eb55";}}

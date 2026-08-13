@@ -2,62 +2,62 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledJsonFile',
     'filename' => 'D:/htdocs/hilfe2.ludothekprogramm.ch/user/data/flex/indexes/pages.json',
-    'modified' => 1786611849,
+    'modified' => 1786623222,
     'size' => 31192,
     'data' => [
         'version' => '1.5',
-        'timestamp' => 1786611849,
+        'timestamp' => 1786623222,
         'count' => 101,
         'index' => [
             '' => [
                 'key' => '',
                 'storage_key' => '',
                 'template' => 'README',
-                'storage_timestamp' => 1786611409,
+                'storage_timestamp' => 1786623217,
                 'markdown' => [
                     '' => [
                         'README' => 1786611409
                     ],
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786623217
                     ]
                 ],
                 'children' => [
-                    '01.inhaltsverzeichnis' => 1786611408,
-                    '02.installation' => 1786611408,
-                    '03.start' => 1786611408,
-                    '04.spiele-ausleihen' => 1786611408,
-                    '05.spiele-und-adressen' => 1786611408,
-                    '06.etiketten-briefe' => 1786611408,
-                    '07.buchhaltung' => 1786611408,
-                    '08.statistik-listen' => 1786611408,
-                    '09.einstellungen' => 1786611408,
-                    '10.ludothek-webseite' => 1786611408,
-                    '11.anhang' => 1786611408,
+                    '01.inhaltsverzeichnis' => 1786622366,
+                    '02.installation' => 1786621443,
+                    '03.start' => 1786621443,
+                    '04.spiele-ausleihen' => 1786621443,
+                    '05.spiele-und-adressen' => 1786621443,
+                    '06.etiketten-briefe' => 1786621443,
+                    '07.buchhaltung' => 1786621443,
+                    '08.statistik-listen' => 1786621443,
+                    '09.einstellungen' => 1786621443,
+                    '10.ludothek-webseite' => 1786621443,
+                    '11.anhang' => 1786621443,
                     'images' => 1786611409
                 ],
-                'checksum' => '383d244065585b4ffc62ad9c1dbbdd07'
+                'checksum' => 'de2ad814a2604be89dc3d807c86c3c4f'
             ],
             '01.inhaltsverzeichnis' => [
                 'key' => 'inhaltsverzeichnis',
                 'storage_key' => '01.inhaltsverzeichnis',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786622366,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786622366
                     ]
                 ],
-                'checksum' => '02aabc54f6cbba1026db9267c90fa90b'
+                'checksum' => 'b87ad59cfac00028c19e5632b643de8c'
             ],
             '02.installation' => [
                 'key' => 'installation',
                 'storage_key' => '02.installation',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -70,7 +70,7 @@ return [
                     '07.brother-etikettendrucker' => 1786611408,
                     '08.epson-bondrucker' => 1786611408
                 ],
-                'checksum' => '82a7b372aae34eed82806ac6ef44eb55'
+                'checksum' => '69bb158ea9b1edd929ff64377cc88092'
             ],
             '02.installation/01.setup' => [
                 'key' => 'installation/setup',
@@ -172,10 +172,10 @@ return [
                 'key' => 'start',
                 'storage_key' => '03.start',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -190,7 +190,7 @@ return [
                     '10.spiel-suchen' => 1786611408,
                     '11.beenden' => 1786611408
                 ],
-                'checksum' => 'c72b967d266052cebdba7781c97b38f5'
+                'checksum' => 'b148f68f60cb755d2b0fbb41b727b025'
             ],
             '03.start/01.lupo-starten' => [
                 'key' => 'start/lupo-starten',
@@ -316,10 +316,10 @@ return [
                 'key' => 'spiele-ausleihen',
                 'storage_key' => '04.spiele-ausleihen',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -332,7 +332,7 @@ return [
                     '07.spiele-reservieren' => 1786611408,
                     '08.kunden-und-ausleihkonto' => 1786611408
                 ],
-                'checksum' => '49a6ccf977d657ccadd145b2dc781b52'
+                'checksum' => '7db2503fddb1450c6120e532655b0e40'
             ],
             '04.spiele-ausleihen/01.ausleihen_zurucknehmen' => [
                 'key' => 'spiele-ausleihen/ausleihen_zurucknehmen',
@@ -434,10 +434,10 @@ return [
                 'key' => 'spiele-und-adressen',
                 'storage_key' => '05.spiele-und-adressen',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -446,7 +446,7 @@ return [
                     '03.mitarbeiter-ein-und-austritte' => 1786611408,
                     '04.mitarbeiter-arbeitszeiten' => 1786611408
                 ],
-                'checksum' => '49e87a8539b376b0da06869216dfc24b'
+                'checksum' => '5192b0de1b99b13c120ac2cad28b2742'
             ],
             '05.spiele-und-adressen/01.spiele-erfassen-und-bearbeiten' => [
                 'key' => 'spiele-und-adressen/spiele-erfassen-und-bearbeiten',
@@ -500,10 +500,10 @@ return [
                 'key' => 'etiketten-briefe',
                 'storage_key' => '06.etiketten-briefe',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -512,7 +512,7 @@ return [
                     '03.mahnungen-drucken' => 1786611408,
                     '04.reservationen-drucken' => 1786611408
                 ],
-                'checksum' => '037facc301748b87850b8d9f36de3e4b'
+                'checksum' => '05584b0f0b0ff7ec69136c51d2a57a05'
             ],
             '06.etiketten-briefe/01.spielinhalte-drucken' => [
                 'key' => 'etiketten-briefe/spielinhalte-drucken',
@@ -566,10 +566,10 @@ return [
                 'key' => 'buchhaltung',
                 'storage_key' => '07.buchhaltung',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -581,7 +581,7 @@ return [
                     '06.manuell-buchen-individuell' => 1786611408,
                     '07.buchungstexte-bearbeiten' => 1786611408
                 ],
-                'checksum' => '353092f83c97815fada70692f7a6c36c'
+                'checksum' => '952b3489277afebc9e4491ebca519bb5'
             ],
             '07.buchhaltung/01.allgemein' => [
                 'key' => 'buchhaltung/allgemein',
@@ -671,10 +671,10 @@ return [
                 'key' => 'statistik-listen',
                 'storage_key' => '08.statistik-listen',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -687,7 +687,7 @@ return [
                     '07.mitarbeiterinnen' => 1786611408,
                     '08.eigene-sqlabfrage' => 1786611408
                 ],
-                'checksum' => 'e50d6279b029816ecef0405cc8c0f480'
+                'checksum' => '650c0d87361bdd620666b0822844df50'
             ],
             '08.statistik-listen/01.vordefinierte-statistiken' => [
                 'key' => 'statistik-listen/vordefinierte-statistiken',
@@ -789,29 +789,29 @@ return [
                 'key' => 'einstellungen',
                 'storage_key' => '09.einstellungen',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
-                    '01.allgemeine-einstellungen' => 1786611408,
+                    '01.allgemeine-einstellungen' => 1786621443,
                     '02.briefeinstellung' => 1786611408,
                     '03.netzwerkeinstellungen' => 1786611408,
                     '04.passworter' => 1786611408,
                     '05.lupo-registrieren' => 1786611408
                 ],
-                'checksum' => 'a891d5b229949a9e8c74680cfc2c36d6'
+                'checksum' => 'cb6e3def6f8f87ef08af03888b1a5ba3'
             ],
             '09.einstellungen/01.allgemeine-einstellungen' => [
                 'key' => 'einstellungen/allgemeine-einstellungen',
                 'storage_key' => '09.einstellungen/01.allgemeine-einstellungen',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -832,7 +832,7 @@ return [
                     '15.email' => 1786611408,
                     '16.diverses' => 1786611408
                 ],
-                'checksum' => '009f97306fbceea66a145424f5fe89b7'
+                'checksum' => 'e3b6aeb4613fb3f5acf7499a49de2e3e'
             ],
             '09.einstellungen/01.allgemeine-einstellungen/01.spielkategorien' => [
                 'key' => 'einstellungen/allgemeine-einstellungen/spielkategorien',
@@ -1078,10 +1078,10 @@ return [
                 'key' => 'ludothek-webseite',
                 'storage_key' => '10.ludothek-webseite',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -1097,7 +1097,7 @@ return [
                     '09.spielliste-konfigurieren' => 1786611408,
                     '10.websync' => 1786611408
                 ],
-                'checksum' => '45a541522a08bbcd0b10301f55814d7b'
+                'checksum' => '95dadfc408eed953000b3017cf0413cd'
             ],
             '10.ludothek-webseite/01.aufbau-der-webseite' => [
                 'key' => 'ludothek-webseite/aufbau-der-webseite',
@@ -1235,10 +1235,10 @@ return [
                 'key' => 'anhang',
                 'storage_key' => '11.anhang',
                 'template' => 'chapter',
-                'storage_timestamp' => 1786611408,
+                'storage_timestamp' => 1786621443,
                 'markdown' => [
                     'de' => [
-                        'chapter' => 1786611408
+                        'chapter' => 1786621443
                     ]
                 ],
                 'children' => [
@@ -1250,7 +1250,7 @@ return [
                     '06.pc-anforderungen' => 1786611408,
                     '07.markdown-code' => 1786611408
                 ],
-                'checksum' => '1c89bd5dcd5aa199a60637cfe32f7108'
+                'checksum' => 'b145248402ea45699fb7cabdbb699a9c'
             ],
             '11.anhang/01.datensicherung' => [
                 'key' => 'anhang/datensicherung',

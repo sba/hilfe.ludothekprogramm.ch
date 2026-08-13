@@ -1,0 +1,3 @@
+1786623896
+11.anhang
+O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:6:"anhang";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:0:{}s:11:"frontmatter";s:0:"";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:6:"anhang";s:11:"storage_key";s:9:"11.anhang";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1786621443;s:8:"markdown";a:1:{s:2:"de";a:1:{s:7:"chapter";i:1786621443;}}s:8:"children";a:7:{s:17:"01.datensicherung";b:0;s:13:"02.lupo-admin";b:0;s:18:"03.fehlermeldungen";b:0;s:18:"04.lupo-reparieren";b:0;s:17:"05.hilfe-erhalten";b:0;s:19:"06.pc-anforderungen";b:0;s:16:"07.markdown-code";b:0;}s:8:"checksum";s:32:"b145248402ea45699fb7cabdbb699a9c";}}

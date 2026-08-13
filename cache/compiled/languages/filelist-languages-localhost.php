@@ -3,7 +3,7 @@ return [
     '@class' => 'Grav\\Common\\Service\\ConfigServiceProvider',
     'type' => 'languages',
     'environment' => 'localhost',
-    'timestamp' => 1786611816,
+    'timestamp' => 1786623282,
     'check_interval' => 2,
     'directories' => [
         'D:/htdocs/hilfe2.ludothekprogramm.ch/system/languages' => 1786611372,

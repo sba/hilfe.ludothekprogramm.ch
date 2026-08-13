@@ -5,6 +5,14 @@
         "token": "visible",
         "class": "Grav\\Common\\Page\\Collection",
         "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
+        "timestamp": 1786622355
+    },
+    {
+        "type": "sandbox_property",
+        "route": "/",
+        "token": "visible",
+        "class": "Grav\\Common\\Page\\Collection",
+        "hint": "To allow this property, add 'visible' under security.twig_sandbox.allowed_properties['Grav\\Common\\Page\\Collection'] — OR disable the sandbox via security.twig_sandbox.enabled: false.",
         "timestamp": 1786612865
     },
     {

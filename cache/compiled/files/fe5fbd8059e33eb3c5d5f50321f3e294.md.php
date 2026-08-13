@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => 'D:/htdocs/hilfe2.ludothekprogramm.ch/user/pages/05.spiele-und-adressen/chapter.de.md',
-    'modified' => 1786611408,
+    'modified' => 1786621443,
     'size' => 344,
     'data' => [
         'header' => [

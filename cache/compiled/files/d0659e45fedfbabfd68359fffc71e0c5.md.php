@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledMarkdownFile',
     'filename' => 'D:/htdocs/hilfe2.ludothekprogramm.ch/user/pages/01.inhaltsverzeichnis/chapter.de.md',
-    'modified' => 1786611408,
-    'size' => 449,
+    'modified' => 1786622366,
+    'size' => 344,
     'data' => [
         'header' => [
             'title' => 'Inhaltsverzeichnis',
@@ -36,10 +36,6 @@ content:
 ! Mit den Pfeiltasten (Icons oben oder Tastatur-Pfeile) kann bequem durch die einzelnen Seiten geblättert werden.
 
 # Inhaltsverzeichnis
-
-{% for p in page.collection.visible %}
-<a href="{{p.link}}"><h5>{{ p.title }}</h5></a>
-{% endfor %}
 '
     ]
 ];

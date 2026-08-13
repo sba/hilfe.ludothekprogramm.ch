@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/system.yaml',
-    'modified' => 1786612899,
-    'size' => 4562,
+    'modified' => 1786623280,
+    'size' => 4799,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',

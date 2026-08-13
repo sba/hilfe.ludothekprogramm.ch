@@ -3,10 +3,10 @@ return [
     '@class' => 'Grav\\Common\\Service\\ConfigServiceProvider',
     'type' => 'config',
     'environment' => 'localhost',
-    'timestamp' => 1786612913,
+    'timestamp' => 1786623281,
     'check_interval' => 2,
     'directories' => [
-        'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config' => 1786611848,
+        'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config' => 1786622327,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config\\plugins' => 1786611848,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config\\themes' => 1786611408,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/system/config' => 1786611372,
@@ -46,7 +46,7 @@ return [
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/security.yaml' => 1786611848,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/site.yaml' => 1786611408,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/streams.yaml' => 1786611408,
-        'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/system.yaml' => 1786612899,
+        'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/system.yaml' => 1786623280,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/themes/learn4.yaml' => 1786611408,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/user/config/versions.yaml' => 1786611408,
         'D:/htdocs/hilfe2.ludothekprogramm.ch/system/config/backups.yaml' => 1786611372,
@@ -133,7 +133,7 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1786612899
+                'modified' => 1786623280
             ],
             'themes/learn4' => [
                 'file' => 'user/config/themes/learn4.yaml',
