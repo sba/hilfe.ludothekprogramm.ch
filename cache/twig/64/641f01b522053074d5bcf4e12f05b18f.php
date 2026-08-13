@@ -186,7 +186,7 @@ class __TwigTemplate_b8b3d4233f547c43af80943c1c8e7df4 extends Template
       </template>
     </ais-search-box>
   </form>
-{% endblock %}", "algolia-pro/blocks/searchbox_input.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\searchbox_input.html.twig");
+{% endblock %}", "algolia-pro/blocks/searchbox_input.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\searchbox_input.html.twig");
     }
     
     public function checkSecurity()

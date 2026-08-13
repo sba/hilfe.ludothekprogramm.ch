@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://image-captions/image-captions.yaml',
-    'modified' => 1786611413,
-    'size' => 153,
+    'modified' => 1785828032,
+    'size' => 146,
     'data' => [
         'enabled' => true,
         'built_in_css' => true,

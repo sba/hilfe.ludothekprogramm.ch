@@ -267,7 +267,7 @@ class __TwigTemplate_f5f69fe5e0fc29e3f29a174fd7a1bfc1 extends Template
     {% endif %}
     <a href=\"{{ p.url }}\">{{ p.menu }}</a>
   </h5>
-{% endmacro %}", "macros/macros.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\macros\\macros.html.twig");
+{% endmacro %}", "macros/macros.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\macros\\macros.html.twig");
     }
     
     public function checkSecurity()

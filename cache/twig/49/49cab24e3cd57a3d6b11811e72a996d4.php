@@ -217,7 +217,7 @@ class __TwigTemplate_59b47964e5aaa5b76a0019020bb5d44a extends Template
     </template>
   </ais-pagination>
 {% endblock %}
-", "algolia-pro/blocks/pagination.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\pagination.html.twig");
+", "algolia-pro/blocks/pagination.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\pagination.html.twig");
     }
     
     public function checkSecurity()

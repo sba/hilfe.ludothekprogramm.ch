@@ -63,7 +63,7 @@ class __TwigTemplate_fc0f069f251afef2f70fc0957c9626a0 extends Template
 
     public function getSourceContext(): Source
     {
-        return new Source("<p class=\"lupo-title\">LUPO Hilfe</p>", "partials/logo.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\logo.html.twig");
+        return new Source("<p class=\"lupo-title\">LUPO Hilfe</p>", "partials/logo.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\logo.html.twig");
     }
     
     public function checkSecurity()

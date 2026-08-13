@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://algolia-pro/algolia-pro.yaml',
-    'modified' => 1786611410,
-    'size' => 2976,
+    'modified' => 1785828002,
+    'size' => 2857,
     'data' => [
         'enabled' => true,
         'production_mode' => true,

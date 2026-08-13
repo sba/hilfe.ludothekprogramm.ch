@@ -109,7 +109,7 @@ class __TwigTemplate_c4c6947348554bb90c4cb6c2e4253245 extends Template
         return new Source("{% for meta in page.metadata %}
     <meta {% if meta.name %}name=\"{{ meta.name|e }}\" {% endif %}{% if meta.http_equiv %}http-equiv=\"{{ meta.http_equiv|e }}\" {% endif %}{% if meta.charset %}charset=\"{{ meta.charset|e }}\" {% endif %}{% if meta.property %}property=\"{{ meta.property|e }}\" {% endif %}{% if meta.content %}content=\"{{ meta.content|raw }}\" {% endif %}/>
 {% endfor %}
-", "partials/metadata.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\system\\templates\\partials\\metadata.html.twig");
+", "partials/metadata.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\system\\templates\\partials\\metadata.html.twig");
     }
     
     public function checkSecurity()

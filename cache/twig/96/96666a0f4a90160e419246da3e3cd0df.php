@@ -128,7 +128,7 @@ class __TwigTemplate_028222d39832ddc2be2ec1b97474eef8 extends Template
 
     {% include \x27partials/github-note.html.twig\x27 %}
 {% endblock %}
-", "docs.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\docs.html.twig");
+", "docs.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\docs.html.twig");
     }
     
     public function checkSecurity()

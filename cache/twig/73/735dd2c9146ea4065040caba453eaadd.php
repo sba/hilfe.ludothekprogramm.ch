@@ -106,7 +106,7 @@ class __TwigTemplate_019fe1fa85a3206f266736fd9bf87fde extends Template
     {% endfor %}
   ></ais-configure>
 {% endblock %}
-", "algolia-pro/blocks/configure.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\configure.html.twig");
+", "algolia-pro/blocks/configure.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\configure.html.twig");
     }
     
     public function checkSecurity()

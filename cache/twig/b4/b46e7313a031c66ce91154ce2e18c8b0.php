@@ -197,7 +197,7 @@ class __TwigTemplate_854d0f6cfe147ec98a301c129dfde588 extends Template
         </a><br/>
     </div>
 </div>
-", "partials/sidebar.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\sidebar.html.twig");
+", "partials/sidebar.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\sidebar.html.twig");
     }
     
     public function checkSecurity()

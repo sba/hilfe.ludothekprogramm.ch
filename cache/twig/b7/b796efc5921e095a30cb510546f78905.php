@@ -77,7 +77,7 @@ class __TwigTemplate_edf1e120fdf9c1f063f2b88f58053b9f extends Template
     public function getSourceContext(): Source
     {
         return new Source("<a class=\"github-link tooltip tooltip-bottom\" href=\"{{ github_config.tree ~  (\x27/\x27~page.filePathClean)|replace({\x27/user/pages/\x27:\x27\x27}) }}\" data-tooltip=\"Verbesserungsvorschlag einreichen\"><i class=\"fa fa-pencil-square\"></i> {{ \x27THEME_LEARN4_GITHUB_EDIT\x27|t }}</a>
-", "partials/github-link.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\github-link.html.twig");
+", "partials/github-link.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\github-link.html.twig");
     }
     
     public function checkSecurity()

@@ -136,7 +136,7 @@ class __TwigTemplate_1cc33a5a2ab622be86c98cb25efab656 extends Template
         </div>
     {% endfor %}
     </div>
-{% endif %}", "partials/messages.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\messages.html.twig");
+{% endif %}", "partials/messages.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\messages.html.twig");
     }
     
     public function checkSecurity()

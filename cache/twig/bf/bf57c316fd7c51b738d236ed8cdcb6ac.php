@@ -174,7 +174,7 @@ class __TwigTemplate_49acc5f6bdeb6ab3dd951cd6e157dd73 extends Template
 {% else %}
   <pre>Index is required but missing</pre>
 {% endif %}
-", "partials/algolia-pro/instantsearch.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\partials\\algolia-pro\\instantsearch.html.twig");
+", "partials/algolia-pro/instantsearch.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\partials\\algolia-pro\\instantsearch.html.twig");
     }
     
     public function checkSecurity()

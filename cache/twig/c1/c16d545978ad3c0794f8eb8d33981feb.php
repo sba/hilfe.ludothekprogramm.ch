@@ -169,7 +169,7 @@ class __TwigTemplate_88ea174f52a08892fbd089c203f5bf0d extends Template
 </div>
 
 
-", "partials/topbar.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\topbar.html.twig");
+", "partials/topbar.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\topbar.html.twig");
     }
     
     public function checkSecurity()

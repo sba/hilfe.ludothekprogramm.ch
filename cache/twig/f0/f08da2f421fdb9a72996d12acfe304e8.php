@@ -118,7 +118,7 @@ class __TwigTemplate_0281421e1091e766ff73675faa348c87 extends Template
         {% do assets.addJs(\x27http://\x27 ~ settings.plugin.dev_host ~ \x27:\x27 ~ settings.plugin.dev_port ~ \x27/src/main.js\x27, { group: \x27bottom\x27, type: \x27module\x27}) %}
     {% endif %}
 {% endblock %}
-", "algolia-pro/blocks/assets.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\assets.html.twig");
+", "algolia-pro/blocks/assets.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\assets.html.twig");
     }
     
     public function checkSecurity()

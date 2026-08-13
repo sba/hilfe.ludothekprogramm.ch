@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugin://algolia-pro/permissions.yaml',
-    'modified' => 1786611410,
-    'size' => 915,
+    'modified' => 1785828002,
+    'size' => 862,
     'data' => [
         'actions' => [
             'admin.search' => [

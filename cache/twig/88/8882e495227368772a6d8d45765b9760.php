@@ -135,7 +135,7 @@ class __TwigTemplate_d7ca99bffd0e67905857d707bc5a0577 extends Template
 {{ block(\x27searchbox\x27) }}
 {{ block(\x27hits\x27) }}
 {{ block(\x27footer\x27) }}
-", "partials/algolia-pro/instantsearch-scopes.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\partials\\algolia-pro\\instantsearch-scopes.html.twig");
+", "partials/algolia-pro/instantsearch-scopes.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\partials\\algolia-pro\\instantsearch-scopes.html.twig");
     }
     
     public function checkSecurity()

@@ -150,7 +150,7 @@ class __TwigTemplate_e6d5c4b874243750ad68be4a80e4216f extends Template
     {{ block(\x27hits_preview\x27) }}
   </div>
 {% endblock %}
-", "algolia-pro/blocks/hits.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\hits.html.twig");
+", "algolia-pro/blocks/hits.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\hits.html.twig");
     }
     
     public function checkSecurity()

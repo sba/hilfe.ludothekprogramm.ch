@@ -265,7 +265,7 @@ class __TwigTemplate_c96d73b0dbfc52b3b5127e0aa23101a1 extends Template
   </div>
   {% endif %}
 {% endblock %}
-", "algolia-pro/blocks/hits_preview.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\hits_preview.html.twig");
+", "algolia-pro/blocks/hits_preview.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\hits_preview.html.twig");
     }
     
     public function checkSecurity()

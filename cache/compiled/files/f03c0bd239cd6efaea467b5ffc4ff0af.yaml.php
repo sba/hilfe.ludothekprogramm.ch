@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://api/api.yaml',
-    'modified' => 1786611426,
-    'size' => 4979,
+    'modified' => 1786625774,
+    'size' => 5115,
     'data' => [
         'enabled' => true,
         'route' => '/api',

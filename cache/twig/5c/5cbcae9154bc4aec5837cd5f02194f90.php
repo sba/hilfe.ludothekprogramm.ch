@@ -189,7 +189,7 @@ class __TwigTemplate_195926856d8289a4ee53802426c47ec7 extends Template
     {% endif %}
   </footer>
 {% endblock %}
-", "algolia-pro/blocks/footer.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\footer.html.twig");
+", "algolia-pro/blocks/footer.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\footer.html.twig");
     }
     
     public function checkSecurity()

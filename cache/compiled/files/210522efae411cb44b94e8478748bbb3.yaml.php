@@ -2,8 +2,8 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'plugins://migrate-grav/migrate-grav.yaml',
-    'modified' => 1786611414,
-    'size' => 376,
+    'modified' => 1786609098,
+    'size' => 384,
     'data' => [
         'enabled' => true,
         'source_url' => 'https://getgrav.org/download/core/grav-update/latest',

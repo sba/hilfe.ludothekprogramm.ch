@@ -86,7 +86,7 @@ class __TwigTemplate_db01f88c3c47d4a906dc0bd939adea91 extends Template
     </section>
 </section>
 
-", "partials/footer.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\footer.html.twig");
+", "partials/footer.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\footer.html.twig");
     }
     
     public function checkSecurity()

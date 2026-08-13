@@ -157,7 +157,7 @@ class __TwigTemplate_e62a46df172081a2f8bdb19e41d38f68 extends Template
         {% endif %}
     </div>
 {% endblock %}
-", "chapter.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\chapter.html.twig");
+", "chapter.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\chapter.html.twig");
     }
     
     public function checkSecurity()

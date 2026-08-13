@@ -124,7 +124,7 @@ class __TwigTemplate_b5bff0c7213fc7eb93740fba6de3b301 extends Template
     </button>
   </div>
 {% endblock %}
-", "algolia-pro/blocks/searchbox.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\searchbox.html.twig");
+", "algolia-pro/blocks/searchbox.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\plugins\\algolia-pro\\templates\\algolia-pro\\blocks\\searchbox.html.twig");
     }
     
     public function checkSecurity()

@@ -1,3 +1,0 @@
-1786623896
-08.statistik-listen
-O:39:"Grav\Common\Flex\Types\Pages\PageObject":4:{s:4:"type";s:5:"pages";s:3:"key";s:16:"statistik-listen";s:8:"elements";a:4:{s:4:"root";b:0;s:6:"header";a:0:{}s:11:"frontmatter";s:0:"";s:8:"markdown";s:0:"";}s:7:"storage";a:7:{s:3:"key";s:16:"statistik-listen";s:11:"storage_key";s:19:"08.statistik-listen";s:8:"template";s:7:"chapter";s:17:"storage_timestamp";i:1786621443;s:8:"markdown";a:1:{s:2:"de";a:1:{s:7:"chapter";i:1786621443;}}s:8:"children";a:8:{s:28:"01.vordefinierte-statistiken";b:0;s:11:"02.adressen";b:0;s:9:"03.spiele";b:0;s:12:"04.ausleihen";b:0;s:12:"05.buchungen";b:0;s:24:"06.mitarbeiterleistungen";b:0;s:19:"07.mitarbeiterinnen";b:0;s:20:"08.eigene-sqlabfrage";b:0;}s:8:"checksum";s:32:"650c0d87361bdd620666b0822844df50";}}

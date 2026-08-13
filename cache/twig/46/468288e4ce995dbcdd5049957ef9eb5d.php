@@ -493,7 +493,7 @@ class __TwigTemplate_4a2f0aa98a13f56a3fb034f5b2f40440 extends Template
     {% endblock %}
 </body>
 </html>
-", "partials/base.html.twig", "D:\\htdocs\\hilfe2.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\base.html.twig");
+", "partials/base.html.twig", "D:\\htdocs\\_lupo\\hilfe.ludothekprogramm.ch\\user\\themes\\learn4\\templates\\partials\\base.html.twig");
     }
     
     public function checkSecurity()
