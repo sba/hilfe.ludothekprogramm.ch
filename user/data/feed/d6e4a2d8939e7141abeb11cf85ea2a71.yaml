@@ -1,0 +1,52 @@
+last_checked: 1786611317
+data:
+  -
+    title: 'Forum Pro is Available'
+    url: 'https://getgrav.org/blog/forum-pro-released'
+    date: 1785758400
+    nicetime: '1 Wochen her'
+  -
+    title: 'Tailwind CSS in Grav, No Node Required'
+    url: 'https://getgrav.org/blog/tailwind-css-without-node'
+    date: 1785515400
+    nicetime: '2 Wochen her'
+  -
+    title: 'Why I Built Riffle'
+    url: 'https://getgrav.org/blog/why-i-built-riffle'
+    date: 1784642400
+    nicetime: '3 Wochen her'
+  -
+    title: 'Grav 2.0 Released!'
+    url: 'https://getgrav.org/blog/grav-2-stable-released'
+    date: 1781960400
+    nicetime: '2 Monate her'
+  -
+    title: 'Forum Pro: Bringing the Community Home'
+    url: 'https://getgrav.org/blog/grav-2-forum-pro'
+    date: 1781958600
+    nicetime: '2 Monate her'
+  -
+    title: 'The New getgrav.org'
+    url: 'https://getgrav.org/blog/new-getgrav-org'
+    date: 1781956800
+    nicetime: '2 Monate her'
+  -
+    title: 'Grav 2.0: Twig in Content and the New Security Sandbox'
+    url: 'https://getgrav.org/blog/grav-2-twig-content-security'
+    date: 1781697600
+    nicetime: '2 Monate her'
+  -
+    title: 'macOS Golden Gate Web Development: Meet Reeve'
+    url: 'https://getgrav.org/blog/macos-golden-gate-reeve'
+    date: 1781604000
+    nicetime: '2 Monate her'
+  -
+    title: 'Grav 2.0 Developer Guide: Admin Next Panels & Menu Bar'
+    url: 'https://getgrav.org/blog/grav-2-dev-admin-next-panels-menubar'
+    date: 1781092800
+    nicetime: '2 Monate her'
+  -
+    title: 'The Grav API: The Foundation of 2.0'
+    url: 'https://getgrav.org/blog/grav-2-api'
+    date: 1781006400
+    nicetime: '2 Monate her'

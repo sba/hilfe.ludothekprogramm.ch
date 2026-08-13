@@ -95,7 +95,7 @@ pages:
   hide_empty_folders: false
   url_taxonomy_filters: true
   frontmatter:
-    process_twig: false
+    process_twig: true
     ignore_fields:
       - form
       - forms
@@ -123,8 +123,6 @@ twig:
   debug: true
   auto_reload: true
   autoescape: false
-  undefined_functions: true
-  undefined_filters: true
   safe_functions: {  }
   safe_filters: {  }
   umask_fix: false

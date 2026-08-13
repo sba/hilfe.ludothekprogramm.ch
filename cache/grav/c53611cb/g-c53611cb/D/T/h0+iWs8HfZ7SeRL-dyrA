@@ -1,0 +1,10 @@
+1787216629
+g-c53611cb%255B559f7ba426a0852004933182dd05e04a%255D%255B1%255D
+a:2:{s:7:"content";s:317:"<h1>LUPO Online-Hilfe</h1>
+<div class="notices yellow">
+<p>Mit den Pfeiltasten (Icons oben oder Tastatur-Pfeile) kann bequem durch die einzelnen Seiten geblättert werden.</p>
+</div>
+<h1>Inhaltsverzeichnis</h1>
+<p>{% for p in page.collection.visible %}
+<a href="{{p.link}}"><h5>{{ p.title }}</h5></a>
+{% endfor %}</p>";s:12:"content_meta";N;}

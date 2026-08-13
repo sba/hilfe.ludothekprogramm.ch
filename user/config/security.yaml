@@ -1,1 +1,4 @@
-salt: v68GskDlbpAVJe
+twig_content:
+  process_enabled: true
+  editor_enabled: false
+  config_access: false
