@@ -4,7 +4,7 @@ redirect_to_login: false
 redirect_after_login: false
 redirect_after_logout: true
 session_user_sync: false
-site_host: 'https://hilfe.ludothekprogramm.ch'
+site_host: 'https://hilfe2.ludothekprogramm.ch'
 require_trusted_host: true
 route: /login
 route_after_login: /

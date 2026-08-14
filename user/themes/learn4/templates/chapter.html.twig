@@ -4,5 +4,17 @@
 {% block content %}
     <div id="chapter">
         {{ page.content|raw }}
+        {% if page.slug == 'inhaltsverzeichnis' or page.route ends with '/inhaltsverzeichnis' or page.title == 'Inhaltsverzeichnis' %}
+            {% set chapter_pages = page.parent.children.visible %}
+            {% if chapter_pages is not empty %}
+                <div class="chapter-links">
+                    {% for p in chapter_pages %}
+                        {% if p.route != page.route %}
+                            <a href="{{ p.url }}"><h5>{{ p.menu ?: p.title }}</h5></a>
+                        {% endif %}
+                    {% endfor %}
+                </div>
+            {% endif %}
+        {% endif %}
     </div>
 {% endblock %}
