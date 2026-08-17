@@ -1,9 +1,9 @@
 version: '1.2'
-timestamp: 1786626104
+timestamp: 1786685766
 count: 1
 index:
   sbauer:
     storage_key: sbauer
-    storage_timestamp: 1786625774
+    storage_timestamp: 1786685397
     key: sbauer
     email: stefan@databauer.ch
